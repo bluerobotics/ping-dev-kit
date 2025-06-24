@@ -7472,6 +7472,11 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "OCTOSPI"
+		(members "IO0" "IO1" "IO2" "IO3" "IO4" "IO5" "IO6" "IO7" "CLK" "NCLK" "NCS"
+			"DQS"
+		)
+	)
 	(text "AF0: MC02"
 		(exclude_from_sim no)
 		(at 240.792 251.206 0)
@@ -7540,7 +7545,7 @@
 	)
 	(text "GPIO"
 		(exclude_from_sim no)
-		(at 108.966 283.21 0)
+		(at 107.95 283.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7551,7 +7556,7 @@
 	)
 	(text "GPIO"
 		(exclude_from_sim no)
-		(at 84.074 225.806 0)
+		(at 84.836 225.806 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7595,7 +7600,7 @@
 	)
 	(text "GPIO"
 		(exclude_from_sim no)
-		(at 82.55 210.82 0)
+		(at 84.836 210.566 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7606,7 +7611,7 @@
 	)
 	(text "AF4: OCTOSPI1_CLK"
 		(exclude_from_sim no)
-		(at 76.708 291.338 0)
+		(at 69.342 291.846 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7614,6 +7619,17 @@
 			(justify left bottom)
 		)
 		(uuid "405a8397-bd51-4e03-8390-70f32d41df08")
+	)
+	(text "AF9: OCTOSPI1_DQS\n"
+		(exclude_from_sim no)
+		(at 229.616 190.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "416b6304-9583-402e-9135-adcdc568c38b")
 	)
 	(text "AF7: USART1_RX"
 		(exclude_from_sim no)
@@ -7639,7 +7655,7 @@
 	)
 	(text "AF5: OCTOSPI1_IO3"
 		(exclude_from_sim no)
-		(at 76.708 281.178 0)
+		(at 69.596 281.686 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7694,7 +7710,7 @@
 	)
 	(text "AF8: OCTOSPI1_IO2"
 		(exclude_from_sim no)
-		(at 223.52 319.024 0)
+		(at 229.616 319.786 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7705,7 +7721,7 @@
 	)
 	(text "AF4: I2C4_SCL"
 		(exclude_from_sim no)
-		(at 83.82 215.9 0)
+		(at 87.63 215.646 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7760,7 +7776,7 @@
 	)
 	(text "AF6: OCTOSPI1_IO0"
 		(exclude_from_sim no)
-		(at 76.708 286.258 0)
+		(at 69.85 286.766 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7782,7 +7798,7 @@
 	)
 	(text "AF3: OCTOSPI1_NCLK"
 		(exclude_from_sim no)
-		(at 223.52 197.104 0)
+		(at 229.616 197.866 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7793,7 +7809,7 @@
 	)
 	(text "AF4: OCTOSPI1_NCS"
 		(exclude_from_sim no)
-		(at 223.52 341.884 0)
+		(at 229.616 342.646 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7804,7 +7820,7 @@
 	)
 	(text "AF4: I2C4_SDA"
 		(exclude_from_sim no)
-		(at 83.82 217.678 0)
+		(at 87.63 218.186 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7812,6 +7828,17 @@
 			(justify right bottom)
 		)
 		(uuid "a0280b15-2e71-4c54-803e-5a91b950fc9c")
+	)
+	(text "AF4: OCTOSPI1_IO5"
+		(exclude_from_sim no)
+		(at 229.616 335.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a59a67e1-9c82-425f-b605-25bf516e079c")
 	)
 	(text "AF11: ETH_RMII_TXD0"
 		(exclude_from_sim no)
@@ -7859,7 +7886,7 @@
 	)
 	(text "AF6: OCTOSPI1_IO1"
 		(exclude_from_sim no)
-		(at 76.708 288.798 0)
+		(at 69.85 289.306 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7881,7 +7908,7 @@
 	)
 	(text "AF2: OCTOSPI1_IO4"
 		(exclude_from_sim no)
-		(at 76.708 192.278 0)
+		(at 69.596 192.786 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7925,7 +7952,7 @@
 	)
 	(text "AF4: OCTOSPI1_IO7"
 		(exclude_from_sim no)
-		(at 223.52 339.344 0)
+		(at 229.616 340.106 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7944,6 +7971,17 @@
 			(justify left bottom)
 		)
 		(uuid "e2ce3bfe-925d-4ef8-bd85-fbb7c2d53e1c")
+	)
+	(text "AF4: OCTOSPI1_IO6\n"
+		(exclude_from_sim no)
+		(at 229.616 337.566 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2da62d8-ad37-43c9-931e-b8a37226e034")
 	)
 	(text "(Decoupled at VDDA)"
 		(exclude_from_sim no)
@@ -7966,6 +8004,17 @@
 		)
 		(uuid "f6d6b960-f292-49fd-86e3-06336e90b952")
 	)
+	(text "GPIO"
+		(exclude_from_sim no)
+		(at 207.772 344.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8ac287a-a501-4318-acc1-affdecd9e7d9")
+	)
 	(junction
 		(at 157.48 361.95)
 		(diameter 0)
@@ -7973,7 +8022,7 @@
 		(uuid "083431ea-7597-4610-ba5b-620c3941935d")
 	)
 	(junction
-		(at 198.12 38.1)
+		(at 140.97 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d711586-fec1-46d5-b058-a8ac71df39d6")
@@ -7985,7 +8034,7 @@
 		(uuid "1088abe0-0b91-40e2-8e24-461c965e7c6c")
 	)
 	(junction
-		(at 60.96 196.85)
+		(at 45.72 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "193a6f59-7b62-48b3-b4a9-d38c2bdcabc5")
@@ -8003,13 +8052,19 @@
 		(uuid "2d38a6df-bf83-4c24-9449-c55d8d363151")
 	)
 	(junction
-		(at 152.4 71.12)
+		(at 237.49 344.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ec806c0-e686-455b-83a8-50a6c5483d2d")
+	)
+	(junction
+		(at 95.25 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30df6806-e459-419b-98bf-4f541016800d")
 	)
 	(junction
-		(at 167.64 38.1)
+		(at 110.49 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "462e59e3-db58-4cc0-8f6b-d89296490ebf")
@@ -8021,13 +8076,13 @@
 		(uuid "5637f2ea-d4b4-426c-a18f-ab43fc8322c0")
 	)
 	(junction
-		(at 182.88 71.12)
+		(at 125.73 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6379af1b-988b-45ee-b344-c95fbaebe034")
 	)
 	(junction
-		(at 91.44 52.07)
+		(at 34.29 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64bb5b59-6fb8-44d7-a5f1-d68af8a8a810")
@@ -8039,7 +8094,7 @@
 		(uuid "6a21fcca-6665-4a27-8a7c-24b8ed26e571")
 	)
 	(junction
-		(at 167.64 54.61)
+		(at 110.49 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b43215b-165a-4e70-b4cc-5c859ac85044")
@@ -8063,7 +8118,7 @@
 		(uuid "887e3ed6-f63e-47f7-879d-39882b28dec6")
 	)
 	(junction
-		(at 76.2 196.85)
+		(at 60.96 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "910263b3-167f-4afb-92e4-4d967e84f344")
@@ -8075,31 +8130,31 @@
 		(uuid "99d6be1d-e5fb-4f7c-829a-9c3d3331a806")
 	)
 	(junction
-		(at 182.88 54.61)
+		(at 125.73 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a6d74b3-23e4-474e-b5b9-f76d21edeaa6")
 	)
 	(junction
-		(at 182.88 38.1)
+		(at 125.73 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ddb8155-fa71-4464-937e-341a6fda893c")
 	)
 	(junction
-		(at 67.31 283.21)
+		(at 62.23 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0f98f3b-6a5d-4bc9-a460-742ec3b0de81")
 	)
 	(junction
-		(at 198.12 71.12)
+		(at 140.97 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb3ab2ac-787f-478e-b97a-199cf30ace92")
 	)
 	(junction
-		(at 96.52 52.07)
+		(at 39.37 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cff778e6-f61a-4ed0-a1dc-17090926cc98")
@@ -8123,7 +8178,7 @@
 		(uuid "e888ee9d-d2af-4185-b285-7909aa03cc37")
 	)
 	(junction
-		(at 167.64 71.12)
+		(at 110.49 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e93814be-4972-4671-a65c-fcde1b839f17")
@@ -8141,7 +8196,7 @@
 		(uuid "eb835485-50bb-463b-baf9-1797ccf7dd46")
 	)
 	(junction
-		(at 152.4 54.61)
+		(at 95.25 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f701044f-396b-4eec-b4ae-2bf5cce358e6")
@@ -8153,14 +8208,10 @@
 		(uuid "fa562d25-5e41-4c0e-8dad-bc3b173cef50")
 	)
 	(junction
-		(at 198.12 54.61)
+		(at 140.97 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe9243dd-c35f-4803-8610-338a556da074")
-	)
-	(no_connect
-		(at 195.58 189.23)
-		(uuid "0251dc19-22bd-4992-9379-655fff72af7c")
 	)
 	(no_connect
 		(at 121.92 252.73)
@@ -8225,10 +8276,6 @@
 	(no_connect
 		(at 121.92 250.19)
 		(uuid "1be9be23-c71f-4558-9566-8375c0460f81")
-	)
-	(no_connect
-		(at 195.58 336.55)
-		(uuid "1f32e071-ee3b-4536-b4d9-a4c69058da8c")
 	)
 	(no_connect
 		(at 195.58 290.83)
@@ -8305,10 +8352,6 @@
 	(no_connect
 		(at 121.92 234.95)
 		(uuid "59e7df19-deca-4e3e-9dcf-9113b07a8771")
-	)
-	(no_connect
-		(at 195.58 334.01)
-		(uuid "5cc9977e-bf28-45ce-b57b-404f8e984a45")
 	)
 	(no_connect
 		(at 195.58 308.61)
@@ -8475,10 +8518,6 @@
 		(uuid "dffe720d-02f4-4c33-8a2c-9c98a6930a1f")
 	)
 	(no_connect
-		(at 195.58 344.17)
-		(uuid "e1f20f43-1b96-4078-82e9-0b69babd85fe")
-	)
-	(no_connect
 		(at 121.92 265.43)
 		(uuid "e37bc293-ca16-492c-bebb-8d0ac9c858ac")
 	)
@@ -8522,6 +8561,114 @@
 		(at 121.92 273.05)
 		(uuid "ff9d4bec-c360-49d9-9e7c-8f39afe54528")
 	)
+	(bus_entry
+		(at 215.9 27.94)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f0bea8-b2cc-45c3-a53b-9f34903f5c89")
+	)
+	(bus_entry
+		(at 215.9 50.8)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4705f654-e760-4c46-b5be-8b963ce4ad27")
+	)
+	(bus_entry
+		(at 215.9 30.48)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f527d9-2771-4e9d-978a-3426f83879e3")
+	)
+	(bus_entry
+		(at 215.9 53.34)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d70881-de91-4007-84f9-409efa96534e")
+	)
+	(bus_entry
+		(at 215.9 45.72)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ed4922-f50a-4d9a-9731-5f7b75a5075b")
+	)
+	(bus_entry
+		(at 215.9 43.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69945711-93cc-467c-9a40-82f6e317da85")
+	)
+	(bus_entry
+		(at 215.9 40.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0f393a-d056-49e6-8b8a-6739cdf596cb")
+	)
+	(bus_entry
+		(at 215.9 25.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "741a4505-05de-4817-877f-e4141234ceaa")
+	)
+	(bus_entry
+		(at 215.9 35.56)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826b60a1-c163-45a2-b3f4-76336dfff279")
+	)
+	(bus_entry
+		(at 215.9 38.1)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce736a4-4f8f-4122-916c-9085b7782119")
+	)
+	(bus_entry
+		(at 215.9 48.26)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6649b4-45b5-4956-a1e4-d5b2897bce45")
+	)
+	(bus_entry
+		(at 215.9 33.02)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4115c09-51ed-41a4-b78f-d4e5b2a1292b")
+	)
 	(wire
 		(pts
 			(xy 137.16 361.95) (xy 139.7 361.95)
@@ -8544,7 +8691,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 52.07) (xy 96.52 52.07)
+			(xy 43.18 44.45) (xy 39.37 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8594,13 +8741,23 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 284.48) (xy 48.26 283.21)
+			(xy 43.18 284.48) (xy 43.18 283.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1336889f-f901-481d-9f4a-f160bc78dc9b")
+	)
+	(wire
+		(pts
+			(xy 195.58 344.17) (xy 237.49 344.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136181d5-a4a5-469b-aacc-2cf4f654dfe6")
 	)
 	(wire
 		(pts
@@ -8644,7 +8801,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 52.07) (xy 91.44 52.07)
+			(xy 39.37 44.45) (xy 34.29 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8674,7 +8831,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 189.23) (xy 76.2 196.85)
+			(xy 60.96 189.23) (xy 60.96 196.85)
 		)
 		(stroke
 			(width 0)
@@ -8694,7 +8851,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 189.23) (xy 121.92 189.23)
+			(xy 60.96 189.23) (xy 121.92 189.23)
 		)
 		(stroke
 			(width 0)
@@ -8744,7 +8901,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 54.61) (xy 167.64 54.61)
+			(xy 95.25 46.99) (xy 110.49 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8754,7 +8911,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 283.21) (xy 64.77 283.21)
+			(xy 62.23 283.21) (xy 59.69 283.21)
 		)
 		(stroke
 			(width 0)
@@ -8804,7 +8961,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 54.61) (xy 198.12 54.61)
+			(xy 125.73 46.99) (xy 140.97 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8814,7 +8971,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 49.53) (xy 100.33 52.07)
+			(xy 43.18 41.91) (xy 43.18 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8862,9 +9019,19 @@
 		)
 		(uuid "4784987e-2e1b-45a0-a622-10161ada6c7c")
 	)
+	(bus
+		(pts
+			(xy 218.44 38.1) (xy 218.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478757a6-e09a-461c-9cce-dc8fd5d00904")
+	)
 	(wire
 		(pts
-			(xy 137.16 71.12) (xy 152.4 71.12)
+			(xy 80.01 63.5) (xy 95.25 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8884,13 +9051,33 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 38.1) (xy 198.12 38.1)
+			(xy 190.5 27.94) (xy 215.9 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef005d0-0ed3-4b87-8ec2-046574922798")
+	)
+	(wire
+		(pts
+			(xy 125.73 30.48) (xy 140.97 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ff72d65-8b27-4ea7-9d90-0e3244bb14ee")
+	)
+	(wire
+		(pts
+			(xy 190.5 25.4) (xy 215.9 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52469477-223c-4cdc-9599-0ab0ab2f93a9")
 	)
 	(wire
 		(pts
@@ -8931,6 +9118,16 @@
 			(type default)
 		)
 		(uuid "56d81e25-7859-4bc2-a8e7-4e615fbebe01")
+	)
+	(wire
+		(pts
+			(xy 215.9 48.26) (xy 190.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e3f805-598b-49e7-a190-92048a511248")
 	)
 	(wire
 		(pts
@@ -9024,7 +9221,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 38.1) (xy 167.64 38.1)
+			(xy 92.71 30.48) (xy 110.49 30.48)
 		)
 		(stroke
 			(width 0)
@@ -9034,13 +9231,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 196.85) (xy 76.2 196.85)
+			(xy 58.42 196.85) (xy 60.96 196.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b84c995-8361-4c59-a553-fdf0088f9da2")
+	)
+	(bus
+		(pts
+			(xy 218.44 35.56) (xy 218.44 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f781d38-c799-4f42-9fee-219ce733cdbc")
 	)
 	(wire
 		(pts
@@ -9054,7 +9261,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 38.1) (xy 182.88 38.1)
+			(xy 110.49 30.48) (xy 125.73 30.48)
 		)
 		(stroke
 			(width 0)
@@ -9064,7 +9271,27 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 283.21) (xy 121.92 283.21)
+			(xy 215.9 40.64) (xy 190.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0dc915-16c1-47e4-9df1-faf049768742")
+	)
+	(bus
+		(pts
+			(xy 218.44 55.88) (xy 243.84 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee3c37a-4250-4e88-a56f-5ea88e5b0050")
+	)
+	(wire
+		(pts
+			(xy 62.23 283.21) (xy 121.92 283.21)
 		)
 		(stroke
 			(width 0)
@@ -9081,6 +9308,16 @@
 			(type default)
 		)
 		(uuid "7fab837a-9b42-408a-b406-604664dd9c33")
+	)
+	(wire
+		(pts
+			(xy 190.5 35.56) (xy 215.9 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82bee910-1907-4091-bc33-2c53bd148e87")
 	)
 	(wire
 		(pts
@@ -9104,7 +9341,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 54.61) (xy 152.4 54.61)
+			(xy 80.01 46.99) (xy 95.25 46.99)
 		)
 		(stroke
 			(width 0)
@@ -9122,6 +9359,16 @@
 		)
 		(uuid "8e2546ee-9bfe-48d9-8b71-0a555b90b671")
 	)
+	(bus
+		(pts
+			(xy 218.44 45.72) (xy 218.44 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3cc884-d067-46ea-bbf6-f53c85fd11e2")
+	)
 	(wire
 		(pts
 			(xy 142.24 361.95) (xy 144.78 361.95)
@@ -9134,7 +9381,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 71.12) (xy 182.88 71.12)
+			(xy 110.49 63.5) (xy 125.73 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9164,7 +9411,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 54.61) (xy 182.88 54.61)
+			(xy 110.49 46.99) (xy 125.73 46.99)
 		)
 		(stroke
 			(width 0)
@@ -9172,9 +9419,19 @@
 		)
 		(uuid "9ebb2f97-2dfc-412f-b21f-1fb994f64131")
 	)
+	(bus
+		(pts
+			(xy 218.44 50.8) (xy 218.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4f614a-94a0-4677-80f1-994b07a679a4")
+	)
 	(wire
 		(pts
-			(xy 60.96 186.69) (xy 60.96 196.85)
+			(xy 45.72 186.69) (xy 45.72 196.85)
 		)
 		(stroke
 			(width 0)
@@ -9194,7 +9451,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 71.12) (xy 198.12 71.12)
+			(xy 195.58 336.55) (xy 220.98 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47efdbd-feb7-4e5b-8c58-b23d59ea3b54")
+	)
+	(wire
+		(pts
+			(xy 125.73 63.5) (xy 140.97 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9222,6 +9489,16 @@
 		)
 		(uuid "ad0b2700-506a-4edb-a352-667a1f0f184e")
 	)
+	(bus
+		(pts
+			(xy 218.44 27.94) (xy 218.44 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af28b3e5-5edc-4c0d-a4d0-43c3bad75757")
+	)
 	(wire
 		(pts
 			(xy 96.52 290.83) (xy 121.92 290.83)
@@ -9231,6 +9508,16 @@
 			(type default)
 		)
 		(uuid "b0467862-84fb-402a-a555-a59ec693e66e")
+	)
+	(bus
+		(pts
+			(xy 218.44 53.34) (xy 218.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0dde7e7-f218-4564-9552-018f0258be6f")
 	)
 	(wire
 		(pts
@@ -9254,7 +9541,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 283.21) (xy 49.53 283.21)
+			(xy 43.18 283.21) (xy 44.45 283.21)
 		)
 		(stroke
 			(width 0)
@@ -9274,7 +9561,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 196.85) (xy 63.5 196.85)
+			(xy 45.72 196.85) (xy 48.26 196.85)
 		)
 		(stroke
 			(width 0)
@@ -9311,6 +9598,16 @@
 			(type default)
 		)
 		(uuid "bb5d6b3e-6766-461f-8f79-835edd7e74c1")
+	)
+	(bus
+		(pts
+			(xy 218.44 43.18) (xy 218.44 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc46b1bb-e81b-476d-a510-341a3f76138c")
 	)
 	(wire
 		(pts
@@ -9352,6 +9649,26 @@
 		)
 		(uuid "c165f448-e1e7-468f-994f-d10f7945d719")
 	)
+	(bus
+		(pts
+			(xy 218.44 30.48) (xy 218.44 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c173f14b-b3cf-4733-9161-0ea36942112f")
+	)
+	(wire
+		(pts
+			(xy 190.5 45.72) (xy 215.9 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d0c3ed-ee4c-476e-a819-9025ec7dfff4")
+	)
 	(wire
 		(pts
 			(xy 195.58 171.45) (xy 220.98 171.45)
@@ -9381,6 +9698,36 @@
 			(type default)
 		)
 		(uuid "c98a152d-5405-4179-ac83-f328ab46e843")
+	)
+	(wire
+		(pts
+			(xy 237.49 344.17) (xy 242.57 344.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0e374d-0436-4dcf-aaf1-d3ec2b10d1fe")
+	)
+	(bus
+		(pts
+			(xy 218.44 33.02) (xy 218.44 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3d3220-19cc-436d-9276-cc4951716af6")
+	)
+	(wire
+		(pts
+			(xy 215.9 38.1) (xy 190.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cedb825d-e80e-4cad-9a6c-81a0562ba59a")
 	)
 	(wire
 		(pts
@@ -9424,13 +9771,33 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 71.12) (xy 167.64 71.12)
+			(xy 215.9 50.8) (xy 190.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d435108b-378a-4bf8-8813-a216598085e0")
+	)
+	(wire
+		(pts
+			(xy 95.25 63.5) (xy 110.49 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d4afd5cf-a02e-4662-9706-e28a8d2fecb4")
+	)
+	(wire
+		(pts
+			(xy 215.9 53.34) (xy 190.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd773be2-5e50-4b67-864c-a17e64060d53")
 	)
 	(wire
 		(pts
@@ -9441,6 +9808,26 @@
 			(type default)
 		)
 		(uuid "e0328d2d-c0b4-4363-a7a1-5fd286b0ec47")
+	)
+	(wire
+		(pts
+			(xy 215.9 30.48) (xy 190.5 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17293d0-5904-45de-b6d4-6681add27847")
+	)
+	(wire
+		(pts
+			(xy 195.58 334.01) (xy 220.98 334.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3365836-ba24-4530-be84-5c5b9c0f5964")
 	)
 	(wire
 		(pts
@@ -9464,13 +9851,73 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 186.69) (xy 121.92 186.69)
+			(xy 215.9 43.18) (xy 190.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f129a6d1-451f-44d4-95d7-69d9028ef75b")
+	)
+	(wire
+		(pts
+			(xy 45.72 186.69) (xy 121.92 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f5e65bef-11a1-45f7-ac2c-91fc284da15e")
+	)
+	(wire
+		(pts
+			(xy 195.58 189.23) (xy 220.98 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61964bf-a6ce-40b4-a5c4-5de0a75d2f13")
+	)
+	(wire
+		(pts
+			(xy 190.5 33.02) (xy 215.9 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bf6b16-33ca-40df-9060-9b6067a69806")
+	)
+	(bus
+		(pts
+			(xy 218.44 48.26) (xy 218.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd2c808-f2f9-47e3-97b8-f8c864879240")
+	)
+	(bus
+		(pts
+			(xy 218.44 40.64) (xy 218.44 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1969e8-0a30-4a51-898e-476555c81ef4")
+	)
+	(label "OCTOSPI1.IO3"
+		(at 190.5 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "052bfb04-2a86-4662-8b64-171fcf3360b4")
 	)
 	(label "TIM4_CH3"
 		(at 209.55 306.07 180)
@@ -9492,6 +9939,16 @@
 		)
 		(uuid "0e46754f-6dfe-4131-b308-e59b4ef3729b")
 	)
+	(label "OCTOSPI1{OCTOSPI}"
+		(at 243.84 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12c2f255-2449-46fa-ba4b-6f5b166130ae")
+	)
 	(label "VCAP1"
 		(at 99.06 308.61 0)
 		(effects
@@ -9511,6 +9968,36 @@
 			(justify right bottom)
 		)
 		(uuid "21474474-8aa2-444e-86b5-9ec5bbe38018")
+	)
+	(label "OCTOSPI1.IO5"
+		(at 220.98 334.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21c426e4-f9eb-4d41-a234-b1427edccd0b")
+	)
+	(label "OCTOSPI1.DQS"
+		(at 220.98 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21ce9332-3f45-4b3d-8307-7ef1da3cbbe7")
+	)
+	(label "OCTOSPI1.IO4"
+		(at 190.5 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2306443f-4b1e-42fe-a402-b19dd380a685")
 	)
 	(label "PHY_GPIO0"
 		(at 220.98 349.25 180)
@@ -9552,6 +10039,16 @@
 		)
 		(uuid "37e7db97-df55-45ec-9dfc-ce6145940d2c")
 	)
+	(label "OCTOSPI1.IO0"
+		(at 96.52 285.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d498975-2e72-43ee-b4eb-be145701b44b")
+	)
 	(label "SWDIO"
 		(at 220.98 173.99 180)
 		(effects
@@ -9561,6 +10058,26 @@
 			(justify right bottom)
 		)
 		(uuid "4065da34-f577-4013-ae49-e7a90de6624f")
+	)
+	(label "OCTOSPI1.IO3"
+		(at 96.52 280.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43163a8a-ec1b-4ccd-8a8e-519c487e70f2")
+	)
+	(label "OCTOSPI1.IO0"
+		(at 190.5 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "439faf7f-157c-456e-8f9e-c8f63fa980fc")
 	)
 	(label "SWCLK"
 		(at 220.98 176.53 180)
@@ -9582,6 +10099,16 @@
 		)
 		(uuid "580d8e79-1b69-4a77-bdb4-258f8ac9cd6a")
 	)
+	(label "OCTOSPI1.IO1"
+		(at 96.52 288.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b8e1688-84ec-45ec-9f3e-2903d0f2d915")
+	)
 	(label "VSENSE"
 		(at 96.52 295.91 0)
 		(effects
@@ -9592,6 +10119,16 @@
 		)
 		(uuid "5b8f26f1-b11b-42a6-9386-42898a1b9e87")
 	)
+	(label "OCTOSPI1.CLK"
+		(at 96.52 290.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c1ff9a9-3999-4753-a846-dd16b1ccf32d")
+	)
 	(label "OSC_OUT"
 		(at 96.52 189.23 0)
 		(effects
@@ -9601,6 +10138,16 @@
 			(justify left bottom)
 		)
 		(uuid "6130f090-e81c-4b18-833d-025bab2999ff")
+	)
+	(label "OCTOSPI1.IO6"
+		(at 190.5 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61be9f3b-36bc-48db-a01e-0c5f3ba01fe5")
 	)
 	(label "MAC.RXDV"
 		(at 220.98 158.75 180)
@@ -9622,6 +10169,26 @@
 		)
 		(uuid "6885677b-554a-4e3c-ba23-b3d4814ed24e")
 	)
+	(label "OCTOSPI1.NCLK"
+		(at 190.5 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "696e1dd8-5374-4bb0-bc28-0745bc35656b")
+	)
+	(label "OCTOSPI1.IO2"
+		(at 190.5 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a26e831-e044-41ac-aa1e-a74044b94525")
+	)
 	(label "DAC"
 		(at 220.98 151.13 180)
 		(effects
@@ -9631,6 +10198,16 @@
 			(justify right bottom)
 		)
 		(uuid "6ea621f0-153e-4ebc-99e0-8d8db3e6a47f")
+	)
+	(label "PSRAM_nRST"
+		(at 220.98 344.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b1b1eda-ee59-4e49-a1db-adaef123a1a5")
 	)
 	(label "VTHERM"
 		(at 96.52 293.37 0)
@@ -9702,6 +10279,16 @@
 		)
 		(uuid "9b594183-ac85-400a-a721-fab895e3640f")
 	)
+	(label "OCTOSPI1.IO1"
+		(at 190.5 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d16cca0-5e5b-41f7-90ea-a91f55579a2f")
+	)
 	(label "MAC.TXD1"
 		(at 220.98 222.25 180)
 		(effects
@@ -9732,6 +10319,16 @@
 		)
 		(uuid "a9c8c131-1c85-4eb7-9c06-28977bfaa145")
 	)
+	(label "OCTOSPI1.IO2"
+		(at 220.98 318.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aec6089f-0476-41f4-9f68-75d20d5e0965")
+	)
 	(label "I2C4.SDA"
 		(at 96.52 217.17 0)
 		(effects
@@ -9741,6 +10338,16 @@
 			(justify left bottom)
 		)
 		(uuid "af96086d-1dde-42a1-b92a-4d7a237b917b")
+	)
+	(label "OCTOSPI1.DQS"
+		(at 190.5 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b58e897b-41cd-4df4-980c-5a9bdd88c657")
 	)
 	(label "MAC.RXD0"
 		(at 220.98 237.49 180)
@@ -9772,6 +10379,16 @@
 		)
 		(uuid "c0f74211-8aa2-4cbf-881a-0873862a52ff")
 	)
+	(label "OCTOSPI1.IO6"
+		(at 220.98 336.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5f4858a-b5b7-4b3d-bcf5-f0d119a903cb")
+	)
 	(label "MAC.TXEN"
 		(at 220.98 212.09 180)
 		(effects
@@ -9781,6 +10398,16 @@
 			(justify right bottom)
 		)
 		(uuid "c6b84f07-009a-4dd6-8cd2-be5cdacc830d")
+	)
+	(label "OCTOSPI1.NCS"
+		(at 220.98 341.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c71ccb57-18ea-4f5a-8f43-206784ebda4c")
 	)
 	(label "PHY_INH"
 		(at 96.52 194.31 0)
@@ -9802,6 +10429,16 @@
 		)
 		(uuid "cb13c827-620d-4028-b69e-76b23cf9cde6")
 	)
+	(label "OCTOSPI1.IO4"
+		(at 96.52 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d51f5057-ac73-4144-a52b-02c3eb49b3d4")
+	)
 	(label "MAC.TXD0"
 		(at 220.98 214.63 180)
 		(effects
@@ -9811,6 +10448,16 @@
 			(justify right bottom)
 		)
 		(uuid "d57af60f-9657-44d8-bb91-41e82dbea3b9")
+	)
+	(label "OCTOSPI1.CLK"
+		(at 190.5 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db6eca3c-49ed-4911-a388-afc8d7f9a3e0")
 	)
 	(label "PHY_WAKE_OUT"
 		(at 220.98 252.73 180)
@@ -9862,6 +10509,16 @@
 		)
 		(uuid "e3f1f8d3-c014-4497-8eff-a024b986f9c2")
 	)
+	(label "OCTOSPI1.IO5"
+		(at 190.5 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8b8e23f-4c97-4f6e-a211-d1d6e3a751bc")
+	)
 	(label "VCAP2"
 		(at 99.06 311.15 0)
 		(effects
@@ -9871,6 +10528,16 @@
 			(justify left bottom)
 		)
 		(uuid "ec17acf4-1dd9-4096-b1e3-0d969e8ec198")
+	)
+	(label "OCTOSPI1.NCS"
+		(at 190.5 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f10647ce-5edc-408e-8a5b-894099b4498f")
 	)
 	(label "OSC_IN"
 		(at 96.52 186.69 0)
@@ -9882,6 +10549,26 @@
 		)
 		(uuid "f196014d-2792-41fd-bd13-d7a3886fe643")
 	)
+	(label "OCTOSPI1.IO7"
+		(at 190.5 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6246297-8d1f-4127-bbca-3b1466b18d05")
+	)
+	(label "OCTOSPI1.IO7"
+		(at 220.98 339.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fbcc2f51-185f-4971-ac64-be977b8cdc52")
+	)
 	(label "T1S_TERM_GATE"
 		(at 220.98 148.59 180)
 		(effects
@@ -9892,9 +10579,41 @@
 		)
 		(uuid "fce5531b-3390-48e6-9642-b6530d516bf3")
 	)
+	(label "OCTOSPI1.NCLK"
+		(at 220.98 196.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe2a8877-fe1c-4e54-bbb3-3fedad44299a")
+	)
+	(hierarchical_label "OCTOSPI1{OCTOSPI}"
+		(shape bidirectional)
+		(at 243.84 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b47514eb-9207-4a0e-b147-4df4df8a13a2")
+	)
+	(hierarchical_label "PSRAM_nRST"
+		(shape output)
+		(at 242.57 344.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea0df22a-13c2-4e7e-8d34-d4edbafa62b7")
+	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 76.2 201.93 0)
+		(at 60.96 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9903,7 +10622,7 @@
 		(fields_autoplaced yes)
 		(uuid "01d89749-9cec-4393-b733-b8d37a16745a")
 		(property "Reference" "#PWR046"
-			(at 76.2 208.28 0)
+			(at 60.96 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9912,7 +10631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 207.01 0)
+			(at 60.96 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9921,7 +10640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 201.93 0)
+			(at 60.96 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9930,7 +10649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 201.93 0)
+			(at 60.96 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9939,7 +10658,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 201.93 0)
+			(at 60.96 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9960,8 +10679,156 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 220.98 318.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "02fae178-e1dc-4003-bb2d-6a61588dbf93")
+		(property "Reference" "TP40"
+			(at 224.155 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 230.8225 321.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 228.346 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.473 319.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 232.41 319.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 228.981 317.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 228.092 318.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 228.6 316.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 228.6 317.627 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 228.092 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 228.6 318.897 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 229.108 322.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 231.648 324.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 220.98 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4674b4a-0a2e-4c12-a407-6533a5d4a5ae")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
-		(at 182.88 40.64 0)
+		(at 125.73 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9969,7 +10836,7 @@
 		(dnp no)
 		(uuid "03c40892-2fa2-4673-aa71-d77fd8dc23d9")
 		(property "Reference" "C38"
-			(at 185.42 40.64 0)
+			(at 128.27 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9978,7 +10845,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 185.42 42.545 0)
+			(at 128.27 34.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9987,7 +10854,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 182.88 -35.56 0)
+			(at 125.73 -43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9997,7 +10864,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108070630_Murata-Electronics-GRM033R61E104KE14J_C2649540.pdf"
-			(at 182.88 -33.02 0)
+			(at 125.73 -40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10007,7 +10874,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X7R 10% Ceramic Capacitor 0201"
-			(at 182.88 -22.86 0)
+			(at 125.73 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10017,7 +10884,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 182.88 -30.48 0)
+			(at 125.73 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10027,7 +10894,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
-			(at 182.88 -27.94 0)
+			(at 125.73 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10037,7 +10904,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 182.88 -20.32 0)
+			(at 125.73 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10047,7 +10914,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-14571-1-ND"
-			(at 182.88 -17.78 0)
+			(at 125.73 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10057,7 +10924,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 182.88 -15.24 0)
+			(at 125.73 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10067,7 +10934,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM033R61E104KE4J"
-			(at 182.88 -12.7 0)
+			(at 125.73 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10077,7 +10944,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 182.88 -10.16 0)
+			(at 125.73 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10087,7 +10954,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C2649540"
-			(at 182.88 -7.62 0)
+			(at 125.73 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10097,7 +10964,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000000"
-			(at 182.88 -25.4 0)
+			(at 125.73 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10107,7 +10974,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 182.88 40.64 0)
+			(at 125.73 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10280,7 +11147,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 152.4 59.69 0)
+		(at 95.25 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10289,7 +11156,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bdcc6df-7403-4913-8732-eaee715ad89d")
 		(property "Reference" "#PWR088"
-			(at 152.4 66.04 0)
+			(at 95.25 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10298,7 +11165,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 64.77 0)
+			(at 95.25 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10307,7 +11174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 59.69 0)
+			(at 95.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10316,7 +11183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 59.69 0)
+			(at 95.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10325,7 +11192,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 59.69 0)
+			(at 95.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10987,7 +11854,7 @@
 	)
 	(symbol
 		(lib_id "BR_Resistors_0201:R_0201_3k")
-		(at 60.96 283.21 270)
+		(at 55.88 283.21 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10996,7 +11863,7 @@
 		(dnp no)
 		(uuid "18deea61-f6cd-49a1-b926-5957b7051e9c")
 		(property "Reference" "R35"
-			(at 62.23 281.686 0)
+			(at 57.15 281.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11005,7 +11872,7 @@
 			)
 		)
 		(property "Value" "3k"
-			(at 59.69 281.686 0)
+			(at 54.61 281.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11014,36 +11881,6 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:R_0201_0603Metric-minimized"
-			(at 137.16 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0201FR-073KL_C142016.pdf"
-			(at 134.62 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "3k 1% 200ppm 50mW Chip Resistor 0201"
-			(at 124.46 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 132.08 283.21 0)
 			(effects
 				(font
@@ -11053,7 +11890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Num" "RC0201FR-073KL"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0201FR-073KL_C142016.pdf"
 			(at 129.54 283.21 0)
 			(effects
 				(font
@@ -11063,17 +11900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1" "DigiKey"
-			(at 121.92 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Num 1" "YAG2656CT-ND"
+		(property "Description" "3k 1% 200ppm 50mW Chip Resistor 0201"
 			(at 119.38 283.21 0)
 			(effects
 				(font
@@ -11083,47 +11910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 2" "Mouser"
-			(at 116.84 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Num 2" "603-RC0201FR-073KL"
-			(at 114.3 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier 3" "JLCPCB"
-			(at 111.76 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Num 3" "C142016"
-			(at 109.22 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "BRE Number" "BRE-000275"
+		(property "Manufacturer" "YAGEO"
 			(at 127 283.21 0)
 			(effects
 				(font
@@ -11133,8 +11920,88 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Num" "RC0201FR-073KL"
+			(at 124.46 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 116.84 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "YAG2656CT-ND"
+			(at 114.3 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 111.76 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "603-RC0201FR-073KL"
+			(at 109.22 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 106.68 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C142016"
+			(at 104.14 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-000275"
+			(at 121.92 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "BR ID" ""
-			(at 60.96 283.21 0)
+			(at 55.88 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11159,7 +12026,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
-		(at 167.64 57.15 0)
+		(at 110.49 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11167,7 +12034,7 @@
 		(dnp no)
 		(uuid "1ceb5046-bc3e-43ef-b550-13b24682a1cc")
 		(property "Reference" "C35"
-			(at 170.18 56.515 0)
+			(at 113.03 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11176,7 +12043,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 170.18 59.055 0)
+			(at 113.03 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11185,7 +12052,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 167.64 -19.05 0)
+			(at 110.49 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11195,7 +12062,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108070630_Murata-Electronics-GRM033R61E104KE14J_C2649540.pdf"
-			(at 167.64 -16.51 0)
+			(at 110.49 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11205,7 +12072,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X7R 10% Ceramic Capacitor 0201"
-			(at 167.64 -6.35 0)
+			(at 110.49 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11215,7 +12082,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 167.64 -13.97 0)
+			(at 110.49 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,7 +12092,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
-			(at 167.64 -11.43 0)
+			(at 110.49 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11235,7 +12102,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 167.64 -3.81 0)
+			(at 110.49 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11245,7 +12112,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-14571-1-ND"
-			(at 167.64 -1.27 0)
+			(at 110.49 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11255,7 +12122,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 167.64 1.27 0)
+			(at 110.49 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11265,7 +12132,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM033R61E104KE4J"
-			(at 167.64 3.81 0)
+			(at 110.49 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11275,7 +12142,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 167.64 6.35 0)
+			(at 110.49 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11285,7 +12152,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C2649540"
-			(at 167.64 8.89 0)
+			(at 110.49 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11295,7 +12162,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000000"
-			(at 167.64 -8.89 0)
+			(at 110.49 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11305,7 +12172,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 167.64 57.15 0)
+			(at 110.49 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11330,7 +12197,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 182.88 43.18 0)
+		(at 125.73 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11339,7 +12206,7 @@
 		(fields_autoplaced yes)
 		(uuid "225d68f5-87e6-406a-8c09-317a04c84ef2")
 		(property "Reference" "#PWR090"
-			(at 182.88 49.53 0)
+			(at 125.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11348,7 +12215,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 48.26 0)
+			(at 125.73 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11357,7 +12224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 43.18 0)
+			(at 125.73 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11366,7 +12233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 43.18 0)
+			(at 125.73 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11375,7 +12242,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 43.18 0)
+			(at 125.73 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11864,7 +12731,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 167.64 59.69 0)
+		(at 110.49 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11873,7 +12740,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e8effc5-71f5-43fd-8727-6022ff7517af")
 		(property "Reference" "#PWR091"
-			(at 167.64 66.04 0)
+			(at 110.49 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11882,7 +12749,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 64.77 0)
+			(at 110.49 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11891,7 +12758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 59.69 0)
+			(at 110.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11900,7 +12767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 59.69 0)
+			(at 110.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11909,7 +12776,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 59.69 0)
+			(at 110.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12229,6 +13096,154 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 96.52 191.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "33e3f6b6-79b1-4c08-8bab-77dc2151de7d")
+		(property "Reference" "TP49"
+			(at 93.345 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 86.6775 188.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 89.154 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.027 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 85.09 191.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 88.519 193.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 89.408 192.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 88.9 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 88.9 192.913 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 89.408 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 88.9 191.643 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 88.392 188.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 85.852 186.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 96.52 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f5319fc-3c37-4d51-bcf4-2056ce5f2fba")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP49")
 					(unit 1)
 				)
 			)
@@ -12600,7 +13615,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 149.86 43.18 0)
+		(at 92.71 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12609,7 +13624,7 @@
 		(fields_autoplaced yes)
 		(uuid "3913933e-c570-45a9-b993-291342b38785")
 		(property "Reference" "#PWR099"
-			(at 149.86 49.53 0)
+			(at 92.71 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12618,7 +13633,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 48.26 0)
+			(at 92.71 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12627,7 +13642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 43.18 0)
+			(at 92.71 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12636,7 +13651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 43.18 0)
+			(at 92.71 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12645,7 +13660,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 43.18 0)
+			(at 92.71 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12667,7 +13682,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
-		(at 67.31 283.21 0)
+		(at 62.23 283.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12676,7 +13691,7 @@
 		(dnp no)
 		(uuid "3e050f5f-edff-42ad-9c03-386b66619e96")
 		(property "Reference" "TP30"
-			(at 69.85 279.4 0)
+			(at 64.77 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12685,7 +13700,7 @@
 			)
 		)
 		(property "Value" "TP_ROUND_TH_300um"
-			(at 64.262 273.3675 0)
+			(at 59.182 273.3675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12695,7 +13710,7 @@
 			)
 		)
 		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
-			(at 66.04 275.844 0)
+			(at 60.96 275.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12704,7 +13719,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.056 275.717 0)
+			(at 61.976 275.717 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12713,7 +13728,7 @@
 			)
 		)
 		(property "Description" "test pad surface mount"
-			(at 66.802 271.78 0)
+			(at 61.722 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12722,7 +13737,7 @@
 			)
 		)
 		(property "Manufacturer" "~"
-			(at 68.834 275.209 0)
+			(at 63.754 275.209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12731,7 +13746,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "~"
-			(at 67.564 276.098 0)
+			(at 62.484 276.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12740,7 +13755,7 @@
 			)
 		)
 		(property "Supplier 1" "~"
-			(at 69.215 275.59 0)
+			(at 64.135 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12749,7 +13764,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "~"
-			(at 68.453 275.59 0)
+			(at 63.373 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12758,7 +13773,7 @@
 			)
 		)
 		(property "Supplier 2" "~"
-			(at 68.58 276.098 0)
+			(at 63.5 276.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12767,7 +13782,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "~"
-			(at 67.183 275.59 0)
+			(at 62.103 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12776,7 +13791,7 @@
 			)
 		)
 		(property "Supplier 3" "~"
-			(at 63.754 275.082 0)
+			(at 58.674 275.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12785,7 +13800,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "~"
-			(at 61.976 272.542 0)
+			(at 56.896 272.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12794,7 +13809,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 67.31 283.21 0)
+			(at 62.23 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12816,7 +13831,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 198.12 76.2 0)
+		(at 140.97 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12825,7 +13840,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e7891fe-4551-4ac3-a2b0-30197a4d472f")
 		(property "Reference" "#PWR0103"
-			(at 198.12 82.55 0)
+			(at 140.97 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12834,7 +13849,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 81.28 0)
+			(at 140.97 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12843,7 +13858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 76.2 0)
+			(at 140.97 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12852,7 +13867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 76.2 0)
+			(at 140.97 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12861,7 +13876,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 76.2 0)
+			(at 140.97 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13606,7 +14621,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 182.88 76.2 0)
+		(at 125.73 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13615,7 +14630,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ceba07f-025c-45f9-abc4-769cde70c7f4")
 		(property "Reference" "#PWR097"
-			(at 182.88 82.55 0)
+			(at 125.73 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13624,7 +14639,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 81.28 0)
+			(at 125.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13633,7 +14648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 76.2 0)
+			(at 125.73 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13642,7 +14657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 76.2 0)
+			(at 125.73 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13651,7 +14666,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 76.2 0)
+			(at 125.73 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13673,7 +14688,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 48.26 284.48 0)
+		(at 43.18 284.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13683,7 +14698,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f21c48c-568c-47f2-a98d-039d5c08ec13")
 		(property "Reference" "#PWR059"
-			(at 48.26 290.83 0)
+			(at 43.18 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13692,7 +14707,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 289.56 0)
+			(at 43.18 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13701,7 +14716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 284.48 0)
+			(at 43.18 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13710,7 +14725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 284.48 0)
+			(at 43.18 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13719,7 +14734,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 284.48 0)
+			(at 43.18 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13740,8 +14755,156 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 237.49 344.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f860107-d597-4990-966d-59a185d23abf")
+		(property "Reference" "TP50"
+			(at 237.49 347.345 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 234.442 354.0125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 236.22 351.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.236 351.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 236.982 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 239.014 352.171 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 237.744 351.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 239.395 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 238.633 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 238.76 351.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 237.363 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 233.934 352.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 232.156 354.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 237.49 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebaf35b3-b78f-45e6-80b4-5c9c092173a6")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Virtual_Parts:VCC")
-		(at 91.44 44.45 0)
+		(at 34.29 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13749,7 +14912,7 @@
 		(dnp no)
 		(uuid "527c46b7-1518-4712-8bbe-89fa141062b5")
 		(property "Reference" "#PWR0110"
-			(at 91.44 48.26 0)
+			(at 34.29 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13758,7 +14921,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 91.44 40.894 0)
+			(at 34.29 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13766,7 +14929,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 44.45 0)
+			(at 34.29 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13775,7 +14938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 44.45 0)
+			(at 34.29 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13784,7 +14947,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 91.44 44.45 0)
+			(at 34.29 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13799,6 +14962,450 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
 					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 96.52 280.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5430ad74-5b30-4e30-9adc-38bf1ea8490d")
+		(property "Reference" "TP48"
+			(at 93.345 280.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 86.6775 277.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 89.154 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.027 280.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 85.09 280.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 88.519 282.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 89.408 280.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 88.9 282.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 88.9 281.813 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 89.408 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 88.9 280.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 88.392 277.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 85.852 275.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 96.52 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e565100-548c-42ef-91f9-63ecf4835944")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 220.98 341.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "59588cdf-5e7f-4ef7-969c-2480c7cc86f4")
+		(property "Reference" "TP44"
+			(at 224.155 341.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 230.8225 344.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 228.346 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.473 341.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 232.41 342.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 228.981 340.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 228.092 341.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 228.6 339.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 228.6 340.487 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 228.092 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 228.6 341.757 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 229.108 345.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 231.648 346.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 220.98 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01a3acc6-a1b6-44c9-bc9e-91e7cc6e1730")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 220.98 336.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e36cfe1-8551-4b73-b0ac-b47c65eae1d0")
+		(property "Reference" "TP42"
+			(at 224.155 336.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 230.8225 339.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 228.346 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.473 336.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 232.41 337.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 228.981 335.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 228.092 336.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 228.6 334.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 228.6 335.407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 228.092 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 228.6 336.677 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 229.108 340.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 231.648 341.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 220.98 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "693a5b69-2c93-49e4-9994-a89c7f417c26")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP42")
 					(unit 1)
 				)
 			)
@@ -13955,7 +15562,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 198.12 43.18 0)
+		(at 140.97 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13964,7 +15571,7 @@
 		(fields_autoplaced yes)
 		(uuid "617120ce-e7c0-4d37-a887-7464a69a866a")
 		(property "Reference" "#PWR087"
-			(at 198.12 49.53 0)
+			(at 140.97 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13973,7 +15580,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 48.26 0)
+			(at 140.97 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13982,7 +15589,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 43.18 0)
+			(at 140.97 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13991,7 +15598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 43.18 0)
+			(at 140.97 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14000,7 +15607,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 43.18 0)
+			(at 140.97 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14015,6 +15622,154 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 96.52 290.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "628c2387-68ff-4257-a757-16413bf9bf31")
+		(property "Reference" "TP45"
+			(at 93.345 290.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 86.6775 287.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 89.154 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.027 290.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 85.09 290.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 88.519 292.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 89.408 291.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 88.9 292.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 88.9 291.973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 89.408 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 88.9 290.703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 88.392 287.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 85.852 285.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 96.52 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60603968-bbb5-421d-8b85-26a1e6c09f01")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP45")
 					(unit 1)
 				)
 			)
@@ -14235,7 +15990,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
-		(at 137.16 57.15 0)
+		(at 80.01 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14243,7 +15998,7 @@
 		(dnp no)
 		(uuid "656049a2-bbd9-4dae-af40-f60093c78455")
 		(property "Reference" "C30"
-			(at 139.7 56.515 0)
+			(at 82.55 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14252,7 +16007,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 139.7 59.055 0)
+			(at 82.55 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14261,7 +16016,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 137.16 -19.05 0)
+			(at 80.01 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14271,7 +16026,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108070630_Murata-Electronics-GRM033R61E104KE14J_C2649540.pdf"
-			(at 137.16 -16.51 0)
+			(at 80.01 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14281,7 +16036,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X7R 10% Ceramic Capacitor 0201"
-			(at 137.16 -6.35 0)
+			(at 80.01 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14291,7 +16046,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 137.16 -13.97 0)
+			(at 80.01 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14301,7 +16056,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
-			(at 137.16 -11.43 0)
+			(at 80.01 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14311,7 +16066,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 137.16 -3.81 0)
+			(at 80.01 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14321,7 +16076,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-14571-1-ND"
-			(at 137.16 -1.27 0)
+			(at 80.01 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14331,7 +16086,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 137.16 1.27 0)
+			(at 80.01 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14341,7 +16096,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM033R61E104KE4J"
-			(at 137.16 3.81 0)
+			(at 80.01 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14351,7 +16106,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 137.16 6.35 0)
+			(at 80.01 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14361,7 +16116,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C2649540"
-			(at 137.16 8.89 0)
+			(at 80.01 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14371,7 +16126,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000000"
-			(at 137.16 -8.89 0)
+			(at 80.01 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14381,7 +16136,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 137.16 57.15 0)
+			(at 80.01 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14466,6 +16221,154 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 220.98 334.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6afed102-9248-4a4f-829e-272f71e57e14")
+		(property "Reference" "TP41"
+			(at 224.155 334.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 230.8225 337.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 228.346 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.473 334.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 232.41 334.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 228.981 332.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 228.092 333.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 228.6 332.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 228.6 332.867 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 228.092 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 228.6 334.137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 229.108 337.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 231.648 339.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 220.98 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "256c4649-c0eb-48b1-83de-79cea167a38a")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP41")
 					(unit 1)
 				)
 			)
@@ -15350,7 +17253,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 69.85 201.93 0)
+		(at 54.61 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15359,7 +17262,7 @@
 		(fields_autoplaced yes)
 		(uuid "77b597ec-4e83-4be5-ac0c-b467f9731cd3")
 		(property "Reference" "#PWR047"
-			(at 69.85 208.28 0)
+			(at 54.61 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15368,7 +17271,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 207.01 0)
+			(at 54.61 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15377,7 +17280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 201.93 0)
+			(at 54.61 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15386,7 +17289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 201.93 0)
+			(at 54.61 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15395,7 +17298,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 201.93 0)
+			(at 54.61 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15417,7 +17320,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC")
-		(at 198.12 38.1 0)
+		(at 140.97 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15426,7 +17329,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a606184-945f-486d-837e-f76d68156925")
 		(property "Reference" "#PWR098"
-			(at 198.12 41.91 0)
+			(at 140.97 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15435,7 +17338,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 198.12 33.02 0)
+			(at 140.97 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15443,7 +17346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 38.1 0)
+			(at 140.97 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15452,7 +17355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 38.1 0)
+			(at 140.97 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15461,7 +17364,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 198.12 38.1 0)
+			(at 140.97 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15631,7 +17534,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
-		(at 182.88 73.66 0)
+		(at 125.73 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15639,7 +17542,7 @@
 		(dnp no)
 		(uuid "801b72e0-f23b-4fea-9e60-6686a5e7ba70")
 		(property "Reference" "C40"
-			(at 185.42 73.025 0)
+			(at 128.27 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15648,7 +17551,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 185.42 75.565 0)
+			(at 128.27 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15657,7 +17560,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 182.88 -2.54 0)
+			(at 125.73 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15667,7 +17570,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108070630_Murata-Electronics-GRM033R61E104KE14J_C2649540.pdf"
-			(at 182.88 0 0)
+			(at 125.73 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15677,7 +17580,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X7R 10% Ceramic Capacitor 0201"
-			(at 182.88 10.16 0)
+			(at 125.73 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15687,7 +17590,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 182.88 2.54 0)
+			(at 125.73 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15697,7 +17600,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
-			(at 182.88 5.08 0)
+			(at 125.73 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15707,7 +17610,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 182.88 12.7 0)
+			(at 125.73 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15717,7 +17620,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-14571-1-ND"
-			(at 182.88 15.24 0)
+			(at 125.73 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15727,7 +17630,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 182.88 17.78 0)
+			(at 125.73 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15737,7 +17640,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM033R61E104KE4J"
-			(at 182.88 20.32 0)
+			(at 125.73 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15747,7 +17650,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 182.88 22.86 0)
+			(at 125.73 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15757,7 +17660,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C2649540"
-			(at 182.88 25.4 0)
+			(at 125.73 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15767,7 +17670,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000000"
-			(at 182.88 7.62 0)
+			(at 125.73 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15777,7 +17680,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 182.88 73.66 0)
+			(at 125.73 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15802,7 +17705,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 167.64 43.18 0)
+		(at 110.49 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15811,7 +17714,7 @@
 		(fields_autoplaced yes)
 		(uuid "844b9b4c-6635-4755-91e1-bc91ac6422c7")
 		(property "Reference" "#PWR095"
-			(at 167.64 49.53 0)
+			(at 110.49 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15820,7 +17723,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 48.26 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15829,7 +17732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 43.18 0)
+			(at 110.49 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15838,7 +17741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 43.18 0)
+			(at 110.49 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15847,7 +17750,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 43.18 0)
+			(at 110.49 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16017,7 +17920,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
-		(at 137.16 73.66 0)
+		(at 80.01 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16025,7 +17928,7 @@
 		(dnp no)
 		(uuid "9235be73-e644-4de5-8544-43b3882f6053")
 		(property "Reference" "C54"
-			(at 139.7 73.025 0)
+			(at 82.55 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16034,7 +17937,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 139.7 75.565 0)
+			(at 82.55 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16043,7 +17946,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 137.16 -2.54 0)
+			(at 80.01 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16053,7 +17956,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108070630_Murata-Electronics-GRM033R61E104KE14J_C2649540.pdf"
-			(at 137.16 0 0)
+			(at 80.01 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16063,7 +17966,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X7R 10% Ceramic Capacitor 0201"
-			(at 137.16 10.16 0)
+			(at 80.01 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16073,7 +17976,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 137.16 2.54 0)
+			(at 80.01 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16083,7 +17986,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
-			(at 137.16 5.08 0)
+			(at 80.01 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16093,7 +17996,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 137.16 12.7 0)
+			(at 80.01 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16103,7 +18006,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-14571-1-ND"
-			(at 137.16 15.24 0)
+			(at 80.01 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16113,7 +18016,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 137.16 17.78 0)
+			(at 80.01 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16123,7 +18026,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM033R61E104KE4J"
-			(at 137.16 20.32 0)
+			(at 80.01 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16133,7 +18036,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 137.16 22.86 0)
+			(at 80.01 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16143,7 +18046,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C2649540"
-			(at 137.16 25.4 0)
+			(at 80.01 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16153,7 +18056,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000000"
-			(at 137.16 7.62 0)
+			(at 80.01 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16163,7 +18066,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 137.16 73.66 0)
+			(at 80.01 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16337,7 +18240,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_10uF_10V_X5R_20%")
-		(at 149.86 40.64 0)
+		(at 92.71 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16345,7 +18248,7 @@
 		(dnp no)
 		(uuid "95d7f04b-8b2b-42fa-bea0-0501e303ccbb")
 		(property "Reference" "C45"
-			(at 151.765 40.005 0)
+			(at 94.615 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16354,7 +18257,7 @@
 			)
 		)
 		(property "Value" "10uF 10V"
-			(at 151.765 41.91 0)
+			(at 94.615 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16363,7 +18266,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
-			(at 149.86 -35.56 0)
+			(at 92.71 -43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16373,7 +18276,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2614/CL05A106MP5NUNC_Spec.pdf"
-			(at 149.86 -33.02 0)
+			(at 92.71 -40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16383,7 +18286,7 @@
 			)
 		)
 		(property "Description" "10uF 10V X5R 20% Ceramic Capacitor 0402"
-			(at 149.86 -22.86 0)
+			(at 92.71 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16393,7 +18296,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 149.86 -30.48 0)
+			(at 92.71 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16403,7 +18306,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "CL05A106MP5NUNC"
-			(at 149.86 -27.94 0)
+			(at 92.71 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16413,7 +18316,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 149.86 -20.32 0)
+			(at 92.71 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16423,7 +18326,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "1276-1450-6-ND"
-			(at 149.86 -12.7 0)
+			(at 92.71 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16433,7 +18336,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 149.86 -17.78 0)
+			(at 92.71 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16443,7 +18346,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "187-CL05A106MP5NUNC"
-			(at 149.86 -10.16 0)
+			(at 92.71 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16453,7 +18356,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 149.86 -15.24 0)
+			(at 92.71 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16463,7 +18366,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C315248"
-			(at 149.86 -7.62 0)
+			(at 92.71 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16473,7 +18376,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000015"
-			(at 149.86 -25.4 0)
+			(at 92.71 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16483,7 +18386,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 149.86 40.64 0)
+			(at 92.71 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17040,7 +18943,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 137.16 76.2 0)
+		(at 80.01 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17049,7 +18952,7 @@
 		(fields_autoplaced yes)
 		(uuid "a97a0f3d-699e-4220-8810-279ec3224b93")
 		(property "Reference" "#PWR0148"
-			(at 137.16 82.55 0)
+			(at 80.01 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17058,7 +18961,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 81.28 0)
+			(at 80.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17067,7 +18970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 76.2 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17076,7 +18979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 76.2 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17085,7 +18988,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 76.2 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17100,6 +19003,154 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
 					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 96.52 285.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa3940a3-6917-4138-ad18-bfd2788c35f9")
+		(property "Reference" "TP47"
+			(at 93.345 285.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 86.6775 282.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 89.154 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.027 285.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 85.09 285.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 88.519 287.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 89.408 286.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 88.9 287.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 88.9 286.893 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 89.408 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 88.9 285.623 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 88.392 282.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 85.852 280.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 96.52 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62895814-ff6b-4d03-8f15-3378899f3260")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP47")
 					(unit 1)
 				)
 			)
@@ -17402,8 +19453,156 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 220.98 339.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "adadee46-961c-44e2-919d-09ac87939c17")
+		(property "Reference" "TP43"
+			(at 224.155 339.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 230.8225 342.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 228.346 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.473 339.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 232.41 339.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 228.981 337.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 228.092 338.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 228.6 337.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 228.6 337.947 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 228.092 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 228.6 339.217 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 229.108 342.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 231.648 344.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 220.98 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d18ccfd-bf68-4426-87fa-c7f71df56ead")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
-		(at 198.12 40.64 0)
+		(at 140.97 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17411,7 +19610,7 @@
 		(dnp no)
 		(uuid "ae79ea2b-d47c-41ea-8025-f2e6e08e4ad7")
 		(property "Reference" "C41"
-			(at 200.66 40.005 0)
+			(at 143.51 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17420,7 +19619,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 200.66 41.91 0)
+			(at 143.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17429,7 +19628,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 198.12 -35.56 0)
+			(at 140.97 -43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17439,7 +19638,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108070630_Murata-Electronics-GRM033R61E104KE14J_C2649540.pdf"
-			(at 198.12 -33.02 0)
+			(at 140.97 -40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17449,7 +19648,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X7R 10% Ceramic Capacitor 0201"
-			(at 198.12 -22.86 0)
+			(at 140.97 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17459,7 +19658,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 198.12 -30.48 0)
+			(at 140.97 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17469,7 +19668,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
-			(at 198.12 -27.94 0)
+			(at 140.97 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17479,7 +19678,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 198.12 -20.32 0)
+			(at 140.97 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17489,7 +19688,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-14571-1-ND"
-			(at 198.12 -17.78 0)
+			(at 140.97 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17499,7 +19698,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 198.12 -15.24 0)
+			(at 140.97 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17509,7 +19708,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM033R61E104KE4J"
-			(at 198.12 -12.7 0)
+			(at 140.97 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17519,7 +19718,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 198.12 -10.16 0)
+			(at 140.97 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17529,7 +19728,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C2649540"
-			(at 198.12 -7.62 0)
+			(at 140.97 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17539,7 +19738,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000000"
-			(at 198.12 -25.4 0)
+			(at 140.97 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17549,7 +19748,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 198.12 40.64 0)
+			(at 140.97 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17722,7 +19921,7 @@
 	)
 	(symbol
 		(lib_id "BR_Resistors_0402:R_0402_10R")
-		(at 91.44 48.26 0)
+		(at 34.29 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17730,7 +19929,7 @@
 		(dnp no)
 		(uuid "b22b4c59-5b8a-442f-9e5a-fab82a635ec1")
 		(property "Reference" "R32"
-			(at 85.725 46.99 0)
+			(at 28.575 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17739,7 +19938,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 85.725 49.53 0)
+			(at 28.575 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17748,7 +19947,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:R_0402_1005Metric-minimized"
-			(at 91.44 -27.94 0)
+			(at 34.29 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17758,7 +19957,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
-			(at 91.44 -25.4 0)
+			(at 34.29 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17768,7 +19967,7 @@
 			)
 		)
 		(property "Description" "10R 1% 200ppm 62.5mW Thick Film Resistor 0402"
-			(at 91.44 -15.24 0)
+			(at 34.29 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17778,7 +19977,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 91.44 -22.86 0)
+			(at 34.29 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17788,7 +19987,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "AC0402FR-0710RL"
-			(at 91.44 -20.32 0)
+			(at 34.29 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17798,7 +19997,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 91.44 -12.7 0)
+			(at 34.29 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17808,7 +20007,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "YAG3438CT-ND"
-			(at 91.44 -10.16 0)
+			(at 34.29 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17818,7 +20017,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 91.44 -7.62 0)
+			(at 34.29 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17828,7 +20027,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "603-AC0402FR-0710RL"
-			(at 91.44 -5.08 0)
+			(at 34.29 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17838,7 +20037,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 91.44 -2.54 0)
+			(at 34.29 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17848,7 +20047,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C144805"
-			(at 91.44 0 0)
+			(at 34.29 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17858,7 +20057,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000291"
-			(at 91.44 -17.78 0)
+			(at 34.29 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17868,7 +20067,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 91.44 48.26 0)
+			(at 34.29 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18105,6 +20304,154 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 220.98 196.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4a96246-83b8-40a1-9c08-a32f16b76c5c")
+		(property "Reference" "TP36"
+			(at 224.155 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 230.8225 199.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 228.346 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.473 197.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 232.41 197.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 228.981 195.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 228.092 196.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 228.6 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 228.6 195.707 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 228.092 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 228.6 196.977 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 229.108 200.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 231.648 202.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 220.98 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "650309fc-1545-40c7-b693-8fe78da89c4d")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Virtual_Parts:VCC")
 		(at 160.02 133.35 0)
 		(unit 1)
@@ -18171,7 +20518,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 137.16 59.69 0)
+		(at 80.01 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18180,7 +20527,7 @@
 		(fields_autoplaced yes)
 		(uuid "b63ed363-b21b-43e0-a716-54637171f320")
 		(property "Reference" "#PWR086"
-			(at 137.16 66.04 0)
+			(at 80.01 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18189,7 +20536,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 64.77 0)
+			(at 80.01 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18198,7 +20545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 59.69 0)
+			(at 80.01 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18207,7 +20554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 59.69 0)
+			(at 80.01 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18216,7 +20563,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 59.69 0)
+			(at 80.01 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18238,7 +20585,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 198.12 59.69 0)
+		(at 140.97 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18247,7 +20594,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7cc6956-a33b-4b49-a251-57c48d1119a7")
 		(property "Reference" "#PWR0101"
-			(at 198.12 66.04 0)
+			(at 140.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18256,7 +20603,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 64.77 0)
+			(at 140.97 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18265,7 +20612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 59.69 0)
+			(at 140.97 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18274,7 +20621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 59.69 0)
+			(at 140.97 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18283,7 +20630,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 59.69 0)
+			(at 140.97 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18305,7 +20652,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_10uF_10V_X5R_20%")
-		(at 91.44 54.61 0)
+		(at 34.29 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18313,7 +20660,7 @@
 		(dnp no)
 		(uuid "b7dc1574-0666-455a-ac25-8e029e971f8c")
 		(property "Reference" "C31"
-			(at 85.725 54.61 0)
+			(at 28.575 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18322,7 +20669,7 @@
 			)
 		)
 		(property "Value" "10uF 10V"
-			(at 80.01 57.15 0)
+			(at 22.86 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18331,7 +20678,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
-			(at 91.44 -21.59 0)
+			(at 34.29 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18341,7 +20688,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2614/CL05A106MP5NUNC_Spec.pdf"
-			(at 91.44 -19.05 0)
+			(at 34.29 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18351,7 +20698,7 @@
 			)
 		)
 		(property "Description" "10uF 10V X5R 20% Ceramic Capacitor 0402"
-			(at 91.44 -8.89 0)
+			(at 34.29 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18361,7 +20708,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 91.44 -16.51 0)
+			(at 34.29 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18371,7 +20718,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "CL05A106MP5NUNC"
-			(at 91.44 -13.97 0)
+			(at 34.29 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18381,7 +20728,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 91.44 -6.35 0)
+			(at 34.29 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18391,7 +20738,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "1276-1450-6-ND"
-			(at 91.44 1.27 0)
+			(at 34.29 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18401,7 +20748,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 91.44 -3.81 0)
+			(at 34.29 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18411,7 +20758,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "187-CL05A106MP5NUNC"
-			(at 91.44 3.81 0)
+			(at 34.29 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18421,7 +20768,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 91.44 -1.27 0)
+			(at 34.29 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18431,7 +20778,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C315248"
-			(at 91.44 6.35 0)
+			(at 34.29 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18441,7 +20788,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000015"
-			(at 91.44 -11.43 0)
+			(at 34.29 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18451,7 +20798,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 91.44 54.61 0)
+			(at 34.29 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18469,6 +20816,302 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 96.52 288.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b94a9179-8244-47d4-8104-1bc3eb177362")
+		(property "Reference" "TP46"
+			(at 93.345 288.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 86.6775 285.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 89.154 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.027 288.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 85.09 287.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 88.519 289.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 89.408 288.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 88.9 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 88.9 289.433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 89.408 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 88.9 288.163 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 88.392 284.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 85.852 282.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 96.52 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2284159-b8c1-451f-8cdb-304b4d31d6f4")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 220.98 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb9e07d8-552d-4c5d-a631-ffcd7020cc3d")
+		(property "Reference" "TP35"
+			(at 224.155 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 230.8225 192.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 228.346 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.473 189.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 232.41 189.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 228.981 187.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 228.092 188.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 228.6 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 228.6 188.087 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 228.092 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 228.6 189.357 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 229.108 192.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 231.648 194.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 220.98 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fc5059f-8107-4935-b392-9caeaca25ab9")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP35")
 					(unit 1)
 				)
 			)
@@ -19228,7 +21871,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 60.96 201.93 0)
+		(at 45.72 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19237,7 +21880,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf38425e-cfdb-4ef5-afd4-b18b7f988f34")
 		(property "Reference" "#PWR049"
-			(at 60.96 208.28 0)
+			(at 45.72 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19246,7 +21889,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 207.01 0)
+			(at 45.72 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19255,7 +21898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 201.93 0)
+			(at 45.72 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19264,7 +21907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 201.93 0)
+			(at 45.72 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19273,7 +21916,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 201.93 0)
+			(at 45.72 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19443,7 +22086,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC")
-		(at 198.12 71.12 0)
+		(at 140.97 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19452,7 +22095,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7e54d9f-d29f-42f4-b1d0-7324b30bc1c6")
 		(property "Reference" "#PWR0102"
-			(at 198.12 74.93 0)
+			(at 140.97 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19461,7 +22104,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 198.12 66.04 0)
+			(at 140.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19469,7 +22112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 71.12 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19478,7 +22121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 71.12 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19487,7 +22130,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 198.12 71.12 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19509,7 +22152,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
-		(at 182.88 57.15 0)
+		(at 125.73 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19517,7 +22160,7 @@
 		(dnp no)
 		(uuid "c7f45d32-b937-4e46-8bd1-6af0132a361b")
 		(property "Reference" "C39"
-			(at 185.42 56.515 0)
+			(at 128.27 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19526,7 +22169,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 185.42 59.055 0)
+			(at 128.27 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19535,7 +22178,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 182.88 -19.05 0)
+			(at 125.73 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19545,7 +22188,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108070630_Murata-Electronics-GRM033R61E104KE14J_C2649540.pdf"
-			(at 182.88 -16.51 0)
+			(at 125.73 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19555,7 +22198,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X7R 10% Ceramic Capacitor 0201"
-			(at 182.88 -6.35 0)
+			(at 125.73 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19565,7 +22208,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 182.88 -13.97 0)
+			(at 125.73 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19575,7 +22218,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
-			(at 182.88 -11.43 0)
+			(at 125.73 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19585,7 +22228,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 182.88 -3.81 0)
+			(at 125.73 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19595,7 +22238,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-14571-1-ND"
-			(at 182.88 -1.27 0)
+			(at 125.73 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19605,7 +22248,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 182.88 1.27 0)
+			(at 125.73 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19615,7 +22258,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM033R61E104KE4J"
-			(at 182.88 3.81 0)
+			(at 125.73 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19625,7 +22268,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 182.88 6.35 0)
+			(at 125.73 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19635,7 +22278,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C2649540"
-			(at 182.88 8.89 0)
+			(at 125.73 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19645,7 +22288,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000000"
-			(at 182.88 -8.89 0)
+			(at 125.73 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19655,7 +22298,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 182.88 57.15 0)
+			(at 125.73 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19680,7 +22323,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_6pF_50V_C0G_15%")
-		(at 60.96 199.39 0)
+		(at 45.72 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19688,7 +22331,7 @@
 		(dnp no)
 		(uuid "c914fa15-5e1e-4341-b365-b77d9a9c323b")
 		(property "Reference" "C11"
-			(at 55.88 197.485 0)
+			(at 40.64 197.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19697,7 +22340,7 @@
 			)
 		)
 		(property "Value" "6pF 50V"
-			(at 52.07 201.93 0)
+			(at 36.83 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19706,7 +22349,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 60.96 123.19 0)
+			(at 45.72 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19716,7 +22359,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1H6R0BA01-01.pdf"
-			(at 60.96 125.73 0)
+			(at 45.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19726,7 +22369,7 @@
 			)
 		)
 		(property "Description" "6pF 50V C0G 15% Ceramic Capacitor 0201"
-			(at 60.96 135.89 0)
+			(at 45.72 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19736,7 +22379,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 60.96 128.27 0)
+			(at 45.72 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19746,7 +22389,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM0335C1H6R0BA01D"
-			(at 60.96 130.81 0)
+			(at 45.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19756,7 +22399,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 60.96 138.43 0)
+			(at 45.72 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19766,7 +22409,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-11339-1-ND"
-			(at 60.96 140.97 0)
+			(at 45.72 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19776,7 +22419,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 60.96 143.51 0)
+			(at 45.72 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19786,7 +22429,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM0335C1H6R0BA1D"
-			(at 60.96 146.05 0)
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19796,7 +22439,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 60.96 148.59 0)
+			(at 45.72 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19806,7 +22449,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C161434"
-			(at 60.96 151.13 0)
+			(at 45.72 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19816,7 +22459,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000009"
-			(at 60.96 133.35 0)
+			(at 45.72 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19826,7 +22469,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 60.96 199.39 0)
+			(at 45.72 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20237,7 +22880,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
-		(at 152.4 73.66 0)
+		(at 95.25 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20245,7 +22888,7 @@
 		(dnp no)
 		(uuid "cca24d91-925f-4433-89a5-e6261f5b6ee0")
 		(property "Reference" "C33"
-			(at 154.94 73.025 0)
+			(at 97.79 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20254,7 +22897,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 154.94 75.565 0)
+			(at 97.79 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20263,7 +22906,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 152.4 -2.54 0)
+			(at 95.25 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20273,7 +22916,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108070630_Murata-Electronics-GRM033R61E104KE14J_C2649540.pdf"
-			(at 152.4 0 0)
+			(at 95.25 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20283,7 +22926,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X7R 10% Ceramic Capacitor 0201"
-			(at 152.4 10.16 0)
+			(at 95.25 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20293,7 +22936,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 152.4 2.54 0)
+			(at 95.25 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20303,7 +22946,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
-			(at 152.4 5.08 0)
+			(at 95.25 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20313,7 +22956,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 152.4 12.7 0)
+			(at 95.25 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20323,7 +22966,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-14571-1-ND"
-			(at 152.4 15.24 0)
+			(at 95.25 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20333,7 +22976,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 152.4 17.78 0)
+			(at 95.25 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20343,7 +22986,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM033R61E104KE4J"
-			(at 152.4 20.32 0)
+			(at 95.25 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20353,7 +22996,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 152.4 22.86 0)
+			(at 95.25 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20363,7 +23006,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C2649540"
-			(at 152.4 25.4 0)
+			(at 95.25 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20373,7 +23016,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000000"
-			(at 152.4 7.62 0)
+			(at 95.25 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20383,7 +23026,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 152.4 73.66 0)
+			(at 95.25 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20556,7 +23199,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_6pF_50V_C0G_15%")
-		(at 76.2 199.39 0)
+		(at 60.96 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20564,7 +23207,7 @@
 		(dnp no)
 		(uuid "cee19081-61c6-46e8-8791-dff212fdba3c")
 		(property "Reference" "C12"
-			(at 77.216 197.612 0)
+			(at 61.976 197.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20573,7 +23216,7 @@
 			)
 		)
 		(property "Value" "6pF 50V"
-			(at 77.216 201.168 0)
+			(at 61.976 201.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20582,7 +23225,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 76.2 123.19 0)
+			(at 60.96 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20592,7 +23235,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1H6R0BA01-01.pdf"
-			(at 76.2 125.73 0)
+			(at 60.96 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20602,7 +23245,7 @@
 			)
 		)
 		(property "Description" "6pF 50V C0G 15% Ceramic Capacitor 0201"
-			(at 76.2 135.89 0)
+			(at 60.96 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20612,7 +23255,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 76.2 128.27 0)
+			(at 60.96 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20622,7 +23265,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM0335C1H6R0BA01D"
-			(at 76.2 130.81 0)
+			(at 60.96 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20632,7 +23275,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 76.2 138.43 0)
+			(at 60.96 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20642,7 +23285,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-11339-1-ND"
-			(at 76.2 140.97 0)
+			(at 60.96 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20652,7 +23295,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 76.2 143.51 0)
+			(at 60.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20662,7 +23305,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM0335C1H6R0BA1D"
-			(at 76.2 146.05 0)
+			(at 60.96 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20672,7 +23315,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 76.2 148.59 0)
+			(at 60.96 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20682,7 +23325,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C161434"
-			(at 76.2 151.13 0)
+			(at 60.96 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20692,7 +23335,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000009"
-			(at 76.2 133.35 0)
+			(at 60.96 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20702,7 +23345,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 76.2 199.39 0)
+			(at 60.96 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20727,7 +23370,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
-		(at 198.12 73.66 0)
+		(at 140.97 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20735,7 +23378,7 @@
 		(dnp no)
 		(uuid "d042ca78-4a55-4507-8631-a95d637903ed")
 		(property "Reference" "C43"
-			(at 200.66 73.025 0)
+			(at 143.51 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20744,7 +23387,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 200.66 75.565 0)
+			(at 143.51 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20753,7 +23396,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 198.12 -2.54 0)
+			(at 140.97 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20763,7 +23406,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108070630_Murata-Electronics-GRM033R61E104KE14J_C2649540.pdf"
-			(at 198.12 0 0)
+			(at 140.97 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20773,7 +23416,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X7R 10% Ceramic Capacitor 0201"
-			(at 198.12 10.16 0)
+			(at 140.97 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20783,7 +23426,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 198.12 2.54 0)
+			(at 140.97 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20793,7 +23436,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
-			(at 198.12 5.08 0)
+			(at 140.97 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20803,7 +23446,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 198.12 12.7 0)
+			(at 140.97 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20813,7 +23456,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-14571-1-ND"
-			(at 198.12 15.24 0)
+			(at 140.97 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20823,7 +23466,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 198.12 17.78 0)
+			(at 140.97 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20833,7 +23476,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM033R61E104KE4J"
-			(at 198.12 20.32 0)
+			(at 140.97 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20843,7 +23486,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 198.12 22.86 0)
+			(at 140.97 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20853,7 +23496,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C2649540"
-			(at 198.12 25.4 0)
+			(at 140.97 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20863,7 +23506,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000000"
-			(at 198.12 7.62 0)
+			(at 140.97 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20873,7 +23516,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 198.12 73.66 0)
+			(at 140.97 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20898,7 +23541,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 182.88 59.69 0)
+		(at 125.73 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20907,7 +23550,7 @@
 		(fields_autoplaced yes)
 		(uuid "d38e08c2-510c-4c1e-8da0-f9735fc6391d")
 		(property "Reference" "#PWR096"
-			(at 182.88 66.04 0)
+			(at 125.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20916,7 +23559,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 64.77 0)
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20925,7 +23568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 59.69 0)
+			(at 125.73 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20934,7 +23577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 59.69 0)
+			(at 125.73 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20943,7 +23586,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 59.69 0)
+			(at 125.73 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21136,7 +23779,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC")
-		(at 100.33 49.53 0)
+		(at 43.18 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21145,7 +23788,7 @@
 		(dnp no)
 		(uuid "d9a6e2ea-2797-4082-80b4-1bb9da076679")
 		(property "Reference" "#PWR0118"
-			(at 100.33 53.34 0)
+			(at 43.18 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21154,7 +23797,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 100.33 45.72 0)
+			(at 43.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21162,7 +23805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 49.53 0)
+			(at 43.18 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21171,7 +23814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 49.53 0)
+			(at 43.18 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21180,7 +23823,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 100.33 49.53 0)
+			(at 43.18 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21711,7 +24354,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
-		(at 167.64 40.64 0)
+		(at 110.49 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21719,7 +24362,7 @@
 		(dnp no)
 		(uuid "e0bd3639-fa93-4ff5-9177-878a6291e195")
 		(property "Reference" "C34"
-			(at 170.18 40.005 0)
+			(at 113.03 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21728,7 +24371,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 170.18 41.91 0)
+			(at 113.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21737,7 +24380,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 167.64 -35.56 0)
+			(at 110.49 -43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21747,7 +24390,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108070630_Murata-Electronics-GRM033R61E104KE14J_C2649540.pdf"
-			(at 167.64 -33.02 0)
+			(at 110.49 -40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21757,7 +24400,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X7R 10% Ceramic Capacitor 0201"
-			(at 167.64 -22.86 0)
+			(at 110.49 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21767,7 +24410,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 167.64 -30.48 0)
+			(at 110.49 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21777,7 +24420,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
-			(at 167.64 -27.94 0)
+			(at 110.49 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21787,7 +24430,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 167.64 -20.32 0)
+			(at 110.49 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21797,7 +24440,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-14571-1-ND"
-			(at 167.64 -17.78 0)
+			(at 110.49 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21807,7 +24450,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 167.64 -15.24 0)
+			(at 110.49 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21817,7 +24460,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM033R61E104KE4J"
-			(at 167.64 -12.7 0)
+			(at 110.49 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21827,7 +24470,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 167.64 -10.16 0)
+			(at 110.49 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21837,7 +24480,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C2649540"
-			(at 167.64 -7.62 0)
+			(at 110.49 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21847,7 +24490,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000000"
-			(at 167.64 -25.4 0)
+			(at 110.49 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21857,7 +24500,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 167.64 40.64 0)
+			(at 110.49 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21882,7 +24525,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 167.64 76.2 0)
+		(at 110.49 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21891,7 +24534,7 @@
 		(fields_autoplaced yes)
 		(uuid "e77fc198-2f3d-404d-9c98-dd2fcaf04889")
 		(property "Reference" "#PWR092"
-			(at 167.64 82.55 0)
+			(at 110.49 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21900,7 +24543,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 81.28 0)
+			(at 110.49 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21909,7 +24552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 76.2 0)
+			(at 110.49 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21918,7 +24561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 76.2 0)
+			(at 110.49 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21927,7 +24570,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 76.2 0)
+			(at 110.49 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21949,7 +24592,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 67.31 201.93 0)
+		(at 52.07 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21958,7 +24601,7 @@
 		(fields_autoplaced yes)
 		(uuid "e85b9306-4143-4622-8fa4-2516a534215e")
 		(property "Reference" "#PWR048"
-			(at 67.31 208.28 0)
+			(at 52.07 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21967,7 +24610,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 207.01 0)
+			(at 52.07 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21976,7 +24619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 201.93 0)
+			(at 52.07 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21985,7 +24628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 201.93 0)
+			(at 52.07 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21994,7 +24637,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 201.93 0)
+			(at 52.07 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22016,7 +24659,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
-		(at 96.52 54.61 0)
+		(at 39.37 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22024,7 +24667,7 @@
 		(dnp no)
 		(uuid "e870a370-2a39-47b1-9e6c-463602e07bea")
 		(property "Reference" "C50"
-			(at 99.695 54.61 0)
+			(at 42.545 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22033,7 +24676,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 99.695 56.515 0)
+			(at 42.545 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22042,7 +24685,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 96.52 -21.59 0)
+			(at 39.37 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22052,7 +24695,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108070630_Murata-Electronics-GRM033R61E104KE14J_C2649540.pdf"
-			(at 96.52 -19.05 0)
+			(at 39.37 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22062,7 +24705,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X7R 10% Ceramic Capacitor 0201"
-			(at 96.52 -8.89 0)
+			(at 39.37 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22072,7 +24715,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 96.52 -16.51 0)
+			(at 39.37 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22082,7 +24725,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
-			(at 96.52 -13.97 0)
+			(at 39.37 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22092,7 +24735,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 96.52 -6.35 0)
+			(at 39.37 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22102,7 +24745,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-14571-1-ND"
-			(at 96.52 -3.81 0)
+			(at 39.37 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22112,7 +24755,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 96.52 -1.27 0)
+			(at 39.37 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22122,7 +24765,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM033R61E104KE4J"
-			(at 96.52 1.27 0)
+			(at 39.37 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22132,7 +24775,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 96.52 3.81 0)
+			(at 39.37 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22142,7 +24785,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C2649540"
-			(at 96.52 6.35 0)
+			(at 39.37 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22152,7 +24795,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000000"
-			(at 96.52 -11.43 0)
+			(at 39.37 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22162,7 +24805,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 96.52 54.61 0)
+			(at 39.37 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22187,7 +24830,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 96.52 57.15 0)
+		(at 39.37 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22196,7 +24839,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb4f7448-e97e-423b-9f9f-c61f31c2340c")
 		(property "Reference" "#PWR0109"
-			(at 96.52 63.5 0)
+			(at 39.37 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22205,7 +24848,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 62.23 0)
+			(at 39.37 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22214,7 +24857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 57.15 0)
+			(at 39.37 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22223,7 +24866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 57.15 0)
+			(at 39.37 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22232,7 +24875,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 57.15 0)
+			(at 39.37 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22254,7 +24897,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC")
-		(at 198.12 54.61 0)
+		(at 140.97 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22263,7 +24906,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecf2ab30-1330-4405-8669-de386eeda5b9")
 		(property "Reference" "#PWR0100"
-			(at 198.12 58.42 0)
+			(at 140.97 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22272,7 +24915,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 198.12 49.53 0)
+			(at 140.97 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22280,7 +24923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 54.61 0)
+			(at 140.97 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22289,7 +24932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 54.61 0)
+			(at 140.97 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22298,7 +24941,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 198.12 54.61 0)
+			(at 140.97 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22320,7 +24963,7 @@
 	)
 	(symbol
 		(lib_id "BR_Optoelectronic:ORH-G36G")
-		(at 53.34 283.21 0)
+		(at 48.26 283.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22328,7 +24971,7 @@
 		(dnp no)
 		(uuid "ed22d1e4-9301-416f-b6e7-b2be0929044c")
 		(property "Reference" "D1"
-			(at 53.34 281.051 0)
+			(at 48.26 281.051 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22336,7 +24979,7 @@
 			)
 		)
 		(property "Value" "DEBUG"
-			(at 53.34 286.512 0)
+			(at 48.26 286.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22344,7 +24987,7 @@
 			)
 		)
 		(property "Footprint" "BR_Optoelectronics:LED_0603_1608Metric"
-			(at 53.34 207.01 0)
+			(at 48.26 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22354,7 +24997,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811092313_Orient-ORH-G36G_C205443.pdf"
-			(at 53.34 209.55 0)
+			(at 48.26 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22364,7 +25007,7 @@
 			)
 		)
 		(property "Description" "Green 525nm LED Indicator 2.8V 30mA max SMT 0603"
-			(at 53.34 219.71 0)
+			(at 48.26 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22374,7 +25017,7 @@
 			)
 		)
 		(property "Manufacturer" "Orient"
-			(at 53.34 212.09 0)
+			(at 48.26 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22384,7 +25027,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "ORH-G36G"
-			(at 53.34 214.63 0)
+			(at 48.26 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22394,7 +25037,7 @@
 			)
 		)
 		(property "Supplier 1" ""
-			(at 53.34 222.25 0)
+			(at 48.26 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22404,7 +25047,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" ""
-			(at 53.34 224.79 0)
+			(at 48.26 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22414,7 +25057,7 @@
 			)
 		)
 		(property "Supplier 2" ""
-			(at 53.34 227.33 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22424,7 +25067,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" ""
-			(at 53.34 229.87 0)
+			(at 48.26 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22434,7 +25077,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 53.34 232.41 0)
+			(at 48.26 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22444,7 +25087,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C205443"
-			(at 53.34 234.95 0)
+			(at 48.26 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22454,7 +25097,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000251"
-			(at 53.34 217.17 0)
+			(at 48.26 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22464,7 +25107,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 53.34 283.21 0)
+			(at 48.26 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22489,7 +25132,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
-		(at 167.64 73.66 0)
+		(at 110.49 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22497,7 +25140,7 @@
 		(dnp no)
 		(uuid "ed86d0e6-a947-4448-bbe7-ec72b5138c55")
 		(property "Reference" "C36"
-			(at 170.18 73.025 0)
+			(at 113.03 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22506,7 +25149,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 170.18 75.565 0)
+			(at 113.03 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22515,7 +25158,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 167.64 -2.54 0)
+			(at 110.49 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22525,7 +25168,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108070630_Murata-Electronics-GRM033R61E104KE14J_C2649540.pdf"
-			(at 167.64 0 0)
+			(at 110.49 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22535,7 +25178,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X7R 10% Ceramic Capacitor 0201"
-			(at 167.64 10.16 0)
+			(at 110.49 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22545,7 +25188,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 167.64 2.54 0)
+			(at 110.49 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22555,7 +25198,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
-			(at 167.64 5.08 0)
+			(at 110.49 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22565,7 +25208,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 167.64 12.7 0)
+			(at 110.49 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22575,7 +25218,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-14571-1-ND"
-			(at 167.64 15.24 0)
+			(at 110.49 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22585,7 +25228,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 167.64 17.78 0)
+			(at 110.49 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22595,7 +25238,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM033R61E104KE4J"
-			(at 167.64 20.32 0)
+			(at 110.49 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22605,7 +25248,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 167.64 22.86 0)
+			(at 110.49 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22615,7 +25258,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C2649540"
-			(at 167.64 25.4 0)
+			(at 110.49 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22625,7 +25268,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000000"
-			(at 167.64 7.62 0)
+			(at 110.49 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22635,7 +25278,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 167.64 73.66 0)
+			(at 110.49 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23021,7 +25664,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 91.44 57.15 0)
+		(at 34.29 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23030,7 +25673,7 @@
 		(fields_autoplaced yes)
 		(uuid "f24bde9c-3013-45d7-abab-816991aedcfc")
 		(property "Reference" "#PWR0111"
-			(at 91.44 63.5 0)
+			(at 34.29 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23039,7 +25682,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 62.23 0)
+			(at 34.29 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23048,7 +25691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 57.15 0)
+			(at 34.29 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23057,7 +25700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 57.15 0)
+			(at 34.29 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23066,7 +25709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 57.15 0)
+			(at 34.29 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23153,7 +25796,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
-		(at 198.12 57.15 0)
+		(at 140.97 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23161,7 +25804,7 @@
 		(dnp no)
 		(uuid "f32cdbbf-8bb6-4128-85be-1bf25c35243a")
 		(property "Reference" "C42"
-			(at 200.66 56.515 0)
+			(at 143.51 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23170,7 +25813,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 200.66 59.055 0)
+			(at 143.51 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23179,7 +25822,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 198.12 -19.05 0)
+			(at 140.97 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23189,7 +25832,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108070630_Murata-Electronics-GRM033R61E104KE14J_C2649540.pdf"
-			(at 198.12 -16.51 0)
+			(at 140.97 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23199,7 +25842,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X7R 10% Ceramic Capacitor 0201"
-			(at 198.12 -6.35 0)
+			(at 140.97 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23209,7 +25852,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 198.12 -13.97 0)
+			(at 140.97 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23219,7 +25862,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
-			(at 198.12 -11.43 0)
+			(at 140.97 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23229,7 +25872,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 198.12 -3.81 0)
+			(at 140.97 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23239,7 +25882,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-14571-1-ND"
-			(at 198.12 -1.27 0)
+			(at 140.97 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23249,7 +25892,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 198.12 1.27 0)
+			(at 140.97 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23259,7 +25902,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM033R61E104KE4J"
-			(at 198.12 3.81 0)
+			(at 140.97 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23269,7 +25912,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 198.12 6.35 0)
+			(at 140.97 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23279,7 +25922,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C2649540"
-			(at 198.12 8.89 0)
+			(at 140.97 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23289,7 +25932,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000000"
-			(at 198.12 -8.89 0)
+			(at 140.97 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23299,7 +25942,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 198.12 57.15 0)
+			(at 140.97 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23324,7 +25967,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 152.4 76.2 0)
+		(at 95.25 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23333,7 +25976,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4e1b7f7-5382-416d-8bb8-7c27c65ff5a9")
 		(property "Reference" "#PWR089"
-			(at 152.4 82.55 0)
+			(at 95.25 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23342,7 +25985,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 81.28 0)
+			(at 95.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23351,7 +25994,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 76.2 0)
+			(at 95.25 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23360,7 +26003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 76.2 0)
+			(at 95.25 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23369,7 +26012,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 76.2 0)
+			(at 95.25 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23457,7 +26100,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
-		(at 152.4 57.15 0)
+		(at 95.25 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23465,7 +26108,7 @@
 		(dnp no)
 		(uuid "fad3c3b6-74f6-4613-83fa-f2d626417276")
 		(property "Reference" "C32"
-			(at 154.94 56.515 0)
+			(at 97.79 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23474,7 +26117,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 154.94 59.055 0)
+			(at 97.79 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23483,7 +26126,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-			(at 152.4 -19.05 0)
+			(at 95.25 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23493,7 +26136,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108070630_Murata-Electronics-GRM033R61E104KE14J_C2649540.pdf"
-			(at 152.4 -16.51 0)
+			(at 95.25 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23503,7 +26146,7 @@
 			)
 		)
 		(property "Description" "100nF 25V X7R 10% Ceramic Capacitor 0201"
-			(at 152.4 -6.35 0)
+			(at 95.25 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23513,7 +26156,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 152.4 -13.97 0)
+			(at 95.25 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23523,7 +26166,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
-			(at 152.4 -11.43 0)
+			(at 95.25 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23533,7 +26176,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 152.4 -3.81 0)
+			(at 95.25 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23543,7 +26186,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-14571-1-ND"
-			(at 152.4 -1.27 0)
+			(at 95.25 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23553,7 +26196,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 152.4 1.27 0)
+			(at 95.25 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23563,7 +26206,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM033R61E104KE4J"
-			(at 152.4 3.81 0)
+			(at 95.25 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23573,7 +26216,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 152.4 6.35 0)
+			(at 95.25 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23583,7 +26226,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C2649540"
-			(at 152.4 8.89 0)
+			(at 95.25 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23593,7 +26236,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000000"
-			(at 152.4 -8.89 0)
+			(at 95.25 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23603,7 +26246,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 152.4 57.15 0)
+			(at 95.25 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23628,7 +26271,7 @@
 	)
 	(symbol
 		(lib_id "BR_Oscillators:Xtal_NX2016SA-25MHZ")
-		(at 64.77 193.04 0)
+		(at 49.53 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23636,7 +26279,7 @@
 		(dnp no)
 		(uuid "fba585bb-5067-4fd1-b8f2-a765ef08f3a2")
 		(property "Reference" "X1"
-			(at 64.135 189.23 0)
+			(at 48.895 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23645,7 +26288,7 @@
 			)
 		)
 		(property "Value" "25MHz 8pF"
-			(at 64.135 191.77 0)
+			(at 48.895 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23654,7 +26297,7 @@
 			)
 		)
 		(property "Footprint" "BR_Oscillators:Crystal_SMD_2016-4Pin_2.0x1.6mm"
-			(at 64.77 116.84 0)
+			(at 49.53 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23664,7 +26307,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2010091907_NDK-NX2016SA-25MHZ-STD-CZS-2_C843258.pdf"
-			(at 64.77 119.38 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23674,7 +26317,7 @@
 			)
 		)
 		(property "Description" "25 MHz Crystal 8pF ±25ppm 4-SMD2016 (2x1.6)"
-			(at 64.77 129.54 0)
+			(at 49.53 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23684,7 +26327,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 64.77 142.24 0)
+			(at 49.53 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23694,7 +26337,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "NX2016SA-25MHZ-STD-CZS-2"
-			(at 64.77 124.46 0)
+			(at 49.53 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23704,7 +26347,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C843258"
-			(at 64.77 144.78 0)
+			(at 49.53 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23714,7 +26357,7 @@
 			)
 		)
 		(property "Manufacturer" "NDK"
-			(at 64.77 121.92 0)
+			(at 49.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23724,7 +26367,7 @@
 			)
 		)
 		(property "Supplier 1" "Digikey"
-			(at 64.77 132.08 0)
+			(at 49.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23734,7 +26377,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "~"
-			(at 64.77 134.62 0)
+			(at 49.53 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23744,7 +26387,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 64.77 137.16 0)
+			(at 49.53 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23754,7 +26397,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "~"
-			(at 64.77 139.7 0)
+			(at 49.53 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23764,7 +26407,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000257"
-			(at 64.77 127 0)
+			(at 49.53 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23774,7 +26417,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 64.77 193.04 0)
+			(at 49.53 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
