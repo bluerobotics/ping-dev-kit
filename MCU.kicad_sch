@@ -8088,6 +8088,9 @@
 			"DQS"
 		)
 	)
+	(bus_alias "SPI"
+		(members "NSS" "SCK" "MISO" "MOSI")
+	)
 	(text "AF0: MC02"
 		(exclude_from_sim no)
 		(at 240.792 251.206 0)
@@ -8220,6 +8223,17 @@
 		)
 		(uuid "3797415c-4334-4a37-815d-0fc12f5121fd")
 	)
+	(text "AF2: SPI5_NSS"
+		(exclude_from_sim no)
+		(at 88.392 200.406 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f0ff7d4-1c8b-456d-81ab-62c7a16f809c")
+	)
 	(text "AF4: OCTOSPI1_CLK"
 		(exclude_from_sim no)
 		(at 69.342 291.846 0)
@@ -8274,6 +8288,17 @@
 			(justify left bottom)
 		)
 		(uuid "54d19b28-5d70-45ba-bca8-934698781c41")
+	)
+	(text "AF5: SPI5_MOSI\n"
+		(exclude_from_sim no)
+		(at 88.392 208.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55502146-a232-4d2a-a8a7-8fec5c448b9f")
 	)
 	(text "AF0: SWDIO"
 		(exclude_from_sim no)
@@ -8572,6 +8597,17 @@
 		)
 		(uuid "d70e0eb3-11dd-4606-90d7-c29b86ce1b23")
 	)
+	(text "AF4: SPI5_MISO"
+		(exclude_from_sim no)
+		(at 88.392 205.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dff011ab-897f-447f-9e34-96350b4b844b")
+	)
 	(text "ADC1_INP2\n"
 		(exclude_from_sim no)
 		(at 76.962 294.386 0)
@@ -8625,6 +8661,17 @@
 			(justify right bottom)
 		)
 		(uuid "f8ac287a-a501-4318-acc1-affdecd9e7d9")
+	)
+	(text "AF5: SPI5_SCK"
+		(exclude_from_sim no)
+		(at 88.392 202.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe2661e3-88c3-4d41-9c54-3df871bab865")
 	)
 	(junction
 		(at 157.48 361.95)
@@ -8961,10 +9008,6 @@
 		(uuid "28883ab8-08fa-44e0-bf42-08a48fd8c43d")
 	)
 	(no_connect
-		(at 121.92 199.39)
-		(uuid "2a191f1b-3e42-4891-8a35-206c68b41139")
-	)
-	(no_connect
 		(at 195.58 153.67)
 		(uuid "2a4d7da1-421c-4e0a-9c17-f77d735b321b")
 	)
@@ -8995,10 +9038,6 @@
 	(no_connect
 		(at 195.58 331.47)
 		(uuid "4458ad42-f12c-42ed-8826-49241648e84b")
-	)
-	(no_connect
-		(at 121.92 201.93)
-		(uuid "490721fd-3cf6-43c9-a1db-0ff6723ec7df")
 	)
 	(no_connect
 		(at 195.58 247.65)
@@ -9121,10 +9160,6 @@
 		(uuid "bcdfd3e1-0157-43e9-a72b-37f652503017")
 	)
 	(no_connect
-		(at 121.92 207.01)
-		(uuid "bf833931-b383-41b0-bc06-5eb8c9d71b64")
-	)
-	(no_connect
 		(at 195.58 351.79)
 		(uuid "c100ec6a-24a0-4322-b0ca-3cc5442b6678")
 	)
@@ -9167,10 +9202,6 @@
 	(no_connect
 		(at 121.92 161.29)
 		(uuid "dc679304-e3d5-4923-a29a-71e1f9477b1d")
-	)
-	(no_connect
-		(at 121.92 204.47)
-		(uuid "de3db432-a867-43dc-b7d8-7d5ffec60879")
 	)
 	(no_connect
 		(at 195.58 293.37)
@@ -9257,6 +9288,24 @@
 		(uuid "51f527d9-2771-4e9d-978a-3426f83879e3")
 	)
 	(bus_entry
+		(at 214.63 95.25)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b4af50-795a-4a21-8963-40e39a99bce9")
+	)
+	(bus_entry
+		(at 214.63 97.79)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c969c9-d5b7-436f-9e80-307f24cf699b")
+	)
+	(bus_entry
 		(at 215.9 53.34)
 		(size 2.54 2.54)
 		(stroke
@@ -9300,6 +9349,15 @@
 			(type default)
 		)
 		(uuid "6c0f393a-d056-49e6-8b8a-6739cdf596cb")
+	)
+	(bus_entry
+		(at 214.63 100.33)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e746b2-9822-44cd-8d06-2b02444ef176")
 	)
 	(bus_entry
 		(at 215.9 25.4)
@@ -9392,6 +9450,15 @@
 		(uuid "d2190004-1d1a-4971-ac4c-eb1ebba9cdfa")
 	)
 	(bus_entry
+		(at 214.63 92.71)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7cc985b-1a8e-4351-adcc-039ca1d14c1b")
+	)
+	(bus_entry
 		(at 215.9 68.58)
 		(size 2.54 2.54)
 		(stroke
@@ -9428,6 +9495,26 @@
 			(type default)
 		)
 		(uuid "04eabb5f-e782-4fb3-a794-10b94ca04780")
+	)
+	(bus
+		(pts
+			(xy 217.17 97.79) (xy 217.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d1b999-0a39-4dc6-8dd5-8131af981374")
+	)
+	(bus
+		(pts
+			(xy 217.17 100.33) (xy 217.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0828050a-2881-4ffa-b630-78490c309954")
 	)
 	(wire
 		(pts
@@ -9551,6 +9638,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 100.33) (xy 189.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183bc240-8ecf-44ce-8644-56b864b85d7d")
+	)
+	(wire
+		(pts
 			(xy 114.3 318.77) (xy 114.3 321.31)
 		)
 		(stroke
@@ -9628,6 +9725,16 @@
 			(type default)
 		)
 		(uuid "224982fc-6fff-4965-8edb-494643292178")
+	)
+	(wire
+		(pts
+			(xy 121.92 201.93) (xy 96.52 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e20401-6531-4e42-a7af-3227c463727b")
 	)
 	(wire
 		(pts
@@ -9721,6 +9828,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 97.79) (xy 189.23 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7f9e5d-a6dd-4897-96f9-9a9c71fc8863")
+	)
+	(wire
+		(pts
 			(xy 105.41 328.93) (xy 111.76 328.93)
 		)
 		(stroke
@@ -9738,6 +9855,16 @@
 			(type default)
 		)
 		(uuid "30f9d651-4752-431d-b6cf-21ed4d1f94ff")
+	)
+	(bus
+		(pts
+			(xy 217.17 95.25) (xy 217.17 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "312c923d-23f8-4d9c-aa09-df26d74498f8")
 	)
 	(wire
 		(pts
@@ -10001,6 +10128,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 207.01) (xy 96.52 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d0a9ba-0fd7-4ec0-baba-2835a75afb19")
+	)
+	(wire
+		(pts
 			(xy 215.9 306.07) (xy 228.6 306.07)
 		)
 		(stroke
@@ -10221,6 +10358,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 92.71) (xy 189.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740594c3-ade5-41e1-85a8-4d8df8cfd10c")
+	)
+	(wire
+		(pts
 			(xy 114.3 321.31) (xy 121.92 321.31)
 		)
 		(stroke
@@ -10258,6 +10405,16 @@
 			(type default)
 		)
 		(uuid "7e0dc915-16c1-47e4-9df1-faf049768742")
+	)
+	(wire
+		(pts
+			(xy 214.63 95.25) (xy 189.23 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebee2ef-235b-4900-a46a-02ad61e2cfaa")
 	)
 	(bus
 		(pts
@@ -10348,6 +10505,16 @@
 			(type default)
 		)
 		(uuid "879334be-73c9-45bb-acd7-e30553c73882")
+	)
+	(wire
+		(pts
+			(xy 121.92 204.47) (xy 96.52 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a7b172-4367-47fe-8c12-2a1516bcb910")
 	)
 	(wire
 		(pts
@@ -10478,6 +10645,16 @@
 			(type default)
 		)
 		(uuid "9ebb2f97-2dfc-412f-b21f-1fb994f64131")
+	)
+	(wire
+		(pts
+			(xy 121.92 199.39) (xy 96.52 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f35dcb5-b168-4ea4-bcb3-ba30908262fb")
 	)
 	(bus
 		(pts
@@ -11039,6 +11216,16 @@
 		)
 		(uuid "f6eb8c17-30d5-4fc9-b5c1-e8377f36e829")
 	)
+	(bus
+		(pts
+			(xy 217.17 102.87) (xy 236.22 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a8caf2-8301-412d-8dba-30ba321bd789")
+	)
 	(wire
 		(pts
 			(xy 190.5 33.02) (xy 215.9 33.02)
@@ -11089,6 +11276,16 @@
 		)
 		(uuid "08407097-16ca-4c3c-971d-0792c98e41f1")
 	)
+	(label "SPI5{SPI}"
+		(at 236.22 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e1c2c2d-d523-4652-8a33-586b8cec8d82")
+	)
 	(label "COMM_P"
 		(at 220.98 171.45 180)
 		(effects
@@ -11108,6 +11305,16 @@
 			(justify right bottom)
 		)
 		(uuid "12c2f255-2449-46fa-ba4b-6f5b166130ae")
+	)
+	(label "SPI5.MOSI"
+		(at 189.23 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12fd0411-e3d8-49f8-bbcf-e633261fb9b3")
 	)
 	(label "COMM_N"
 		(at 220.98 168.91 180)
@@ -11148,6 +11355,26 @@
 			(justify left bottom)
 		)
 		(uuid "2306443f-4b1e-42fe-a402-b19dd380a685")
+	)
+	(label "SPI5.MISO"
+		(at 189.23 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2345ec73-f11a-401d-b8d4-638179dcdb04")
+	)
+	(label "SPI5.NSS"
+		(at 96.52 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25bbf80a-0f8b-418d-a78b-c4774ee50d24")
 	)
 	(label "MAC{RMII}"
 		(at 236.22 83.82 180)
@@ -11208,6 +11435,26 @@
 			(justify left bottom)
 		)
 		(uuid "37e7db97-df55-45ec-9dfc-ce6145940d2c")
+	)
+	(label "SPI5.NSS"
+		(at 189.23 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38e01d76-f23f-4fc9-b7fa-992cbc632f46")
+	)
+	(label "SPI5.MISO"
+		(at 96.52 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b0d2b01-4845-4c4b-b412-97d379f6ae32")
 	)
 	(label "OCTOSPI1.IO0"
 		(at 96.52 285.75 0)
@@ -11369,6 +11616,16 @@
 		)
 		(uuid "6a26e831-e044-41ac-aa1e-a74044b94525")
 	)
+	(label "SPI5.SCK"
+		(at 96.52 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dc520c0-adc8-4de4-96ca-7f889ba73cb4")
+	)
 	(label "DAC"
 		(at 220.98 151.13 180)
 		(effects
@@ -11418,6 +11675,16 @@
 			(justify right bottom)
 		)
 		(uuid "7b1b1eda-ee59-4e49-a1db-adaef123a1a5")
+	)
+	(label "SPI5.MOSI"
+		(at 96.52 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f0b3282-81a0-4af3-ac54-e4aae1974952")
 	)
 	(label "VTHERM"
 		(at 96.52 293.37 0)
@@ -11819,6 +12086,16 @@
 		)
 		(uuid "fce5531b-3390-48e6-9642-b6530d516bf3")
 	)
+	(label "SPI5.SCK"
+		(at 189.23 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe0610ca-2283-4e5e-bdfc-22f3c3e342e4")
+	)
 	(label "OCTOSPI1.NCLK"
 		(at 220.98 196.85 180)
 		(effects
@@ -11828,6 +12105,17 @@
 			(justify right bottom)
 		)
 		(uuid "fe2a8877-fe1c-4e54-bbb3-3fedad44299a")
+	)
+	(hierarchical_label "SPI5{SPI}"
+		(shape bidirectional)
+		(at 236.22 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fa09f7b-8f82-4350-92e8-64fdcde28f69")
 	)
 	(hierarchical_label "OCTOSPI1{OCTOSPI}"
 		(shape bidirectional)
@@ -17631,6 +17919,154 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 96.52 201.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "66cc3063-df6c-44d4-b1e6-40e5d7083629")
+		(property "Reference" "TP52"
+			(at 93.345 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 86.6775 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 89.154 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.027 201.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 85.09 201.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 88.519 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 89.408 202.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 88.9 203.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 88.9 203.073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 89.408 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 88.9 201.803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 88.392 198.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 85.852 196.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 96.52 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "612ca383-8923-49c5-9a48-aa7d7c9ba122")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
 		(at 93.98 156.21 0)
 		(unit 1)
@@ -19162,6 +19598,154 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
 					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 96.52 199.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7eead173-89ee-4978-8c2b-96764a7b1607")
+		(property "Reference" "TP51"
+			(at 93.345 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 86.6775 196.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 89.154 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.027 199.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 85.09 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 88.519 200.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 89.408 199.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 88.9 201.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 88.9 200.533 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 89.408 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 88.9 199.263 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 88.392 195.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 85.852 194.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 96.52 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcae4a78-1449-4da1-a03a-5c3a5ed7d251")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP51")
 					(unit 1)
 				)
 			)
@@ -24239,6 +24823,154 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 96.52 207.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca70d967-acb8-4ec2-b30c-02ea9f8da609")
+		(property "Reference" "TP54"
+			(at 93.345 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 86.6775 203.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 89.154 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.027 206.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 85.09 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 88.519 208.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 89.408 207.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 88.9 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 88.9 208.153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 89.408 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 88.9 206.883 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 88.392 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 85.852 201.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 96.52 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d690382-e8f5-4ff5-b26e-179e20c976ae")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Resistors_0201:R_0201_4k7")
 		(at 232.41 300.99 90)
 		(unit 1)
@@ -25451,6 +26183,154 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 96.52 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d99f26d9-5d1a-4c3f-a3d1-2a5fe6a82186")
+		(property "Reference" "TP53"
+			(at 93.345 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 86.6775 201.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 89.154 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.027 204.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 85.09 203.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 88.519 205.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 89.408 204.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 88.9 206.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 88.9 205.613 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 89.408 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 88.9 204.343 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "~"
+			(at 88.392 200.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "~"
+			(at 85.852 199.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BR ID" ""
+			(at 96.52 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dfc57ac-a2f6-4990-9e83-9a4bcf85f516")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP53")
 					(unit 1)
 				)
 			)
