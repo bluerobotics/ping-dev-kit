@@ -4018,7 +4018,20 @@
 		)
 		(uuid "193450d7-a8e0-49fb-97f1-d284002155d6")
 	)
-	(text "TODO: if preamp supply is changed, change all the 5V labels"
+	(text "Fixed-Gain Pre-Amp"
+		(exclude_from_sim no)
+		(at 58.928 60.96 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "34f9b496-ac59-438c-9bff-454e11a89068")
+	)
+	(text "TODO: when preamp supply is changed, change all the 5V labels"
 		(exclude_from_sim no)
 		(at 129.794 154.94 0)
 		(effects
@@ -4033,7 +4046,7 @@
 	)
 	(text "5.3MHz LPF"
 		(exclude_from_sim no)
-		(at 95.25 102.362 0)
+		(at 99.568 88.138 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4043,7 +4056,7 @@
 	)
 	(text "Input common voltage range is from (V- + 2) to (V+ - 2)"
 		(exclude_from_sim no)
-		(at 53.594 146.304 0)
+		(at 56.388 144.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4060,6 +4073,19 @@
 			)
 		)
 		(uuid "68818a07-2cde-4760-a1b5-c75c1bcbdd72")
+	)
+	(text "Differential to Single-ended Convertor"
+		(exclude_from_sim no)
+		(at 216.916 78.994 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "7af169c1-7c28-49db-94bf-212f40c21c4b")
 	)
 	(text "10kHz HPF using 1k input impedance of chip"
 		(exclude_from_sim no)
@@ -4080,6 +4106,19 @@
 			)
 		)
 		(uuid "c4b777ca-2a10-4776-8933-dd3bc3b2d574")
+	)
+	(text "Variable-Gain Amplifier"
+		(exclude_from_sim no)
+		(at 154.178 71.12 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "dfdecc95-d8ff-4f02-8858-c53ed33274f6")
 	)
 	(text "These caps are way too big for what they need to handle :/"
 		(exclude_from_sim no)
@@ -4875,6 +4914,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 105.41) (xy 140.97 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de8b331a-ec5d-4ad7-a368-0e30c08df6ef")
+	)
+	(wire
+		(pts
 			(xy 140.97 111.76) (xy 130.81 111.76)
 		)
 		(stroke
@@ -5151,6 +5200,17 @@
 			(justify right)
 		)
 		(uuid "6a2f9bbd-1644-4a4f-a3eb-fc6a5cbdf183")
+	)
+	(hierarchical_label "GAIN"
+		(shape input)
+		(at 130.81 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7fe64782-f1d9-4e71-bd43-657374bb1c05")
 	)
 	(hierarchical_label "VINP"
 		(shape input)
