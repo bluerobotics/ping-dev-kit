@@ -4510,6 +4510,16 @@
 	)
 	(bus
 		(pts
+			(xy 190.5 113.03) (xy 254 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4471fd84-2693-4e27-b326-6d3e329602ea")
+	)
+	(bus
+		(pts
 			(xy 50.8 121.92) (xy 50.8 124.46)
 		)
 		(stroke
@@ -4620,7 +4630,7 @@
 	)
 	(bus
 		(pts
-			(xy 320.04 59.69) (xy 269.24 59.69)
+			(xy 354.33 59.69) (xy 303.53 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4900,7 +4910,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 63.5) (xy 320.04 63.5)
+			(xy 303.53 63.5) (xy 354.33 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9542,7 +9552,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 93.98)
+		(at 148.59 93.98)
 		(size 41.91 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9558,7 +9568,7 @@
 		)
 		(uuid "2fc6ea09-24fa-4d2c-bd1f-1a9fb05c28f6")
 		(property "Sheetname" "Ethernet"
-			(at 114.3 93.2684 0)
+			(at 148.59 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9567,7 +9577,7 @@
 			)
 		)
 		(property "Sheetfile" "ethernet.kicad_sch"
-			(at 114.3 135.2046 0)
+			(at 148.59 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9576,7 +9586,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 114.3 100.33 180)
+			(at 148.59 100.33 180)
 			(uuid "efd08331-6cfc-4a7d-bbf9-82f0b6476d19")
 			(effects
 				(font
@@ -9586,7 +9596,7 @@
 			)
 		)
 		(pin "nRST" input
-			(at 156.21 97.79 0)
+			(at 190.5 97.79 0)
 			(uuid "b7b2fef1-6cc6-423e-8ebd-f2359db21049")
 			(effects
 				(font
@@ -9596,7 +9606,7 @@
 			)
 		)
 		(pin "MAC{RMII}" input
-			(at 156.21 113.03 0)
+			(at 190.5 113.03 0)
 			(uuid "ac46a988-ebad-4737-aadc-d5bece5c1c1e")
 			(effects
 				(font
@@ -9606,7 +9616,7 @@
 			)
 		)
 		(pin "ETH{100BASE-T}" input
-			(at 114.3 113.03 180)
+			(at 148.59 113.03 180)
 			(uuid "0d1a3e86-2e62-4e0f-9cab-f22c82a87ed3")
 			(effects
 				(font
@@ -9624,7 +9634,49 @@
 		)
 	)
 	(sheet
-		(at 320.04 53.34)
+		(at 96.52 166.37)
+		(size 41.91 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "40d7249e-68ed-4f35-a69f-990895c5c45f")
+		(property "Sheetname" "TR Switch"
+			(at 96.52 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TR_switch.kicad_sch"
+			(at 96.52 199.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 354.33 53.34)
 		(size 33.02 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9640,7 +9692,7 @@
 		)
 		(uuid "6f7165a2-3645-4606-8b50-0ef734b7d97c")
 		(property "Sheetname" "PSRAM"
-			(at 320.04 52.6284 0)
+			(at 354.33 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9649,7 +9701,7 @@
 			)
 		)
 		(property "Sheetfile" "PSRAM.kicad_sch"
-			(at 320.04 90.7546 0)
+			(at 354.33 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9658,7 +9710,7 @@
 			)
 		)
 		(pin "OCTOSPI1{OCTOSPI}" bidirectional
-			(at 320.04 59.69 180)
+			(at 354.33 59.69 180)
 			(uuid "09cd2eba-4372-4a0a-a483-39ad6c9f7b31")
 			(effects
 				(font
@@ -9668,7 +9720,7 @@
 			)
 		)
 		(pin "PSRAM_nRST" input
-			(at 320.04 63.5 180)
+			(at 354.33 63.5 180)
 			(uuid "3afaaa06-9e18-460a-a947-e56bacb94e9b")
 			(effects
 				(font
@@ -9686,7 +9738,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 144.78)
+		(at 148.59 144.78)
 		(size 41.91 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9702,7 +9754,7 @@
 		)
 		(uuid "75372584-e821-4a7e-ae66-bcf96239ddf7")
 		(property "Sheetname" "RX"
-			(at 114.3 144.0684 0)
+			(at 148.59 144.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9711,7 +9763,7 @@
 			)
 		)
 		(property "Sheetfile" "RX.kicad_sch"
-			(at 114.3 178.3846 0)
+			(at 148.59 178.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9728,7 +9780,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 53.34)
+		(at 148.59 53.34)
 		(size 41.91 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9744,7 +9796,7 @@
 		)
 		(uuid "774f2c6c-c15c-4713-acf0-4edb2ec6be20")
 		(property "Sheetname" "Power"
-			(at 114.3 52.6284 0)
+			(at 148.59 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9753,7 +9805,7 @@
 			)
 		)
 		(property "Sheetfile" "sonar_power.kicad_sch"
-			(at 114.3 85.6746 0)
+			(at 148.59 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9762,7 +9814,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 156.21 60.96 0)
+			(at 190.5 60.96 0)
 			(uuid "d8c26fad-3f09-47fe-80e1-db132dc1f867")
 			(effects
 				(font
@@ -9772,7 +9824,7 @@
 			)
 		)
 		(pin "VIN_PROTECTED" input
-			(at 114.3 60.96 180)
+			(at 148.59 60.96 180)
 			(uuid "b6cd78c1-2d16-44e5-ae31-56f0cbeec581")
 			(effects
 				(font
@@ -9782,7 +9834,7 @@
 			)
 		)
 		(pin "V_SENSE" input
-			(at 156.21 78.74 0)
+			(at 190.5 78.74 0)
 			(uuid "a45626dd-08e8-4643-b8d2-f23dc7138d19")
 			(effects
 				(font
@@ -9800,7 +9852,7 @@
 		)
 	)
 	(sheet
-		(at 166.37 144.78)
+		(at 200.66 144.78)
 		(size 41.91 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9816,7 +9868,7 @@
 		)
 		(uuid "8c671651-babb-4c9c-bd77-08c26a3f95ea")
 		(property "Sheetname" "TGC"
-			(at 166.37 144.0684 0)
+			(at 200.66 144.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,7 +9877,7 @@
 			)
 		)
 		(property "Sheetfile" "time_gain_control.kicad_sch"
-			(at 166.37 178.3846 0)
+			(at 200.66 178.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9842,7 +9894,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 189.23)
+		(at 148.59 186.69)
 		(size 41.91 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9858,7 +9910,7 @@
 		)
 		(uuid "e1c72b00-0544-40b2-bdd8-a4cf7df3ac65")
 		(property "Sheetname" "TX"
-			(at 114.3 188.5184 0)
+			(at 148.59 185.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9867,7 +9919,7 @@
 			)
 		)
 		(property "Sheetfile" "TX.kicad_sch"
-			(at 114.3 222.8346 0)
+			(at 148.59 220.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9884,7 +9936,7 @@
 		)
 	)
 	(sheet
-		(at 219.71 53.34)
+		(at 254 53.34)
 		(size 49.53 168.91)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9900,7 +9952,7 @@
 		)
 		(uuid "ee0d6f49-3c42-47fb-a769-1c20ea80e0b3")
 		(property "Sheetname" "MCU"
-			(at 219.71 52.6284 0)
+			(at 254 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9909,7 +9961,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 219.71 222.8346 0)
+			(at 254 222.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,7 +9970,7 @@
 			)
 		)
 		(pin "OCTOSPI1{OCTOSPI}" bidirectional
-			(at 269.24 59.69 0)
+			(at 303.53 59.69 0)
 			(uuid "53024fed-9b53-438c-a12a-0d570a8afa42")
 			(effects
 				(font
@@ -9928,13 +9980,33 @@
 			)
 		)
 		(pin "PSRAM_nRST" output
-			(at 269.24 63.5 0)
+			(at 303.53 63.5 0)
 			(uuid "7f553821-1e06-4437-90bc-bb272ad1d578")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "SPI5{SPI}" bidirectional
+			(at 303.53 102.87 0)
+			(uuid "330a83bd-58c8-453d-b431-eb747b217995")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MAC{RMII}" bidirectional
+			(at 254 113.03 180)
+			(uuid "07da4e3b-361b-4afb-ad75-6575d4aa6384")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
