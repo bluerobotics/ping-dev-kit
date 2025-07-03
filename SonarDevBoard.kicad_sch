@@ -4244,6 +4244,17 @@
 	(bus_alias "RMII"
 		(members "MDIO" "MDC" "RXD0" "RXD1" "RXER" "RXDV" "TXD0" "TXD1" "TXEN")
 	)
+	(text "Gain is from 0 to 80dB from 0.1 to 1.1V"
+		(exclude_from_sim no)
+		(at 229.87 171.196 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "9fe6378f-21cf-4825-92b6-c6d5f5831639")
+	)
 	(junction
 		(at 68.58 77.47)
 		(diameter 0)
