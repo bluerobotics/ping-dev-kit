@@ -4617,6 +4617,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 60.96) (xy 148.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8aaf72-6404-4eed-8128-5c6bba78a67f")
+	)
+	(wire
+		(pts
 			(xy 53.34 151.13) (xy 43.18 151.13)
 		)
 		(stroke
@@ -4844,6 +4854,16 @@
 			(type default)
 		)
 		(uuid "99b7a8d6-53bb-42d5-9242-3808764bd4e1")
+	)
+	(wire
+		(pts
+			(xy 190.5 76.2) (xy 254 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d444cc-e05c-4bbc-8940-a4d66d729fd8")
 	)
 	(wire
 		(pts
@@ -5214,6 +5234,16 @@
 			(justify right bottom)
 		)
 		(uuid "9375b4f3-6cdf-4ea3-9b51-bbd94d13897d")
+	)
+	(label "VIN_PROTECTED"
+		(at 123.19 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a01c2eea-50d4-40a3-9eac-f577316eaf3d")
 	)
 	(label "RX-"
 		(at 31.75 257.81 0)
@@ -10170,16 +10200,6 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3" input
-			(at 190.5 60.96 0)
-			(uuid "d8c26fad-3f09-47fe-80e1-db132dc1f867")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VIN_PROTECTED" input
 			(at 148.59 60.96 180)
 			(uuid "b6cd78c1-2d16-44e5-ae31-56f0cbeec581")
@@ -10190,9 +10210,49 @@
 				(justify left)
 			)
 		)
-		(pin "V_SENSE" input
-			(at 190.5 78.74 0)
-			(uuid "a45626dd-08e8-4643-b8d2-f23dc7138d19")
+		(pin "V_SENSE" output
+			(at 190.5 76.2 0)
+			(uuid "9ce18eae-8a6d-4ac1-933e-c873332b6f7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1V8" output
+			(at 190.5 60.96 0)
+			(uuid "ce92381c-2b58-4316-b1e6-ce8e7ff0ec77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" output
+			(at 190.5 64.77 0)
+			(uuid "8bcb1e13-847c-44fd-afd2-d97d030eeb74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V" output
+			(at 190.5 68.58 0)
+			(uuid "d4b652b3-4127-4fcc-8a1e-40c86c3839f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "48V" output
+			(at 190.5 72.39 0)
+			(uuid "c4c4014d-ab2e-4b30-969e-989ddeb63857")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10359,6 +10419,16 @@
 		(pin "MAC{RMII}" bidirectional
 			(at 254 113.03 180)
 			(uuid "07da4e3b-361b-4afb-ad75-6575d4aa6384")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_SENSE" input
+			(at 254 76.2 180)
+			(uuid "e04d2085-d7ec-491f-a76e-cae7095e28d4")
 			(effects
 				(font
 					(size 1.27 1.27)

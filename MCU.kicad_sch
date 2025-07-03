@@ -8566,7 +8566,7 @@
 	)
 	(text "ADC1_INP6"
 		(exclude_from_sim no)
-		(at 76.708 296.926 0)
+		(at 104.648 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8744,6 +8744,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5637f2ea-d4b4-426c-a18f-ab43fc8322c0")
+	)
+	(junction
+		(at 96.52 295.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d52d69c-1b1c-4ff5-98df-e817c240c951")
 	)
 	(junction
 		(at 125.73 63.5)
@@ -10968,6 +10974,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 295.91) (xy 96.52 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c52ae9-4dc1-4e2a-bad1-283d02cc9ec1")
+	)
+	(wire
+		(pts
 			(xy 237.49 344.17) (xy 242.57 344.17)
 		)
 		(stroke
@@ -12105,6 +12121,17 @@
 			(justify right bottom)
 		)
 		(uuid "fe2a8877-fe1c-4e54-bbb3-3fedad44299a")
+	)
+	(hierarchical_label "V_SENSE"
+		(shape input)
+		(at 76.2 295.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58d8408b-605b-47c0-9113-76e10435914b")
 	)
 	(hierarchical_label "SPI5{SPI}"
 		(shape bidirectional)
@@ -15789,7 +15816,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
-		(at 96.52 295.91 90)
+		(at 96.52 295.91 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15798,7 +15825,7 @@
 		(dnp no)
 		(uuid "4360361a-2809-4c62-a60e-8d42560a00b5")
 		(property "Reference" "TP37"
-			(at 93.345 295.91 90)
+			(at 96.52 299.085 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15807,7 +15834,7 @@
 			)
 		)
 		(property "Value" "TP_ROUND_TH_300um"
-			(at 86.6775 298.958 0)
+			(at 99.568 305.7525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15817,7 +15844,7 @@
 			)
 		)
 		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
-			(at 89.154 297.18 0)
+			(at 97.79 303.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15826,7 +15853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 89.027 296.164 0)
+			(at 96.774 303.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15835,7 +15862,7 @@
 			)
 		)
 		(property "Description" "test pad surface mount"
-			(at 85.09 296.418 0)
+			(at 97.028 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15844,7 +15871,7 @@
 			)
 		)
 		(property "Manufacturer" "~"
-			(at 88.519 294.386 0)
+			(at 94.996 303.911 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15853,7 +15880,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "~"
-			(at 89.408 295.656 0)
+			(at 96.266 303.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15862,7 +15889,7 @@
 			)
 		)
 		(property "Supplier 1" "~"
-			(at 88.9 294.005 0)
+			(at 94.615 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15871,7 +15898,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "~"
-			(at 88.9 294.767 0)
+			(at 95.377 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15880,7 +15907,7 @@
 			)
 		)
 		(property "Supplier 2" "~"
-			(at 89.408 294.64 0)
+			(at 95.25 303.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15889,7 +15916,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "~"
-			(at 88.9 296.037 0)
+			(at 96.647 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15898,7 +15925,7 @@
 			)
 		)
 		(property "Supplier 3" "~"
-			(at 88.392 299.466 0)
+			(at 100.076 304.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15907,7 +15934,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "~"
-			(at 85.852 301.244 0)
+			(at 101.854 306.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
