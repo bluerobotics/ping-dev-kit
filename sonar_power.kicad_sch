@@ -922,12 +922,6 @@
 		(uuid "1a554ed1-27a3-45e4-9a3f-2295a1355197")
 	)
 	(junction
-		(at 66.04 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d70a94f-5e6b-4836-a50b-e73a791f7de2")
-	)
-	(junction
 		(at 88.9 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1015,7 +1009,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 69.85) (xy 104.14 69.85)
+			(xy 190.5 133.35) (xy 161.29 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1043,16 +1037,6 @@
 		)
 		(uuid "f10d4858-26c9-4c7e-9cc7-9b0f6322765e")
 	)
-	(wire
-		(pts
-			(xy 66.04 69.85) (xy 81.28 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff9f91b8-3e59-4617-87d8-a7a4c121660c")
-	)
 	(hierarchical_label "VIN_PROTECTED"
 		(shape input)
 		(at 48.26 69.85 180)
@@ -1066,7 +1050,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 133.35 69.85 0)
+		(at 190.5 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1734,7 +1718,133 @@
 		)
 	)
 	(sheet
-		(at 81.28 64.77)
+		(at 127 38.1)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "04bd0704-dffb-4d19-a31b-74299529bdb7")
+		(property "Sheetname" "3V3 Buck"
+			(at 127 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3v3_buck.kicad_sch"
+			(at 127 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 38.1)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4110224b-68db-41b7-bf43-44cee23ac312")
+		(property "Sheetname" "1V8 Buck"
+			(at 165.1 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1v8_buck.kicad_sch"
+			(at 165.1 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 38.1)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0")
+		(property "Sheetname" "4V5 Buck"
+			(at 88.9 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4v5_buck.kicad_sch"
+			(at 88.9 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 128.27)
 		(size 22.86 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1750,7 +1860,7 @@
 		)
 		(uuid "8f2efa1e-69c4-4bbf-b088-c918b388c77a")
 		(property "Sheetname" "3V3 Buck"
-			(at 81.28 64.0584 0)
+			(at 138.43 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +1869,7 @@
 			)
 		)
 		(property "Sheetfile" "lumen2_3v3_buck.kicad_sch"
-			(at 81.28 88.2146 0)
+			(at 138.43 151.7146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +1878,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 81.28 69.85 180)
+			(at 138.43 133.35 180)
 			(uuid "45142d38-df18-44be-a850-36443af32719")
 			(effects
 				(font
@@ -1778,7 +1888,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 104.14 69.85 0)
+			(at 161.29 133.35 0)
 			(uuid "b272ccc8-70b6-4452-9e63-841d4db54dfb")
 			(effects
 				(font
@@ -1791,6 +1901,90 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 38.1)
+		(size 25.4 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d89bd557-813e-4016-ac7f-80185426a1bc")
+		(property "Sheetname" "5V Buck"
+			(at 241.3 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5v_buck.kicad_sch"
+			(at 241.3 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 38.1)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f57da81d-26f9-4e44-8192-6054ea342dd6")
+		(property "Sheetname" "48V Boost"
+			(at 203.2 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "48v_boost.kicad_sch"
+			(at 203.2 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20"
+					(page "14")
 				)
 			)
 		)
