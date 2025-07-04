@@ -1273,7 +1273,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893852728242176"
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8338.pdf"
 				(at 0 73.66 0)
 				(effects
 					(font
@@ -1284,36 +1284,6 @@
 				)
 			)
 			(property "Description" "18 MHz Variable Gain Amplifier"
-				(at 0 71.12 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Analog Devices"
-				(at 0 68.58 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Num" "AD8338ACPZ-R7"
-				(at 0 66.04 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "BRE Number" "BRE-001210"
 				(at 0 63.5 0)
 				(effects
 					(font
@@ -1323,7 +1293,37 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB Part Num" ""
+			(property "Manufacturer" "Analog Devices"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "AD8338ACPZ-R7"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-001210"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C578701"
 				(at 0 60.96 0)
 				(effects
 					(font
@@ -4018,6 +4018,16 @@
 		)
 		(uuid "193450d7-a8e0-49fb-97f1-d284002155d6")
 	)
+	(text "Expecting ~20mA draw"
+		(exclude_from_sim no)
+		(at 46.736 29.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2261b23e-8a9a-4aa6-a964-417aa8cddbf9")
+	)
 	(text "Fixed-Gain Pre-Amp"
 		(exclude_from_sim no)
 		(at 58.928 60.96 0)
@@ -4046,7 +4056,7 @@
 	)
 	(text "5.3MHz LPF"
 		(exclude_from_sim no)
-		(at 99.568 88.138 0)
+		(at 104.14 88.392 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4056,7 +4066,7 @@
 	)
 	(text "Input common voltage range is from (V- + 2) to (V+ - 2)"
 		(exclude_from_sim no)
-		(at 56.388 144.018 0)
+		(at 73.406 120.142 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4087,6 +4097,17 @@
 		)
 		(uuid "7af169c1-7c28-49db-94bf-212f40c21c4b")
 	)
+	(text "When mode is high, gain increases as voltage increases\nWhen mode is low, gain decreases as voltage increases\nBoth follow a \"linear-in-dB\" relationship between voltage and gain"
+		(exclude_from_sim no)
+		(at 155.194 141.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9151e1c7-5ed0-4238-a73d-880d724508f5")
+	)
 	(text "10kHz HPF using 1k input impedance of chip"
 		(exclude_from_sim no)
 		(at 127.508 84.836 0)
@@ -4096,6 +4117,17 @@
 			)
 		)
 		(uuid "b90f7424-8fb8-4682-a4d7-4bd9bf7a017d")
+	)
+	(text "Common-mode noise is rejected because this amplifier is AC coupled"
+		(exclude_from_sim no)
+		(at 43.942 117.602 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4046130-7c9e-4fd5-ba59-d565b3409741")
 	)
 	(text "INPR and INMR are biased to 1.5V by the chip"
 		(exclude_from_sim no)
@@ -4131,7 +4163,7 @@
 		(uuid "f84dd820-2254-4830-8330-5d4e395db439")
 	)
 	(junction
-		(at 60.96 123.19)
+		(at 31.75 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "000be8d7-3b2c-4977-bb2c-94144884447b")
@@ -4334,7 +4366,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 123.19) (xy 73.66 123.19)
+			(xy 31.75 31.75) (xy 44.45 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4414,7 +4446,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 123.19) (xy 73.66 127)
+			(xy 44.45 31.75) (xy 44.45 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4824,7 +4856,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 120.65) (xy 60.96 123.19)
+			(xy 31.75 29.21) (xy 31.75 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5103,7 +5135,7 @@
 		(uuid "51cc5811-9e4c-4b93-8ead-b780a34526fc")
 	)
 	(label "5V"
-		(at 60.96 120.65 0)
+		(at 31.75 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6742,7 +6774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893852728242176"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8338.pdf"
 			(at 143.51 13.97 0)
 			(effects
 				(font
@@ -6792,7 +6824,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Num" ""
+		(property "JLCPCB Part Num" "C578701"
 			(at 143.51 26.67 0)
 			(effects
 				(font
@@ -6864,7 +6896,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_100nF_100V_X5R_20%")
-		(at 73.66 129.54 0)
+		(at 44.45 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6873,7 +6905,7 @@
 		(fields_autoplaced yes)
 		(uuid "54849a3e-68da-420a-87b5-fa35ff2e49db")
 		(property "Reference" "C15"
-			(at 76.2 128.2762 0)
+			(at 46.99 36.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +6914,7 @@
 			)
 		)
 		(property "Value" "100nF 100V"
-			(at 76.2 130.8162 0)
+			(at 46.99 39.3762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,7 +6923,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
-			(at 73.66 53.34 0)
+			(at 44.45 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,7 +6933,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010301_Murata-Electronics-GRM155R62A104ME14D_C162179.pdf"
-			(at 73.66 55.88 0)
+			(at 44.45 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,7 +6943,7 @@
 			)
 		)
 		(property "Description" "100nF 100V X5R 20% Ceramic Capacitor 0402"
-			(at 73.66 58.42 0)
+			(at 44.45 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6921,7 +6953,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 73.66 60.96 0)
+			(at 44.45 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6931,7 +6963,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM155R62A104ME14D"
-			(at 73.66 63.5 0)
+			(at 44.45 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6941,7 +6973,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001025"
-			(at 73.66 66.04 0)
+			(at 44.45 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6951,7 +6983,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C162178"
-			(at 73.66 68.58 0)
+			(at 44.45 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,7 +7424,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 73.66 132.08 0)
+		(at 44.45 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7401,7 +7433,7 @@
 		(fields_autoplaced yes)
 		(uuid "706b4a4d-c912-490b-86bd-42bb49d35824")
 		(property "Reference" "#PWR024"
-			(at 73.66 138.43 0)
+			(at 44.45 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,7 +7442,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 137.16 0)
+			(at 44.45 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,7 +7451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 132.08 0)
+			(at 44.45 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +7460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 132.08 0)
+			(at 44.45 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +7469,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 132.08 0)
+			(at 44.45 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8824,7 +8856,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 60.96 138.43 0)
+		(at 31.75 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8833,7 +8865,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0851dcd-00f0-4644-930e-7abfbdc93d21")
 		(property "Reference" "#PWR020"
-			(at 60.96 144.78 0)
+			(at 31.75 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8842,7 +8874,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 143.51 0)
+			(at 31.75 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8851,7 +8883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 138.43 0)
+			(at 31.75 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8860,7 +8892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 138.43 0)
+			(at 31.75 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8869,7 +8901,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 138.43 0)
+			(at 31.75 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9064,7 +9096,7 @@
 	)
 	(symbol
 		(lib_id "BR_IC_Op_Amps:OPA1612AIDR")
-		(at 60.96 130.81 0)
+		(at 31.75 39.37 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9073,7 +9105,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbf10474-efef-4741-be53-e8e8759450f8")
 		(property "Reference" "U4"
-			(at 67.31 130.1749 0)
+			(at 38.1 38.7349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9082,7 +9114,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 67.31 132.08 0)
+			(at 38.1 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9091,7 +9123,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm"
-			(at 60.96 54.61 0)
+			(at 31.75 -36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9101,7 +9133,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopa1611"
-			(at 60.96 57.15 0)
+			(at 31.75 -34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9111,7 +9143,7 @@
 			)
 		)
 		(property "Description" "Dual Channel Low-noise SOIC-8 Audio Amplifier"
-			(at 60.96 59.69 0)
+			(at 31.75 -31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9121,7 +9153,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 60.96 62.23 0)
+			(at 31.75 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9131,7 +9163,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "OPA1612AIDR"
-			(at 60.96 64.77 0)
+			(at 31.75 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9141,7 +9173,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001220"
-			(at 60.96 67.31 0)
+			(at 31.75 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9151,7 +9183,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" ""
-			(at 60.96 69.85 0)
+			(at 31.75 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
