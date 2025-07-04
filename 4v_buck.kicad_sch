@@ -5185,14 +5185,84 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Output Voltage\nVOUT = 0.6V*(1+R1007/R1008)\nVOUT = 4V"
+		(exclude_from_sim no)
+		(at 215.646 118.618 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2de2550d-4116-4308-852e-243dbf96a795")
+	)
+	(text "INPUT: 5V-55V"
+		(exclude_from_sim no)
+		(at 47.752 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "44fbbd8d-7e42-42fb-af82-49ccf09181ed")
+	)
+	(text "Current Ripple\ndIL =  ((VOUT - VIN)*VOUT)/(L*VIN*fSW)\ndIL ~ 330mA @ 5V VIN\ndIL ~ 1.5A @ 55V VIN"
+		(exclude_from_sim no)
+		(at 205.486 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54712c2b-a71e-4ffe-bcb9-1aab6f2a9e56")
+	)
+	(text "Current Limit: 10A\n"
+		(exclude_from_sim no)
+		(at 179.832 91.186 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5fd45a45-935e-4ee4-a980-68f7be22af68")
+	)
+	(text "Switching Frequency\nfSW = 800kHz*(R1002/(R1001+R1002))\nfSW = 270kHz"
+		(exclude_from_sim no)
+		(at 57.404 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70ec4cac-48ea-4613-a994-2210ae8eabd8")
+	)
+	(text "Saturation Current: 12.5A\n"
+		(exclude_from_sim no)
+		(at 205.994 70.866 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96d52504-359b-477a-998b-ec9f1d1deb99")
+	)
+	(text "Max Output Current: 8A\n"
+		(exclude_from_sim no)
+		(at 222.504 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db3e3b36-8bf2-4cc0-ad8a-1aabace29fdd")
+	)
 	(junction
-		(at 53.34 73.66)
+		(at 46.99 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04958d7d-d91b-4919-8afc-389402aef597")
 	)
 	(junction
-		(at 69.85 73.66)
+		(at 63.5 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04bbcdab-1873-43c0-999e-a29952ea5b5a")
@@ -5228,7 +5298,7 @@
 		(uuid "40691ba9-e8da-44b0-85f2-0c356df9c953")
 	)
 	(junction
-		(at 86.36 73.66)
+		(at 80.01 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "417ecff0-c457-4e89-bec8-ed554d3400d8")
@@ -5246,7 +5316,7 @@
 		(uuid "5c610469-f361-4e7a-9599-1d7a4001a7b6")
 	)
 	(junction
-		(at 69.85 86.36)
+		(at 63.5 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71a30f77-82b3-437a-919c-47227b6bc588")
@@ -5357,7 +5427,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 86.36) (xy 69.85 86.36)
+			(xy 46.99 86.36) (xy 63.5 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5407,7 +5477,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 53.34 86.36)
+			(xy 46.99 81.28) (xy 46.99 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5437,7 +5507,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 73.66) (xy 86.36 76.2)
+			(xy 80.01 73.66) (xy 80.01 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5507,7 +5577,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 73.66) (xy 69.85 76.2)
+			(xy 63.5 73.66) (xy 63.5 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5607,7 +5677,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 73.66) (xy 86.36 73.66)
+			(xy 63.5 73.66) (xy 80.01 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5647,7 +5717,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 86.36) (xy 69.85 93.98)
+			(xy 63.5 86.36) (xy 63.5 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5727,7 +5797,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 86.36) (xy 86.36 81.28)
+			(xy 80.01 86.36) (xy 80.01 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5877,7 +5947,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 73.66) (xy 53.34 76.2)
+			(xy 46.99 73.66) (xy 46.99 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5937,7 +6007,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 73.66) (xy 53.34 73.66)
+			(xy 39.37 73.66) (xy 46.99 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5957,7 +6027,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 81.28) (xy 69.85 86.36)
+			(xy 63.5 81.28) (xy 63.5 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6027,7 +6097,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 86.36) (xy 86.36 86.36)
+			(xy 63.5 86.36) (xy 80.01 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6147,7 +6217,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 73.66) (xy 69.85 73.66)
+			(xy 46.99 73.66) (xy 63.5 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6177,7 +6247,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 73.66) (xy 105.41 73.66)
+			(xy 80.01 73.66) (xy 105.41 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6226,7 +6296,7 @@
 		(uuid "65db0847-f14f-4934-ae29-d4e4dd4ce939")
 	)
 	(label "PGND"
-		(at 69.85 93.98 0)
+		(at 63.5 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6278,7 +6348,7 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 45.72 73.66 180)
+		(at 39.37 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6297,7 +6367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "036f83a3-9371-4d2c-9d45-b28729136429")
-		(property "Reference" "C2"
+		(property "Reference" "C1007"
 			(at 180.34 72.3962 0)
 			(effects
 				(font
@@ -6454,7 +6524,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "C2")
+					(reference "C1007")
 					(unit 1)
 				)
 			)
@@ -6470,7 +6540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03943758-f15b-439f-884b-f4e25e050cb4")
-		(property "Reference" "R21"
+		(property "Reference" "R1005"
 			(at 180.34 83.8199 0)
 			(effects
 				(font
@@ -6627,7 +6697,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "R21")
+					(reference "R1005")
 					(unit 1)
 				)
 			)
@@ -6643,7 +6713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13ab8f24-3e51-42fe-b7ad-320fb1fb833d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR01006"
 			(at 214.63 115.57 0)
 			(effects
 				(font
@@ -6694,7 +6764,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "#PWR027")
+					(reference "#PWR01006")
 					(unit 1)
 				)
 			)
@@ -6710,7 +6780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "173168d6-cc16-4985-84f2-c5d4fe050a2d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR01005"
 			(at 158.75 158.75 0)
 			(effects
 				(font
@@ -6761,7 +6831,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "#PWR023")
+					(reference "#PWR01005")
 					(unit 1)
 				)
 			)
@@ -6777,7 +6847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23109e55-76dd-4b1e-bfc8-e009d150d7b7")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR01001"
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -6828,7 +6898,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "#PWR031")
+					(reference "#PWR01001")
 					(unit 1)
 				)
 			)
@@ -6844,7 +6914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a72b091-ab6e-4be7-b885-8c99b72c65f3")
-		(property "Reference" "R6"
+		(property "Reference" "R1001"
 			(at 107.95 76.1999 0)
 			(effects
 				(font
@@ -7001,7 +7071,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "R6")
+					(reference "R1001")
 					(unit 1)
 				)
 			)
@@ -7017,7 +7087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3640ecff-bf45-4a00-827b-a30ed3914951")
-		(property "Reference" "R8"
+		(property "Reference" "R1002"
 			(at 107.95 83.8199 0)
 			(effects
 				(font
@@ -7174,7 +7244,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "R8")
+					(reference "R1002")
 					(unit 1)
 				)
 			)
@@ -7190,7 +7260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4795972f-e27d-4e2b-a64e-f96fd8f7c2d5")
-		(property "Reference" "R26"
+		(property "Reference" "R1007"
 			(at 217.17 85.0899 0)
 			(effects
 				(font
@@ -7347,7 +7417,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "R26")
+					(reference "R1007")
 					(unit 1)
 				)
 			)
@@ -7363,7 +7433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c3a0d38-2212-4cb3-8cd1-788ca23864a5")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR01002"
 			(at 105.41 96.52 0)
 			(effects
 				(font
@@ -7414,7 +7484,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "#PWR025")
+					(reference "#PWR01002")
 					(unit 1)
 				)
 			)
@@ -7430,7 +7500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "626ce21a-c0f5-4e9b-9d94-bf36c1d813db")
-		(property "Reference" "R38"
+		(property "Reference" "R1008"
 			(at 217.17 100.3299 0)
 			(effects
 				(font
@@ -7587,7 +7657,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "R38")
+					(reference "R1008")
 					(unit 1)
 				)
 			)
@@ -7595,7 +7665,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0805:C_0805_2u2F_100V_X7T_10%")
-		(at 86.36 78.74 0)
+		(at 80.01 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7603,8 +7673,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e03460f-71f3-4955-8e12-a187d1580008")
-		(property "Reference" "C22"
-			(at 88.9 77.4762 0)
+		(property "Reference" "C1003"
+			(at 82.55 77.4762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,7 +7683,7 @@
 			)
 		)
 		(property "Value" "2u2F 100V"
-			(at 88.9 80.0162 0)
+			(at 82.55 80.0162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +7692,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0805_2012Metric-minimized"
-			(at 86.36 2.54 0)
+			(at 80.01 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,7 +7702,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BD72A225KE01-01A.pdf"
-			(at 86.36 5.08 0)
+			(at 80.01 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7642,7 +7712,7 @@
 			)
 		)
 		(property "Description" "2.2uF 100V X7T 10% Ceramic Capacitor 0805"
-			(at 86.36 15.24 0)
+			(at 80.01 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,7 +7722,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 86.36 7.62 0)
+			(at 80.01 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,7 +7732,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM21BD72A225KE01L"
-			(at 86.36 10.16 0)
+			(at 80.01 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7672,7 +7742,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001204"
-			(at 86.36 12.7 0)
+			(at 80.01 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +7752,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 86.36 17.78 0)
+			(at 80.01 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,7 +7762,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-GRM21BD72A225KE01LCT-ND"
-			(at 86.36 20.32 0)
+			(at 80.01 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,7 +7772,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 86.36 22.86 0)
+			(at 80.01 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7712,7 +7782,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM21BD72A225KE1L"
-			(at 86.36 25.4 0)
+			(at 80.01 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7722,7 +7792,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 86.36 27.94 0)
+			(at 80.01 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7732,7 +7802,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" " C2981733"
-			(at 86.36 30.48 0)
+			(at 80.01 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,7 +7812,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C2981733"
-			(at 86.36 33.02 0)
+			(at 80.01 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7760,7 +7830,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "C22")
+					(reference "C1003")
 					(unit 1)
 				)
 			)
@@ -7776,7 +7846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e42af03-a37c-456f-8465-a146c72ca19b")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR01004"
 			(at 156.21 129.54 0)
 			(effects
 				(font
@@ -7827,7 +7897,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "#PWR024")
+					(reference "#PWR01004")
 					(unit 1)
 				)
 			)
@@ -7843,7 +7913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e8f6724-55ea-45ec-b66c-3580f0842f4f")
-		(property "Reference" "C25"
+		(property "Reference" "C1010"
 			(at 242.57 85.0962 0)
 			(effects
 				(font
@@ -8000,7 +8070,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "C25")
+					(reference "C1010")
 					(unit 1)
 				)
 			)
@@ -8016,7 +8086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72fef13a-c9bf-4fd4-9fbc-f3c0bedbf329")
-		(property "Reference" "L1"
+		(property "Reference" "L1001"
 			(at 204.47 73.66 90)
 			(effects
 				(font
@@ -8111,7 +8181,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "L1")
+					(reference "L1001")
 					(unit 1)
 				)
 			)
@@ -8127,7 +8197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "744c6126-011b-44e9-b129-c4218c1f37fe")
-		(property "Reference" "R5"
+		(property "Reference" "R1004"
 			(at 116.84 96.5199 0)
 			(effects
 				(font
@@ -8284,7 +8354,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "R5")
+					(reference "R1004")
 					(unit 1)
 				)
 			)
@@ -8300,7 +8370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "783f0d0d-0fdd-4f56-8c23-dca3427189de")
-		(property "Reference" "C21"
+		(property "Reference" "C1008"
 			(at 195.58 90.1762 0)
 			(effects
 				(font
@@ -8397,7 +8467,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "C21")
+					(reference "C1008")
 					(unit 1)
 				)
 			)
@@ -8412,8 +8482,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e0bba33-e614-46d3-a013-9c2352126006")
-		(property "Reference" "C9"
-			(at 92.71 105.664 0)
+		(property "Reference" "C1004"
+			(at 89.154 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8569,7 +8639,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "C9")
+					(reference "C1004")
 					(unit 1)
 				)
 			)
@@ -8585,7 +8655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e92630d-a327-4028-98a0-5b95217700b0")
-		(property "Reference" "C20"
+		(property "Reference" "C1009"
 			(at 227.33 85.0962 0)
 			(effects
 				(font
@@ -8742,7 +8812,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "C20")
+					(reference "C1009")
 					(unit 1)
 				)
 			)
@@ -8750,7 +8820,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0805:C_0805_2u2F_100V_X7T_10%")
-		(at 53.34 78.74 0)
+		(at 46.99 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8758,8 +8828,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a149ac4e-dbb0-4bc1-8bd6-0939ab47866f")
-		(property "Reference" "C24"
-			(at 55.88 77.4762 0)
+		(property "Reference" "C1001"
+			(at 49.53 77.4762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8768,7 +8838,7 @@
 			)
 		)
 		(property "Value" "2u2F 100V"
-			(at 55.88 80.0162 0)
+			(at 49.53 80.0162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8777,7 +8847,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0805_2012Metric-minimized"
-			(at 53.34 2.54 0)
+			(at 46.99 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,7 +8857,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BD72A225KE01-01A.pdf"
-			(at 53.34 5.08 0)
+			(at 46.99 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8797,7 +8867,7 @@
 			)
 		)
 		(property "Description" "2.2uF 100V X7T 10% Ceramic Capacitor 0805"
-			(at 53.34 15.24 0)
+			(at 46.99 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8807,7 +8877,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 53.34 7.62 0)
+			(at 46.99 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,7 +8887,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM21BD72A225KE01L"
-			(at 53.34 10.16 0)
+			(at 46.99 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8827,7 +8897,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001204"
-			(at 53.34 12.7 0)
+			(at 46.99 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8837,7 +8907,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 53.34 17.78 0)
+			(at 46.99 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8847,7 +8917,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-GRM21BD72A225KE01LCT-ND"
-			(at 53.34 20.32 0)
+			(at 46.99 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8857,7 +8927,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 53.34 22.86 0)
+			(at 46.99 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +8937,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM21BD72A225KE1L"
-			(at 53.34 25.4 0)
+			(at 46.99 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8877,7 +8947,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 53.34 27.94 0)
+			(at 46.99 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8887,7 +8957,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" " C2981733"
-			(at 53.34 30.48 0)
+			(at 46.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8897,7 +8967,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C2981733"
-			(at 53.34 33.02 0)
+			(at 46.99 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8915,7 +8985,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "C24")
+					(reference "C1001")
 					(unit 1)
 				)
 			)
@@ -8931,7 +9001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a274fc40-5d7b-449b-aaba-566a70f31cd8")
-		(property "Reference" "U3"
+		(property "Reference" "U1001"
 			(at 147.32 58.42 0)
 			(effects
 				(font
@@ -9179,7 +9249,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "U3")
+					(reference "U1001")
 					(unit 1)
 				)
 			)
@@ -9195,7 +9265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc067156-eda9-40d1-ae4a-0f6459073232")
-		(property "Reference" "C26"
+		(property "Reference" "C1011"
 			(at 257.81 85.0962 0)
 			(effects
 				(font
@@ -9352,7 +9422,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "C26")
+					(reference "C1011")
 					(unit 1)
 				)
 			)
@@ -9368,7 +9438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd950dcb-13cd-4ae9-92e7-4f14f12d51c9")
-		(property "Reference" "NT1"
+		(property "Reference" "NT1001"
 			(at 151.13 144.78 90)
 			(effects
 				(font
@@ -9501,7 +9571,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "NT1")
+					(reference "NT1001")
 					(unit 1)
 				)
 			)
@@ -9516,8 +9586,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7d59723-c80b-4803-bbbc-2eb73cf939bb")
-		(property "Reference" "C19"
-			(at 98.806 63.754 0)
+		(property "Reference" "C1005"
+			(at 96.52 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +9743,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "C19")
+					(reference "C1005")
 					(unit 1)
 				)
 			)
@@ -9688,8 +9758,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dabd23e0-e137-448d-a4ff-b9aeb4dd002c")
-		(property "Reference" "C1"
-			(at 108.458 107.188 0)
+		(property "Reference" "C1006"
+			(at 104.902 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9845,7 +9915,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "C1")
+					(reference "C1006")
 					(unit 1)
 				)
 			)
@@ -9861,7 +9931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df42ae8e-6066-47df-abcb-7cfa6af0831f")
-		(property "Reference" "R4"
+		(property "Reference" "R1003"
 			(at 116.84 66.0399 0)
 			(effects
 				(font
@@ -10018,7 +10088,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "R4")
+					(reference "R1003")
 					(unit 1)
 				)
 			)
@@ -10034,7 +10104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1f1e71e-861b-40b8-934d-ad6fc2df99a1")
-		(property "Reference" "R46"
+		(property "Reference" "R1006"
 			(at 195.58 82.5499 0)
 			(effects
 				(font
@@ -10191,7 +10261,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "R46")
+					(reference "R1006")
 					(unit 1)
 				)
 			)
@@ -10207,7 +10277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3e23372-f819-4357-8349-a21904dd0d28")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR01003"
 			(at 118.11 121.92 0)
 			(effects
 				(font
@@ -10258,7 +10328,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "#PWR029")
+					(reference "#PWR01003")
 					(unit 1)
 				)
 			)
@@ -10266,7 +10336,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0805:C_0805_2u2F_100V_X7T_10%")
-		(at 69.85 78.74 0)
+		(at 63.5 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10274,8 +10344,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcef7587-f9e3-40e6-a9c0-14350fdeef36")
-		(property "Reference" "C23"
-			(at 72.39 77.4762 0)
+		(property "Reference" "C1002"
+			(at 66.04 77.4762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10284,7 +10354,7 @@
 			)
 		)
 		(property "Value" "2u2F 100V"
-			(at 72.39 80.0162 0)
+			(at 66.04 80.0162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10293,7 +10363,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0805_2012Metric-minimized"
-			(at 69.85 2.54 0)
+			(at 63.5 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10303,7 +10373,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BD72A225KE01-01A.pdf"
-			(at 69.85 5.08 0)
+			(at 63.5 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10313,7 +10383,7 @@
 			)
 		)
 		(property "Description" "2.2uF 100V X7T 10% Ceramic Capacitor 0805"
-			(at 69.85 15.24 0)
+			(at 63.5 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10323,7 +10393,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 69.85 7.62 0)
+			(at 63.5 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10333,7 +10403,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM21BD72A225KE01L"
-			(at 69.85 10.16 0)
+			(at 63.5 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10343,7 +10413,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001204"
-			(at 69.85 12.7 0)
+			(at 63.5 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10353,7 +10423,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 69.85 17.78 0)
+			(at 63.5 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10363,7 +10433,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-GRM21BD72A225KE01LCT-ND"
-			(at 69.85 20.32 0)
+			(at 63.5 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10373,7 +10443,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 69.85 22.86 0)
+			(at 63.5 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10383,7 +10453,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM21BD72A225KE1L"
-			(at 69.85 25.4 0)
+			(at 63.5 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10393,7 +10463,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 69.85 27.94 0)
+			(at 63.5 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10403,7 +10473,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" " C2981733"
-			(at 69.85 30.48 0)
+			(at 63.5 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10413,7 +10483,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C2981733"
-			(at 69.85 33.02 0)
+			(at 63.5 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10431,7 +10501,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
-					(reference "C23")
+					(reference "C1002")
 					(unit 1)
 				)
 			)
