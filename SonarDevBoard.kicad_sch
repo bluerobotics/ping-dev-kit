@@ -4517,16 +4517,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 160.02) (xy 222.25 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eec9afb-b217-45aa-846f-a2d94797ef4e")
-	)
-	(wire
-		(pts
 			(xy 82.55 250.19) (xy 71.12 250.19)
 		)
 		(stroke
@@ -4587,7 +4577,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 160.02) (xy 193.04 160.02)
+			(xy 198.12 160.02) (xy 222.25 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4717,7 +4707,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 156.21) (xy 193.04 156.21)
+			(xy 198.12 154.94) (xy 222.25 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5077,16 +5067,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 156.21) (xy 222.25 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5c74b86-f979-47e0-9dca-9873cc7a73f5")
-	)
-	(wire
-		(pts
 			(xy 54.61 68.58) (xy 63.5 68.58)
 		)
 		(stroke
@@ -5206,7 +5186,7 @@
 		(uuid "89b5f7c8-06d1-4edb-989b-26e77c4bd0e7")
 	)
 	(label "SONAR+"
-		(at 182.88 156.21 0)
+		(at 198.12 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5326,7 +5306,7 @@
 		(uuid "e3b3b394-be1d-40de-a387-3739fcdcc15d")
 	)
 	(label "SONAR-"
-		(at 182.88 160.02 0)
+		(at 198.12 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9921,88 +9901,6 @@
 		)
 	)
 	(sheet
-		(at 193.04 152.4)
-		(size 19.05 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 157 137 1.0000)
-		)
-		(uuid "40d7249e-68ed-4f35-a69f-990895c5c45f")
-		(property "Sheetname" "TR Switch"
-			(at 193.04 151.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "TR_switch.kicad_sch"
-			(at 193.04 164.4146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "RX_N" output
-			(at 212.09 160.02 0)
-			(uuid "688b6a7b-a923-4afe-bb07-73e7ee7cc482")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RX_P" output
-			(at 212.09 156.21 0)
-			(uuid "65924509-ac26-438c-8181-87ba25c97d5b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TX_N" input
-			(at 193.04 160.02 180)
-			(uuid "4757f65b-8c23-4537-b125-869af583e982")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TX_P" input
-			(at 193.04 156.21 180)
-			(uuid "353a8a41-0aea-4444-a511-677e2262223b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "SonarDevBoard"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 354.33 53.34)
 		(size 33.02 36.83)
 		(exclude_from_sim no)
@@ -10099,7 +9997,7 @@
 			)
 		)
 		(pin "VINP" input
-			(at 222.25 156.21 180)
+			(at 222.25 154.94 180)
 			(uuid "0958e838-6adb-41e7-941e-6111b0526af0")
 			(effects
 				(font
