@@ -1150,6 +1150,249 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BR_Capacitors_0603:C_0603_10uF_10V_X7T_10%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.016 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10uF 10V"
+				(at 1.016 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BR_Passives:C_0603_1608Metric-minimized"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188D71A106KA73-01.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "10uF 10V X7T 10% Ceramic Capacitor 0603"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "GRM188D71A106KA73D"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-000035"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" "490-14461-1-ND"
+				(at 0 58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "Mouser"
+				(at 0 55.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" "81-GRM188D71A106KA3D"
+				(at 0 53.34 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" "JLCPCB"
+				(at 0 50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" "C385037"
+				(at 0 48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C385037"
+				(at 0 45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0603_10uF_10V_X7T_10%_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0603_10uF_10V_X7T_10%_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BR_Capacitors_0805:C_0805_1uF_100V_X7S_10%"
 			(pin_numbers
 				(hide yes)
@@ -1341,6 +1584,236 @@
 				)
 			)
 			(symbol "C_0805_1uF_100V_X7S_10%_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BR_Capacitors_0805:C_0805_2u2F_100V_X7T_10%"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.016 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2u2F 100V"
+				(at 1.016 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BR_Passives:C_0805_2012Metric-minimized"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BD72A225KE01-01A.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "2.2uF 100V X7T 10% Ceramic Capacitor 0805"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "GRM21BD72A225KE01L"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-001204"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" "490-GRM21BD72A225KE01LCT-ND"
+				(at 0 58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "Mouser"
+				(at 0 55.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" "81-GRM21BD72A225KE1L"
+				(at 0 53.34 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" "JLCPCB"
+				(at 0 50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" " C2981733"
+				(at 0 48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C2981733"
+				(at 0 45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0805_2u2F_100V_X7T_10%_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0805_2u2F_100V_X7T_10%_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -4713,6 +5186,18 @@
 		)
 	)
 	(junction
+		(at 53.34 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04958d7d-d91b-4919-8afc-389402aef597")
+	)
+	(junction
+		(at 69.85 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04bbcdab-1873-43c0-999e-a29952ea5b5a")
+	)
+	(junction
 		(at 114.3 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4737,6 +5222,18 @@
 		(uuid "3b80ef26-ebf1-4241-8e7d-0e8f39b366b4")
 	)
 	(junction
+		(at 240.03 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40691ba9-e8da-44b0-85f2-0c356df9c953")
+	)
+	(junction
+		(at 86.36 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "417ecff0-c457-4e89-bec8-ed554d3400d8")
+	)
+	(junction
 		(at 105.41 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4747,6 +5244,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c610469-f361-4e7a-9599-1d7a4001a7b6")
+	)
+	(junction
+		(at 69.85 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71a30f77-82b3-437a-919c-47227b6bc588")
 	)
 	(junction
 		(at 118.11 114.3)
@@ -4773,6 +5276,12 @@
 		(uuid "926748c3-4c49-40a1-a3f2-a61803c0c570")
 	)
 	(junction
+		(at 247.65 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "977d8656-fddb-4d72-a5ea-27b1c6504ebb")
+	)
+	(junction
 		(at 177.8 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4789,6 +5298,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf431984-8add-4fad-a767-a2b20dd43791")
+	)
+	(junction
+		(at 255.27 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4061ee1-51e2-4fba-893e-d09474ab91ad")
 	)
 	(junction
 		(at 148.59 118.11)
@@ -4842,6 +5357,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 86.36) (xy 69.85 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c73e88-485a-4fe8-a417-d92ab891cb96")
+	)
+	(wire
+		(pts
 			(xy 193.04 95.25) (xy 214.63 95.25)
 		)
 		(stroke
@@ -4882,6 +5407,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 81.28) (xy 53.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e9bb5e7-b162-4c37-b0cf-5e941f906017")
+	)
+	(wire
+		(pts
 			(xy 121.92 62.23) (xy 121.92 66.04)
 		)
 		(stroke
@@ -4899,6 +5434,16 @@
 			(type default)
 		)
 		(uuid "22eafb0d-432e-4035-9224-6eb72f555d25")
+	)
+	(wire
+		(pts
+			(xy 86.36 73.66) (xy 86.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c446f1-43a3-4e3d-9441-f691d260a2c6")
 	)
 	(wire
 		(pts
@@ -4949,6 +5494,16 @@
 			(type default)
 		)
 		(uuid "382af45e-a6cd-48ca-aeab-4523b5e2c62f")
+	)
+	(wire
+		(pts
+			(xy 69.85 73.66) (xy 69.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3884fc70-c2dd-4b20-87b0-8e3b1ca95587")
 	)
 	(wire
 		(pts
@@ -5012,7 +5567,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 78.74) (xy 231.14 78.74)
+			(xy 224.79 78.74) (xy 240.03 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5029,6 +5584,16 @@
 			(type default)
 		)
 		(uuid "494d1b35-1aba-4d42-bd60-5d9c02f1cc2f")
+	)
+	(wire
+		(pts
+			(xy 69.85 73.66) (xy 86.36 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab2bba7-9ad3-404e-9a63-3b998eaa5fef")
 	)
 	(wire
 		(pts
@@ -5062,6 +5627,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 86.36) (xy 69.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "601b4e4c-6a08-454d-a2b3-fcddb142c428")
+	)
+	(wire
+		(pts
 			(xy 114.3 78.74) (xy 114.3 73.66)
 		)
 		(stroke
@@ -5092,6 +5667,26 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 78.74) (xy 255.27 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e2b6d75-b613-45bb-83c2-b4170db39406")
+	)
+	(wire
+		(pts
+			(xy 240.03 95.25) (xy 247.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe75444-624b-487a-aa27-2d686d437917")
+	)
+	(wire
+		(pts
 			(xy 143.51 118.11) (xy 138.43 118.11)
 		)
 		(stroke
@@ -5109,6 +5704,26 @@
 			(type default)
 		)
 		(uuid "78c5b21a-30c7-484c-91b0-cd52e7194e42")
+	)
+	(wire
+		(pts
+			(xy 240.03 78.74) (xy 255.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79cc54e6-2aea-44be-9aa0-b73854b65a03")
+	)
+	(wire
+		(pts
+			(xy 86.36 86.36) (xy 86.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b76f2b3-1cf3-4177-9788-7a64350fbbd7")
 	)
 	(wire
 		(pts
@@ -5172,13 +5787,33 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 78.74) (xy 214.63 78.74)
+			(xy 247.65 95.25) (xy 247.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9b5422-f9a1-4a96-87a5-02298e0001c8")
+	)
+	(wire
+		(pts
+			(xy 208.28 78.74) (xy 214.63 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8e896967-84a4-4159-99fc-0d3bc2b71ca3")
+	)
+	(wire
+		(pts
+			(xy 240.03 88.9) (xy 240.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ead333-e3ee-4d15-8be8-0e662e248038")
 	)
 	(wire
 		(pts
@@ -5212,6 +5847,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 95.25) (xy 255.27 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a55e07a-c0f1-4438-9cf3-6368fec38d48")
+	)
+	(wire
+		(pts
 			(xy 172.72 88.9) (xy 177.8 88.9)
 		)
 		(stroke
@@ -5219,6 +5864,16 @@
 			(type default)
 		)
 		(uuid "9ec1db46-13b3-4865-80ca-7654fcc6c30a")
+	)
+	(wire
+		(pts
+			(xy 53.34 73.66) (xy 53.34 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a472cf11-27f3-4294-976d-cbd9939d9101")
 	)
 	(wire
 		(pts
@@ -5252,6 +5907,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 95.25) (xy 255.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1863e51-60ac-4ad2-8061-385b5851a998")
+	)
+	(wire
+		(pts
 			(xy 114.3 114.3) (xy 118.11 114.3)
 		)
 		(stroke
@@ -5262,7 +5927,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 73.66) (xy 105.41 73.66)
+			(xy 45.72 73.66) (xy 53.34 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5272,13 +5937,23 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 78.74) (xy 196.85 78.74)
+			(xy 193.04 78.74) (xy 200.66 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b8adaa9e-ab45-4eb1-95e4-d2435363f21c")
+	)
+	(wire
+		(pts
+			(xy 69.85 81.28) (xy 69.85 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91dd0b4-350f-4c93-94cf-13d65bf18092")
 	)
 	(wire
 		(pts
@@ -5339,6 +6014,16 @@
 			(type default)
 		)
 		(uuid "c54d73f5-cca9-4d0a-854c-a90ef044b44f")
+	)
+	(wire
+		(pts
+			(xy 69.85 86.36) (xy 86.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6cbfa30-ddd0-41ba-87da-054b58450d7b")
 	)
 	(wire
 		(pts
@@ -5412,6 +6097,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 78.74) (xy 264.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f1b382-e75e-437e-8767-d7d20d4850fd")
+	)
+	(wire
+		(pts
 			(xy 138.43 115.57) (xy 138.43 118.11)
 		)
 		(stroke
@@ -5432,6 +6127,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 78.74) (xy 240.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e301e4ff-af2e-4d00-9514-17312bcba337")
+	)
+	(wire
+		(pts
 			(xy 224.79 95.25) (xy 224.79 88.9)
 		)
 		(stroke
@@ -5439,6 +6144,16 @@
 			(type default)
 		)
 		(uuid "e36e72a6-c1bd-4266-8df5-94caad2bca0b")
+	)
+	(wire
+		(pts
+			(xy 53.34 73.66) (xy 69.85 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e43c7d81-4bfa-4702-a57e-45cd77c6e287")
 	)
 	(wire
 		(pts
@@ -5459,6 +6174,16 @@
 			(type default)
 		)
 		(uuid "fce1e859-91fb-487c-bf10-b414ac097143")
+	)
+	(wire
+		(pts
+			(xy 86.36 73.66) (xy 105.41 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0d67a7-39ab-4e7d-83ab-b237822f764f")
 	)
 	(wire
 		(pts
@@ -5501,6 +6226,16 @@
 		(uuid "65db0847-f14f-4934-ae29-d4e4dd4ce939")
 	)
 	(label "PGND"
+		(at 69.85 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b706971-7f0c-4df7-8948-e618ff026f91")
+	)
+	(label "PGND"
 		(at 142.24 156.21 0)
 		(effects
 			(font
@@ -5520,9 +6255,19 @@
 		)
 		(uuid "e4590767-54cf-42db-93b5-5668f647c785")
 	)
+	(label "PGND"
+		(at 247.65 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb264b2d-753e-4ba8-866f-14619d636206")
+	)
 	(hierarchical_label "VOUT"
 		(shape output)
-		(at 231.14 78.74 0)
+		(at 264.16 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5533,7 +6278,7 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 76.2 73.66 180)
+		(at 45.72 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6849,6 +7594,179 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Capacitors_0805:C_0805_2u2F_100V_X7T_10%")
+		(at 86.36 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e03460f-71f3-4955-8e12-a187d1580008")
+		(property "Reference" "C22"
+			(at 88.9 77.4762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2F 100V"
+			(at 88.9 80.0162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Passives:C_0805_2012Metric-minimized"
+			(at 86.36 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BD72A225KE01-01A.pdf"
+			(at 86.36 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2uF 100V X7T 10% Ceramic Capacitor 0805"
+			(at 86.36 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 86.36 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "GRM21BD72A225KE01L"
+			(at 86.36 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001204"
+			(at 86.36 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 86.36 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "490-GRM21BD72A225KE01LCT-ND"
+			(at 86.36 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 86.36 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "81-GRM21BD72A225KE1L"
+			(at 86.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 86.36 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" " C2981733"
+			(at 86.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C2981733"
+			(at 86.36 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "520aa943-ad33-43c5-9871-dae685ab1eb1")
+		)
+		(pin "1"
+			(uuid "a71b42a9-3d5a-435b-be92-55139abf9a6c")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
 		(at 156.21 123.19 0)
 		(unit 1)
@@ -6916,8 +7834,181 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Capacitors_0603:C_0603_10uF_10V_X7T_10%")
+		(at 240.03 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e8f6724-55ea-45ec-b66c-3580f0842f4f")
+		(property "Reference" "C25"
+			(at 242.57 85.0962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 10V"
+			(at 242.57 87.6362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Passives:C_0603_1608Metric-minimized"
+			(at 240.03 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188D71A106KA73-01.pdf"
+			(at 240.03 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 10V X7T 10% Ceramic Capacitor 0603"
+			(at 240.03 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 240.03 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "GRM188D71A106KA73D"
+			(at 240.03 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-000035"
+			(at 240.03 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 240.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "490-14461-1-ND"
+			(at 240.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 240.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "81-GRM188D71A106KA3D"
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 240.03 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C385037"
+			(at 240.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C385037"
+			(at 240.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35b63558-1886-4131-84bb-bacceccc4428")
+		)
+		(pin "1"
+			(uuid "a5fd5923-af97-419f-97a3-d08edfdb5deb")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Inductors:L_XR1265-100M")
-		(at 200.66 78.74 90)
+		(at 204.47 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6926,7 +8017,7 @@
 		(fields_autoplaced yes)
 		(uuid "72fef13a-c9bf-4fd4-9fbc-f3c0bedbf329")
 		(property "Reference" "L1"
-			(at 200.66 73.66 90)
+			(at 204.47 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6934,7 +8025,7 @@
 			)
 		)
 		(property "Value" "10uH 10A"
-			(at 200.66 76.2 90)
+			(at 204.47 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,7 +8033,7 @@
 			)
 		)
 		(property "Footprint" "BR_Inductors:XR1265-100M"
-			(at 124.46 78.74 0)
+			(at 128.27 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,7 +8043,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590906446731567104"
-			(at 127 78.74 0)
+			(at 130.81 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6962,7 +8053,7 @@
 			)
 		)
 		(property "Description" "10uH 20% 10A 20.7mR  Shielded Molded Inductor SMT 13.5x12.6x6.3mm"
-			(at 129.54 78.74 0)
+			(at 133.35 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,7 +8063,7 @@
 			)
 		)
 		(property "Manufacturer" "XR"
-			(at 132.08 78.74 0)
+			(at 135.89 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6982,7 +8073,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "XR1265-100M"
-			(at 134.62 78.74 0)
+			(at 138.43 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6992,7 +8083,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001232"
-			(at 137.16 78.74 0)
+			(at 140.97 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7002,7 +8093,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C5339467"
-			(at 139.7 78.74 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,6 +8749,179 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Capacitors_0805:C_0805_2u2F_100V_X7T_10%")
+		(at 53.34 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a149ac4e-dbb0-4bc1-8bd6-0939ab47866f")
+		(property "Reference" "C24"
+			(at 55.88 77.4762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2F 100V"
+			(at 55.88 80.0162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Passives:C_0805_2012Metric-minimized"
+			(at 53.34 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BD72A225KE01-01A.pdf"
+			(at 53.34 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2uF 100V X7T 10% Ceramic Capacitor 0805"
+			(at 53.34 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 53.34 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "GRM21BD72A225KE01L"
+			(at 53.34 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001204"
+			(at 53.34 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 53.34 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "490-GRM21BD72A225KE01LCT-ND"
+			(at 53.34 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 53.34 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "81-GRM21BD72A225KE1L"
+			(at 53.34 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" " C2981733"
+			(at 53.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C2981733"
+			(at 53.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43ca35d0-0ff3-47e9-89f0-a4b105674c7a")
+		)
+		(pin "2"
+			(uuid "cc3d7470-a503-44ea-9af6-3ede6cf6a520")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_IC_Regulators:MIC28517T-E/PHA")
 		(at 147.32 76.2 0)
 		(unit 1)
@@ -7916,6 +9180,179 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Capacitors_0603:C_0603_10uF_10V_X7T_10%")
+		(at 255.27 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc067156-eda9-40d1-ae4a-0f6459073232")
+		(property "Reference" "C26"
+			(at 257.81 85.0962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 10V"
+			(at 257.81 87.6362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Passives:C_0603_1608Metric-minimized"
+			(at 255.27 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188D71A106KA73-01.pdf"
+			(at 255.27 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 10V X7T 10% Ceramic Capacitor 0603"
+			(at 255.27 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 255.27 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "GRM188D71A106KA73D"
+			(at 255.27 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-000035"
+			(at 255.27 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 255.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "490-14461-1-ND"
+			(at 255.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 255.27 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "81-GRM188D71A106KA3D"
+			(at 255.27 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 255.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C385037"
+			(at 255.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C385037"
+			(at 255.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6cd93bb-f483-4e0a-8dda-fae7e5436706")
+		)
+		(pin "1"
+			(uuid "b44dee3b-5a1a-4dd5-a95e-2c6d81adccff")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -8822,6 +10259,179 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Capacitors_0805:C_0805_2u2F_100V_X7T_10%")
+		(at 69.85 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcef7587-f9e3-40e6-a9c0-14350fdeef36")
+		(property "Reference" "C23"
+			(at 72.39 77.4762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2F 100V"
+			(at 72.39 80.0162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Passives:C_0805_2012Metric-minimized"
+			(at 69.85 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BD72A225KE01-01A.pdf"
+			(at 69.85 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2uF 100V X7T 10% Ceramic Capacitor 0805"
+			(at 69.85 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 69.85 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "GRM21BD72A225KE01L"
+			(at 69.85 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001204"
+			(at 69.85 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 69.85 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "490-GRM21BD72A225KE01LCT-ND"
+			(at 69.85 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 69.85 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "81-GRM21BD72A225KE1L"
+			(at 69.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 69.85 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" " C2981733"
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C2981733"
+			(at 69.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7b31fe3-ffa4-4292-8c02-58d8bedae8b7")
+		)
+		(pin "2"
+			(uuid "f2a3510f-d32d-4b68-8d1f-4defdf8c907f")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0"
+					(reference "C23")
 					(unit 1)
 				)
 			)
