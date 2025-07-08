@@ -9258,6 +9258,15 @@
 		(uuid "ff9d4bec-c360-49d9-9e7c-8f39afe54528")
 	)
 	(bus_entry
+		(at 214.63 114.3)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26cba9da-aa94-4c78-8ca2-98e07baf4436")
+	)
+	(bus_entry
 		(at 215.9 27.94)
 		(size 2.54 2.54)
 		(stroke
@@ -9465,6 +9474,15 @@
 		(uuid "d7cc985b-1a8e-4351-adcc-039ca1d14c1b")
 	)
 	(bus_entry
+		(at 214.63 111.76)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29c6944-1c29-4b3f-a8b8-6247ae7cb69d")
+	)
+	(bus_entry
 		(at 215.9 68.58)
 		(size 2.54 2.54)
 		(stroke
@@ -9491,6 +9509,16 @@
 			(type default)
 		)
 		(uuid "00cc6b08-3c2a-4545-b39a-d786a8df3123")
+	)
+	(bus
+		(pts
+			(xy 217.17 116.84) (xy 236.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ba41ba-2ba9-4662-afa2-fe1dad9fc18d")
 	)
 	(wire
 		(pts
@@ -9711,6 +9739,16 @@
 			(type default)
 		)
 		(uuid "1d1f6545-7c31-4584-9972-b6a68639046e")
+	)
+	(wire
+		(pts
+			(xy 189.23 114.3) (xy 214.63 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203e0900-1dd8-44c0-8596-1ec2da1f045c")
 	)
 	(wire
 		(pts
@@ -10241,6 +10279,16 @@
 			(type default)
 		)
 		(uuid "650fc6f4-211f-45df-90cd-d045d5c9766d")
+	)
+	(bus
+		(pts
+			(xy 217.17 114.3) (xy 217.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6570c312-3a64-402e-9e6a-7b7e8a094dd2")
 	)
 	(wire
 		(pts
@@ -11154,6 +11202,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 111.76) (xy 214.63 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84cf18c-20c6-41c5-97eb-63b2054f707c")
+	)
+	(wire
+		(pts
 			(xy 195.58 166.37) (xy 220.98 166.37)
 		)
 		(stroke
@@ -11431,6 +11489,16 @@
 			(justify right bottom)
 		)
 		(uuid "2db35ade-49b5-43c5-b319-0280684285b4")
+	)
+	(label "I2C4.SDA"
+		(at 189.23 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30b4f7d2-356a-44d3-a621-485e5fa9904a")
 	)
 	(label "MAC.TXEN"
 		(at 190.5 81.28 0)
@@ -12072,6 +12140,16 @@
 		)
 		(uuid "f196014d-2792-41fd-bd13-d7a3886fe643")
 	)
+	(label "I2C4.SCL"
+		(at 189.23 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5eab7df-e818-49e3-b1c9-4752b25afdcc")
+	)
 	(label "OCTOSPI1.IO7"
 		(at 190.5 43.18 0)
 		(effects
@@ -12143,6 +12221,17 @@
 			(justify left)
 		)
 		(uuid "9fa09f7b-8f82-4350-92e8-64fdcde28f69")
+	)
+	(hierarchical_label "I2C4{I2C}"
+		(shape bidirectional)
+		(at 236.22 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8167126-50e3-4773-995c-6f3f234bcf83")
 	)
 	(hierarchical_label "OCTOSPI1{OCTOSPI}"
 		(shape bidirectional)
