@@ -1413,6 +1413,12 @@
 		(color 0 0 0 0)
 		(uuid "ac54d4bf-38e3-48f4-b1ca-ee9bc93baed2")
 	)
+	(junction
+		(at 116.84 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8a66c07-dcb5-4535-8204-4f20d67f449d")
+	)
 	(wire
 		(pts
 			(xy 54.61 123.19) (xy 54.61 124.46)
@@ -1475,6 +1481,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 143.51) (xy 128.27 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51de846f-b0ed-42a9-ad3e-3534beaab4a1")
+	)
+	(wire
+		(pts
 			(xy 116.84 68.58) (xy 128.27 68.58)
 		)
 		(stroke
@@ -1502,6 +1518,16 @@
 			(type default)
 		)
 		(uuid "7a58ba5d-b52b-45d5-95cd-869500e12f2f")
+	)
+	(wire
+		(pts
+			(xy 116.84 106.68) (xy 116.84 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8454773e-ef1e-43fb-a66f-9a74b2372b27")
 	)
 	(wire
 		(pts
@@ -3022,6 +3048,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 128.27 143.51 180)
+			(uuid "c1658298-fb64-4db8-a686-1d649174036c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" output
+			(at 153.67 143.51 0)
+			(uuid "202a6325-b038-4075-992d-eff7359849dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
