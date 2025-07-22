@@ -4460,6 +4460,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 237.49) (xy 152.4 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a0aae8-71f5-4f19-835a-5fd0b12862a9")
+	)
+	(wire
+		(pts
 			(xy 179.07 160.02) (xy 194.31 160.02)
 		)
 		(stroke
@@ -4570,6 +4580,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 203.2) (xy 151.13 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32bb43e9-1254-431b-ab17-f10ebbfef332")
+	)
+	(wire
+		(pts
 			(xy 31.75 252.73) (xy 48.26 252.73)
 		)
 		(stroke
@@ -4640,6 +4660,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 205.74) (xy 151.13 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52502eed-f0f8-441e-9562-be933201b153")
+	)
+	(wire
+		(pts
 			(xy 82.55 247.65) (xy 97.79 247.65)
 		)
 		(stroke
@@ -4667,6 +4697,16 @@
 			(type default)
 		)
 		(uuid "57e49e92-0e00-4f97-b14c-2d6cbae940df")
+	)
+	(wire
+		(pts
+			(xy 146.05 209.55) (xy 158.75 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583e4c88-4430-4396-92e0-3a939ecd8317")
 	)
 	(wire
 		(pts
@@ -4760,6 +4800,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 237.49) (xy 158.75 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c727e1-b16a-4c6c-9233-6b2640d518ee")
+	)
+	(wire
+		(pts
 			(xy 31.75 245.11) (xy 48.26 245.11)
 		)
 		(stroke
@@ -4817,6 +4867,16 @@
 			(type default)
 		)
 		(uuid "7f916f11-c7a3-4096-9738-643d2f6964eb")
+	)
+	(wire
+		(pts
+			(xy 151.13 228.6) (xy 158.75 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8205435b-ba32-4246-abd4-c93e607f1314")
 	)
 	(wire
 		(pts
@@ -5050,6 +5110,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 232.41) (xy 158.75 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c38ebe65-5fde-4fe4-a34b-75fb34587292")
+	)
+	(wire
+		(pts
 			(xy 63.5 218.44) (xy 71.12 218.44)
 		)
 		(stroke
@@ -5077,6 +5147,16 @@
 			(type default)
 		)
 		(uuid "ca80120c-9734-42dc-977b-0d79363d8ed6")
+	)
+	(wire
+		(pts
+			(xy 151.13 224.79) (xy 158.75 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4c2e5f-e37e-45d2-8dff-c5093b26c5d0")
 	)
 	(wire
 		(pts
@@ -5167,6 +5247,16 @@
 			(type default)
 		)
 		(uuid "eab70858-efb1-4935-9367-2fbffb6ecddc")
+	)
+	(wire
+		(pts
+			(xy 146.05 209.55) (xy 146.05 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed56abf8-daab-4f77-a7d1-a0f018157985")
 	)
 	(bus
 		(pts
@@ -5267,6 +5357,16 @@
 			(justify right bottom)
 		)
 		(uuid "25981fba-e786-4887-b19a-fcd04c14b19b")
+	)
+	(label "TX_10x_ATT"
+		(at 144.78 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bfa3938-3a20-47b0-9ad4-3e1d9d861294")
 	)
 	(label "PA_EN_AFE"
 		(at 26.67 156.21 0)
@@ -5840,6 +5940,71 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:VCC")
+		(at 146.05 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "038eee36-8a89-4cb3-852d-2f8f00c5b235")
+		(property "Reference" "#PWR025"
+			(at 146.05 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "4V"
+			(at 146.05 199.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 146.05 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14c6be64-a161-4328-88f0-1b5a6c5daa44")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7170,6 +7335,73 @@
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND")
+		(at 152.4 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f972143-236c-4df0-9a62-54b24104d741")
+		(property "Reference" "#PWR024"
+			(at 152.4 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9be0d60-0a4e-4a6e-a695-e3e4700443d0")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9580,6 +9812,71 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:VCC")
+		(at 151.13 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed27a5b5-fe68-4059-a1af-68a075f73aa5")
+		(property "Reference" "#PWR027"
+			(at 151.13 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 151.13 199.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 151.13 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3657d84b-bfc6-47f1-a10b-b182d9b4bdf1")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_100nF_50V_X7R_10%_AEC-Q200")
 		(at 66.04 31.75 0)
 		(unit 1)
@@ -10453,7 +10750,7 @@
 	)
 	(sheet
 		(at 158.75 200.66)
-		(size 41.91 33.02)
+		(size 41.91 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10477,12 +10774,132 @@
 			)
 		)
 		(property "Sheetfile" "TX.kicad_sch"
-			(at 158.75 234.2646 0)
+			(at 158.75 241.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "2x_ATT" input
+			(at 158.75 228.6 180)
+			(uuid "0f30817a-731b-4794-b328-d7a2037e497f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "4V" input
+			(at 158.75 209.55 180)
+			(uuid "84a46e12-9d6a-4468-85da-967b509862af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "10x_ATT" input
+			(at 158.75 232.41 180)
+			(uuid "65b59213-2d9c-49da-a272-fe5d663f17a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUX_ANALOG" output
+			(at 200.66 237.49 0)
+			(uuid "7654b24e-24d1-4637-a339-49669fceb7f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 158.75 237.49 180)
+			(uuid "03a5373a-3b2a-4875-abb8-ee0a3d862cdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO1" input
+			(at 200.66 233.68 0)
+			(uuid "7828353b-1df3-46f4-86f2-d0075a85ff2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I_SENSE" output
+			(at 200.66 226.06 0)
+			(uuid "d18ce8d1-b45f-44de-9a8e-d9b9df103af0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIG_IN" input
+			(at 158.75 217.17 180)
+			(uuid "726611b4-79fe-4b7c-b4cd-bc2e28f1ddd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SIG_OUT+" output
+			(at 200.66 213.36 0)
+			(uuid "b5a815c1-7a0f-4845-871d-d5d18cf1ef4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIG_OUT-" output
+			(at 200.66 219.71 0)
+			(uuid "21772a6e-d833-4960-b498-3d627b4de47b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 158.75 205.74 180)
+			(uuid "897d896b-623d-4f71-9a7d-956e0e076b35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SONAR_TX_EN" input
+			(at 158.75 224.79 180)
+			(uuid "22946488-915b-49bf-88fc-9dd51322cec8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
