@@ -1678,6 +1678,279 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BR_Passives_misc:POT_50k_VGF39NCHXT-B503"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.524 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "50k"
+				(at 1.524 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BR_Passives:RES-ADJ-SMD_3P-L3.8-W3.7_VGF39NCHXT"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411220546_HDK-Hokuriku-Elec-Industry-VGF39NCHXT-B503_C22461637.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "50k 25% 150mW 1-Turn Potentiometer SMD"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HDK"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "VGF39NCHXT-B503"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-001262"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C22461637"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "POT_50k_VGF39NCHXT-B503_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.778 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "POT_50k_VGF39NCHXT-B503_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BR_Resistors_0201:R_0201_100k"
 			(pin_numbers
 				(hide yes)
@@ -2452,224 +2725,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Resistors_0201:R_0201_750k_AEC-Q200"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.524 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "750k"
-				(at 1.524 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
-				(at 0 76.2 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506091519_YAGEO-AF0201FR-07750KL_C5942591.pdf"
-				(at 0 73.66 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "750k 1% 200ppm 50mW Thick Film Resistor 0201 AEC-Q200"
-				(at 0 71.12 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 68.58 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Num" "AF0201FR-07750KL"
-				(at 0 66.04 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "BRE Number" "BRE-001258"
-				(at 0 63.5 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Part Num" "C5942591"
-				(at 0 55.88 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0201_750k_AEC-Q200_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0201_750k_AEC-Q200_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "BR_Resistors_0603:R_0603_100R"
 			(pin_numbers
 				(hide yes)
@@ -2863,6 +2918,267 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BR_Resistors_0805:R_0805_10mR"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.524 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10mR"
+				(at 1.524 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BR_Passives:R_0805_2012Metric"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203261130_YAGEO-RL0805FR-7W0R01L_C326784.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "10mR 1% 1500ppm 250mW Thick Film Resistor 0805"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "RL0805FR-7W0R01L"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-001049"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" "13-PE0805FRE470R009ZCT-ND"
+				(at 0 58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "Mouser"
+				(at 0 55.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" "603-P0805FRE470R009Z"
+				(at 0 53.34 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" "JLCPCB"
+				(at 0 50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" "C6142798"
+				(at 0 48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C326784"
+				(at 0 45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "R_0805_10mR_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0805_10mR_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
 							)
 						)
 					)
@@ -3079,6 +3395,405 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BR_Sensors:Current_Sense_CSA230PASOT235"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.588 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CSA230PASOT235"
+				(at 9.906 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BR_SOT:SOT-23-5_mini"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403271159_analogysemi-CSA230PASOT235_C6807602.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0V-76V Single channel SOT-23-5 Current Sense Amplifier"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "CSA230PASOT235"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "CSA230PASOT235"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-001043"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C6807602"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C6807602"
+				(at 0 58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "current sense shunt SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Current_Sense_CSA230PASOT235_0_1"
+				(rectangle
+					(start -6.35 5.08)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Current_Sense_CSA230PASOT235_1_1"
+				(pin passive line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "RS–"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "RS+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BR_Virtual_Parts:TP_SQUARE_TH_1mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 2.54 0.9525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TP_SQUARE_TH_500um"
+				(at 2.54 -1.5875 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "BR_Virtual_Parts:TP_SQUARE_TH_1mm"
+				(at 1.27 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.254 7.493 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test pad through hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "~"
+				(at -1.524 8.001 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "~"
+				(at -0.254 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "~"
+				(at -1.905 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" "~"
+				(at -1.143 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "~"
+				(at -1.27 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" "~"
+				(at 0.127 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test pad through hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP_SQUARE_TH_1mm_0_1"
+				(rectangle
+					(start -0.635 2.54)
+					(end 0.635 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.905)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TP_SQUARE_TH_1mm_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3631,6 +4346,30 @@
 		(uuid 0cac8727-4973-40c1-99dd-7a5c445ab7a4)
 	)
 	(rectangle
+		(start 133.35 15.24)
+		(end 184.15 26.67)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 36e4a87a-66cc-427c-9ccf-8bcb8e331757)
+	)
+	(rectangle
+		(start 234.95 12.7)
+		(end 261.62 21.59)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4d4529b0-ca23-40c3-9daa-a63d799e23d6)
+	)
+	(rectangle
 		(start 109.22 152.4)
 		(end 144.78 161.29)
 		(stroke
@@ -3641,6 +4380,18 @@
 			(type none)
 		)
 		(uuid 5bbeef93-6044-47bf-a094-e130328449ca)
+	)
+	(rectangle
+		(start 250.19 136.906)
+		(end 279.4 147.066)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6e71e570-3b70-44a2-8069-c93fc2e9a8d2)
 	)
 	(text "Datasheet recommends feedback R's equal \nor less than 1k to avoid poles. \n18Vp + 18VDC = ~22.5Vrms\nfor 1k and 100R, \n1k: P ~ 20V^2/1k = 400mW\n100: P ~ 3V^2/100 = 90mW"
 		(exclude_from_sim no)
@@ -3675,6 +4426,38 @@
 		)
 		(uuid "644a42ca-929f-47d0-a373-e32c6fa30d1e")
 	)
+	(text "10mV/1A over 10mR R57\n100V/1V from I Sense Amp\nTherefore, 1V/1A"
+		(exclude_from_sim no)
+		(at 251.46 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc948ca9-b01e-4457-bde1-fe3dfac44906")
+	)
+	(text "SHDN pin also controls Class AB bias current.\n\nIbias = 25.6*(TX_EN - 1.2V)/(R + 2k)\nWhen TX_EN High, pot gives range of 1mA-27mA"
+		(exclude_from_sim no)
+		(at 158.496 20.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e0118a08-dd8b-47ac-b9cc-2c6934de8f93")
+	)
+	(text "Measure resistance across \ntest points to get actual\nR = 50k-{measured}"
+		(exclude_from_sim no)
+		(at 235.204 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f33eeb4f-b55e-4788-a7e9-adbb9c44ab3c")
+	)
 	(junction
 		(at 199.39 55.88)
 		(diameter 0)
@@ -3686,6 +4469,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e5a0b9e-b3a0-4ea9-8570-703b92f41da6")
+	)
+	(junction
+		(at 237.49 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "155fbaab-914d-4db7-b4fb-b583cf46cbbb")
 	)
 	(junction
 		(at 228.6 45.72)
@@ -3742,6 +4531,12 @@
 		(uuid "38869aa4-21e0-448e-89f5-59aa60cff90e")
 	)
 	(junction
+		(at 218.44 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "430e8e43-9134-4b34-8acc-d26482cabfa6")
+	)
+	(junction
 		(at 228.6 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3772,10 +4567,22 @@
 		(uuid "4f17d4b6-84d1-4c24-b14a-86a253d3fcdf")
 	)
 	(junction
+		(at 260.35 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5626231e-4ce2-4ad0-8c2a-198c1c53c320")
+	)
+	(junction
 		(at 228.6 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b26fda5-03aa-4961-ad38-33bdb261b654")
+	)
+	(junction
+		(at 201.93 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f77440f-63ca-432f-a830-54cee0892a3c")
 	)
 	(junction
 		(at 213.36 127)
@@ -3838,6 +4645,12 @@
 		(uuid "9a5f5e1a-8af0-4b6f-b5ab-5b569404a038")
 	)
 	(junction
+		(at 260.35 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aed627c3-148f-4692-ba18-4010fc98a836")
+	)
+	(junction
 		(at 182.88 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3874,10 +4687,22 @@
 		(uuid "d0430b1d-d3c4-4d29-85ef-8daef44ff96f")
 	)
 	(junction
+		(at 247.65 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6865379-4d9f-4ef2-ad5e-556d67507cdd")
+	)
+	(junction
 		(at 228.6 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de87a767-396b-4452-b608-714d018cfb5b")
+	)
+	(junction
+		(at 257.81 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2ac679c-51d2-420e-be23-3d046809bf8a")
 	)
 	(junction
 		(at 228.6 40.64)
@@ -3905,7 +4730,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 127) (xy 233.68 127)
+			(xy 228.6 127) (xy 267.97 127)
 		)
 		(stroke
 			(width 0)
@@ -3965,6 +4790,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 25.4) (xy 212.09 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0844b446-969b-451b-9a9a-c8fa5946e03b")
+	)
+	(wire
+		(pts
 			(xy 143.51 100.33) (xy 140.97 100.33)
 		)
 		(stroke
@@ -3972,6 +4807,16 @@
 			(type default)
 		)
 		(uuid "08f6a2c3-04a3-422a-8d9c-d08f89a20953")
+	)
+	(wire
+		(pts
+			(xy 237.49 86.36) (xy 238.76 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c3ceed9-d598-4356-baf2-cf632e726f08")
 	)
 	(wire
 		(pts
@@ -4065,6 +4910,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 26.67) (xy 218.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1605d557-4cc8-48a1-acb0-6c69eabf1d55")
+	)
+	(wire
+		(pts
 			(xy 212.09 86.36) (xy 218.44 86.36)
 		)
 		(stroke
@@ -4095,6 +4950,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 21.59) (xy 205.74 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17fb9fd2-3b08-4276-9626-45902f714b7a")
+	)
+	(wire
+		(pts
 			(xy 185.42 55.88) (xy 199.39 55.88)
 		)
 		(stroke
@@ -4112,6 +4977,26 @@
 			(type default)
 		)
 		(uuid "1c3e7674-3060-44b1-ac88-86b0cb9fcd8e")
+	)
+	(wire
+		(pts
+			(xy 246.38 86.36) (xy 247.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1b4bf5-bc5f-41a3-b1ea-fb98001a9766")
+	)
+	(wire
+		(pts
+			(xy 257.81 93.98) (xy 260.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb44b56-d737-48a8-90b6-1faa8b90e220")
 	)
 	(wire
 		(pts
@@ -4165,6 +5050,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 26.67) (xy 218.44 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24120e14-9c5b-4628-a6c2-a8f2275ff3ed")
+	)
+	(wire
+		(pts
 			(xy 100.33 97.79) (xy 97.79 97.79)
 		)
 		(stroke
@@ -4192,6 +5087,16 @@
 			(type default)
 		)
 		(uuid "2684e717-7c64-43bd-bf76-d95dc9baa6b5")
+	)
+	(wire
+		(pts
+			(xy 257.81 119.38) (xy 259.08 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b8056b-58a0-4fde-a888-25ecdbb3e114")
 	)
 	(wire
 		(pts
@@ -4405,6 +5310,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 25.4) (xy 201.93 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5c7d41-1e25-4b1e-b976-40d8bf70ef3d")
+	)
+	(wire
+		(pts
 			(xy 72.39 100.33) (xy 82.55 100.33)
 		)
 		(stroke
@@ -4465,6 +5380,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 106.68) (xy 248.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ac03ad-d16d-45bd-8166-ee162b8d6243")
+	)
+	(wire
+		(pts
 			(xy 228.6 48.26) (xy 228.6 45.72)
 		)
 		(stroke
@@ -4482,6 +5407,16 @@
 			(type default)
 		)
 		(uuid "5a1f6ae9-35a9-4820-812f-ed8cae6db11e")
+	)
+	(wire
+		(pts
+			(xy 260.35 101.6) (xy 261.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b27b640-ae26-4e96-a46d-0a60d7d661e3")
 	)
 	(wire
 		(pts
@@ -4675,7 +5610,17 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 86.36) (xy 234.95 86.36)
+			(xy 259.08 101.6) (xy 260.35 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7513070a-abc6-4833-9af5-d14a4a1090c8")
+	)
+	(wire
+		(pts
+			(xy 228.6 86.36) (xy 237.49 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4755,6 +5700,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 86.36) (xy 267.97 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f347a1f-babd-4f73-8ecb-0de41920c91a")
+	)
+	(wire
+		(pts
 			(xy 71.12 113.03) (xy 72.39 113.03)
 		)
 		(stroke
@@ -4772,6 +5727,16 @@
 			(type default)
 		)
 		(uuid "83e9677d-7251-4a2c-817d-0714047dd0d6")
+	)
+	(wire
+		(pts
+			(xy 257.81 120.65) (xy 256.54 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b76a67-86e3-4de5-bb62-fd106a0d1bad")
 	)
 	(wire
 		(pts
@@ -4892,6 +5857,26 @@
 			(type default)
 		)
 		(uuid "97c2f007-10f3-450c-8aa8-dca7df01156d")
+	)
+	(wire
+		(pts
+			(xy 237.49 111.76) (xy 237.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d52d0e2-f8fd-4acc-a489-e60e68c18e9f")
+	)
+	(wire
+		(pts
+			(xy 260.35 102.87) (xy 261.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e2aeb07-7a3b-4c24-9175-38f47d1dd9fb")
 	)
 	(wire
 		(pts
@@ -5035,6 +6020,26 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 116.84) (xy 257.81 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b95e01ce-fc4b-4d77-995d-94a9e457af31")
+	)
+	(wire
+		(pts
+			(xy 218.44 25.4) (xy 212.09 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba12b8b9-02a0-4dd4-a165-7e47e58e7da2")
+	)
+	(wire
+		(pts
 			(xy 205.74 116.84) (xy 213.36 116.84)
 		)
 		(stroke
@@ -5095,6 +6100,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 119.38) (xy 257.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d48db6-d0ff-4380-b92e-7ccaf0fbaf9d")
+	)
+	(wire
+		(pts
 			(xy 223.52 127) (xy 228.6 127)
 		)
 		(stroke
@@ -5102,6 +6117,16 @@
 			(type default)
 		)
 		(uuid "c1187844-2676-43b4-936e-a4ef63ea4108")
+	)
+	(wire
+		(pts
+			(xy 201.93 26.67) (xy 201.93 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19313c7-225d-4892-8d00-f3406be9c084")
 	)
 	(wire
 		(pts
@@ -5122,6 +6147,16 @@
 			(type default)
 		)
 		(uuid "c24182bf-cc4b-4a4f-8e7b-18db15112aa0")
+	)
+	(wire
+		(pts
+			(xy 257.81 93.98) (xy 257.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2eb9565-2a1d-48ce-a432-5be83effd4f8")
 	)
 	(wire
 		(pts
@@ -5152,6 +6187,26 @@
 			(type default)
 		)
 		(uuid "c6196d80-4eb2-4f18-9eb0-cbae4051323d")
+	)
+	(wire
+		(pts
+			(xy 247.65 86.36) (xy 247.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7900a54-3cba-43d5-bc5c-403464026bd4")
+	)
+	(wire
+		(pts
+			(xy 218.44 26.67) (xy 219.71 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c854ec-3966-4a7e-be32-2f2737500db6")
 	)
 	(wire
 		(pts
@@ -5215,6 +6270,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 109.22) (xy 267.97 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ef3f29-a709-46d2-a8d5-81d5616b6582")
+	)
+	(wire
+		(pts
 			(xy 228.6 40.64) (xy 228.6 38.1)
 		)
 		(stroke
@@ -5222,6 +6287,16 @@
 			(type default)
 		)
 		(uuid "d2321f11-8474-477e-ba1c-b013fc650ff8")
+	)
+	(wire
+		(pts
+			(xy 248.92 111.76) (xy 237.49 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d545e687-2d4f-4022-9b0e-522b998bb6e2")
 	)
 	(wire
 		(pts
@@ -5265,6 +6340,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 21.59) (xy 198.12 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84bc202-c285-4637-8e21-a2b81b9828bb")
+	)
+	(wire
+		(pts
 			(xy 81.28 95.25) (xy 81.28 87.63)
 		)
 		(stroke
@@ -5272,6 +6357,16 @@
 			(type default)
 		)
 		(uuid "d8739c0f-6fe0-40b8-960d-bf40d5346fc1")
+	)
+	(wire
+		(pts
+			(xy 218.44 27.94) (xy 219.71 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ae2a65-6a6c-4949-ac77-154b5748748d")
 	)
 	(wire
 		(pts
@@ -5315,6 +6410,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 93.98) (xy 261.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0305fb1-f5f1-4252-a5ce-c058f77ab5be")
+	)
+	(wire
+		(pts
 			(xy 162.56 129.54) (xy 172.72 129.54)
 		)
 		(stroke
@@ -5322,6 +6427,16 @@
 			(type default)
 		)
 		(uuid "e0f575ea-c8eb-47a6-81bf-ceead79f4c60")
+	)
+	(wire
+		(pts
+			(xy 260.35 93.98) (xy 260.35 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d4dfe0-3a24-47e1-8bbe-b5b77cc34c28")
 	)
 	(wire
 		(pts
@@ -5435,6 +6550,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 101.6) (xy 260.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3018f9c-5d6c-4476-a679-f018ddc1c385")
+	)
+	(wire
+		(pts
 			(xy 209.55 86.36) (xy 212.09 86.36)
 		)
 		(stroke
@@ -5445,6 +6570,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 100.33) (xy 260.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e048ca-1ca8-4493-b714-e20b4be6756f")
+	)
+	(wire
+		(pts
 			(xy 82.55 48.26) (xy 82.55 54.61)
 		)
 		(stroke
@@ -5452,6 +6587,16 @@
 			(type default)
 		)
 		(uuid "f9eeb250-6a98-4e54-80c1-b667837aff99")
+	)
+	(wire
+		(pts
+			(xy 218.44 25.4) (xy 218.44 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faee92c4-fb58-43e8-94a7-1744aa092bde")
 	)
 	(wire
 		(pts
@@ -5472,6 +6617,16 @@
 			(type default)
 		)
 		(uuid "fba689d7-2e3f-4ab3-8358-eedd611656ad")
+	)
+	(wire
+		(pts
+			(xy 256.54 119.38) (xy 257.81 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2c056f-ab3c-4f46-b98a-3eb6f5dac608")
 	)
 	(wire
 		(pts
@@ -5643,6 +6798,26 @@
 		)
 		(uuid "88e3660f-96f6-45a2-a384-674bb948bb16")
 	)
+	(label "4V"
+		(at 261.62 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a371a0b-f5fe-4955-8418-0da460ea004d")
+	)
+	(label "TX_EN"
+		(at 193.04 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9612dda3-120c-44b3-8983-a808aed1be4a")
+	)
 	(label "GND"
 		(at 182.88 140.97 180)
 		(effects
@@ -5663,6 +6838,16 @@
 		)
 		(uuid "a434d271-4682-4fd0-a3af-51f9828e4e1a")
 	)
+	(label "GND"
+		(at 218.44 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c808b16a-c408-48a3-9f50-240f22ae8f47")
+	)
 	(label "4V"
 		(at 78.74 48.26 0)
 		(effects
@@ -5682,6 +6867,16 @@
 			(justify right bottom)
 		)
 		(uuid "cf2367c0-d352-44d6-b99b-92491b3947e0")
+	)
+	(label "GND"
+		(at 260.35 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4764349-ae42-4753-8f34-79ee2813247d")
 	)
 	(label "4V"
 		(at 106.68 114.3 0)
@@ -5733,9 +6928,19 @@
 		)
 		(uuid "f94bdda5-6488-4585-92f2-ab479e918b4d")
 	)
+	(label "GND"
+		(at 257.81 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fccebc48-902e-4542-a48a-94f1e371a895")
+	)
 	(hierarchical_label "SIG_OUT+"
 		(shape output)
-		(at 234.95 86.36 0)
+		(at 267.97 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5790,7 +6995,7 @@
 	)
 	(hierarchical_label "SIG_OUT-"
 		(shape output)
-		(at 233.68 127 0)
+		(at 267.97 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5809,6 +7014,17 @@
 			(justify right)
 		)
 		(uuid "a2a976a8-cd97-4937-8bb0-46cc13ef7644")
+	)
+	(hierarchical_label "I_SENSE"
+		(shape output)
+		(at 267.97 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb91475b-e783-4761-8fad-0c607be5d253")
 	)
 	(symbol
 		(lib_id "BR_Resistors_1210:R_1210_1k")
@@ -7102,6 +8318,177 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Resistors_0805:R_0805_10mR")
+		(at 242.57 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d538036-7d68-4c8b-bb91-3d6d0d4e1c53")
+		(property "Reference" "R57"
+			(at 242.57 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10mR"
+			(at 242.57 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BR_Passives:R_0805_2012Metric"
+			(at 166.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203261130_YAGEO-RL0805FR-7W0R01L_C326784.pdf"
+			(at 168.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "10mR 1% 1500ppm 250mW Thick Film Resistor 0805"
+			(at 179.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 171.45 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "RL0805FR-7W0R01L"
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001049"
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "13-PE0805FRE470R009ZCT-ND"
+			(at 184.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "603-P0805FRE470R009Z"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C6142798"
+			(at 194.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C326784"
+			(at 196.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d27f09f6-5c4c-4394-a1ae-3a77ad283bc3")
+		)
+		(pin "1"
+			(uuid "656b2523-03d3-4970-8b7d-f504ba4ccdca")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65/11b15ccd-f56c-4845-bdb5-e6134c64386c"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Resistors_0201:R_0201_100k")
 		(at 181.61 78.74 0)
 		(unit 1)
@@ -7446,6 +8833,414 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
+		(at 260.35 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54a83cc5-76e5-4645-9f50-5c06ec6d8af0")
+		(property "Reference" "C37"
+			(at 262.636 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 25V"
+			(at 262.636 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
+			(at 260.35 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108070630_Murata-Electronics-GRM033R61E104KE14J_C2649540.pdf"
+			(at 260.35 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 25V X5R 10% Ceramic Capacitor 0201"
+			(at 260.35 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 260.35 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
+			(at 260.35 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-000000"
+			(at 260.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 260.35 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "490-14571-1-ND"
+			(at 260.35 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 260.35 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "81-GRM033R61E104KE4J"
+			(at 260.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 260.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C2649540"
+			(at 260.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C76939"
+			(at 260.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6af6f8bc-5523-49d9-97d3-f963abb2791e")
+		)
+		(pin "2"
+			(uuid "884a4778-544e-4f0a-97d2-d42ccf3e2c2c")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65/11b15ccd-f56c-4845-bdb5-e6134c64386c"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_SQUARE_TH_1mm")
+		(at 207.01 21.59 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58738e9a-07d1-44b4-9668-e13ccd202a29")
+		(property "Reference" "TP55"
+			(at 210.82 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_SQUARE_TH_500um"
+			(at 205.4225 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "POT1"
+			(at 214.376 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.503 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad through hole"
+			(at 207.01 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 215.011 20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 214.122 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 214.63 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 214.63 20.447 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 214.122 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 214.63 21.717 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bbfc22f-9084-4092-ac3f-7f30ad0be47e")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65/11b15ccd-f56c-4845-bdb5-e6134c64386c"
+					(reference "TP55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Passives_misc:POT_50k_VGF39NCHXT-B503")
+		(at 201.93 21.59 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fb7dbe5-45aa-47db-b106-1f5b7a60a2e0")
+		(property "Reference" "R56"
+			(at 201.93 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50k"
+			(at 201.93 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BR_Passives:RES-ADJ-SMD_3P-L3.8-W3.7_VGF39NCHXT"
+			(at 278.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411220546_HDK-Hokuriku-Elec-Industry-VGF39NCHXT-B503_C22461637.pdf"
+			(at 275.59 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50k 25% 150mW 1-Turn Potentiometer SMD"
+			(at 273.05 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HDK"
+			(at 270.51 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "VGF39NCHXT-B503"
+			(at 267.97 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001262"
+			(at 265.43 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C22461637"
+			(at 262.89 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0a847595-25d0-4da1-9a4c-1b41d459e40f")
+		)
+		(pin "2"
+			(uuid "5c8cb4f4-ff89-454e-a483-9dbf4f91c636")
+		)
+		(pin "1"
+			(uuid "e0b8123a-a3f6-49fe-a8e9-d07016a6f302")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65/11b15ccd-f56c-4845-bdb5-e6134c64386c"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Resistors_0201:R_0201_100k")
 		(at 228.6 91.44 0)
 		(unit 1)
@@ -7716,67 +9511,67 @@
 			)
 		)
 		(pin "13"
-			(uuid "0c116133-543c-485f-8275-b55267ce81c5")
+			(uuid "0c116133-543c-485f-8275-b55267ce81c6")
 		)
 		(pin "7"
-			(uuid "3b65fbb5-829b-4312-8b9e-4e79fe57a2e0")
+			(uuid "3b65fbb5-829b-4312-8b9e-4e79fe57a2e1")
 		)
 		(pin "4"
-			(uuid "e2fd8da5-a31a-4d45-b1f6-6a4e3a723bcc")
+			(uuid "e2fd8da5-a31a-4d45-b1f6-6a4e3a723bcd")
 		)
 		(pin "3"
-			(uuid "6b48686e-7c7c-4b19-95fc-f8390238dd03")
+			(uuid "6b48686e-7c7c-4b19-95fc-f8390238dd04")
 		)
 		(pin "18"
-			(uuid "9b31b7d2-86fa-41bc-9c2e-5b7fc8c9a126")
+			(uuid "9b31b7d2-86fa-41bc-9c2e-5b7fc8c9a127")
 		)
 		(pin "8"
-			(uuid "07536548-325b-41fc-884d-edc2186c4986")
+			(uuid "07536548-325b-41fc-884d-edc2186c4987")
 		)
 		(pin "5"
-			(uuid "3caed28c-b32e-40e7-9107-2512e6c32643")
+			(uuid "3caed28c-b32e-40e7-9107-2512e6c32644")
 		)
 		(pin "6"
-			(uuid "6d8d64c5-e11f-46dc-81b3-979fe585f259")
+			(uuid "6d8d64c5-e11f-46dc-81b3-979fe585f25a")
 		)
 		(pin "14"
-			(uuid "0eeb4878-95ba-4901-a66b-17b17561dfe7")
+			(uuid "0eeb4878-95ba-4901-a66b-17b17561dfe8")
 		)
 		(pin "20"
-			(uuid "263e1f07-c0ae-47cb-9a03-d5e68c2fbedd")
+			(uuid "263e1f07-c0ae-47cb-9a03-d5e68c2fbede")
 		)
 		(pin "19"
-			(uuid "b2caba28-1cfb-4962-a2f9-981bbaa52f59")
+			(uuid "b2caba28-1cfb-4962-a2f9-981bbaa52f5a")
 		)
 		(pin "9"
-			(uuid "fa1391ce-4900-4ee6-8de8-76ee630c83ec")
+			(uuid "fa1391ce-4900-4ee6-8de8-76ee630c83ed")
 		)
 		(pin "1"
-			(uuid "cff8faff-a854-4c4a-a0ec-c4cadf951152")
+			(uuid "cff8faff-a854-4c4a-a0ec-c4cadf951153")
 		)
 		(pin "16"
-			(uuid "84b57353-13eb-4560-83ea-919d5623aafe")
+			(uuid "84b57353-13eb-4560-83ea-919d5623aaff")
 		)
 		(pin "10"
-			(uuid "f44e3362-7ac5-4eab-b56d-19d51c65cb0a")
+			(uuid "f44e3362-7ac5-4eab-b56d-19d51c65cb0b")
 		)
 		(pin "EP"
-			(uuid "fbe3d0f8-1295-4529-8a13-18270e175dc0")
+			(uuid "fbe3d0f8-1295-4529-8a13-18270e175dc1")
 		)
 		(pin "15"
-			(uuid "af52a4d8-4c56-48b4-ad57-03d8e42b4288")
+			(uuid "af52a4d8-4c56-48b4-ad57-03d8e42b4289")
 		)
 		(pin "12"
-			(uuid "a1379940-52f7-4dab-abc6-9ba9827eaeba")
+			(uuid "a1379940-52f7-4dab-abc6-9ba9827eaebb")
 		)
 		(pin "2"
-			(uuid "02f17bd3-9e5b-49da-819f-d0448c64ed8d")
+			(uuid "02f17bd3-9e5b-49da-819f-d0448c64ed8e")
 		)
 		(pin "11"
-			(uuid "1b7c2ced-6b7f-41ee-abb4-1c608bef0f7b")
+			(uuid "1b7c2ced-6b7f-41ee-abb4-1c608bef0f7c")
 		)
 		(pin "17"
-			(uuid "91e5a0b8-1116-4726-adbd-e4359f03c6fb")
+			(uuid "91e5a0b8-1116-4726-adbd-e4359f03c6fc")
 		)
 		(instances
 			(project ""
@@ -8131,6 +9926,135 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Sensors:Current_Sense_CSA230PASOT235")
+		(at 257.81 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "775924a0-42f7-431c-8e32-6eb4d7f1f1a7")
+		(property "Reference" "U10"
+			(at 248.666 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CSA230PASOT235"
+			(at 245.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BR_SOT:SOT-23-5_mini"
+			(at 257.81 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403271159_analogysemi-CSA230PASOT235_C6807602.pdf"
+			(at 257.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V-76V Single channel SOT-23-5 Current Sense Amplifier"
+			(at 257.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CSA230PASOT235"
+			(at 257.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "CSA230PASOT235"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001043"
+			(at 257.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C6807602"
+			(at 257.81 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C6807602"
+			(at 257.81 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1575f78f-6ab0-4f8a-9542-238f82e3eef3")
+		)
+		(pin "2"
+			(uuid "b2081fd0-8b14-4b34-a997-91c8a030b6e9")
+		)
+		(pin "5"
+			(uuid "07fdd80a-6b55-44a2-8aef-fcc5aba42a2b")
+		)
+		(pin "3"
+			(uuid "3b5b6438-5e3e-4f43-b49a-9ff3272a69f1")
+		)
+		(pin "1"
+			(uuid "e478fc18-f14b-4260-83f4-8b47a6d0e55d")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65/11b15ccd-f56c-4845-bdb5-e6134c64386c"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_IC_Audio:LT1794CFE-PBF")
 		(at 196.85 86.36 0)
 		(unit 1)
@@ -8226,67 +10150,67 @@
 			)
 		)
 		(pin "13"
-			(uuid "0c116133-543c-485f-8275-b55267ce81c5")
+			(uuid "0c116133-543c-485f-8275-b55267ce81c7")
 		)
 		(pin "7"
-			(uuid "3b65fbb5-829b-4312-8b9e-4e79fe57a2e0")
+			(uuid "3b65fbb5-829b-4312-8b9e-4e79fe57a2e2")
 		)
 		(pin "4"
-			(uuid "e2fd8da5-a31a-4d45-b1f6-6a4e3a723bcc")
+			(uuid "e2fd8da5-a31a-4d45-b1f6-6a4e3a723bce")
 		)
 		(pin "3"
-			(uuid "6b48686e-7c7c-4b19-95fc-f8390238dd03")
+			(uuid "6b48686e-7c7c-4b19-95fc-f8390238dd05")
 		)
 		(pin "18"
-			(uuid "9b31b7d2-86fa-41bc-9c2e-5b7fc8c9a126")
+			(uuid "9b31b7d2-86fa-41bc-9c2e-5b7fc8c9a128")
 		)
 		(pin "8"
-			(uuid "07536548-325b-41fc-884d-edc2186c4986")
+			(uuid "07536548-325b-41fc-884d-edc2186c4988")
 		)
 		(pin "5"
-			(uuid "3caed28c-b32e-40e7-9107-2512e6c32643")
+			(uuid "3caed28c-b32e-40e7-9107-2512e6c32645")
 		)
 		(pin "6"
-			(uuid "6d8d64c5-e11f-46dc-81b3-979fe585f259")
+			(uuid "6d8d64c5-e11f-46dc-81b3-979fe585f25b")
 		)
 		(pin "14"
-			(uuid "0eeb4878-95ba-4901-a66b-17b17561dfe7")
+			(uuid "0eeb4878-95ba-4901-a66b-17b17561dfe9")
 		)
 		(pin "20"
-			(uuid "263e1f07-c0ae-47cb-9a03-d5e68c2fbedd")
+			(uuid "263e1f07-c0ae-47cb-9a03-d5e68c2fbedf")
 		)
 		(pin "19"
-			(uuid "b2caba28-1cfb-4962-a2f9-981bbaa52f59")
+			(uuid "b2caba28-1cfb-4962-a2f9-981bbaa52f5b")
 		)
 		(pin "9"
-			(uuid "fa1391ce-4900-4ee6-8de8-76ee630c83ec")
+			(uuid "fa1391ce-4900-4ee6-8de8-76ee630c83ee")
 		)
 		(pin "1"
-			(uuid "cff8faff-a854-4c4a-a0ec-c4cadf951152")
+			(uuid "cff8faff-a854-4c4a-a0ec-c4cadf951154")
 		)
 		(pin "16"
-			(uuid "84b57353-13eb-4560-83ea-919d5623aafe")
+			(uuid "84b57353-13eb-4560-83ea-919d5623ab00")
 		)
 		(pin "10"
-			(uuid "f44e3362-7ac5-4eab-b56d-19d51c65cb0a")
+			(uuid "f44e3362-7ac5-4eab-b56d-19d51c65cb0c")
 		)
 		(pin "EP"
-			(uuid "fbe3d0f8-1295-4529-8a13-18270e175dc0")
+			(uuid "fbe3d0f8-1295-4529-8a13-18270e175dc2")
 		)
 		(pin "15"
-			(uuid "af52a4d8-4c56-48b4-ad57-03d8e42b4288")
+			(uuid "af52a4d8-4c56-48b4-ad57-03d8e42b428a")
 		)
 		(pin "12"
-			(uuid "a1379940-52f7-4dab-abc6-9ba9827eaeba")
+			(uuid "a1379940-52f7-4dab-abc6-9ba9827eaebc")
 		)
 		(pin "2"
-			(uuid "02f17bd3-9e5b-49da-819f-d0448c64ed8d")
+			(uuid "02f17bd3-9e5b-49da-819f-d0448c64ed8f")
 		)
 		(pin "11"
-			(uuid "1b7c2ced-6b7f-41ee-abb4-1c608bef0f7b")
+			(uuid "1b7c2ced-6b7f-41ee-abb4-1c608bef0f7d")
 		)
 		(pin "17"
-			(uuid "91e5a0b8-1116-4726-adbd-e4359f03c6fb")
+			(uuid "91e5a0b8-1116-4726-adbd-e4359f03c6fd")
 		)
 		(instances
 			(project ""
@@ -8523,28 +10447,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "295a4173-03e2-42e3-b098-9ce766876c2c")
+			(uuid "295a4173-03e2-42e3-b098-9ce766876c2d")
 		)
 		(pin "6"
-			(uuid "3f159262-7b5a-43e4-91c2-b6cc8bcaf26e")
+			(uuid "3f159262-7b5a-43e4-91c2-b6cc8bcaf26f")
 		)
 		(pin "8"
-			(uuid "827024cc-64b9-42c1-b24d-d83d39b2bddb")
+			(uuid "827024cc-64b9-42c1-b24d-d83d39b2bddc")
 		)
 		(pin "7"
-			(uuid "a3cf5caf-b6e8-457f-af42-2ad3d6ba1bb5")
+			(uuid "a3cf5caf-b6e8-457f-af42-2ad3d6ba1bb6")
 		)
 		(pin "3"
-			(uuid "67b4cc26-8767-4654-9c3a-7ada51acfb68")
+			(uuid "67b4cc26-8767-4654-9c3a-7ada51acfb69")
 		)
 		(pin "1"
-			(uuid "87fe35c1-5e72-4db5-acb2-ccda0e7fa97d")
+			(uuid "87fe35c1-5e72-4db5-acb2-ccda0e7fa97e")
 		)
 		(pin "2"
-			(uuid "97f9f2dc-f510-47bd-afcf-a2bbaa17426a")
+			(uuid "97f9f2dc-f510-47bd-afcf-a2bbaa17426b")
 		)
 		(pin "5"
-			(uuid "de6811a4-e3d5-490f-8dab-a41283a7c845")
+			(uuid "de6811a4-e3d5-490f-8dab-a41283a7c846")
 		)
 		(instances
 			(project ""
@@ -8722,6 +10646,127 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65/11b15ccd-f56c-4845-bdb5-e6134c64386c"
 					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_SQUARE_TH_1mm")
+		(at 201.93 26.67 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8655732c-3f85-41a0-8b8f-f34de81277b9")
+		(property "Reference" "TP56"
+			(at 204.978 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POT2"
+			(at 200.3425 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_SQUARE_TH_1mm"
+			(at 209.296 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.423 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test pad through hole"
+			(at 201.93 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "~"
+			(at 209.931 25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "~"
+			(at 209.042 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "~"
+			(at 209.55 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 209.55 25.527 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "~"
+			(at 209.042 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 209.55 26.797 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f34d99d3-b388-45b5-8d66-4154f7358607")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65/11b15ccd-f56c-4845-bdb5-e6134c64386c"
+					(reference "TP56")
 					(unit 1)
 				)
 			)
@@ -9293,7 +11338,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0201:R_0201_750k_AEC-Q200")
+		(lib_id "BR_Resistors_0201:R_0201_1M")
 		(at 72.39 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9310,7 +11355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "750k"
+		(property "Value" "1M"
 			(at 73.914 107.95 0)
 			(effects
 				(font
@@ -9319,7 +11364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
+		(property "Footprint" "BR_Passives:R_0201_0603Metric-minimized"
 			(at 72.39 30.48 0)
 			(effects
 				(font
@@ -9329,7 +11374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506091519_YAGEO-AF0201FR-07750KL_C5942591.pdf"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506161040_YAGEO-RC0201FR-071ML_C295786.pdf"
 			(at 72.39 33.02 0)
 			(effects
 				(font
@@ -9339,7 +11384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "750k 1% 200ppm 50mW Thick Film Resistor 0201 AEC-Q200"
+		(property "Description" "1M 1% 200ppm 50mW Thick Film Resistor 0201"
 			(at 72.39 35.56 0)
 			(effects
 				(font
@@ -9359,7 +11404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Num" "AF0201FR-07750KL"
+		(property "Manufacturer Part Num" "RC0201FR-071ML"
 			(at 72.39 40.64 0)
 			(effects
 				(font
@@ -9369,7 +11414,7 @@
 				(hide yes)
 			)
 		)
-		(property "BRE Number" "BRE-001258"
+		(property "BRE Number" "BRE-001254"
 			(at 72.39 43.18 0)
 			(effects
 				(font
@@ -9379,7 +11424,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Num" "C5942591"
+		(property "JLCPCB Part Num" "C295786"
 			(at 72.39 45.72 0)
 			(effects
 				(font
@@ -9672,28 +11717,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "295a4173-03e2-42e3-b098-9ce766876c2c")
+			(uuid "295a4173-03e2-42e3-b098-9ce766876c2e")
 		)
 		(pin "6"
-			(uuid "3f159262-7b5a-43e4-91c2-b6cc8bcaf26e")
+			(uuid "3f159262-7b5a-43e4-91c2-b6cc8bcaf270")
 		)
 		(pin "8"
-			(uuid "827024cc-64b9-42c1-b24d-d83d39b2bddb")
+			(uuid "827024cc-64b9-42c1-b24d-d83d39b2bddd")
 		)
 		(pin "7"
-			(uuid "a3cf5caf-b6e8-457f-af42-2ad3d6ba1bb5")
+			(uuid "a3cf5caf-b6e8-457f-af42-2ad3d6ba1bb7")
 		)
 		(pin "3"
-			(uuid "67b4cc26-8767-4654-9c3a-7ada51acfb68")
+			(uuid "67b4cc26-8767-4654-9c3a-7ada51acfb6a")
 		)
 		(pin "1"
-			(uuid "87fe35c1-5e72-4db5-acb2-ccda0e7fa97d")
+			(uuid "87fe35c1-5e72-4db5-acb2-ccda0e7fa97f")
 		)
 		(pin "2"
-			(uuid "97f9f2dc-f510-47bd-afcf-a2bbaa17426a")
+			(uuid "97f9f2dc-f510-47bd-afcf-a2bbaa17426c")
 		)
 		(pin "5"
-			(uuid "de6811a4-e3d5-490f-8dab-a41283a7c845")
+			(uuid "de6811a4-e3d5-490f-8dab-a41283a7c847")
 		)
 		(instances
 			(project ""
@@ -10099,7 +12144,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0201:R_0201_750k_AEC-Q200")
+		(lib_id "BR_Resistors_0201:R_0201_1M")
 		(at 129.54 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10116,7 +12161,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "750k"
+		(property "Value" "1M"
 			(at 131.826 116.332 90)
 			(effects
 				(font
@@ -10125,7 +12170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
+		(property "Footprint" "BR_Passives:R_0201_0603Metric-minimized"
 			(at 53.34 114.3 0)
 			(effects
 				(font
@@ -10135,7 +12180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506091519_YAGEO-AF0201FR-07750KL_C5942591.pdf"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506161040_YAGEO-RC0201FR-071ML_C295786.pdf"
 			(at 55.88 114.3 0)
 			(effects
 				(font
@@ -10145,7 +12190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "750k 1% 200ppm 50mW Thick Film Resistor 0201 AEC-Q200"
+		(property "Description" "1M 1% 200ppm 50mW Thick Film Resistor 0201"
 			(at 58.42 114.3 0)
 			(effects
 				(font
@@ -10165,7 +12210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Num" "AF0201FR-07750KL"
+		(property "Manufacturer Part Num" "RC0201FR-071ML"
 			(at 63.5 114.3 0)
 			(effects
 				(font
@@ -10175,7 +12220,7 @@
 				(hide yes)
 			)
 		)
-		(property "BRE Number" "BRE-001258"
+		(property "BRE Number" "BRE-001254"
 			(at 66.04 114.3 0)
 			(effects
 				(font
@@ -10185,7 +12230,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Num" "C5942591"
+		(property "JLCPCB Part Num" "C295786"
 			(at 68.58 114.3 0)
 			(effects
 				(font
