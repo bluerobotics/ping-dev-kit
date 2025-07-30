@@ -248,6 +248,458 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BR_Connectors_Header:Header_Socket_SIP_01x02_2.54mm_Vert_PTH"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LABEL"
+				(at 1.524 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302203_XFCN-MF254V-11-02-0743_C2889984.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Header Socket 01x02 2.54mm Vertical PTH"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XFCN"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "MF254V-11-02-0743"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-001260"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C2889984"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Header_Socket_SIP_01x02_2.54mm_Vert_PTH_1_1"
+				(rectangle
+					(start 0 0)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.143)
+					(end 1.27 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -3.683)
+					(end 1.27 -3.937)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BR_IC:74LVC1G66GW,125"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 19.558 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "74LVC1G66GW,125"
+				(at 19.558 -8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "BR_SOT:SOT-353_SC-70-5"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G66.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Analog Switch IC, 1 Circuit IC Switch 1:1, 10Ohm, 5-TSSOP"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Nexperia USA Inc."
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "74LVC1G66GW,125"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-001264"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C548020"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" ""
+				(at 0 58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC1G66GW,125_0_1"
+				(rectangle
+					(start -7.62 11.43)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 5.08) (xy 0 5.08) (xy 0 1.905)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0) (xy -1.27 0) (xy 1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 4.445 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LVC1G66GW,125_1_1"
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 13.97 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "Z"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BR_IC:DAC53401DSGR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -527,6 +979,285 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BR_Resistors_0402:R_0402_100k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.524 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100k"
+				(at 1.524 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "100k 1% 100ppm 62.5mW Thick Film Resistor 0402"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "RC0402FR-07100KL"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-000290"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" "311-100KLRCT-ND"
+				(at 0 58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "DigiKey"
+				(at 0 55.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" "311-100KLRTR-ND"
+				(at 0 53.34 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" "JLCPCB"
+				(at 0 50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" "C60491"
+				(at 0 48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C60491"
+				(at 0 45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0402_100k_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0402_100k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BR_Virtual_Parts:GND"
 			(power)
 			(pin_numbers
@@ -666,40 +1397,88 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "330nF for 33ms time constant"
+		(exclude_from_sim no)
+		(at 159.258 103.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24ecbe8e-5248-4602-a5d1-2d2adde73c25")
+	)
+	(text "Address: 0b001"
+		(exclude_from_sim no)
+		(at 110.744 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2658d254-0a1c-49eb-9ae7-e249b3b92d7e")
+	)
+	(text "Address: 0b011"
+		(exclude_from_sim no)
+		(at 111.252 120.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "472bef0c-8e2f-4c7b-b13b-b9f80d6fb253")
+	)
 	(junction
-		(at 116.84 72.39)
+		(at 121.92 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04824bb2-d395-489f-82e7-7a7458032b99")
 	)
 	(junction
-		(at 130.81 97.79)
+		(at 135.89 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ac5178e-f0f2-480a-91e8-9909cf4b2d2f")
 	)
 	(junction
-		(at 130.81 148.59)
+		(at 175.26 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60aca60e-0653-4f98-a82c-3be7105d79bd")
+	)
+	(junction
+		(at 135.89 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fa37422-1dc3-45c9-ac19-012334ec4fd7")
 	)
 	(junction
-		(at 115.57 134.62)
+		(at 175.26 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8333946b-1044-4989-a49f-d561c5a54b0c")
+	)
+	(junction
+		(at 189.23 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e21a810-51ea-483f-b202-c37e4a4f5619")
+	)
+	(junction
+		(at 120.65 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6ff50ac-5281-4044-bf4e-7909441b0934")
 	)
 	(no_connect
-		(at 142.24 138.43)
+		(at 147.32 129.54)
 		(uuid "303d05da-1d29-45ee-b6cb-d6c03b538bd3")
 	)
 	(no_connect
-		(at 142.24 87.63)
+		(at 147.32 87.63)
 		(uuid "8f8fe379-58fe-42ba-8e67-4b280e3a21b7")
 	)
 	(bus_entry
-		(at 50.8 78.74)
+		(at 50.8 49.53)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -708,7 +1487,7 @@
 		(uuid "87364848-4c20-4bab-b217-d1b03f985a3f")
 	)
 	(bus_entry
-		(at 50.8 76.2)
+		(at 50.8 46.99)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -718,7 +1497,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 69.85 81.28)
+			(xy 222.25 104.14) (xy 227.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071e6a3e-71d2-4568-89b6-ba357e734c94")
+	)
+	(wire
+		(pts
+			(xy 53.34 52.07) (xy 69.85 52.07)
 		)
 		(stroke
 			(width 0)
@@ -728,7 +1517,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 78.74) (xy 116.84 72.39)
+			(xy 121.92 78.74) (xy 121.92 72.39)
 		)
 		(stroke
 			(width 0)
@@ -738,7 +1527,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 78.74) (xy 69.85 78.74)
+			(xy 212.09 113.03) (xy 212.09 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc68144-984f-4cf3-b390-ca1af91e24ad")
+	)
+	(wire
+		(pts
+			(xy 53.34 49.53) (xy 69.85 49.53)
 		)
 		(stroke
 			(width 0)
@@ -748,7 +1547,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 147.32) (xy 129.54 148.59)
+			(xy 134.62 138.43) (xy 134.62 139.7)
 		)
 		(stroke
 			(width 0)
@@ -758,7 +1557,37 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 148.59) (xy 130.81 149.86)
+			(xy 132.08 114.3) (xy 135.89 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bac690d-e7a4-4752-af3f-20ac3dffccff")
+	)
+	(wire
+		(pts
+			(xy 175.26 124.46) (xy 227.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d877ec-3dfc-4d10-a20d-0f70dd540609")
+	)
+	(wire
+		(pts
+			(xy 193.04 99.06) (xy 201.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee6de20-3e3e-4ae6-b288-6995ce52f129")
+	)
+	(wire
+		(pts
+			(xy 135.89 139.7) (xy 135.89 140.97)
 		)
 		(stroke
 			(width 0)
@@ -768,7 +1597,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 142.24) (xy 119.38 142.24)
+			(xy 205.74 88.9) (xy 212.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589550b1-de64-4f38-8c9b-221cb5f466b0")
+	)
+	(wire
+		(pts
+			(xy 118.11 133.35) (xy 124.46 133.35)
 		)
 		(stroke
 			(width 0)
@@ -778,7 +1617,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 91.44) (xy 119.38 91.44)
+			(xy 118.11 91.44) (xy 124.46 91.44)
 		)
 		(stroke
 			(width 0)
@@ -788,7 +1627,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 134.62) (xy 115.57 134.62)
+			(xy 109.22 125.73) (xy 120.65 125.73)
 		)
 		(stroke
 			(width 0)
@@ -798,7 +1637,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 96.52) (xy 129.54 97.79)
+			(xy 134.62 96.52) (xy 134.62 97.79)
 		)
 		(stroke
 			(width 0)
@@ -808,7 +1647,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 148.59) (xy 132.08 148.59)
+			(xy 135.89 139.7) (xy 137.16 139.7)
 		)
 		(stroke
 			(width 0)
@@ -818,7 +1657,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 78.74) (xy 116.84 78.74)
+			(xy 124.46 78.74) (xy 121.92 78.74)
 		)
 		(stroke
 			(width 0)
@@ -828,7 +1667,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 72.39) (xy 116.84 72.39)
+			(xy 166.37 82.55) (xy 175.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710a5205-b2ff-47e4-811a-457a4c8a1e1f")
+	)
+	(wire
+		(pts
+			(xy 113.03 72.39) (xy 121.92 72.39)
 		)
 		(stroke
 			(width 0)
@@ -838,7 +1687,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 147.32) (xy 132.08 148.59)
+			(xy 137.16 138.43) (xy 137.16 139.7)
 		)
 		(stroke
 			(width 0)
@@ -848,7 +1697,7 @@
 	)
 	(bus
 		(pts
-			(xy 38.1 76.2) (xy 50.8 76.2)
+			(xy 38.1 46.99) (xy 50.8 46.99)
 		)
 		(stroke
 			(width 0)
@@ -858,7 +1707,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 129.54) (xy 115.57 134.62)
+			(xy 120.65 120.65) (xy 120.65 125.73)
 		)
 		(stroke
 			(width 0)
@@ -868,7 +1717,7 @@
 	)
 	(bus
 		(pts
-			(xy 50.8 76.2) (xy 50.8 78.74)
+			(xy 50.8 46.99) (xy 50.8 49.53)
 		)
 		(stroke
 			(width 0)
@@ -878,7 +1727,47 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 72.39) (xy 130.81 73.66)
+			(xy 147.32 82.55) (xy 158.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8caf07ba-a6eb-462c-a7bd-46c3c2d5c233")
+	)
+	(wire
+		(pts
+			(xy 175.26 124.46) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cbda375-1b20-4d85-96aa-d9d5bf5fe201")
+	)
+	(wire
+		(pts
+			(xy 189.23 104.14) (xy 201.93 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947256fe-fba0-4c1a-a490-d8bf7756e6df")
+	)
+	(wire
+		(pts
+			(xy 175.26 82.55) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965a59d2-28e3-4e93-a008-5c59dde542cd")
+	)
+	(wire
+		(pts
+			(xy 135.89 72.39) (xy 135.89 73.66)
 		)
 		(stroke
 			(width 0)
@@ -888,7 +1777,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 86.36) (xy 119.38 86.36)
+			(xy 109.22 86.36) (xy 124.46 86.36)
 		)
 		(stroke
 			(width 0)
@@ -898,7 +1787,27 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 97.79) (xy 130.81 99.06)
+			(xy 135.89 114.3) (xy 135.89 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bce0b8e-3268-448b-be39-4293da281381")
+	)
+	(wire
+		(pts
+			(xy 189.23 82.55) (xy 189.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cf3230-cdd2-4b22-b574-3f3c5bb79b13")
+	)
+	(wire
+		(pts
+			(xy 135.89 97.79) (xy 135.89 99.06)
 		)
 		(stroke
 			(width 0)
@@ -908,7 +1817,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54) (xy 115.57 129.54)
+			(xy 124.46 120.65) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
@@ -918,7 +1827,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 83.82) (xy 119.38 83.82)
+			(xy 109.22 83.82) (xy 124.46 83.82)
 		)
 		(stroke
 			(width 0)
@@ -928,7 +1837,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 113.03 99.06)
+			(xy 118.11 96.52) (xy 118.11 99.06)
 		)
 		(stroke
 			(width 0)
@@ -938,7 +1847,27 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 97.79) (xy 130.81 97.79)
+			(xy 38.1 58.42) (xy 53.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf11155b-ca45-43cc-a71b-6c552cb1c026")
+	)
+	(wire
+		(pts
+			(xy 175.26 104.14) (xy 175.26 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d258c6e3-ae2b-4488-aa87-6df646a89f3a")
+	)
+	(wire
+		(pts
+			(xy 134.62 97.79) (xy 135.89 97.79)
 		)
 		(stroke
 			(width 0)
@@ -948,7 +1877,47 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 147.32) (xy 113.03 149.86)
+			(xy 38.1 39.37) (xy 52.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3454daf-16d8-41e6-9d05-90c7e5cd8963")
+	)
+	(wire
+		(pts
+			(xy 175.26 82.55) (xy 189.23 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c08986-11b9-4f2c-9c04-cc9a91ccc424")
+	)
+	(wire
+		(pts
+			(xy 212.09 114.3) (xy 210.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3a7b6b-1eec-4bc3-9aa0-81484d568588")
+	)
+	(wire
+		(pts
+			(xy 212.09 90.17) (xy 212.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2353dd0-108d-4d1e-9283-ce542787101a")
+	)
+	(wire
+		(pts
+			(xy 118.11 138.43) (xy 118.11 140.97)
 		)
 		(stroke
 			(width 0)
@@ -958,7 +1927,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 72.39) (xy 130.81 72.39)
+			(xy 121.92 72.39) (xy 135.89 72.39)
 		)
 		(stroke
 			(width 0)
@@ -968,7 +1937,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 148.59) (xy 130.81 148.59)
+			(xy 134.62 139.7) (xy 135.89 139.7)
 		)
 		(stroke
 			(width 0)
@@ -978,7 +1947,27 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 97.79) (xy 132.08 97.79)
+			(xy 189.23 82.55) (xy 203.2 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe54c5a-127a-40d3-9fe3-0a1720521cf7")
+	)
+	(wire
+		(pts
+			(xy 227.33 104.14) (xy 227.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecef2636-6a9f-4424-ac03-7c0c63bf7b4c")
+	)
+	(wire
+		(pts
+			(xy 135.89 97.79) (xy 137.16 97.79)
 		)
 		(stroke
 			(width 0)
@@ -988,7 +1977,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 137.16) (xy 119.38 137.16)
+			(xy 109.22 128.27) (xy 124.46 128.27)
 		)
 		(stroke
 			(width 0)
@@ -998,7 +1987,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 134.62) (xy 119.38 134.62)
+			(xy 120.65 125.73) (xy 124.46 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1008,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 96.52) (xy 132.08 97.79)
+			(xy 137.16 96.52) (xy 137.16 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1016,8 +2005,38 @@
 		)
 		(uuid "fba7bbcd-6f02-45bf-98dc-9352cff1c30b")
 	)
+	(label "3V3"
+		(at 52.07 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00b49ed8-4f0b-4b84-b51b-b9202ab2b065")
+	)
+	(label "TGC_RST"
+		(at 193.04 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c6de6c6-7c2c-4df4-9f69-70fecc509911")
+	)
+	(label "3V3"
+		(at 113.03 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65ab9dac-8032-4d23-ac13-df47d2fef1fd")
+	)
 	(label "I2C4.SDA"
-		(at 104.14 86.36 0)
+		(at 109.22 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1027,7 +2046,7 @@
 		(uuid "757503e1-47a5-4d49-abdf-9d59c094105c")
 	)
 	(label "I2C4.SCL"
-		(at 69.85 78.74 180)
+		(at 69.85 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1037,7 +2056,7 @@
 		(uuid "8e686539-f1df-42d4-b33b-3163ae11ff29")
 	)
 	(label "I2C4.SDA"
-		(at 69.85 81.28 180)
+		(at 69.85 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1046,8 +2065,28 @@
 		)
 		(uuid "94c43af9-c0b5-4e79-ad2c-b6dbe1f85eed")
 	)
+	(label "TGC_RST"
+		(at 53.34 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0a0c9be-3ab3-4796-babf-0c68d9c4b2c6")
+	)
+	(label "3V3"
+		(at 132.08 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4f189a7-f0fc-45e6-933a-445a6d0ec13e")
+	)
 	(label "I2C4.SCL"
-		(at 104.14 134.62 0)
+		(at 109.22 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1056,8 +2095,18 @@
 		)
 		(uuid "dd70d409-351d-4d3f-9f09-bb5c62ef9fc1")
 	)
+	(label "3V3"
+		(at 205.74 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddb12c51-0761-4b0b-82b0-76c4d5a42294")
+	)
 	(label "I2C4.SCL"
-		(at 104.14 83.82 0)
+		(at 109.22 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1067,7 +2116,7 @@
 		(uuid "e6b64109-f791-4d66-97bc-5ea40899f14c")
 	)
 	(label "I2C4.SDA"
-		(at 104.14 137.16 0)
+		(at 109.22 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1076,9 +2125,20 @@
 		)
 		(uuid "fc278c7a-68d8-47b5-be98-4fe347ca2118")
 	)
+	(hierarchical_label "TGC_RST"
+		(shape input)
+		(at 38.1 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33079da3-cc5c-479e-84f1-f8f4864ab729")
+	)
 	(hierarchical_label "I2C4{I2C}"
 		(shape bidirectional)
-		(at 38.1 76.2 180)
+		(at 38.1 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1089,7 +2149,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 38.1 68.58 180)
+		(at 38.1 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1098,9 +2158,20 @@
 		)
 		(uuid "91e5c217-c0fb-4633-801c-bb4fef90b2bc")
 	)
+	(hierarchical_label "TGC"
+		(shape output)
+		(at 203.2 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e647def9-229c-47df-8205-7766cdd84da9")
+	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 113.03 149.86 0)
+		(at 118.11 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1109,7 +2180,7 @@
 		(fields_autoplaced yes)
 		(uuid "0facac06-d33a-4701-b406-48beebef3bc0")
 		(property "Reference" "#PWR0604"
-			(at 113.03 156.21 0)
+			(at 118.11 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1118,7 +2189,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 154.94 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1127,7 +2198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 149.86 0)
+			(at 118.11 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,7 +2207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 149.86 0)
+			(at 118.11 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +2216,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 149.86 0)
+			(at 118.11 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,7 +2238,7 @@
 	)
 	(symbol
 		(lib_id "BR_IC:DAC53401DSGR")
-		(at 130.81 85.09 0)
+		(at 135.89 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1176,7 +2247,7 @@
 		(fields_autoplaced yes)
 		(uuid "246f5554-b53f-4dd5-ada1-eb78ab941669")
 		(property "Reference" "U601"
-			(at 132.9533 71.12 0)
+			(at 138.0333 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +2256,7 @@
 			)
 		)
 		(property "Value" "DAC53401DSGR"
-			(at 132.9533 73.66 0)
+			(at 138.0333 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +2265,7 @@
 			)
 		)
 		(property "Footprint" "BR_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
-			(at 130.81 8.89 0)
+			(at 135.89 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1204,7 +2275,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/dac53401.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1751654153747&ref_url=https%253A%252F%252Fmatomo.sctykj.boats%252F"
-			(at 130.81 11.43 0)
+			(at 135.89 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +2285,7 @@
 			)
 		)
 		(property "Description" "10 Bit Digital to Analog Converter, I2C Interface, 8-WSON (2x2)"
-			(at 130.81 13.97 0)
+			(at 135.89 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,7 +2295,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 130.81 16.51 0)
+			(at 135.89 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +2305,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "DAC53401DSGR"
-			(at 130.81 19.05 0)
+			(at 135.89 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +2315,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001241"
-			(at 130.81 21.59 0)
+			(at 135.89 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1254,7 +2325,7 @@
 			)
 		)
 		(property "LCSC Part" "C1855756"
-			(at 130.81 24.13 0)
+			(at 135.89 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,7 +2335,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C1855756"
-			(at 130.81 26.67 0)
+			(at 135.89 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +2382,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 130.81 99.06 0)
+		(at 135.89 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1320,7 +2391,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e5fa122-8d9a-48d9-81b1-24bfa7ec2055")
 		(property "Reference" "#PWR0601"
-			(at 130.81 105.41 0)
+			(at 135.89 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,7 +2400,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 104.14 0)
+			(at 135.89 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +2409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 99.06 0)
+			(at 135.89 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +2418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 99.06 0)
+			(at 135.89 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +2427,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 99.06 0)
+			(at 135.89 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +2449,7 @@
 	)
 	(symbol
 		(lib_id "BR_IC:DAC53401DSGR")
-		(at 130.81 135.89 0)
+		(at 135.89 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1387,7 +2458,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e0cb8d7-fca1-431e-b1ed-682ef0bc553a")
 		(property "Reference" "U602"
-			(at 132.9533 121.92 0)
+			(at 138.0333 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +2467,7 @@
 			)
 		)
 		(property "Value" "DAC53401DSGR"
-			(at 132.9533 124.46 0)
+			(at 138.0333 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +2476,7 @@
 			)
 		)
 		(property "Footprint" "BR_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
-			(at 130.81 59.69 0)
+			(at 135.89 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +2486,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/dac53401.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1751654153747&ref_url=https%253A%252F%252Fmatomo.sctykj.boats%252F"
-			(at 130.81 62.23 0)
+			(at 135.89 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +2496,7 @@
 			)
 		)
 		(property "Description" "10 Bit Digital to Analog Converter, I2C Interface, 8-WSON (2x2)"
-			(at 130.81 64.77 0)
+			(at 135.89 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +2506,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 130.81 67.31 0)
+			(at 135.89 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +2516,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "DAC53401DSGR"
-			(at 130.81 69.85 0)
+			(at 135.89 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +2526,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001241"
-			(at 130.81 72.39 0)
+			(at 135.89 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +2536,7 @@
 			)
 		)
 		(property "LCSC Part" "C1855756"
-			(at 130.81 74.93 0)
+			(at 135.89 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +2546,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C1855756"
-			(at 130.81 77.47 0)
+			(at 135.89 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +2593,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 113.03 99.06 0)
+		(at 118.11 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1531,7 +2602,7 @@
 		(fields_autoplaced yes)
 		(uuid "4310aee4-4281-4957-a031-a53f3a3593e6")
 		(property "Reference" "#PWR0603"
-			(at 113.03 105.41 0)
+			(at 118.11 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +2611,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 104.14 0)
+			(at 118.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +2620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 99.06 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,7 +2629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 99.06 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,7 +2638,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 99.06 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +2660,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_4u7F_10V_X7T_20%")
-		(at 113.03 144.78 180)
+		(at 118.11 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1597,7 +2668,7 @@
 		(dnp no)
 		(uuid "4a87ddaa-c4a3-40db-8667-cfc6ed39c388")
 		(property "Reference" "C602"
-			(at 105.918 144.018 0)
+			(at 110.998 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1606,7 +2677,7 @@
 			)
 		)
 		(property "Value" "4u7F 10V"
-			(at 101.6 146.05 0)
+			(at 106.68 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1615,7 +2686,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
-			(at 113.03 220.98 0)
+			(at 118.11 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,7 +2696,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155D71A475ME15-01A.pdf"
-			(at 113.03 218.44 0)
+			(at 118.11 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,7 +2706,7 @@
 			)
 		)
 		(property "Description" "4.7uF 10V X7T 20% Ceramic Capacitor 0402"
-			(at 113.03 208.28 0)
+			(at 118.11 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,7 +2716,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 113.03 215.9 0)
+			(at 118.11 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1655,7 +2726,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM155D71A475ME15J"
-			(at 113.03 213.36 0)
+			(at 118.11 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +2736,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000033"
-			(at 113.03 210.82 0)
+			(at 118.11 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +2746,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 113.03 205.74 0)
+			(at 118.11 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +2756,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-GRM155D71A475ME15JTR-ND"
-			(at 113.03 203.2 0)
+			(at 118.11 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +2766,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 113.03 200.66 0)
+			(at 118.11 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +2776,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM155D71A475ME5J"
-			(at 113.03 198.12 0)
+			(at 118.11 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +2786,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 113.03 195.58 0)
+			(at 118.11 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +2796,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C20044523"
-			(at 113.03 193.04 0)
+			(at 118.11 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +2806,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C20044523"
-			(at 113.03 190.5 0)
+			(at 118.11 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,8 +2831,138 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_IC:74LVC1G66GW,125")
+		(at 212.09 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5355fbd6-4f76-4fb9-afde-19186cef741d")
+		(property "Reference" "U603"
+			(at 229.87 97.7198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G66GW,125"
+			(at 229.87 100.2598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BR_SOT:SOT-353_SC-70-5"
+			(at 212.09 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G66.pdf"
+			(at 212.09 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog Switch IC, 1 Circuit IC Switch 1:1, 10Ohm, 5-TSSOP"
+			(at 212.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia USA Inc."
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "74LVC1G66GW,125"
+			(at 212.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001264"
+			(at 212.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C548020"
+			(at 212.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" ""
+			(at 212.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06ee1381-77e4-4ec9-9cfb-f4ea777f810c")
+		)
+		(pin "4"
+			(uuid "d340f743-078c-48f6-846f-3d4e82f2e648")
+		)
+		(pin "3"
+			(uuid "a572c069-850e-49b7-895b-321b64294361")
+		)
+		(pin "2"
+			(uuid "6a8c49d3-c069-4d7e-8c07-138cbdee5edd")
+		)
+		(pin "5"
+			(uuid "7d7e820c-3d61-4bf5-a9e1-888264e5f1f1")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "U603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_4u7F_10V_X7T_20%")
-		(at 113.03 93.98 180)
+		(at 118.11 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1769,7 +2970,7 @@
 		(dnp no)
 		(uuid "66cbbcee-fdf1-4b00-8ed0-474fb413c61d")
 		(property "Reference" "C601"
-			(at 110.49 95.2438 0)
+			(at 115.57 95.2438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +2979,7 @@
 			)
 		)
 		(property "Value" "4u7F 10V"
-			(at 110.49 92.7038 0)
+			(at 115.57 92.7038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +2988,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
-			(at 113.03 170.18 0)
+			(at 118.11 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +2998,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155D71A475ME15-01A.pdf"
-			(at 113.03 167.64 0)
+			(at 118.11 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,7 +3008,7 @@
 			)
 		)
 		(property "Description" "4.7uF 10V X7T 20% Ceramic Capacitor 0402"
-			(at 113.03 157.48 0)
+			(at 118.11 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +3018,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 113.03 165.1 0)
+			(at 118.11 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +3028,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM155D71A475ME15J"
-			(at 113.03 162.56 0)
+			(at 118.11 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +3038,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000033"
-			(at 113.03 160.02 0)
+			(at 118.11 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +3048,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 113.03 154.94 0)
+			(at 118.11 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,7 +3058,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-GRM155D71A475ME15JTR-ND"
-			(at 113.03 152.4 0)
+			(at 118.11 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +3068,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 113.03 149.86 0)
+			(at 118.11 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +3078,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM155D71A475ME5J"
-			(at 113.03 147.32 0)
+			(at 118.11 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,7 +3088,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 113.03 144.78 0)
+			(at 118.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,7 +3098,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C20044523"
-			(at 113.03 142.24 0)
+			(at 118.11 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +3108,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C20044523"
-			(at 113.03 139.7 0)
+			(at 118.11 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,16 +3134,16 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 130.81 149.86 0)
+		(at 210.82 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cf3936ed-d576-4a66-8b58-47f54f8463f9")
-		(property "Reference" "#PWR0602"
-			(at 130.81 156.21 0)
+		(uuid "8a2a806e-d8e5-40bc-8e76-0bd3ea72c1a8")
+		(property "Reference" "#PWR0605"
+			(at 210.82 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +3152,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 154.94 0)
+			(at 210.82 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +3161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 149.86 0)
+			(at 210.82 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,7 +3170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 149.86 0)
+			(at 210.82 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +3179,187 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 149.86 0)
+			(at 210.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4032ffa-74c5-495f-95e9-c2cbe67ddc76")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "#PWR0605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Connectors_Header:Header_Socket_SIP_01x02_2.54mm_Vert_PTH")
+		(at 181.61 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a82ffc7a-1e1f-4711-aecb-d218e51cc509")
+		(property "Reference" "J601"
+			(at 182.88 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CAP"
+			(at 182.88 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
+			(at 181.61 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302203_XFCN-MF254V-11-02-0743_C2889984.pdf"
+			(at 181.61 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header Socket 01x02 2.54mm Vertical PTH"
+			(at 181.61 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 181.61 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "MF254V-11-02-0743"
+			(at 181.61 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001260"
+			(at 181.61 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C2889984"
+			(at 181.61 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e3634f2-33fd-4a3e-826c-387ca7840711")
+		)
+		(pin "1"
+			(uuid "50e860f1-4381-4756-9993-aae54609373e")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "J601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND")
+		(at 135.89 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf3936ed-d576-4a66-8b58-47f54f8463f9")
+		(property "Reference" "#PWR0602"
+			(at 135.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,6 +3374,177 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
 					(reference "#PWR0602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Resistors_0402:R_0402_100k")
+		(at 162.56 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd0a28ed-8ef4-489c-9090-932b362afa84")
+		(property "Reference" "R601"
+			(at 162.56 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 162.56 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+			(at 86.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "100k 1% 100ppm 62.5mW Thick Film Resistor 0402"
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 93.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "RC0402FR-07100KL"
+			(at 96.52 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-000290"
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "311-100KLRCT-ND"
+			(at 104.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "DigiKey"
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "311-100KLRTR-ND"
+			(at 109.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 111.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C60491"
+			(at 114.3 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C60491"
+			(at 116.84 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c8c90f2-937a-46c0-a805-40f7c71b4072")
+		)
+		(pin "2"
+			(uuid "1019a639-c92d-472c-a1d9-27fe4a11bbc8")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "R601")
 					(unit 1)
 				)
 			)

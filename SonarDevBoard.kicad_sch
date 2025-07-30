@@ -485,6 +485,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LABEL"
+				(at 1.524 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XFCN"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "PZ254V-11-02P"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-001259"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C492401"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Header_Pin_01x02_2.54mm_Vert_PTH_1_1"
+				(rectangle
+					(start 0 0)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.143)
+					(end 1.27 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -3.683)
+					(end 1.27 -3.937)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BR_Connectors_Header:Header_Pin_02x10_2.54mm_Vert_PTH"
 			(pin_names
 				(offset 1.016)
@@ -3184,256 +3369,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Resistors_0603:R_0603_0R_AEC-Q200"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.524 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "0R"
-				(at 1.524 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "BR_Passives:R_0603_1608Metric"
-				(at 0 76.2 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.koaspeer.com/pdfs/TLRZ.pdf"
-				(at 0 73.66 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Current Sense Metal Element"
-				(at 0 71.12 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "KOA Speer Electronics, Inc."
-				(at 0 68.58 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Num" "TLRZ1JTTD"
-				(at 0 66.04 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "BRE Number" "BRE-001148"
-				(at 0 63.5 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Package" "0603"
-				(at 0 60.96 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" "JLCPCB"
-				(at 0 58.42 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 1" "C782253"
-				(at 0 55.88 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier 2" "DigiKey"
-				(at 0 53.34 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 2" "2019-TLRZ1JTTDTR-ND"
-				(at 0 50.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Part Num" "C782253"
-				(at 0 48.26 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "R_0603_0R_AEC-Q200_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_0R_AEC-Q200_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "BR_Transistors:MFET_P_DMP6023LSS-13"
 			(pin_names
 				(hide yes)
@@ -4249,7 +4184,7 @@
 	)
 	(text "Gain is from 0 to 80dB from 0.1 to 1.1V"
 		(exclude_from_sim no)
-		(at 167.64 173.736 0)
+		(at 163.068 181.864 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4257,6 +4192,18 @@
 			)
 		)
 		(uuid "9fe6378f-21cf-4825-92b6-c6d5f5831639")
+	)
+	(junction
+		(at 73.66 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f3aeecd-b2c9-4234-8dfd-6c2114d6c6e6")
+	)
+	(junction
+		(at 73.66 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2573fcd0-38fb-4421-98e2-efb580032d9c")
 	)
 	(junction
 		(at 68.58 77.47)
@@ -4271,22 +4218,10 @@
 		(uuid "63e7793a-f2b0-4519-a6c9-7af4ca982f73")
 	)
 	(junction
-		(at 71.12 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "789cff14-9c36-486d-8950-2489a67a1c76")
-	)
-	(junction
 		(at 54.61 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba6e7b77-ec56-424a-81e1-8927a8719209")
-	)
-	(junction
-		(at 71.12 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f32e9d85-3ec6-42dd-8a9e-4d28d53e6dc3")
 	)
 	(no_connect
 		(at 48.26 260.35)
@@ -4400,16 +4335,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 195.58) (xy 71.12 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09a477c2-6a8c-46b1-9b6e-cdf41df37e81")
-	)
-	(wire
-		(pts
 			(xy 27.94 171.45) (xy 40.64 171.45)
 		)
 		(stroke
@@ -4417,16 +4342,6 @@
 			(type default)
 		)
 		(uuid "09b2c6b9-0d18-4097-a232-07655fbb3887")
-	)
-	(wire
-		(pts
-			(xy 63.5 207.01) (xy 71.12 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b45edff-e50d-4ab2-8809-4ed95b0d98e9")
 	)
 	(wire
 		(pts
@@ -4490,6 +4405,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 173.99) (xy 118.11 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a0110d-bc60-4cb4-b3f4-f28d0009853b")
+	)
+	(wire
+		(pts
 			(xy 78.74 76.2) (xy 78.74 77.47)
 		)
 		(stroke
@@ -4510,16 +4435,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 218.44) (xy 80.01 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20d808da-b07b-4973-8072-0d909924beab")
-	)
-	(wire
-		(pts
 			(xy 31.75 257.81) (xy 48.26 257.81)
 		)
 		(stroke
@@ -4527,6 +4442,16 @@
 			(type default)
 		)
 		(uuid "225cf9f9-7cec-47d9-bdb3-5248ce321bf8")
+	)
+	(wire
+		(pts
+			(xy 60.96 218.44) (xy 73.66 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "246c9b61-9245-4bc4-a855-5a5f39bd14af")
 	)
 	(bus
 		(pts
@@ -4550,16 +4475,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 229.87) (xy 71.12 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa06471-1cc8-4c08-8b24-f7e41fa4d925")
-	)
-	(wire
-		(pts
 			(xy 82.55 250.19) (xy 71.12 250.19)
 		)
 		(stroke
@@ -4567,6 +4482,16 @@
 			(type default)
 		)
 		(uuid "2ef6e216-0d4e-40d2-8c97-7b70b7fbebd7")
+	)
+	(wire
+		(pts
+			(xy 73.66 195.58) (xy 82.55 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30faa377-6fa0-487a-a528-813ebf425a35")
 	)
 	(wire
 		(pts
@@ -4650,6 +4575,26 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 218.44) (xy 82.55 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b05b8a-499c-4075-b0f2-432f52ce07a5")
+	)
+	(wire
+		(pts
+			(xy 200.66 219.71) (xy 223.52 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a178f4d-c90d-4631-9c15-8aeb48f16840")
+	)
+	(wire
+		(pts
 			(xy 123.19 60.96) (xy 148.59 60.96)
 		)
 		(stroke
@@ -4690,7 +4635,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 229.87) (xy 71.12 218.44)
+			(xy 73.66 229.87) (xy 73.66 218.44)
 		)
 		(stroke
 			(width 0)
@@ -4748,6 +4693,16 @@
 		)
 		(uuid "63327adb-bbb8-4473-9380-034752bb3c64")
 	)
+	(wire
+		(pts
+			(xy 140.97 179.07) (xy 170.18 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6906262a-b9b0-486a-a890-0fd400f5135a")
+	)
 	(bus
 		(pts
 			(xy 69.85 168.91) (xy 69.85 171.45)
@@ -4778,9 +4733,19 @@
 		)
 		(uuid "70e66e86-cd04-4830-937c-db76407fe0de")
 	)
+	(bus
+		(pts
+			(xy 96.52 179.07) (xy 118.11 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c1ffc7-617c-4dfc-a7fe-705bd06e5252")
+	)
 	(wire
 		(pts
-			(xy 39.37 218.44) (xy 55.88 218.44)
+			(xy 39.37 218.44) (xy 58.42 218.44)
 		)
 		(stroke
 			(width 0)
@@ -4797,6 +4762,26 @@
 			(type default)
 		)
 		(uuid "73d4bb3d-2ede-4cfa-a12d-e687bbc2ce37")
+	)
+	(wire
+		(pts
+			(xy 144.78 100.33) (xy 148.59 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7428e1e9-3a2b-4d87-8240-dbba32eeb063")
+	)
+	(wire
+		(pts
+			(xy 60.96 195.58) (xy 73.66 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7649cf6a-3510-46ed-9cb4-4d338624becb")
 	)
 	(wire
 		(pts
@@ -4900,6 +4885,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 179.07) (xy 170.18 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d060d9-564a-4b40-b387-6ad2c78c91d8")
+	)
+	(wire
+		(pts
 			(xy 30.48 34.29) (xy 30.48 38.1)
 		)
 		(stroke
@@ -4960,7 +4955,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 229.87) (xy 55.88 229.87)
+			(xy 39.37 229.87) (xy 58.42 229.87)
 		)
 		(stroke
 			(width 0)
@@ -4977,6 +4972,16 @@
 			(type default)
 		)
 		(uuid "98d8dac7-1f73-47fd-baca-71fb36bac59f")
+	)
+	(wire
+		(pts
+			(xy 60.96 207.01) (xy 73.66 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a05c3b-af14-460b-bf86-3d2331a51ebc")
 	)
 	(wire
 		(pts
@@ -5070,16 +5075,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 195.58) (xy 80.01 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8fdfbab-fede-4c8c-b4e8-7cc0a17129bc")
-	)
-	(wire
-		(pts
 			(xy 53.34 153.67) (xy 67.31 153.67)
 		)
 		(stroke
@@ -5120,16 +5115,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 218.44) (xy 71.12 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4d56498-11a5-4c4b-b26e-64edaee5af87")
-	)
-	(wire
-		(pts
 			(xy 86.36 68.58) (xy 86.36 66.04)
 		)
 		(stroke
@@ -5137,6 +5122,16 @@
 			(type default)
 		)
 		(uuid "c962ef3d-1225-4111-b3d9-2b3111171089")
+	)
+	(wire
+		(pts
+			(xy 144.78 100.33) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9eccfb8-b500-4b2b-bcb0-586a3341b75e")
 	)
 	(wire
 		(pts
@@ -5170,7 +5165,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 207.01) (xy 71.12 195.58)
+			(xy 60.96 229.87) (xy 73.66 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda623d0-13b8-43ce-97fb-bbb00e4369c2")
+	)
+	(wire
+		(pts
+			(xy 73.66 207.01) (xy 73.66 195.58)
 		)
 		(stroke
 			(width 0)
@@ -5190,7 +5195,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 207.01) (xy 55.88 207.01)
+			(xy 39.37 207.01) (xy 58.42 207.01)
 		)
 		(stroke
 			(width 0)
@@ -5258,6 +5263,16 @@
 		)
 		(uuid "ed56abf8-daab-4f77-a7d1-a0f018157985")
 	)
+	(wire
+		(pts
+			(xy 114.3 173.99) (xy 114.3 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed671714-5f46-4cb2-886b-6c0894ee6645")
+	)
 	(bus
 		(pts
 			(xy 69.85 176.53) (xy 86.36 176.53)
@@ -5280,13 +5295,23 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 195.58) (xy 55.88 195.58)
+			(xy 39.37 195.58) (xy 58.42 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fa6e60a2-f0bc-48ae-840e-8bad87c5f8ac")
+	)
+	(wire
+		(pts
+			(xy 200.66 213.36) (xy 223.52 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc0cf3c-c773-47e3-8136-e37c481664bb")
 	)
 	(wire
 		(pts
@@ -5438,6 +5463,16 @@
 		)
 		(uuid "585039ec-c7b4-4ccb-a431-7a059437e6bd")
 	)
+	(label "TX-"
+		(at 223.52 219.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ec5a722-32c5-4675-9350-ddf85a5d66eb")
+	)
 	(label "TX_SIG_AFE"
 		(at 26.67 151.13 0)
 		(effects
@@ -5479,7 +5514,7 @@
 		(uuid "888e9d32-31fa-4386-9d04-da594a52ebaf")
 	)
 	(label "SONAR-"
-		(at 80.01 218.44 180)
+		(at 82.55 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5488,7 +5523,7 @@
 		)
 		(uuid "89b5f7c8-06d1-4edb-989b-26e77c4bd0e7")
 	)
-	(label "SONAR+"
+	(label "RX+"
 		(at 135.89 157.48 0)
 		(effects
 			(font
@@ -5547,6 +5582,16 @@
 			(justify left bottom)
 		)
 		(uuid "a0bc0dc6-7e8b-48c3-91a7-c62a089e8ee5")
+	)
+	(label "TX+"
+		(at 223.52 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aaced803-d821-4fe8-9d68-894b0774ee76")
 	)
 	(label "RX_SIG_AFE"
 		(at 194.31 160.02 180)
@@ -5609,7 +5654,7 @@
 		(uuid "cd7a2132-8afa-41e8-a50d-91f4406b75ab")
 	)
 	(label "SONAR+"
-		(at 80.01 195.58 180)
+		(at 82.55 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5617,6 +5662,16 @@
 			(justify right bottom)
 		)
 		(uuid "cf19d215-a60d-44ac-b7d5-b2ecc8e6eed2")
+	)
+	(label "I2C4{I2C}"
+		(at 96.52 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6aa5f85-a807-47e3-8471-70099a1e0890")
 	)
 	(label "TX-"
 		(at 39.37 218.44 0)
@@ -5638,7 +5693,7 @@
 		)
 		(uuid "e3b3b394-be1d-40de-a387-3739fcdcc15d")
 	)
-	(label "SONAR-"
+	(label "RX-"
 		(at 135.89 162.56 0)
 		(effects
 			(font
@@ -6250,33 +6305,35 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0603:R_0603_0R_AEC-Q200")
-		(at 59.69 195.58 90)
+		(lib_id "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH")
+		(at 62.23 223.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "18012825-2435-4da4-8f2c-78a53520ed92")
-		(property "Reference" "R20"
-			(at 59.69 189.23 90)
+		(uuid "186e96e5-7beb-494b-99d6-ae08edeebe4f")
+		(property "Reference" "J104"
+			(at 63.5 223.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0R"
-			(at 59.69 191.77 90)
+		(property "Value" "SONAR-"
+			(at 63.5 226.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:R_0603_1608Metric"
-			(at -16.51 195.58 0)
+		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
+			(at 138.43 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,8 +6342,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/TLRZ.pdf"
-			(at -13.97 195.58 0)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
+			(at 135.89 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,8 +6352,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Current Sense Metal Element"
-			(at -11.43 195.58 0)
+		(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
+			(at 133.35 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,8 +6362,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KOA Speer Electronics, Inc."
-			(at -8.89 195.58 0)
+		(property "Manufacturer" "XFCN"
+			(at 130.81 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6315,8 +6372,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Num" "TLRZ1JTTD"
-			(at -6.35 195.58 0)
+		(property "Manufacturer Part Num" "PZ254V-11-02P"
+			(at 128.27 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,8 +6382,8 @@
 				(hide yes)
 			)
 		)
-		(property "BRE Number" "BRE-001148"
-			(at -3.81 195.58 0)
+		(property "BRE Number" "BRE-001259"
+			(at 125.73 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,58 +6392,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
-			(at -1.27 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "JLCPCB"
-			(at 1.27 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Num 1" "C782253"
-			(at 3.81 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" "DigiKey"
-			(at 6.35 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Num 2" "2019-TLRZ1JTTDTR-ND"
-			(at 8.89 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Num" "C782253"
-			(at 11.43 195.58 0)
+		(property "JLCPCB Part Num" "C492401"
+			(at 123.19 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,15 +6403,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "bb6450d9-5e4b-4140-9b53-c4607819b8f7")
+			(uuid "5ced9300-89b9-4db3-9b07-611897336216")
 		)
 		(pin "1"
-			(uuid "f8ae9fe0-4dbd-4b61-b2f0-d710b11f2c20")
+			(uuid "145ad697-17c6-4a17-8a0c-66da091fbdb9")
 		)
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
-					(reference "R20")
+					(reference "J104")
 					(unit 1)
 				)
 			)
@@ -6782,6 +6789,71 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:VCC")
+		(at 114.3 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37cccc6c-8a2c-41de-a019-d76438030497")
+		(property "Reference" "#PWR0104"
+			(at 114.3 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 114.3 169.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 114.3 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45b17327-aa3c-4cbf-a39e-ec9731461951")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
 		(at 68.58 91.44 0)
 		(unit 1)
@@ -6843,167 +6915,6 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Resistors_0603:R_0603_0R_AEC-Q200")
-		(at 59.69 229.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f6c7ffe-7da1-4202-8980-3ae7d8f4e56a")
-		(property "Reference" "R25"
-			(at 59.69 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 59.69 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BR_Passives:R_0603_1608Metric"
-			(at -16.51 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/TLRZ.pdf"
-			(at -13.97 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Current Sense Metal Element"
-			(at -11.43 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KOA Speer Electronics, Inc."
-			(at -8.89 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Num" "TLRZ1JTTD"
-			(at -6.35 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "BRE Number" "BRE-001148"
-			(at -3.81 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at -1.27 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "JLCPCB"
-			(at 1.27 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Num 1" "C782253"
-			(at 3.81 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" "DigiKey"
-			(at 6.35 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Num 2" "2019-TLRZ1JTTDTR-ND"
-			(at 8.89 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Num" "C782253"
-			(at 11.43 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6d30a00d-17c9-4047-b746-162f9d035db6")
-		)
-		(pin "1"
-			(uuid "35c64eb1-76d9-47e5-b42e-8c07818acf88")
-		)
-		(instances
-			(project ""
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
-					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7180,167 +7091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0603:R_0603_0R_AEC-Q200")
-		(at 59.69 218.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c488db9-c575-4095-a44d-ddb6d12c2fbb")
-		(property "Reference" "R24"
-			(at 59.69 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 59.69 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BR_Passives:R_0603_1608Metric"
-			(at -16.51 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/TLRZ.pdf"
-			(at -13.97 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Current Sense Metal Element"
-			(at -11.43 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KOA Speer Electronics, Inc."
-			(at -8.89 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Num" "TLRZ1JTTD"
-			(at -6.35 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "BRE Number" "BRE-001148"
-			(at -3.81 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at -1.27 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "JLCPCB"
-			(at 1.27 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Num 1" "C782253"
-			(at 3.81 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" "DigiKey"
-			(at 6.35 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Num 2" "2019-TLRZ1JTTDTR-ND"
-			(at 8.89 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Num" "C782253"
-			(at 11.43 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "363e89ab-ee8c-4ad4-944d-6baa27ae3adc")
-		)
-		(pin "1"
-			(uuid "4f188f77-7b65-42ff-ab56-cbe9064ead05")
-		)
-		(instances
-			(project ""
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
 		(at 152.4 240.03 0)
 		(unit 1)
@@ -7402,167 +7152,6 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Resistors_0603:R_0603_0R_AEC-Q200")
-		(at 59.69 207.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53030e9d-d3d2-438f-aa7a-4f2f2a3d8dc6")
-		(property "Reference" "R22"
-			(at 59.69 200.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 59.69 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BR_Passives:R_0603_1608Metric"
-			(at -16.51 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/TLRZ.pdf"
-			(at -13.97 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Current Sense Metal Element"
-			(at -11.43 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KOA Speer Electronics, Inc."
-			(at -8.89 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Num" "TLRZ1JTTD"
-			(at -6.35 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "BRE Number" "BRE-001148"
-			(at -3.81 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at -1.27 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "JLCPCB"
-			(at 1.27 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Num 1" "C782253"
-			(at 3.81 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" "DigiKey"
-			(at 6.35 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Num 2" "2019-TLRZ1JTTDTR-ND"
-			(at 8.89 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Num" "C782253"
-			(at 11.43 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f078dec5-06ca-424f-8cb7-bbe9c844fc9a")
-		)
-		(pin "2"
-			(uuid "d97d65aa-e940-42b4-8cfc-0895992f501b")
-		)
-		(instances
-			(project ""
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7857,6 +7446,71 @@
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:VCC")
+		(at 144.78 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63b247ff-a0cb-48ee-9683-a83a4e038b64")
+		(property "Reference" "#PWR0105"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 144.78 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4861f184-2e9c-4e06-b56f-8ba0f38150cb")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -8328,6 +7982,119 @@
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH")
+		(at 62.23 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "816aa15f-2b17-4382-9554-de5958009ee0")
+		(property "Reference" "J101"
+			(at 63.5 189.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SONAR+"
+			(at 63.5 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
+			(at 138.43 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
+			(at 135.89 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
+			(at 133.35 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 130.81 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "PZ254V-11-02P"
+			(at 128.27 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001259"
+			(at 125.73 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C492401"
+			(at 123.19 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5e73188-2799-4015-9e40-512d7a161287")
+		)
+		(pin "2"
+			(uuid "d92e5914-353a-4143-9450-d8ce2df5e003")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -9001,6 +8768,119 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH")
+		(at 62.23 200.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae931b26-4fdc-484b-9106-2f280e2c2afb")
+		(property "Reference" "J103"
+			(at 63.5 200.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SONAR+"
+			(at 63.5 203.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
+			(at 138.43 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
+			(at 135.89 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
+			(at 133.35 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 130.81 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "PZ254V-11-02P"
+			(at 128.27 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001259"
+			(at 125.73 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C492401"
+			(at 123.19 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05094ddf-3fb7-43b1-afad-043383070771")
+		)
+		(pin "2"
+			(uuid "fd1b0e71-5aaa-41e3-8df7-d41791f083c8")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
+					(reference "J103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Connectors_JST_GH:SM02B-GHS-TB")
 		(at 104.14 243.84 0)
 		(mirror y)
@@ -9425,6 +9305,119 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH")
+		(at 62.23 212.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc516b19-1274-4841-bf80-b5128038c302")
+		(property "Reference" "J102"
+			(at 63.5 212.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SONAR-"
+			(at 63.5 214.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
+			(at 138.43 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
+			(at 135.89 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
+			(at 133.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 130.81 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "PZ254V-11-02P"
+			(at 128.27 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001259"
+			(at 125.73 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C492401"
+			(at 123.19 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "39db275e-dc7e-4858-b3bd-7e2c9c9e3b42")
+		)
+		(pin "1"
+			(uuid "0b568ffb-6e0b-4a6f-aa2f-0051c4b7c304")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
+					(reference "J102")
 					(unit 1)
 				)
 			)
@@ -10509,7 +10502,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -10528,7 +10520,7 @@
 			)
 		)
 		(property "Sheetfile" "RX.kicad_sch"
-			(at 160.02 166.9546 0)
+			(at 171.196 167.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10707,8 +10699,8 @@
 		)
 	)
 	(sheet
-		(at 118.11 167.64)
-		(size 22.86 20.32)
+		(at 118.11 170.18)
+		(size 22.86 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10723,7 +10715,7 @@
 		)
 		(uuid "8c671651-babb-4c9c-bd77-08c26a3f95ea")
 		(property "Sheetname" "TGC"
-			(at 118.11 166.9284 0)
+			(at 118.11 169.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10738,6 +10730,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 118.11 173.99 180)
+			(uuid "dcc5f017-c68f-4eae-9132-d54c3fc86f12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C4{I2C}" bidirectional
+			(at 118.11 179.07 180)
+			(uuid "2bb65170-f90f-4947-82ca-0e69f0132b82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TGC" output
+			(at 140.97 179.07 0)
+			(uuid "e2ddeeb5-4e25-418b-ba16-fb99167ecb42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TGC_RST" input
+			(at 118.11 184.15 180)
+			(uuid "7ea41e6c-71a5-47c4-a960-90d28f5ce995")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
