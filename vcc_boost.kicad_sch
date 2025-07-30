@@ -1254,6 +1254,252 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BR_Inductors:L_CKST1206-100uH/M"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.524 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100uH 2.5A"
+				(at 3.048 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BR_Inductors:L_CKST1206-100uH"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411041754_CENKER-CKST1206-100uH-M_C5292049.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "100uH 20% 2.5A 200mR Molded Inductor SMT 13.8x12.6x6.0mm"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "CENKER"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "CKST1206-100uH/M"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-001268"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" "4044-CSAB1260A-101MCT-ND"
+				(at 0 58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" ""
+				(at 0 55.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" ""
+				(at 0 53.34 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" "JLCPCB"
+				(at 0 50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" "C5292049"
+				(at 0 48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C5292049"
+				(at 0 45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "L_CKST1206-100uH/M_0_1"
+				(arc
+					(start -0.01 4.06)
+					(mid 1.013 3.055)
+					(end 0.01 2.03)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.01 2.03)
+					(mid 1.013 1.025)
+					(end 0.01 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.01 0)
+					(mid 1.013 -1.005)
+					(end 0.01 -2.03)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.01 -2.03)
+					(mid 1.013 -3.035)
+					(end 0.01 -4.06)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_CKST1206-100uH/M_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BR_Resistors_0402:R_0402_10k"
 			(pin_numbers
 				(hide yes)
@@ -2777,6 +3023,12 @@
 		(uuid "1d19c430-8065-4ad0-a4ae-25928e5503e5")
 	)
 	(junction
+		(at 153.67 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77ac17c1-9d22-4bd1-9f7e-b4bd1911732e")
+	)
+	(junction
 		(at 78.74 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2793,6 +3045,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5b85884-6087-4abb-8bcd-95c28ef82d6e")
+	)
+	(junction
+		(at 139.7 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf3c6d76-f3bf-4f17-a48f-8694f986d31b")
 	)
 	(no_connect
 		(at 231.14 81.28)
@@ -2900,6 +3158,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 57.15) (xy 156.21 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bbd218d-7d91-4b76-a584-43def2741acf")
+	)
+	(wire
+		(pts
 			(xy 144.78 100.33) (xy 144.78 104.14)
 		)
 		(stroke
@@ -2958,6 +3226,16 @@
 		)
 		(uuid "3155cd63-1a7c-4d1c-b0b0-10124804c119")
 	)
+	(wire
+		(pts
+			(xy 139.7 57.15) (xy 140.97 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4e0dfe-1372-438f-bff0-889319e838e5")
+	)
 	(bus
 		(pts
 			(xy 30.48 31.75) (xy 43.18 31.75)
@@ -2990,6 +3268,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 57.15) (xy 153.67 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f6f526-e467-4dc8-be05-9dee19618fce")
+	)
+	(wire
+		(pts
 			(xy 78.74 88.9) (xy 78.74 76.2)
 		)
 		(stroke
@@ -3000,7 +3288,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 60.96) (xy 139.7 63.5)
+			(xy 139.7 57.15) (xy 139.7 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3097,6 +3385,16 @@
 			(type default)
 		)
 		(uuid "83a86fca-1683-4aaa-9226-709e488852ec")
+	)
+	(wire
+		(pts
+			(xy 156.21 57.15) (xy 156.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c8e109-61c6-4533-b1ed-c70c8adf78f0")
 	)
 	(wire
 		(pts
@@ -3270,13 +3568,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 60.96) (xy 139.7 60.96)
+			(xy 73.66 57.15) (xy 139.7 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dedb8dce-5acb-4b06-8708-eec38972fbeb")
+	)
+	(wire
+		(pts
+			(xy 151.13 57.15) (xy 153.67 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58afa52-ace0-4e2c-abc6-586f454b69e1")
 	)
 	(wire
 		(pts
@@ -3430,7 +3738,7 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 73.66 60.96 180)
+		(at 73.66 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3648,7 +3956,7 @@
 			(uuid "848ed1d3-5e34-43af-9667-7bb03f6aecf3")
 		)
 		(instances
-			(project ""
+			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "R1301")
 					(unit 1)
@@ -3888,7 +4196,7 @@
 			(uuid "3ffd5bf2-6322-492a-b9f5-a91e3f16641c")
 		)
 		(instances
-			(project ""
+			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "R1302")
 					(unit 1)
@@ -4128,7 +4436,7 @@
 			(uuid "3a730785-7b97-486f-aef2-9096d8c32c09")
 		)
 		(instances
-			(project ""
+			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "C1302")
 					(unit 1)
@@ -4480,7 +4788,7 @@
 			(uuid "18b46e43-d774-4597-b815-60bc5f612d40")
 		)
 		(instances
-			(project ""
+			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "U1301")
 					(unit 1)
@@ -4653,7 +4961,7 @@
 			(uuid "1dc2a206-8c6e-4aaf-97ae-411ed4e712fd")
 		)
 		(instances
-			(project ""
+			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "R1304")
 					(unit 1)
@@ -4824,7 +5132,7 @@
 			(uuid "7c172da0-b267-4f6b-a601-17c2e7314a5e")
 		)
 		(instances
-			(project ""
+			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "R1305")
 					(unit 1)
@@ -4968,7 +5276,7 @@
 			(uuid "e03cbccd-ca2e-422a-a8ce-73915ff8b99a")
 		)
 		(instances
-			(project ""
+			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "U1302")
 					(unit 1)
@@ -5208,7 +5516,7 @@
 			(uuid "c39cef2e-7505-4cb6-bfe4-961adf3a3570")
 		)
 		(instances
-			(project ""
+			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "C1301")
 					(unit 1)
@@ -5424,7 +5732,7 @@
 			(uuid "affa202f-5bbb-4dab-9c70-949604b4ec56")
 		)
 		(instances
-			(project ""
+			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "NT1301")
 					(unit 1)
@@ -5664,7 +5972,7 @@
 			(uuid "0796c606-658c-4451-8327-92ea618decea")
 		)
 		(instances
-			(project ""
+			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "C1303")
 					(unit 1)
@@ -5971,9 +6279,180 @@
 			(uuid "31fc6e18-5d61-4d10-8218-602d40706949")
 		)
 		(instances
-			(project ""
+			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "R1303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Inductors:L_CKST1206-100uH/M")
+		(at 146.05 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f861c6f8-5dce-4952-881f-82e5c8cf3d47")
+		(property "Reference" "L1301"
+			(at 146.05 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uH 2.5A"
+			(at 146.05 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BR_Inductors:L_CKST1206-100uH"
+			(at 69.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411041754_CENKER-CKST1206-100uH-M_C5292049.pdf"
+			(at 72.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "100uH 20% 2.5A 200mR Molded Inductor SMT 13.8x12.6x6.0mm"
+			(at 74.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CENKER"
+			(at 77.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "CKST1206-100uH/M"
+			(at 80.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001268"
+			(at 82.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 85.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "4044-CSAB1260A-101MCT-ND"
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" ""
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C5292049"
+			(at 97.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C5292049"
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6857bfeb-c2bc-4aad-8dc8-9452177d3a22")
+		)
+		(pin "1"
+			(uuid "aa509bc0-69ba-44e1-b35b-e229704c5cbc")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
+					(reference "L1301")
 					(unit 1)
 				)
 			)

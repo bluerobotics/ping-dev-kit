@@ -1408,16 +1408,38 @@
 		(uuid "1a554ed1-27a3-45e4-9a3f-2295a1355197")
 	)
 	(junction
+		(at 121.92 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d4065ff-6079-4a19-8b1f-98a28be45e6f")
+	)
+	(junction
 		(at 54.61 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac54d4bf-38e3-48f4-b1ca-ee9bc93baed2")
 	)
 	(junction
+		(at 121.92 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6b39bba-8ec1-4e82-8c16-5dd7ac4e916c")
+	)
+	(junction
 		(at 116.84 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8a66c07-dcb5-4535-8204-4f20d67f449d")
+	)
+	(wire
+		(pts
+			(xy 121.92 68.58) (xy 128.27 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c32d00-ad93-4c0a-99df-5415499151fd")
 	)
 	(wire
 		(pts
@@ -1461,6 +1483,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 81.28) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc749fd-7a82-4977-a1fb-d288e293a7a8")
+	)
+	(wire
+		(pts
 			(xy 64.77 121.92) (xy 64.77 124.46)
 		)
 		(stroke
@@ -1491,6 +1523,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 119.38) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4667dc04-c962-41cd-aa26-e4447a251d50")
+	)
+	(wire
+		(pts
 			(xy 116.84 143.51) (xy 128.27 143.51)
 		)
 		(stroke
@@ -1501,7 +1543,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 68.58) (xy 128.27 68.58)
+			(xy 116.84 68.58) (xy 121.92 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1521,6 +1563,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 81.28) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c14717f-50c9-40af-bcd4-ee11f2a79539")
+	)
+	(wire
+		(pts
 			(xy 163.83 119.38) (xy 163.83 116.84)
 		)
 		(stroke
@@ -1528,6 +1580,16 @@
 			(type default)
 		)
 		(uuid "7a58ba5d-b52b-45d5-95cd-869500e12f2f")
+	)
+	(wire
+		(pts
+			(xy 121.92 106.68) (xy 128.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aaec0d8-02cb-4bc2-9970-0d084e2f5a74")
 	)
 	(wire
 		(pts
@@ -1611,6 +1673,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 119.38) (xy 121.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2e1d9e-0190-4f2d-a072-6082d633fb62")
+	)
+	(wire
+		(pts
 			(xy 53.34 29.21) (xy 77.47 29.21)
 		)
 		(stroke
@@ -1641,7 +1713,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 106.68) (xy 128.27 106.68)
+			(xy 116.84 106.68) (xy 121.92 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1790,6 +1862,17 @@
 		)
 		(uuid "0003931f-5ab0-42f5-8e56-e0d89705ba41")
 	)
+	(hierarchical_label "VCC_EN"
+		(shape input)
+		(at 53.34 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31a7b328-2bb1-48b8-85b2-e1c31811a6b9")
+	)
 	(hierarchical_label "5V"
 		(shape output)
 		(at 210.82 143.51 0)
@@ -1801,7 +1884,7 @@
 		)
 		(uuid "5755c82b-0ee7-4d06-8f55-9ad5e52aff6a")
 	)
-	(hierarchical_label "48V"
+	(hierarchical_label "VCC"
 		(shape output)
 		(at 163.83 26.67 0)
 		(effects
@@ -1833,6 +1916,17 @@
 			(justify left)
 		)
 		(uuid "96f39814-ff61-47dd-b4d5-7a583f7941ea")
+	)
+	(hierarchical_label "I2C4{I2C}"
+		(shape bidirectional)
+		(at 119.38 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6976b95-c357-4c50-a04c-2392a80dd89a")
 	)
 	(hierarchical_label "V_SENSE"
 		(shape output)
@@ -3196,7 +3290,7 @@
 			(color 255 123 94 1.0000)
 		)
 		(uuid "f57da81d-26f9-4e44-8192-6054ea342dd6")
-		(property "Sheetname" "48V Boost"
+		(property "Sheetname" "VCC Boost"
 			(at 128.27 23.4184 0)
 			(effects
 				(font
@@ -3205,13 +3299,63 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "48v_boost.kicad_sch"
+		(property "Sheetfile" "vcc_boost.kicad_sch"
 			(at 128.27 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 153.67 45.72 0)
+			(uuid "5f816b7c-4f73-431f-b75f-09530f6eb9e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 128.27 43.18 180)
+			(uuid "f1e21b87-0bc7-41de-980f-8f5a8388537a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C4{I2C}" bidirectional
+			(at 128.27 27.94 180)
+			(uuid "f8152208-57c6-4ee4-986d-4f7547e6c26b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 128.27 30.48 180)
+			(uuid "cbb9f8ad-d204-48a0-a024-047e6c61533d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" output
+			(at 153.67 31.75 0)
+			(uuid "c73d0e19-c72d-4134-8c00-3c05aad01733")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
