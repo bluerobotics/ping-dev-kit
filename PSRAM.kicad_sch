@@ -989,6 +989,18 @@
 		(uuid "1a12389d-6ced-44ef-b05f-afd64a9efa7d")
 	)
 	(junction
+		(at 148.59 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bd4ddaa-6dce-4c5d-80f7-a72d9dd74eb5")
+	)
+	(junction
+		(at 151.13 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1afed5d-53b1-4add-99cb-4c530676d31e")
+	)
+	(junction
 		(at 151.13 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1234,6 +1246,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 59.69) (xy 151.13 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2405c94f-f154-468f-b29f-2c454da6ceee")
+	)
+	(wire
+		(pts
 			(xy 148.59 106.68) (xy 148.59 104.14)
 		)
 		(stroke
@@ -1324,6 +1346,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 59.69) (xy 151.13 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd32103-9978-4c75-bd89-00005a77de73")
+	)
+	(wire
+		(pts
 			(xy 165.1 86.36) (xy 190.5 86.36)
 		)
 		(stroke
@@ -1364,6 +1396,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 59.69) (xy 148.59 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53bfa6f5-d66d-4f1c-8556-90562574e7d3")
+	)
+	(wire
+		(pts
 			(xy 67.31 35.56) (xy 92.71 35.56)
 		)
 		(stroke
@@ -1384,6 +1426,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 63.5) (xy 154.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a15b3bb-b4f4-4dc5-a8a2-46d8a0091b97")
+	)
+	(wire
+		(pts
 			(xy 67.31 55.88) (xy 92.71 55.88)
 		)
 		(stroke
@@ -1394,6 +1446,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 59.69) (xy 148.59 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ece2a3e-b6a2-4f28-ad72-001ed7f03ee8")
+	)
+	(wire
+		(pts
 			(xy 165.1 91.44) (xy 190.5 91.44)
 		)
 		(stroke
@@ -1401,6 +1463,16 @@
 			(type default)
 		)
 		(uuid "5f9849fe-29b1-4be4-9519-4bc9e383091a")
+	)
+	(wire
+		(pts
+			(xy 151.13 59.69) (xy 154.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6101e3ef-e1eb-4e39-821e-030aa447c26b")
 	)
 	(wire
 		(pts
@@ -1722,6 +1794,16 @@
 		)
 		(uuid "5043475d-cc73-4a07-9fe7-d21969f3ec0a")
 	)
+	(label "1V8"
+		(at 139.7 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50a6b50e-c12a-4bfa-9b53-6b4eb86e5290")
+	)
 	(label "OCTOSPI1.CLK"
 		(at 92.71 48.26 180)
 		(effects
@@ -1933,6 +2015,17 @@
 			(justify right)
 		)
 		(uuid "724c5a19-7902-4226-b973-f0e990694d7c")
+	)
+	(hierarchical_label "1V8"
+		(shape input)
+		(at 137.16 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f25f6081-ae0b-4fbc-a11f-b50f47aef0d0")
 	)
 	(symbol
 		(lib_id "BR_Resistors_0402:R_0402_100R")
