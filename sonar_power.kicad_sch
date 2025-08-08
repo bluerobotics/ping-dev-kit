@@ -1420,6 +1420,12 @@
 		(uuid "1d4065ff-6079-4a19-8b1f-98a28be45e6f")
 	)
 	(junction
+		(at 104.14 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b3aeb90-e660-48e4-969d-e5b7cdf8f993")
+	)
+	(junction
 		(at 104.14 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1436,6 +1442,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6b39bba-8ec1-4e82-8c16-5dd7ac4e916c")
+	)
+	(wire
+		(pts
+			(xy 109.22 156.21) (xy 104.14 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016f19df-469b-422f-9fa9-93524d9b83a2")
 	)
 	(wire
 		(pts
@@ -1729,6 +1745,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 156.21) (xy 104.14 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c813bdba-ea01-4ccd-a9c5-076a1b2ad39b")
+	)
+	(wire
+		(pts
 			(xy 153.67 31.75) (xy 175.26 31.75)
 		)
 		(stroke
@@ -1847,7 +1873,7 @@
 		)
 		(uuid "441e2289-8930-42af-9c84-13fe0c7994c2")
 	)
-	(label "5V"
+	(label "RX_5V"
 		(at 210.82 143.51 180)
 		(effects
 			(font
@@ -1907,7 +1933,7 @@
 		)
 		(uuid "c41573b7-71b7-4b88-a372-14e027fb9b68")
 	)
-	(label "4V"
+	(label "5V"
 		(at 110.49 33.02 0)
 		(effects
 			(font
@@ -1928,6 +1954,17 @@
 		)
 		(uuid "0003931f-5ab0-42f5-8e56-e0d89705ba41")
 	)
+	(hierarchical_label "5V"
+		(shape output)
+		(at 109.22 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ce0ec5f-20c3-4a09-98b3-8be2aefc252d")
+	)
 	(hierarchical_label "VCC_EN"
 		(shape input)
 		(at 116.84 43.18 180)
@@ -1939,7 +1976,7 @@
 		)
 		(uuid "31a7b328-2bb1-48b8-85b2-e1c31811a6b9")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "RX_5V"
 		(shape output)
 		(at 210.82 143.51 0)
 		(effects
@@ -3170,7 +3207,7 @@
 			(color 255 123 94 1.0000)
 		)
 		(uuid "623c30ef-7a3a-4d24-b1c0-70fa5da5cbd0")
-		(property "Sheetname" "4V Buck"
+		(property "Sheetname" "5V Buck"
 			(at 67.31 23.4184 0)
 			(effects
 				(font
@@ -3179,7 +3216,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "4v_buck.kicad_sch"
+		(property "Sheetfile" "5v_buck.kicad_sch"
 			(at 67.31 50.1146 0)
 			(effects
 				(font
