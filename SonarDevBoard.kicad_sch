@@ -951,6 +951,239 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BR_Connectors:KF128-2.54-2P"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LABEL"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BR_Connectors:KF128-2.54-2P"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C474920.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "1x2P 8A 130V 2.54mm Screw Terminal Through Hole"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Cixi Kefa Elec"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "KF128-2.54-2P"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-001271"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C474920"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KF128-2.54-2P_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BR_Connectors:RJ45_RC01812"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7979,6 +8212,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 241.3) (xy 254 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2131b375-c437-4044-88f1-ea15fda3ccf2")
+	)
+	(wire
+		(pts
 			(xy 154.94 370.84) (xy 171.45 370.84)
 		)
 		(stroke
@@ -9219,6 +9462,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 237.49) (xy 254 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b879a987-01f2-4586-8af6-792c5ef7cd12")
+	)
+	(wire
+		(pts
 			(xy 53.34 133.35) (xy 67.31 133.35)
 		)
 		(stroke
@@ -9797,6 +10050,16 @@
 		)
 		(uuid "07dc5c29-59ab-4210-bef1-1464a48764f8")
 	)
+	(label "MAC{RMII}"
+		(at 226.06 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09f79f24-4189-48c9-85f6-193f6582c979")
+	)
 	(label "LINK_LED"
 		(at 209.55 123.19 180)
 		(effects
@@ -9957,6 +10220,16 @@
 		)
 		(uuid "47514f3d-7266-4c2a-81e9-38db8c98bd06")
 	)
+	(label "GPIO1"
+		(at 232.41 237.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c8833a2-c788-4413-85bf-52dd3b6ac6e2")
+	)
 	(label "SPI5{SPI}"
 		(at 325.12 104.14 180)
 		(effects
@@ -9976,6 +10249,16 @@
 			(justify right bottom)
 		)
 		(uuid "5018e64b-84c0-435b-9500-38c9fa3b6e84")
+	)
+	(label "OCTOSPI1{OCTOSPI}"
+		(at 337.82 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5038022d-a126-4993-924c-78e0b86f4067")
 	)
 	(label "TX_EN"
 		(at 67.31 135.89 180)
@@ -10006,6 +10289,16 @@
 			(justify right bottom)
 		)
 		(uuid "52476d8c-5ba4-4949-8834-6360f78a9b78")
+	)
+	(label "PSRAM_nRST"
+		(at 334.01 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54194283-4b42-4533-b5b4-f57ada6fe45b")
 	)
 	(label "I2C4{I2C}"
 		(at 325.12 109.22 180)
@@ -10157,6 +10450,16 @@
 		)
 		(uuid "83e28e72-bfdf-45d5-9bbc-1c97f962b3c0")
 	)
+	(label "AUX_ANALOG"
+		(at 236.22 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85a0c7ba-c22d-4e96-b88f-b588f9140180")
+	)
 	(label "RX_SIG_AFE"
 		(at 26.67 133.35 0)
 		(effects
@@ -10266,6 +10569,16 @@
 			(justify left bottom)
 		)
 		(uuid "9c8274e4-5ece-4566-a44b-db95d845f58b")
+	)
+	(label "PHY_REF_CLK"
+		(at 227.33 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ec52cbf-9667-43cf-9c74-30f7a7ca4d22")
 	)
 	(label "VIN_PROTECTED"
 		(at 127 60.96 0)
@@ -10388,7 +10701,7 @@
 		(uuid "b3e7bd2f-faea-4fbb-b759-234e52b88153")
 	)
 	(label "TX_I_SENSE"
-		(at 228.6 229.87 180)
+		(at 234.95 229.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10396,6 +10709,26 @@
 			(justify right bottom)
 		)
 		(uuid "b936420f-d117-4461-9374-b8089c67c80d")
+	)
+	(label "V_SENSE"
+		(at 224.79 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be17c13a-6a13-474d-9cac-855a15962784")
+	)
+	(label "PHY_nRST"
+		(at 226.06 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2050fb8-200d-4e48-8f4f-49358d39ff7c")
 	)
 	(label "LINK_LED"
 		(at 30.48 237.49 0)
@@ -11801,73 +12134,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 33.02 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "250ac737-0a2b-465e-b9d4-c276da6e577a")
-		(property "Reference" "#PWR0105"
-			(at 33.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb81a5bf-49fb-401d-b772-5464a2c83e6d")
-		)
-		(instances
-			(project "SonarDevBoard"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BR_Connectors_FFC:2328702-6")
 		(at 45.72 185.42 0)
 		(unit 1)
@@ -12364,6 +12630,118 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
 					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Connectors:KF128-2.54-2P")
+		(at 33.02 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f0e4011-df06-46cb-97e4-076ca9405622")
+		(property "Reference" "J111"
+			(at 33.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "POWER"
+			(at 33.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BR_Connectors:KF128-2.54-2P"
+			(at 33.02 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C474920.pdf"
+			(at 33.02 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x2P 8A 130V 2.54mm Screw Terminal Through Hole"
+			(at 33.02 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Cixi Kefa Elec"
+			(at 33.02 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "KF128-2.54-2P"
+			(at 33.02 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001271"
+			(at 33.02 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C474920"
+			(at 33.02 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5ed4985-1e2f-48fc-a3de-6554955115c1")
+		)
+		(pin "2"
+			(uuid "dc526b99-0a6c-4d83-8254-9766d09da952")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
+					(reference "J111")
 					(unit 1)
 				)
 			)
@@ -18763,180 +19141,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Connectors_JST_GH:SM02B-GHS-TB")
-		(at 31.75 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbd4ae03-ccc7-41fb-bdee-adc272efc6d9")
-		(property "Reference" "J101"
-			(at 33.02 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "POWER"
-			(at 33.02 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BR_Connectors_JST:SM02B-GHS-TB"
-			(at 31.75 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
-			(at 31.75 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "JST-GH Connector 2-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Horizontal"
-			(at 31.75 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 31.75 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Num" "SM02B-GHS-TB"
-			(at 31.75 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "BRE Number" "BRE-000100"
-			(at 31.75 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
-			(at 31.75 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Num 1" "455-1564-1-ND"
-			(at 31.75 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier 3" "JLCPCB"
-			(at 31.75 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Num 3" "C189893"
-			(at 31.75 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" "DigiKey"
-			(at 31.75 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Num 2" "455-1564-2-ND"
-			(at 31.75 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Num" "C189893"
-			(at 31.75 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9a597c1-f93d-4ef5-96e3-819eaf8a7ad7")
-		)
-		(pin "MP"
-			(uuid "d7c5005d-d462-4782-85c5-6983441ce9b9")
-		)
-		(pin "2"
-			(uuid "5ffdd390-51f2-4858-88bc-5ec9a52e8160")
-		)
-		(instances
-			(project ""
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
-					(reference "J101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
 		(at 48.26 38.1 0)
 		(unit 1)
@@ -19686,7 +19890,7 @@
 	)
 	(sheet
 		(at 254 53.34)
-		(size 49.53 187.96)
+		(size 49.53 207.01)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19710,7 +19914,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 254 241.8846 0)
+			(at 254 260.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19976,6 +20180,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "AUX_ANALOG" input
+			(at 254 241.3 180)
+			(uuid "aafb2439-0f40-4170-9351-ea9ec64a96e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO1" output
+			(at 254 237.49 180)
+			(uuid "1624b6f9-2bd6-4d58-a813-6b143fb83572")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
