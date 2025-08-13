@@ -4293,7 +4293,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Resistors_0402:R_0402_115k"
+		(symbol "BR_Resistors_0402:R_0402_23k7"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4313,7 +4313,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "115k"
+			(property "Value" "23k7"
 				(at 1.524 -1.27 0)
 				(effects
 					(font
@@ -4342,7 +4342,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "115k 1% 100ppm 62.5mW Thick Film Resistor 0402"
+			(property "Description" "23.7k 1% 100ppm 62.5mW Thick Film Resistor 0402"
 				(at 0 71.12 0)
 				(effects
 					(font
@@ -4362,7 +4362,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Num" "RC0402FR-07115KL"
+			(property "Manufacturer Part Num" "RC0402FR-0723K7L"
 				(at 0 66.04 0)
 				(effects
 					(font
@@ -4372,7 +4372,7 @@
 					(hide yes)
 				)
 			)
-			(property "BRE Number" "BRE-001267"
+			(property "BRE Number" " BRE-001278"
 				(at 0 63.5 0)
 				(effects
 					(font
@@ -4392,7 +4392,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part Num 1" "YAG2956CT-ND"
+			(property "Supplier Part Num 1" "YAG3067CT-ND"
 				(at 0 58.42 0)
 				(effects
 					(font
@@ -4402,7 +4402,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier 2" "DigiKey"
+			(property "Supplier 2" "Mouser"
 				(at 0 55.88 0)
 				(effects
 					(font
@@ -4412,7 +4412,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part Num 2" "YAG2956CT-ND"
+			(property "Supplier Part Num 2" "603-RC0402FR-0723K7L"
 				(at 0 53.34 0)
 				(effects
 					(font
@@ -4432,7 +4432,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part Num 3" "C273341"
+			(property "Supplier Part Num 3" "C327362"
 				(at 0 48.26 0)
 				(effects
 					(font
@@ -4442,8 +4442,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB Part Num" "C273341"
-				(at 0 40.64 0)
+			(property "JLCPCB Part Num" "C327362"
+				(at 0 45.72 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4470,7 +4470,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0402_115k_0_1"
+			(symbol "R_0402_23k7_0_1"
 				(polyline
 					(pts
 						(xy 0 2.286) (xy 0 2.54)
@@ -4532,7 +4532,286 @@
 					)
 				)
 			)
-			(symbol "R_0402_115k_1_1"
+			(symbol "R_0402_23k7_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BR_Resistors_0402:R_0402_274k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.524 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "274k"
+				(at 1.524 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "274k 1% 100ppm 62.5mW Thick Film Resistor 0402"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "RC0402FR-07274KL"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-001277"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" "YAG3083CT-ND"
+				(at 0 58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "Mouser"
+				(at 0 55.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" "603-RC0402FR-07274KL"
+				(at 0 53.34 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" "JLCPCB"
+				(at 0 50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" "C185435"
+				(at 0 48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C185435"
+				(at 0 45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0402_274k_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0402_274k_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -4841,7 +5120,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Resistors_0402:R_0402_3k24"
+		(symbol "BR_Resistors_0402:R_0402_75k"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4861,7 +5140,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "3k24"
+			(property "Value" "75k"
 				(at 1.524 -1.27 0)
 				(effects
 					(font
@@ -4870,7 +5149,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+			(property "Footprint" "BR_Passives:R_0402_1005Metric-minimized"
 				(at 0 76.2 0)
 				(effects
 					(font
@@ -4880,7 +5159,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 				(at 0 73.66 0)
 				(effects
 					(font
@@ -4890,7 +5169,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3.24k 1% 100ppm 62.5mW Thick Film Resistor 0402"
+			(property "Description" "75k 1% 100ppm 62.5mW Thick Film Resistor 0402"
 				(at 0 71.12 0)
 				(effects
 					(font
@@ -4910,7 +5189,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Num" "RC0402FR-073K24L"
+			(property "Manufacturer Part Num" "RC0402FR-0775KL"
 				(at 0 66.04 0)
 				(effects
 					(font
@@ -4920,7 +5199,7 @@
 					(hide yes)
 				)
 			)
-			(property "BRE Number" "BRE-001266"
+			(property "BRE Number" "BRE-000370"
 				(at 0 63.5 0)
 				(effects
 					(font
@@ -4940,7 +5219,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part Num 1" "YAG3147CT-ND"
+			(property "Supplier Part Num 1" "311-75KLRCT-ND"
 				(at 0 58.42 0)
 				(effects
 					(font
@@ -4960,7 +5239,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part Num 2" "YAG3147CT-ND"
+			(property "Supplier Part Num 2" "311-75KLRTR-ND"
 				(at 0 53.34 0)
 				(effects
 					(font
@@ -4980,7 +5259,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part Num 3" "C327346"
+			(property "Supplier Part Num 3" "C137935"
 				(at 0 48.26 0)
 				(effects
 					(font
@@ -4990,7 +5269,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB Part Num" "C327346"
+			(property "JLCPCB Part Num" "C137935"
 				(at 0 45.72 0)
 				(effects
 					(font
@@ -5018,7 +5297,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0402_3k24_0_1"
+			(symbol "R_0402_75k_0_1"
 				(polyline
 					(pts
 						(xy 0 2.286) (xy 0 2.54)
@@ -5080,7 +5359,7 @@
 					)
 				)
 			)
-			(symbol "R_0402_3k24_1_1"
+			(symbol "R_0402_75k_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -5120,7 +5399,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Resistors_0805:R_0805_9mR"
+		(symbol "BR_Resistors_2512:R_2512_3mR"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5140,7 +5419,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "9mR"
+			(property "Value" "3mR"
 				(at 1.524 -1.27 0)
 				(effects
 					(font
@@ -5149,7 +5428,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "BR_Passives:R_0805_2012Metric"
+			(property "Footprint" "BR_Passives:R_2512_6332Metric"
 				(at 0 76.2 0)
 				(effects
 					(font
@@ -5159,7 +5438,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5343/PE_Series_DS.pdf"
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-pa_e_51_rohs.pdf"
 				(at 0 73.66 0)
 				(effects
 					(font
@@ -5169,17 +5448,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "9mR 1% 50ppm 125mW Thin Film Resistor 0805"
-				(at 0 63.5 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
+			(property "Description" "3mR 1% 50ppm 2W Resistor 2512"
 				(at 0 71.12 0)
 				(effects
 					(font
@@ -5189,7 +5458,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Num" "PE0805FRE470R009Z"
+			(property "Manufacturer" "YAGEO"
 				(at 0 68.58 0)
 				(effects
 					(font
@@ -5199,7 +5468,7 @@
 					(hide yes)
 				)
 			)
-			(property "BRE Number" "BRE-000380"
+			(property "Manufacturer Part Num" "PA2512FKE7W0R003E"
 				(at 0 66.04 0)
 				(effects
 					(font
@@ -5209,8 +5478,8 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier 1" "DigiKey"
-				(at 0 60.96 0)
+			(property "BRE Number" "BRE-001276"
+				(at 0 63.5 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5219,17 +5488,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part Num 1" "13-PE0805FRE470R009ZCT-ND"
-				(at 0 58.42 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier 2" "Mouser"
+			(property "JLCPCB Part Num" "C728307"
 				(at 0 55.88 0)
 				(effects
 					(font
@@ -5239,37 +5498,25 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part Num 2" "603-P0805FRE470R009Z"
-				(at 0 53.34 0)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Supplier 3" "JLCPCB"
-				(at 0 50.8 0)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Supplier Part Num 3" "C6142798"
-				(at 0 48.26 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "R_0805_9mR_0_1"
+			(symbol "R_2512_3mR_0_1"
 				(polyline
 					(pts
 						(xy 0 2.286) (xy 0 2.54)
@@ -5331,7 +5578,7 @@
 					)
 				)
 			)
-			(symbol "R_0805_9mR_1_1"
+			(symbol "R_2512_3mR_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -6658,16 +6905,6 @@
 		)
 		(uuid "0abd78f5-a6a7-4371-bbec-bc04fcde4161")
 	)
-	(text "change to 2.5mOhm"
-		(exclude_from_sim no)
-		(at 154.94 85.852 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "64c44ca4-33fb-4860-bf7e-3d6e5d4e4cf6")
-	)
 	(text_box "UVLO CONTROL:\nVUVLO < 0.4V => Shutdown Mode\n0.4V < VUVLO < 1.2V => Standby Mode\nVUVLO > 1.2V => Regular Operation"
 		(exclude_from_sim no)
 		(at 88.9 81.534 0)
@@ -6688,7 +6925,7 @@
 		)
 		(uuid "36536d60-b7b9-4077-bae6-2160c0c64338")
 	)
-	(text_box "SWITCHING FREQUENCY:\nFsw = 9*10^9/45k3 = 199 kHz\nVfb = 1.2V"
+	(text_box "SWITCHING FREQUENCY:\nFsw = 9*10^9/75k = 120 kHz\nVfb = 1.2V"
 		(exclude_from_sim no)
 		(at 127.762 183.515 0)
 		(size 33.528 8.255)
@@ -6707,6 +6944,26 @@
 			(justify left top)
 		)
 		(uuid "6577767f-6cf4-4404-a7b2-8942beabed39")
+	)
+	(text_box "CURRENT LIMIT:\n75mV/3mR = 25A"
+		(exclude_from_sim no)
+		(at 144.78 80.264 0)
+		(size 20.32 6.096)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c4680c20-e30f-4e5d-9be1-454d01820b29")
 	)
 	(junction
 		(at 160.02 96.52)
@@ -6769,12 +7026,6 @@
 		(uuid "78e7cb07-8309-4547-a614-738c592253c7")
 	)
 	(junction
-		(at 281.94 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a243f01-fc1c-44e0-93db-74a8970afc17")
-	)
-	(junction
 		(at 251.46 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6797,6 +7048,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a57698f1-4734-48c6-a314-ba78bcf0e0a1")
+	)
+	(junction
+		(at 303.53 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2e945e9-00e1-4226-9bbf-bd1161e3cb69")
 	)
 	(junction
 		(at 281.94 160.02)
@@ -6823,6 +7080,12 @@
 		(uuid "c4e301d0-34e7-46f8-8b54-09174c5b556c")
 	)
 	(junction
+		(at 290.83 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cee2c623-4afb-4945-ba78-2a5436691186")
+	)
+	(junction
 		(at 184.15 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6845,12 +7108,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0d55b42-16a3-4cd3-8c5c-4b339c989eed")
-	)
-	(junction
-		(at 281.94 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e658ab92-e638-4e95-84b0-e3558e2e63db")
 	)
 	(junction
 		(at 245.11 123.19)
@@ -6898,6 +7155,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 160.02) (xy 311.15 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005dcb1c-d768-4d4d-a150-f4e38d393cab")
+	)
+	(wire
+		(pts
 			(xy 275.59 139.7) (xy 281.94 139.7)
 		)
 		(stroke
@@ -6928,7 +7195,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 185.42) (xy 281.94 191.77)
+			(xy 281.94 182.88) (xy 281.94 191.77)
 		)
 		(stroke
 			(width 0)
@@ -7008,7 +7275,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 160.02) (xy 311.15 160.02)
+			(xy 300.99 160.02) (xy 303.53 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7028,7 +7295,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 160.02) (xy 281.94 172.72)
+			(xy 281.94 160.02) (xy 281.94 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7208,7 +7475,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 180.34) (xy 275.59 185.42)
+			(xy 298.45 166.37) (xy 303.53 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7258,7 +7525,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 177.8) (xy 275.59 172.72)
+			(xy 295.91 166.37) (xy 290.83 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7275,16 +7542,6 @@
 			(type default)
 		)
 		(uuid "6507a826-e763-4c46-a0ce-561dca8838bd")
-	)
-	(wire
-		(pts
-			(xy 275.59 172.72) (xy 281.94 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6734ee48-1fa4-490e-9a92-583209782502")
 	)
 	(wire
 		(pts
@@ -7345,16 +7602,6 @@
 			(type default)
 		)
 		(uuid "762f0053-f392-4161-b398-8f8a3ed8ae15")
-	)
-	(wire
-		(pts
-			(xy 281.94 182.88) (xy 281.94 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "779c3cce-2116-4942-abcd-3285cd519236")
 	)
 	(wire
 		(pts
@@ -7498,7 +7745,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 160.02) (xy 293.37 160.02)
+			(xy 281.94 160.02) (xy 290.83 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7558,16 +7805,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 185.42) (xy 281.94 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8c6f605-4a6e-4d08-b948-4f0dd8520ba9")
-	)
-	(wire
-		(pts
 			(xy 119.38 135.89) (xy 124.46 135.89)
 		)
 		(stroke
@@ -7605,6 +7842,16 @@
 			(type default)
 		)
 		(uuid "ae8342f8-4a27-45bb-b494-41525c82bfed")
+	)
+	(wire
+		(pts
+			(xy 303.53 160.02) (xy 303.53 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1bdd10a-b948-4911-81e5-ccb44c08c391")
 	)
 	(wire
 		(pts
@@ -7798,16 +8045,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 172.72) (xy 281.94 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf289aa0-eb0b-4c5d-9f62-fa2a897bd289")
-	)
-	(wire
-		(pts
 			(xy 184.15 135.89) (xy 213.36 135.89)
 		)
 		(stroke
@@ -7908,6 +8145,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 160.02) (xy 290.83 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6b1ed3-1abe-4f01-9081-11dca3f1c1ef")
+	)
+	(wire
+		(pts
 			(xy 151.13 96.52) (xy 149.86 96.52)
 		)
 		(stroke
@@ -7935,6 +8182,16 @@
 			(type default)
 		)
 		(uuid "e19c44d8-a3a7-4c26-9c10-320a6497982e")
+	)
+	(wire
+		(pts
+			(xy 290.83 160.02) (xy 293.37 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f02c13-2862-4058-aea9-6380ddd74f55")
 	)
 	(wire
 		(pts
@@ -9887,24 +10144,23 @@
 	)
 	(symbol
 		(lib_id "BR_Connectors_Header:Header_Socket_SIP_01x02_2.54mm_Vert_PTH")
-		(at 269.24 176.53 0)
+		(at 294.64 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5bb26a70-5e6e-4951-89a1-fd1492cddd52")
 		(property "Reference" "J1302"
-			(at 270.51 171.45 0)
+			(at 296.926 177.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RFB_B"
-			(at 270.51 173.99 0)
+		(property "Value" "RDAC"
+			(at 296.926 174.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9912,7 +10168,7 @@
 			)
 		)
 		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
-			(at 269.24 100.33 0)
+			(at 218.44 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9922,7 +10178,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302203_XFCN-MF254V-11-02-0743_C2889984.pdf"
-			(at 269.24 102.87 0)
+			(at 220.98 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9932,7 +10188,7 @@
 			)
 		)
 		(property "Description" "Header Socket 01x02 2.54mm Vertical PTH"
-			(at 269.24 105.41 0)
+			(at 223.52 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9942,7 +10198,7 @@
 			)
 		)
 		(property "Manufacturer" "XFCN"
-			(at 269.24 107.95 0)
+			(at 226.06 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9952,7 +10208,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "MF254V-11-02-0743"
-			(at 269.24 110.49 0)
+			(at 228.6 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9962,7 +10218,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001260"
-			(at 269.24 113.03 0)
+			(at 231.14 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9972,7 +10228,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C2889984"
-			(at 269.24 115.57 0)
+			(at 233.68 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10339,7 +10595,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0402:R_0402_115k")
+		(lib_id "BR_Resistors_0402:R_0402_274k")
 		(at 281.94 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10357,7 +10613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "115k"
+		(property "Value" "274k"
 			(at 284.48 146.0499 0)
 			(effects
 				(font
@@ -10386,7 +10642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "115k 1% 100ppm 62.5mW Thick Film Resistor 0402"
+		(property "Description" "274k 1% 100ppm 62.5mW Thick Film Resistor 0402"
 			(at 281.94 73.66 0)
 			(effects
 				(font
@@ -10406,7 +10662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Num" "RC0402FR-07115KL"
+		(property "Manufacturer Part Num" "RC0402FR-07274KL"
 			(at 281.94 78.74 0)
 			(effects
 				(font
@@ -10416,7 +10672,7 @@
 				(hide yes)
 			)
 		)
-		(property "BRE Number" "BRE-001267"
+		(property "BRE Number" "BRE-001277"
 			(at 281.94 81.28 0)
 			(effects
 				(font
@@ -10436,7 +10692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 1" "YAG2956CT-ND"
+		(property "Supplier Part Num 1" "YAG3083CT-ND"
 			(at 281.94 86.36 0)
 			(effects
 				(font
@@ -10446,7 +10702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 2" "DigiKey"
+		(property "Supplier 2" "Mouser"
 			(at 281.94 88.9 0)
 			(effects
 				(font
@@ -10456,7 +10712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 2" "YAG2956CT-ND"
+		(property "Supplier Part Num 2" "603-RC0402FR-07274KL"
 			(at 281.94 91.44 0)
 			(effects
 				(font
@@ -10476,7 +10732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 3" "C273341"
+		(property "Supplier Part Num 3" "C185435"
 			(at 281.94 96.52 0)
 			(effects
 				(font
@@ -10486,8 +10742,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Num" "C273341"
-			(at 281.94 104.14 0)
+		(property "JLCPCB Part Num" "C185435"
+			(at 281.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,7 +10768,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0402:R_0402_10k")
+		(lib_id "BR_Resistors_0402:R_0402_23k7")
 		(at 297.18 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10529,7 +10785,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "23k7"
 			(at 297.18 156.21 90)
 			(effects
 				(font
@@ -10547,7 +10803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 223.52 160.02 0)
 			(effects
 				(font
@@ -10557,7 +10813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 1% 100ppm 62.5mW Thick Film Resistor 0402"
+		(property "Description" "23.7k 1% 100ppm 62.5mW Thick Film Resistor 0402"
 			(at 226.06 160.02 0)
 			(effects
 				(font
@@ -10577,7 +10833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Num" "AC0402FR-0710KL"
+		(property "Manufacturer Part Num" "RC0402FR-0723K7L"
 			(at 231.14 160.02 0)
 			(effects
 				(font
@@ -10587,7 +10843,7 @@
 				(hide yes)
 			)
 		)
-		(property "BRE Number" "BRE-000292"
+		(property "BRE Number" " BRE-001278"
 			(at 233.68 160.02 0)
 			(effects
 				(font
@@ -10607,7 +10863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 1" "YAG3436CT-ND"
+		(property "Supplier Part Num 1" "YAG3067CT-ND"
 			(at 238.76 160.02 0)
 			(effects
 				(font
@@ -10617,7 +10873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 2" "DigiKey"
+		(property "Supplier 2" "Mouser"
 			(at 241.3 160.02 0)
 			(effects
 				(font
@@ -10627,7 +10883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 2" "YAG3436TR-ND"
+		(property "Supplier Part Num 2" "603-RC0402FR-0723K7L"
 			(at 243.84 160.02 0)
 			(effects
 				(font
@@ -10647,7 +10903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 3" "C144807"
+		(property "Supplier Part Num 3" "C327362"
 			(at 248.92 160.02 0)
 			(effects
 				(font
@@ -10657,7 +10913,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Num" "C144807"
+		(property "JLCPCB Part Num" "C327362"
 			(at 251.46 160.02 0)
 			(effects
 				(font
@@ -11181,7 +11437,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0805:R_0805_9mR")
+		(lib_id "BR_Resistors_2512:R_2512_3mR")
 		(at 154.94 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11191,22 +11447,22 @@
 		(fields_autoplaced yes)
 		(uuid "a55a778f-f17e-4c62-8824-ec62656241dc")
 		(property "Reference" "R1205"
-			(at 154.94 90.805 90)
+			(at 154.94 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "9mR"
-			(at 154.94 93.345 90)
+		(property "Value" "3mR"
+			(at 154.94 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "BR_Passives:R_0805_2012Metric"
+		(property "Footprint" "BR_Passives:R_2512_6332Metric"
 			(at 78.74 96.52 0)
 			(effects
 				(font
@@ -11216,7 +11472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5343/PE_Series_DS.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-pa_e_51_rohs.pdf"
 			(at 81.28 96.52 0)
 			(effects
 				(font
@@ -11226,17 +11482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "9mR 1% 50ppm 125mW Thin Film Resistor 0805"
-			(at 91.44 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
+		(property "Description" "3mR 1% 50ppm 2W Resistor 2512"
 			(at 83.82 96.52 0)
 			(effects
 				(font
@@ -11246,8 +11492,18 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Num" "PE0805FRE470R009Z"
+		(property "Manufacturer" "YAGEO"
 			(at 86.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "PA2512FKE7W0R003E"
+			(at 88.9 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11316,8 +11572,8 @@
 				(hide yes)
 			)
 		)
-		(property "BRE Number" "BRE-000380"
-			(at 88.9 96.52 0)
+		(property "BRE Number" "BRE-001276"
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11332,6 +11588,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C728307"
+			(at 99.06 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12481,7 +12747,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0201:R_0201_45k3")
+		(lib_id "BR_Resistors_0402:R_0402_75k")
 		(at 142.24 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12498,7 +12764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "45k3"
+		(property "Value" "75k"
 			(at 143.764 170.18 0)
 			(effects
 				(font
@@ -12507,7 +12773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:R_0201_0603Metric-minimized"
+		(property "Footprint" "BR_Passives:R_0402_1005Metric-minimized"
 			(at 142.24 92.71 0)
 			(effects
 				(font
@@ -12517,7 +12783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_YAGEO-RC0201FR-0745K3L_C364365.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 142.24 95.25 0)
 			(effects
 				(font
@@ -12527,17 +12793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "45k 1% 200ppm 50mW Thick Film Resistor 0201"
-			(at 142.24 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
+		(property "Description" "75k 1% 100ppm 62.5mW Thick Film Resistor 0402"
 			(at 142.24 97.79 0)
 			(effects
 				(font
@@ -12547,8 +12803,18 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Num" "RC0201FR-0745K3L"
+		(property "Manufacturer" "YAGEO"
 			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "RC0402FR-0775KL"
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12567,7 +12833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 1" "YAG2682CT-ND"
+		(property "Supplier Part Num 1" "311-75KLRCT-ND"
 			(at 142.24 110.49 0)
 			(effects
 				(font
@@ -12577,7 +12843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 2" "Mouser"
+		(property "Supplier 2" "DigiKey"
 			(at 142.24 113.03 0)
 			(effects
 				(font
@@ -12587,7 +12853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 2" "603-RC0201FR-0745K3L"
+		(property "Supplier Part Num 2" "311-75KLRTR-ND"
 			(at 142.24 115.57 0)
 			(effects
 				(font
@@ -12607,7 +12873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 3" "C364365"
+		(property "Supplier Part Num 3" "C137935"
 			(at 142.24 120.65 0)
 			(effects
 				(font
@@ -12617,8 +12883,8 @@
 				(hide yes)
 			)
 		)
-		(property "BRE Number" "BRE-000277"
-			(at 142.24 102.87 0)
+		(property "BRE Number" "BRE-000370"
+			(at 142.24 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12633,6 +12899,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C137935"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -13364,7 +13640,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0402:R_0402_3k24")
+		(lib_id "BR_Resistors_0402:R_0402_10k")
 		(at 281.94 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13382,7 +13658,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k24"
+		(property "Value" "10k"
 			(at 284.48 180.3399 0)
 			(effects
 				(font
@@ -13401,7 +13677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
 			(at 281.94 105.41 0)
 			(effects
 				(font
@@ -13411,7 +13687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.24k 1% 100ppm 62.5mW Thick Film Resistor 0402"
+		(property "Description" "10k 1% 100ppm 62.5mW Thick Film Resistor 0402"
 			(at 281.94 107.95 0)
 			(effects
 				(font
@@ -13431,7 +13707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Num" "RC0402FR-073K24L"
+		(property "Manufacturer Part Num" "AC0402FR-0710KL"
 			(at 281.94 113.03 0)
 			(effects
 				(font
@@ -13441,7 +13717,7 @@
 				(hide yes)
 			)
 		)
-		(property "BRE Number" "BRE-001266"
+		(property "BRE Number" "BRE-000292"
 			(at 281.94 115.57 0)
 			(effects
 				(font
@@ -13461,7 +13737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 1" "YAG3147CT-ND"
+		(property "Supplier Part Num 1" "YAG3436CT-ND"
 			(at 281.94 120.65 0)
 			(effects
 				(font
@@ -13481,7 +13757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 2" "YAG3147CT-ND"
+		(property "Supplier Part Num 2" "YAG3436TR-ND"
 			(at 281.94 125.73 0)
 			(effects
 				(font
@@ -13501,7 +13777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 3" "C327346"
+		(property "Supplier Part Num 3" "C144807"
 			(at 281.94 130.81 0)
 			(effects
 				(font
@@ -13511,7 +13787,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Num" "C327346"
+		(property "JLCPCB Part Num" "C144807"
 			(at 281.94 133.35 0)
 			(effects
 				(font

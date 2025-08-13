@@ -1407,13 +1407,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 43.18) (xy 128.27 43.18)
+			(xy 119.38 43.18) (xy 128.27 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ba7ab270-972d-4209-8cb8-78a6e8d55ebd")
+	)
+	(wire
+		(pts
+			(xy 119.38 46.99) (xy 128.27 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2258aa-8452-4bd5-8611-8e9f55e8f5a1")
 	)
 	(wire
 		(pts
@@ -1639,7 +1649,7 @@
 	)
 	(hierarchical_label "VCC_EN"
 		(shape input)
-		(at 116.84 43.18 180)
+		(at 119.38 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1680,6 +1690,17 @@
 			(justify left)
 		)
 		(uuid "8767e04c-30a6-4ec9-b091-869ba5494e91")
+	)
+	(hierarchical_label "VCC_MODE"
+		(shape input)
+		(at 119.38 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d72e0c8-8a04-4fd2-a3cf-d84427c0117d")
 	)
 	(hierarchical_label "I2C4{I2C}"
 		(shape bidirectional)

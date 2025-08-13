@@ -1497,7 +1497,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 104.14) (xy 227.33 104.14)
+			(xy 240.03 104.14) (xy 242.57 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1527,7 +1527,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 113.03) (xy 212.09 114.3)
+			(xy 229.87 113.03) (xy 229.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1567,7 +1567,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 124.46) (xy 227.33 124.46)
+			(xy 175.26 124.46) (xy 242.57 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1577,7 +1577,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 99.06) (xy 201.93 99.06)
+			(xy 203.2 99.06) (xy 219.71 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1597,7 +1597,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 88.9) (xy 212.09 88.9)
+			(xy 223.52 88.9) (xy 229.87 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1747,7 +1747,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 104.14) (xy 201.93 104.14)
+			(xy 189.23 104.14) (xy 219.71 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1847,16 +1847,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 58.42) (xy 53.34 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf11155b-ca45-43cc-a71b-6c552cb1c026")
-	)
-	(wire
-		(pts
 			(xy 175.26 104.14) (xy 175.26 124.46)
 		)
 		(stroke
@@ -1897,17 +1887,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 114.3) (xy 210.82 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de3a7b6b-1eec-4bc3-9aa0-81484d568588")
-	)
-	(wire
-		(pts
-			(xy 212.09 90.17) (xy 212.09 88.9)
+			(xy 229.87 90.17) (xy 229.87 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1957,7 +1937,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 104.14) (xy 227.33 124.46)
+			(xy 242.57 104.14) (xy 242.57 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2015,8 +1995,8 @@
 		)
 		(uuid "00b49ed8-4f0b-4b84-b51b-b9202ab2b065")
 	)
-	(label "TGC_RST"
-		(at 193.04 99.06 0)
+	(label "TGC_RST_AFE"
+		(at 204.47 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2065,16 +2045,6 @@
 		)
 		(uuid "94c43af9-c0b5-4e79-ad2c-b6dbe1f85eed")
 	)
-	(label "TGC_RST"
-		(at 53.34 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a0a0c9be-3ab3-4796-babf-0c68d9c4b2c6")
-	)
 	(label "3V3"
 		(at 132.08 114.3 0)
 		(effects
@@ -2096,7 +2066,7 @@
 		(uuid "dd70d409-351d-4d3f-9f09-bb5c62ef9fc1")
 	)
 	(label "3V3"
-		(at 205.74 88.9 0)
+		(at 223.52 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2127,7 +2097,7 @@
 	)
 	(hierarchical_label "TGC_RST"
 		(shape input)
-		(at 38.1 58.42 180)
+		(at 203.2 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2832,7 +2802,7 @@
 	)
 	(symbol
 		(lib_id "BR_IC:74LVC1G66GW,125")
-		(at 212.09 104.14 0)
+		(at 229.87 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2841,7 +2811,7 @@
 		(fields_autoplaced yes)
 		(uuid "5355fbd6-4f76-4fb9-afde-19186cef741d")
 		(property "Reference" "U603"
-			(at 229.87 97.7198 0)
+			(at 247.65 97.7198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +2819,7 @@
 			)
 		)
 		(property "Value" "74LVC1G66GW,125"
-			(at 229.87 100.2598 0)
+			(at 247.65 100.2598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +2827,7 @@
 			)
 		)
 		(property "Footprint" "BR_SOT:SOT-353_SC-70-5"
-			(at 212.09 27.94 0)
+			(at 229.87 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,7 +2837,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G66.pdf"
-			(at 212.09 30.48 0)
+			(at 229.87 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +2847,7 @@
 			)
 		)
 		(property "Description" "Analog Switch IC, 1 Circuit IC Switch 1:1, 10Ohm, 5-TSSOP"
-			(at 212.09 33.02 0)
+			(at 229.87 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,7 +2857,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia USA Inc."
-			(at 212.09 35.56 0)
+			(at 229.87 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +2867,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "74LVC1G66GW,125"
-			(at 212.09 38.1 0)
+			(at 229.87 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +2877,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001264"
-			(at 212.09 40.64 0)
+			(at 229.87 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,7 +2887,7 @@
 			)
 		)
 		(property "LCSC Part" "C548020"
-			(at 212.09 43.18 0)
+			(at 229.87 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,7 +2897,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" ""
-			(at 212.09 45.72 0)
+			(at 229.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,7 +3104,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 210.82 114.3 0)
+		(at 229.87 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3143,7 +3113,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a2a806e-d8e5-40bc-8e76-0bd3ea72c1a8")
 		(property "Reference" "#PWR0605"
-			(at 210.82 120.65 0)
+			(at 229.87 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +3122,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 119.38 0)
+			(at 229.87 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +3131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 114.3 0)
+			(at 229.87 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,7 +3140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 114.3 0)
+			(at 229.87 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +3149,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 114.3 0)
+			(at 229.87 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1738,6 +1738,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 154.94) (xy 101.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471041f8-9dfd-4e98-9808-1c56008c7765")
+	)
+	(wire
+		(pts
 			(xy 195.58 91.44) (xy 208.28 91.44)
 		)
 		(stroke
@@ -1765,6 +1775,16 @@
 			(type default)
 		)
 		(uuid "5b32aafe-e627-4d11-91c5-f27f1a76b71c")
+	)
+	(wire
+		(pts
+			(xy 127 154.94) (xy 137.16 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f75e752-3b3e-463c-b0ec-511e57ba3403")
 	)
 	(wire
 		(pts
@@ -1938,6 +1958,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 151.13) (xy 101.6 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f056feb-65a2-4724-8034-a358d4adb70a")
+	)
+	(wire
+		(pts
 			(xy 127 93.98) (xy 142.24 93.98)
 		)
 		(stroke
@@ -2038,6 +2068,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 144.78) (xy 101.6 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8cf8285-1f3e-42f9-adde-650d3698f292")
+	)
+	(wire
+		(pts
 			(xy 208.28 88.9) (xy 200.66 88.9)
 		)
 		(stroke
@@ -2085,6 +2125,16 @@
 			(type default)
 		)
 		(uuid "d2bf7e5f-220a-47b0-ac13-a4c208b20a53")
+	)
+	(wire
+		(pts
+			(xy 127 151.13) (xy 137.16 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd0d50c-06c2-4e2c-ae50-be90c32d5a10")
 	)
 	(wire
 		(pts
@@ -2206,7 +2256,7 @@
 		)
 		(uuid "02b7f3ab-5fb8-4830-a907-941b1b265078")
 	)
-	(label "10x_ATT_AB"
+	(label "10X_ATT_AB"
 		(at 102.87 104.14 180)
 		(effects
 			(font
@@ -2236,7 +2286,7 @@
 		)
 		(uuid "1627363f-c39b-488f-b111-55bd690b4ed8")
 	)
-	(label "2x_ATT_AB"
+	(label "2X_ATT_AB"
 		(at 102.87 101.6 180)
 		(effects
 			(font
@@ -2407,7 +2457,18 @@
 		)
 		(uuid "0f57a023-3181-442a-90e8-563f436e4093")
 	)
-	(hierarchical_label "10x_ATT"
+	(hierarchical_label "SIG_OUT-"
+		(shape output)
+		(at 137.16 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1505ff57-1b51-44cd-ae29-1c0f41eeef68")
+	)
+	(hierarchical_label "10X_ATT"
 		(shape input)
 		(at 74.93 104.14 180)
 		(effects
@@ -2439,6 +2500,17 @@
 			(justify right)
 		)
 		(uuid "37b71ef3-75dd-4f5a-888d-83032eb96442")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 92.71 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e8e30a2-6bb5-4bae-977c-4e50f9949208")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2517,6 +2589,28 @@
 		)
 		(uuid "68f9af61-25d0-43ad-a63b-baba2d36de31")
 	)
+	(hierarchical_label "SIG_OUT+"
+		(shape output)
+		(at 137.16 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8907df6e-33a1-44dd-b725-c7edc4f68cb9")
+	)
+	(hierarchical_label "PWM_B"
+		(shape input)
+		(at 92.71 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a147c2d7-6b9a-4e96-b5d5-9553c12ee484")
+	)
 	(hierarchical_label "VCC"
 		(shape input)
 		(at 226.06 106.68 0)
@@ -2583,7 +2677,7 @@
 		)
 		(uuid "c7208a5f-702b-4420-9de7-03aaa539fe3b")
 	)
-	(hierarchical_label "2x_ATT"
+	(hierarchical_label "2X_ATT"
 		(shape input)
 		(at 74.93 101.6 180)
 		(effects
@@ -2593,6 +2687,17 @@
 			(justify right)
 		)
 		(uuid "c7c4cd1a-c370-43d7-b851-812a01f36d3d")
+	)
+	(hierarchical_label "PWM_A"
+		(shape input)
+		(at 92.71 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6871490-6158-4cef-8010-6d6dc71071eb")
 	)
 	(hierarchical_label "5V"
 		(shape input)
@@ -3838,7 +3943,7 @@
 	)
 	(sheet
 		(at 101.6 139.7)
-		(size 25.4 25.4)
+		(size 25.4 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3862,7 +3967,7 @@
 			)
 		)
 		(property "Sheetfile" "digital_drive.kicad_sch"
-			(at 101.6 165.6846 0)
+			(at 101.6 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +3976,7 @@
 			)
 		)
 		(pin "PWM_A" input
-			(at 101.6 148.59 180)
+			(at 101.6 151.13 180)
 			(uuid "7077dc66-5fc8-46e9-b893-5e831f4a0ad2")
 			(effects
 				(font
@@ -3881,7 +3986,7 @@
 			)
 		)
 		(pin "PWM_B" input
-			(at 101.6 151.13 180)
+			(at 101.6 154.94 180)
 			(uuid "c5698b32-f867-4381-b371-3c45cda43216")
 			(effects
 				(font
@@ -3891,7 +3996,7 @@
 			)
 		)
 		(pin "SIG_OUT+" output
-			(at 127 149.86 0)
+			(at 127 151.13 0)
 			(uuid "ac0ab5cb-3156-4ab8-b386-e0a89676efbf")
 			(effects
 				(font
@@ -3901,7 +4006,7 @@
 			)
 		)
 		(pin "SIG_OUT-" output
-			(at 127 152.4 0)
+			(at 127 154.94 0)
 			(uuid "cd331ce9-650c-44c3-b20f-66438cc45124")
 			(effects
 				(font
