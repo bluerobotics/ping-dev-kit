@@ -1854,16 +1854,6 @@
 		)
 		(uuid "bab65f62-6a10-43d0-8d12-52d78de3581f")
 	)
-	(text "5V"
-		(exclude_from_sim no)
-		(at 78.74 70.612 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bf652515-f416-4a89-ba6d-d32a2e60508a")
-	)
 	(text "Controlled to 0.6V"
 		(exclude_from_sim no)
 		(at 140.716 81.28 0)
@@ -1915,28 +1905,34 @@
 		(uuid "035ff18c-0568-41f7-b37f-ab3f75e176a9")
 	)
 	(junction
-		(at 149.86 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b74422d-0f2f-41a9-8614-51cc64900fc7")
-	)
-	(junction
 		(at 86.36 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e1e5bde-594c-462f-91b3-95dac51e6469")
 	)
 	(junction
+		(at 154.94 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76b2b791-34d3-4ca5-ad6e-0385a1f82974")
+	)
+	(junction
+		(at 105.41 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "836e27ef-ba53-4982-b0f3-8967d868a0a1")
+	)
+	(junction
+		(at 154.94 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b7748a7-4ec3-44e3-8992-8804e99ba60a")
+	)
+	(junction
 		(at 86.36 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dda480a-605d-41f6-b606-30c3f225852a")
-	)
-	(junction
-		(at 149.86 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e95b43ec-4f7b-4828-ac4c-e96c0c954762")
 	)
 	(junction
 		(at 175.26 72.39)
@@ -1956,16 +1952,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 72.39) (xy 175.26 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aa581c7-f329-49a5-a674-4414559debe8")
-	)
-	(wire
-		(pts
 			(xy 86.36 80.01) (xy 86.36 82.55)
 		)
 		(stroke
@@ -1976,7 +1962,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 72.39) (xy 149.86 72.39)
+			(xy 142.24 72.39) (xy 154.94 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1996,7 +1982,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 72.39) (xy 149.86 73.66)
+			(xy 154.94 72.39) (xy 154.94 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2016,7 +2002,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 81.28) (xy 149.86 82.55)
+			(xy 154.94 81.28) (xy 154.94 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2056,7 +2042,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 82.55) (xy 149.86 85.09)
+			(xy 105.41 72.39) (xy 110.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e7cf0d-9301-408e-8a82-6d2af12e1f62")
+	)
+	(wire
+		(pts
+			(xy 154.94 82.55) (xy 154.94 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2073,6 +2069,16 @@
 			(type default)
 		)
 		(uuid "9417beb1-e003-4892-a196-b64ff8caf227")
+	)
+	(wire
+		(pts
+			(xy 105.41 72.39) (xy 105.41 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99743c17-855a-4ef9-bc82-cd9443f67795")
 	)
 	(wire
 		(pts
@@ -2096,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 96.52) (xy 149.86 92.71)
+			(xy 154.94 92.71) (xy 154.94 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2116,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 72.39) (xy 110.49 72.39)
+			(xy 86.36 72.39) (xy 105.41 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2136,7 +2142,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 82.55) (xy 149.86 82.55)
+			(xy 130.81 82.55) (xy 154.94 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2156,6 +2162,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 72.39) (xy 175.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3f0aab-74fc-4753-bb0a-19301292de7c")
+	)
+	(wire
+		(pts
 			(xy 175.26 72.39) (xy 194.31 72.39)
 		)
 		(stroke
@@ -2163,6 +2179,26 @@
 			(type default)
 		)
 		(uuid "e24339b6-6c19-42b2-b4c6-d04959972834")
+	)
+	(label "5V"
+		(at 74.93 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19e71022-b3ed-40bf-9e07-f3b9380acb84")
+	)
+	(label "3V3"
+		(at 189.23 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69875bb5-53c2-4aa6-aa8d-aab678f70169")
 	)
 	(label "PGND"
 		(at 121.92 113.03 0)
@@ -2225,17 +2261,6 @@
 		)
 		(uuid "a74501bf-cba5-4606-9a0f-cac7da17a954")
 	)
-	(hierarchical_label "EN"
-		(shape input)
-		(at 105.41 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b64ac083-0fb0-4522-94d5-386911ad4830")
-	)
 	(hierarchical_label "VOUT"
 		(shape output)
 		(at 194.31 72.39 0)
@@ -2249,7 +2274,7 @@
 	)
 	(symbol
 		(lib_id "BR_Resistors_0201:R_0201_10k")
-		(at 149.86 88.9 0)
+		(at 154.94 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2257,8 +2282,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bc422a1-ce65-4e0a-abfb-4c20872fc7ee")
-		(property "Reference" "R301"
-			(at 151.765 87.6299 0)
+		(property "Reference" "R1102"
+			(at 156.845 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,7 +2292,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 151.765 90.1699 0)
+			(at 156.845 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2301,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:R_0201_0603Metric-minimized"
-			(at 149.86 12.7 0)
+			(at 154.94 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,7 +2311,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 149.86 15.24 0)
+			(at 154.94 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +2321,7 @@
 			)
 		)
 		(property "Description" "10k 1% 200ppm 50mW Thick Film Resistor 0201"
-			(at 149.86 25.4 0)
+			(at 154.94 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +2331,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 149.86 17.78 0)
+			(at 154.94 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +2341,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "RC0201FR-0710KL"
-			(at 149.86 20.32 0)
+			(at 154.94 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2351,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 149.86 27.94 0)
+			(at 154.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2361,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "311-10.0KMCT-ND"
-			(at 149.86 30.48 0)
+			(at 154.94 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,7 +2371,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 149.86 33.02 0)
+			(at 154.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2381,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "603-RC0201FR-0710KL"
-			(at 149.86 35.56 0)
+			(at 154.94 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2391,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 149.86 38.1 0)
+			(at 154.94 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,7 +2401,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C106225"
-			(at 149.86 40.64 0)
+			(at 154.94 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +2411,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000261"
-			(at 149.86 22.86 0)
+			(at 154.94 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,7 +2429,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/04bd0704-dffb-4d19-a31b-74299529bdb7"
-					(reference "R301")
+					(reference "R1102")
 					(unit 1)
 				)
 			)
@@ -2420,7 +2445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "256854ee-bdd0-4f56-b452-9e937b2d7340")
-		(property "Reference" "#FLG0302"
+		(property "Reference" "#FLG01101"
 			(at 84.455 82.55 0)
 			(effects
 				(font
@@ -2471,7 +2496,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/04bd0704-dffb-4d19-a31b-74299529bdb7"
-					(reference "#FLG0302")
+					(reference "#FLG01101")
 					(unit 1)
 				)
 			)
@@ -2479,7 +2504,7 @@
 	)
 	(symbol
 		(lib_id "BR_Resistors_0402:R_0402_45k3")
-		(at 149.86 77.47 0)
+		(at 154.94 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2488,7 +2513,7 @@
 		(fields_autoplaced yes)
 		(uuid "49de7f8e-ac0b-4e19-ab37-4159bc8249b6")
 		(property "Reference" "R1101"
-			(at 152.4 76.1999 0)
+			(at 157.48 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2497,7 +2522,7 @@
 			)
 		)
 		(property "Value" "45k3"
-			(at 152.4 78.7399 0)
+			(at 157.48 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,7 +2531,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
-			(at 149.86 1.27 0)
+			(at 154.94 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +2541,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"
-			(at 149.86 3.81 0)
+			(at 154.94 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +2551,7 @@
 			)
 		)
 		(property "Description" "45.3k 1% 100ppm 62.5mW Thick Film Resistor 0402"
-			(at 149.86 6.35 0)
+			(at 154.94 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2561,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 149.86 8.89 0)
+			(at 154.94 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2571,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "RC0402FR-0745K3L"
-			(at 149.86 11.43 0)
+			(at 154.94 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2581,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000341"
-			(at 149.86 13.97 0)
+			(at 154.94 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +2591,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 149.86 16.51 0)
+			(at 154.94 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2576,7 +2601,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "311-45.3KLRCT-ND"
-			(at 149.86 19.05 0)
+			(at 154.94 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2611,7 @@
 			)
 		)
 		(property "Supplier 2" "DigiKey"
-			(at 149.86 21.59 0)
+			(at 154.94 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2621,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "311-45.3KLRTR-ND"
-			(at 149.86 24.13 0)
+			(at 154.94 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2631,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 149.86 26.67 0)
+			(at 154.94 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2641,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C137977"
-			(at 149.86 29.21 0)
+			(at 154.94 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +2651,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C137977"
-			(at 149.86 31.75 0)
+			(at 154.94 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adb133cc-f859-4ebc-9c47-b847199da55f")
-		(property "Reference" "U301"
+		(property "Reference" "U1101"
 			(at 114.046 65.786 0)
 			(effects
 				(font
@@ -2812,7 +2837,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/04bd0704-dffb-4d19-a31b-74299529bdb7"
-					(reference "U301")
+					(reference "U1101")
 					(unit 1)
 				)
 			)
@@ -2828,7 +2853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0d67f5d-e742-4b44-a181-1f33592134eb")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR01101"
 			(at 138.43 115.57 0)
 			(effects
 				(font
@@ -2879,7 +2904,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/04bd0704-dffb-4d19-a31b-74299529bdb7"
-					(reference "#PWR021")
+					(reference "#PWR01101")
 					(unit 1)
 				)
 			)
@@ -2894,7 +2919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbcb86e7-d109-4db4-9946-24995b6a3df6")
-		(property "Reference" "C301"
+		(property "Reference" "C1101"
 			(at 88.265 76.2062 0)
 			(effects
 				(font
@@ -3041,7 +3066,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/04bd0704-dffb-4d19-a31b-74299529bdb7"
-					(reference "C301")
+					(reference "C1101")
 					(unit 1)
 				)
 			)
@@ -3049,7 +3074,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 149.86 96.52 0)
+		(at 154.94 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3057,8 +3082,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d52af69c-568f-478d-9a5e-dd35c96d8637")
-		(property "Reference" "#PWR022"
-			(at 149.86 102.87 0)
+		(property "Reference" "#PWR01102"
+			(at 154.94 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +3092,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 101.6 0)
+			(at 154.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,7 +3101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 96.52 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +3110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 96.52 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +3119,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 96.52 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +3133,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/04bd0704-dffb-4d19-a31b-74299529bdb7"
-					(reference "#PWR022")
+					(reference "#PWR01102")
 					(unit 1)
 				)
 			)
@@ -3124,7 +3149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8fe8892-b1ff-4e2c-ad6f-b7cbb7fe7ea4")
-		(property "Reference" "NT301"
+		(property "Reference" "NT1101"
 			(at 130.81 101.6 90)
 			(effects
 				(font
@@ -3257,7 +3282,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/04bd0704-dffb-4d19-a31b-74299529bdb7"
-					(reference "NT301")
+					(reference "NT1101")
 					(unit 1)
 				)
 			)
@@ -3272,7 +3297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dda64b7d-0895-4e53-916d-4a8b623d17e6")
-		(property "Reference" "C302"
+		(property "Reference" "C1102"
 			(at 177.165 77.4762 0)
 			(effects
 				(font
@@ -3419,7 +3444,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/04bd0704-dffb-4d19-a31b-74299529bdb7"
-					(reference "C302")
+					(reference "C1102")
 					(unit 1)
 				)
 			)
@@ -3435,7 +3460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6e5730e-19fa-4959-aed6-a2e7147621f8")
-		(property "Reference" "L301"
+		(property "Reference" "L1101"
 			(at 138.43 66.04 90)
 			(effects
 				(font
@@ -3580,7 +3605,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/04bd0704-dffb-4d19-a31b-74299529bdb7"
-					(reference "L301")
+					(reference "L1101")
 					(unit 1)
 				)
 			)
@@ -3596,7 +3621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdcfd2b2-647a-4ad6-aa8f-6c1170a2a8b9")
-		(property "Reference" "#FLG0301"
+		(property "Reference" "#FLG01102"
 			(at 175.26 70.485 0)
 			(effects
 				(font
@@ -3646,7 +3671,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/04bd0704-dffb-4d19-a31b-74299529bdb7"
-					(reference "#FLG0301")
+					(reference "#FLG01102")
 					(unit 1)
 				)
 			)

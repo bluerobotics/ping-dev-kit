@@ -7636,6 +7636,16 @@
 		)
 		(uuid "69f873cd-720a-4c1a-a3a8-404c3eb0d85a")
 	)
+	(text "VCC Rail Must Be ENABLED"
+		(exclude_from_sim no)
+		(at 109.474 127.508 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8623affc-41e4-4466-b3c8-60281b816d16")
+	)
 	(text "RESISTORS FOR 10V-24V\nX: RDAC\nY: RFBT"
 		(exclude_from_sim no)
 		(at 567.944 104.902 0)
@@ -18906,6 +18916,16 @@
 		)
 		(uuid "dcf37e72-4ca7-49cc-baef-aa40d7ac2c8d")
 	)
+	(label "5V"
+		(at 95.25 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eaec1f5f-6d86-43ef-86e9-a9ef92e05a46")
+	)
 	(label "3V3"
 		(at 361.95 140.97 180)
 		(effects
@@ -19032,7 +19052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "117e5713-2041-4ea7-b410-c49942073c46")
-		(property "Reference" "#PWR01209"
+		(property "Reference" "#PWR01210"
 			(at 218.44 151.13 0)
 			(effects
 				(font
@@ -19083,7 +19103,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01209")
+					(reference "#PWR01210")
 					(unit 1)
 				)
 			)
@@ -19271,7 +19291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26af552c-3eee-486d-9b11-99c7057de761")
-		(property "Reference" "#PWR01205"
+		(property "Reference" "#PWR01206"
 			(at 142.24 179.07 0)
 			(effects
 				(font
@@ -19322,7 +19342,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01205")
+					(reference "#PWR01206")
 					(unit 1)
 				)
 			)
@@ -19509,7 +19529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40491aff-916a-49fb-965e-304ff77c02ff")
-		(property "Reference" "C1203"
+		(property "Reference" "C1206"
 			(at 186.69 123.1962 0)
 			(effects
 				(font
@@ -19675,7 +19695,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "C1203")
+					(reference "C1206")
 					(unit 1)
 				)
 			)
@@ -19691,7 +19711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42c4086e-5fa0-427a-abdf-e8e2134de2c1")
-		(property "Reference" "#PWR01305"
+		(property "Reference" "#PWR01212"
 			(at 341.63 185.42 0)
 			(effects
 				(font
@@ -19742,7 +19762,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01305")
+					(reference "#PWR01212")
 					(unit 1)
 				)
 			)
@@ -19758,7 +19778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "464f9bcb-9589-410f-bb7a-74d29703fd9b")
-		(property "Reference" "#PWR01204"
+		(property "Reference" "#PWR01205"
 			(at 135.89 179.07 0)
 			(effects
 				(font
@@ -19809,7 +19829,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01204")
+					(reference "#PWR01205")
 					(unit 1)
 				)
 			)
@@ -19824,7 +19844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48b757f3-6276-4952-9a01-7b9a12d1917d")
-		(property "Reference" "C1204"
+		(property "Reference" "C1207"
 			(at 220.98 139.7 0)
 			(effects
 				(font
@@ -19980,7 +20000,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "C1204")
+					(reference "C1207")
 					(unit 1)
 				)
 			)
@@ -19996,7 +20016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c81b0ab-6811-498f-968a-fdd4e102f340")
-		(property "Reference" "#PWR01208"
+		(property "Reference" "#PWR01209"
 			(at 180.34 189.23 0)
 			(effects
 				(font
@@ -20047,7 +20067,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01208")
+					(reference "#PWR01209")
 					(unit 1)
 				)
 			)
@@ -20063,7 +20083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51188692-8b50-4df4-abf4-50f54c13038e")
-		(property "Reference" "C1302"
+		(property "Reference" "C1214"
 			(at 359.41 171.4562 0)
 			(effects
 				(font
@@ -20220,7 +20240,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "C1302")
+					(reference "C1214")
 					(unit 1)
 				)
 			)
@@ -20235,7 +20255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5348dff7-1a9d-4b33-8280-fb8d8f066c34")
-		(property "Reference" "C4"
+		(property "Reference" "C1203"
 			(at 113.665 140.97 90)
 			(effects
 				(font
@@ -20391,7 +20411,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "C4")
+					(reference "C1203")
 					(unit 1)
 				)
 			)
@@ -20407,7 +20427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54782a58-1946-4805-a6d0-b18c193c982c")
-		(property "Reference" "#PWR01210"
+		(property "Reference" "#PWR01213"
 			(at 351.79 154.94 0)
 			(effects
 				(font
@@ -20458,7 +20478,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01210")
+					(reference "#PWR01213")
 					(unit 1)
 				)
 			)
@@ -20474,7 +20494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55bc4e8f-f543-4a17-87c5-5b773fa4e711")
-		(property "Reference" "#PWR01207"
+		(property "Reference" "#PWR01208"
 			(at 166.37 179.07 0)
 			(effects
 				(font
@@ -20525,7 +20545,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01207")
+					(reference "#PWR01208")
 					(unit 1)
 				)
 			)
@@ -20540,7 +20560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "593f0111-eb72-474d-98a0-05f8401557a4")
-		(property "Reference" "C1205"
+		(property "Reference" "C1210"
 			(at 256.286 109.982 0)
 			(effects
 				(font
@@ -20706,7 +20726,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "C1205")
+					(reference "C1210")
 					(unit 1)
 				)
 			)
@@ -20721,7 +20741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bb26a70-5e6e-4951-89a1-fd1492cddd52")
-		(property "Reference" "J1302"
+		(property "Reference" "J1202"
 			(at 315.976 177.292 90)
 			(effects
 				(font
@@ -20816,7 +20836,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "J1302")
+					(reference "J1202")
 					(unit 1)
 				)
 			)
@@ -20831,7 +20851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c11d7b6-f66f-45f1-9364-cbc6078c0737")
-		(property "Reference" "C48"
+		(property "Reference" "C1201"
 			(at 103.886 169.672 0)
 			(effects
 				(font
@@ -20987,7 +21007,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "C48")
+					(reference "C1201")
 					(unit 1)
 				)
 			)
@@ -21002,7 +21022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7138d347-4757-4cde-a4f7-dfcd3671ab57")
-		(property "Reference" "C1201"
+		(property "Reference" "C1204"
 			(at 114.3 147.32 90)
 			(effects
 				(font
@@ -21158,7 +21178,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "C1201")
+					(reference "C1204")
 					(unit 1)
 				)
 			)
@@ -21174,7 +21194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "722ae5c6-cd3b-470a-ad66-a8198620e4cb")
-		(property "Reference" "R1304"
+		(property "Reference" "R1206"
 			(at 303.53 143.5099 0)
 			(effects
 				(font
@@ -21331,7 +21351,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "R1304")
+					(reference "R1206")
 					(unit 1)
 				)
 			)
@@ -21347,7 +21367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77849b8e-5a42-480a-9553-53b563ed0a0f")
-		(property "Reference" "C1207"
+		(property "Reference" "C1208"
 			(at 223.52 109.6834 0)
 			(effects
 				(font
@@ -21504,7 +21524,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "C1207")
+					(reference "C1208")
 					(unit 1)
 				)
 			)
@@ -21520,7 +21540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7828e1aa-ef1d-428e-8a1d-a2e3be81aa3b")
-		(property "Reference" "R1305"
+		(property "Reference" "R1208"
 			(at 316.23 153.67 90)
 			(effects
 				(font
@@ -21675,7 +21695,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "R1305")
+					(reference "R1208")
 					(unit 1)
 				)
 			)
@@ -21691,7 +21711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e3f5903-b3ac-4282-b2fe-155f6aeb13bc")
-		(property "Reference" "U1302"
+		(property "Reference" "U1202"
 			(at 339.4867 148.59 0)
 			(effects
 				(font
@@ -21819,7 +21839,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "U1302")
+					(reference "U1202")
 					(unit 1)
 				)
 			)
@@ -22017,7 +22037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3b1f655-6c84-422f-922e-aa1539ac1498")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1201"
 			(at 205.74 89.535 90)
 			(effects
 				(font
@@ -22183,7 +22203,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "Q2")
+					(reference "Q1201")
 					(unit 2)
 				)
 			)
@@ -22379,7 +22399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac281344-344e-4c3b-8eb8-5f1298d75537")
-		(property "Reference" "#PWR01306"
+		(property "Reference" "#PWR01215"
 			(at 356.87 185.42 0)
 			(effects
 				(font
@@ -22430,7 +22450,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01306")
+					(reference "#PWR01215")
 					(unit 1)
 				)
 			)
@@ -22446,7 +22466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af8148c9-3965-49d3-ae5d-0b4154d4c0a7")
-		(property "Reference" "#PWR01202"
+		(property "Reference" "#PWR01203"
 			(at 104.14 148.59 0)
 			(effects
 				(font
@@ -22497,7 +22517,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01202")
+					(reference "#PWR01203")
 					(unit 1)
 				)
 			)
@@ -22513,7 +22533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd2230a7-f5a5-457d-8c02-278ddb4bae64")
-		(property "Reference" "J1301"
+		(property "Reference" "J1201"
 			(at 289.56 137.16 0)
 			(effects
 				(font
@@ -22608,7 +22628,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "J1301")
+					(reference "J1201")
 					(unit 1)
 				)
 			)
@@ -22797,7 +22817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c133edab-a167-46e6-bd14-f1250096530d")
-		(property "Reference" "#PWR01201"
+		(property "Reference" "#PWR01202"
 			(at 104.14 142.24 0)
 			(effects
 				(font
@@ -22848,7 +22868,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01201")
+					(reference "#PWR01202")
 					(unit 1)
 				)
 			)
@@ -22864,7 +22884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c26985a7-215f-4eb1-b5f2-6a4ce178b31f")
-		(property "Reference" "#PWR01203"
+		(property "Reference" "#PWR01204"
 			(at 104.14 154.94 0)
 			(effects
 				(font
@@ -22915,7 +22935,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01203")
+					(reference "#PWR01204")
 					(unit 1)
 				)
 			)
@@ -22930,7 +22950,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5303d75-6a6b-45c3-b707-3ec2ec18295b")
-		(property "Reference" "D4"
+		(property "Reference" "D1201"
 			(at 187.96 131.318 90)
 			(effects
 				(font
@@ -23084,7 +23104,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "D4")
+					(reference "D1201")
 					(unit 1)
 				)
 			)
@@ -23099,7 +23119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6bff94d-2fd5-4d0f-897d-38ab4b044a43")
-		(property "Reference" "C8"
+		(property "Reference" "C1209"
 			(at 243.332 109.982 0)
 			(effects
 				(font
@@ -23265,7 +23285,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "C8")
+					(reference "C1209")
 					(unit 1)
 				)
 			)
@@ -23281,7 +23301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc5dd165-9650-49ba-8c48-8df13a1c90e8")
-		(property "Reference" "#PWR01307"
+		(property "Reference" "#PWR01214"
 			(at 356.87 163.83 0)
 			(effects
 				(font
@@ -23332,7 +23352,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01307")
+					(reference "#PWR01214")
 					(unit 1)
 				)
 			)
@@ -23348,7 +23368,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfbbc1cf-f5b5-43e1-be94-4ec6f2f1c6be")
-		(property "Reference" "C47"
+		(property "Reference" "C1211"
 			(at 271.526 109.982 0)
 			(effects
 				(font
@@ -23514,7 +23534,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "C47")
+					(reference "C1211")
 					(unit 1)
 				)
 			)
@@ -23710,7 +23730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d18b813f-8f10-4cf6-b5b9-5c3e527b780d")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1201"
 			(at 205.105 146.685 0)
 			(effects
 				(font
@@ -23876,7 +23896,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "Q2")
+					(reference "Q1201")
 					(unit 1)
 				)
 			)
@@ -23892,7 +23912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4e81fea-4b9d-4ac1-bf78-f96499064617")
-		(property "Reference" "C1206"
+		(property "Reference" "C1212"
 			(at 284.226 109.982 0)
 			(effects
 				(font
@@ -24058,7 +24078,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "C1206")
+					(reference "C1212")
 					(unit 1)
 				)
 			)
@@ -24074,7 +24094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d96622c2-1b37-4742-9c3e-0b03a35aa98a")
-		(property "Reference" "#PWR01308"
+		(property "Reference" "#PWR01211"
 			(at 300.99 198.12 0)
 			(effects
 				(font
@@ -24125,7 +24145,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01308")
+					(reference "#PWR01211")
 					(unit 1)
 				)
 			)
@@ -24141,7 +24161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfba8cba-ff3d-4756-a604-fda25ba69d79")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR01201"
 			(at 96.52 146.05 0)
 			(effects
 				(font
@@ -24192,7 +24212,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR075")
+					(reference "#PWR01201")
 					(unit 1)
 				)
 			)
@@ -24208,7 +24228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5959278-d964-4bde-a3ac-a8ee217f4e83")
-		(property "Reference" "C1208"
+		(property "Reference" "C1213"
 			(at 354.33 143.5162 0)
 			(effects
 				(font
@@ -24365,7 +24385,7 @@
 		(instances
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "C1208")
+					(reference "C1213")
 					(unit 1)
 				)
 			)
@@ -24607,7 +24627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e82e3912-bc83-420e-9d75-b96b7b11ef13")
-		(property "Reference" "R1303"
+		(property "Reference" "R1207"
 			(at 303.53 177.7999 0)
 			(effects
 				(font
@@ -24764,7 +24784,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "R1303")
+					(reference "R1207")
 					(unit 1)
 				)
 			)
@@ -24780,7 +24800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f08aa57a-91e9-485a-931d-255b27efb53e")
-		(property "Reference" "#PWR01206"
+		(property "Reference" "#PWR01207"
 			(at 156.21 179.07 0)
 			(effects
 				(font
@@ -24831,7 +24851,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01206")
+					(reference "#PWR01207")
 					(unit 1)
 				)
 			)
@@ -24847,7 +24867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f291d518-b76a-499f-a8a8-953f5f96b5c7")
-		(property "Reference" "NT1"
+		(property "Reference" "NT1201"
 			(at 173.99 174.625 90)
 			(effects
 				(font
@@ -24988,7 +25008,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "NT1")
+					(reference "NT1201")
 					(unit 1)
 				)
 			)
@@ -25003,7 +25023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f700c6f5-ddfb-4cbe-bcf6-163df536d64c")
-		(property "Reference" "L3"
+		(property "Reference" "L1201"
 			(at 175.26 89.408 90)
 			(effects
 				(font
@@ -25170,7 +25190,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "L3")
+					(reference "L1201")
 					(unit 1)
 				)
 			)
@@ -25186,7 +25206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd54a5a7-80e2-4df0-89af-d815c60449fa")
-		(property "Reference" "C3"
+		(property "Reference" "C1205"
 			(at 118.11 176.5362 0)
 			(effects
 				(font
@@ -25342,7 +25362,7 @@
 		(instances
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "C3")
+					(reference "C1205")
 					(unit 1)
 				)
 			)
