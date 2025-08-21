@@ -674,34 +674,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Diodes:D_Schottky_RB520S-30"
+		(symbol "BR_Diodes:D_Schottky_PMEG3010AESB"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at -0.3175 6.35 0)
+				(at 0 5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "RB520S-30"
-				(at -0.3175 3.81 0)
+			(property "Value" "PMEG3010AESB"
+				(at -0.508 3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "BR_Discretes:D_SOD-523"
+			(property "Footprint" "BR_Discretes:D_SOD-993-minimized"
 				(at 0 76.2 0)
 				(effects
 					(font
@@ -711,7 +711,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb520s30t1-d.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG3010AESB.pdf"
 				(at 0 73.66 0)
 				(effects
 					(font
@@ -721,17 +721,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Schottky Diode 30V 200mA SOD-523"
-				(at 0 63.5 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "onsemi"
+			(property "Description" "Schottky Diode 30V 1A SOD-993"
 				(at 0 71.12 0)
 				(effects
 					(font
@@ -741,7 +731,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Num" "RB520S30T5G"
+			(property "Manufacturer" "Nexperia"
 				(at 0 68.58 0)
 				(effects
 					(font
@@ -751,8 +741,18 @@
 					(hide yes)
 				)
 			)
-			(property "BRE Number" "BRE-000122"
+			(property "Manufacturer Part Num" "PMEG3010AESBYL"
 				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-000120"
+				(at 0 63.5 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -771,7 +771,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part Num 1" "RB520S30T5GOSCT-ND"
+			(property "Supplier Part Num 1" "1727-2401-2-ND"
 				(at 0 58.42 0)
 				(effects
 					(font
@@ -791,7 +791,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part Num 2" "863-RB520S30T5G"
+			(property "Supplier Part Num 2" "771-PMEG3010AESBYL"
 				(at 0 53.34 0)
 				(effects
 					(font
@@ -811,7 +811,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part Num 3" "C511880"
+			(property "Supplier Part Num 3" "C28646369"
 				(at 0 48.26 0)
 				(effects
 					(font
@@ -821,8 +821,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB Part Num" "C511880"
-				(at 0 40.64 0)
+			(property "JLCPCB Part Num" "C28646369"
+				(at 0 45.72 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -831,7 +831,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
+			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -849,7 +849,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Schottky_RB520S-30_0_1"
+			(symbol "D_Schottky_PMEG3010AESB_0_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy -1.27 0)
@@ -863,7 +863,7 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_RB520S-30_1_1"
+			(symbol "D_Schottky_PMEG3010AESB_1_1"
 				(polyline
 					(pts
 						(xy -0.635 -0.889) (xy -0.635 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.905 1.27) (xy -1.905 0.889)
@@ -1193,7 +1193,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Inductors:L_MLZ2012N101LT000"
+		(symbol "BR_Inductors:L_AWP_252012FW-4R7M"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1205,22 +1205,22 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "L"
-				(at -1.27 0 90)
+				(at -1.524 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "100uH 30mA"
-				(at 2.032 0.508 90)
+			(property "Value" "L_AWP_252012FW-4R7M"
+				(at 3.175 0.635 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "BR_Inductors:LMSC20120652R2MTA"
+			(property "Footprint" "BR_Inductors:L_1008_2520Metric"
 				(at 0 76.2 0)
 				(effects
 					(font
@@ -1230,7 +1230,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412231059_TDK-MLZ2012N101LT000_C88184.pdf"
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AWP%20Series.pdf"
 				(at 0 73.66 0)
 				(effects
 					(font
@@ -1240,7 +1240,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100uH 20% 30mA 3.5Ω Inductors SMT 0805"
+			(property "Description" "4.7uH 20% 1.6A 175mR Shielded Molded Inductor SMT 1008 package"
 				(at 0 71.12 0)
 				(effects
 					(font
@@ -1250,7 +1250,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TDK"
+			(property "Manufacturer" "TAI-TECH Advanced Electronics Co., Ltd."
 				(at 0 68.58 0)
 				(effects
 					(font
@@ -1260,7 +1260,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Num" "MLZ2012N101LT000"
+			(property "Manufacturer Part Num" "AWP 252012FW-4R7M"
 				(at 0 66.04 0)
 				(effects
 					(font
@@ -1270,7 +1270,7 @@
 					(hide yes)
 				)
 			)
-			(property "BRE Number" "BRE-001234"
+			(property "BRE Number" "BRE-000220"
 				(at 0 63.5 0)
 				(effects
 					(font
@@ -1280,8 +1280,68 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB Part Num" "C88184"
+			(property "Supplier 1" "DigiKey"
 				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" "4816-AWP252012FW-4R7MCT-ND"
+				(at 0 58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "DigiKey"
+				(at 0 55.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" "4816-AWP252012FW-4R7MTR-ND"
+				(at 0 53.34 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" "JLCPCB"
+				(at 0 50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" "C17225812"
+				(at 0 48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C17225812"
+				(at 0 45.72 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1308,7 +1368,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_MLZ2012N101LT000_0_1"
+			(symbol "L_AWP_252012FW-4R7M_0_1"
 				(arc
 					(start 0 2.54)
 					(mid 0.6158 1.905)
@@ -1357,8 +1417,32 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "L_MLZ2012N101LT000_1_1"
+			(symbol "L_AWP_252012FW-4R7M_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2314,9 +2398,19 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Iout = 20mA\ndeltaIL = Vin*tON/L\n= 9.42mA\n-> ILmax = 24.7mA < Isat"
+	(text "ISW MAX: 800mA"
 		(exclude_from_sim no)
-		(at 83.058 38.354 0)
+		(at 111.506 61.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e975e73-5edc-4a2f-ab1f-18c0badb36f9")
+	)
+	(text "Iout = 20mA\ndeltaIL = Vin*tON/L\n= 210mA\n-> ILmax = 134mA < Isat"
+		(exclude_from_sim no)
+		(at 82.804 37.084 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2336,7 +2430,7 @@
 		)
 		(uuid "c3d7717b-d3cc-4478-a80b-6540078eb34a")
 	)
-	(text "Vin = 5V\nVout = 7V\nVout = Vin/(1-D)\n-> D = 45.21% (including diode drop)\n-> tON = 283ns"
+	(text "Vin = 5V\nVout = 7V\nVout = Vin/(1-D)\n-> D = 31.5% (including diode drop)\n-> tON = 197ns"
 		(exclude_from_sim no)
 		(at 28.194 22.352 0)
 		(effects
@@ -3227,7 +3321,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Inductors:L_MLZ2012N101LT000")
+		(lib_id "BR_Inductors:L_AWP_252012FW-4R7M")
 		(at 95.25 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3237,22 +3331,22 @@
 		(fields_autoplaced yes)
 		(uuid "64c68914-bdad-41d4-8057-80e86819291b")
 		(property "Reference" "L401"
-			(at 95.25 44.45 90)
+			(at 95.25 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100uH 30mA"
-			(at 95.25 46.99 90)
+		(property "Value" "4u7 1.6A"
+			(at 95.25 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "BR_Inductors:LMSC20120652R2MTA"
+		(property "Footprint" "BR_Inductors:L_1008_2520Metric"
 			(at 19.05 49.53 0)
 			(effects
 				(font
@@ -3262,7 +3356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412231059_TDK-MLZ2012N101LT000_C88184.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/AWP%20Series.pdf"
 			(at 21.59 49.53 0)
 			(effects
 				(font
@@ -3272,7 +3366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100uH 20% 30mA 3.5Ω Inductors SMT 0805"
+		(property "Description" "4.7uH 20% 1.6A 175mR Shielded Molded Inductor SMT 1008 package"
 			(at 24.13 49.53 0)
 			(effects
 				(font
@@ -3282,7 +3376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "TAI-TECH Advanced Electronics Co., Ltd."
 			(at 26.67 49.53 0)
 			(effects
 				(font
@@ -3292,7 +3386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Num" "MLZ2012N101LT000"
+		(property "Manufacturer Part Num" "AWP 252012FW-4R7M"
 			(at 29.21 49.53 0)
 			(effects
 				(font
@@ -3302,7 +3396,7 @@
 				(hide yes)
 			)
 		)
-		(property "BRE Number" "BRE-001234"
+		(property "BRE Number" "BRE-000220"
 			(at 31.75 49.53 0)
 			(effects
 				(font
@@ -3312,8 +3406,68 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Num" "C88184"
+		(property "JLCPCB Part Num" "C17225812"
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
 			(at 34.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "4816-AWP252012FW-4R7MCT-ND"
+			(at 36.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "DigiKey"
+			(at 39.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "4816-AWP252012FW-4R7MTR-ND"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C17225812"
+			(at 46.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,7 +3845,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Diodes:D_Schottky_RB520S-30")
+		(lib_id "BR_Diodes:D_Schottky_PMEG3010AESB")
 		(at 116.84 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3708,7 +3862,7 @@
 				)
 			)
 		)
-		(property "Value" "RB520S-30"
+		(property "Value" "PMEG3010AESB"
 			(at 117.221 45.72 0)
 			(effects
 				(font
@@ -3716,7 +3870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BR_Discretes:D_SOD-523"
+		(property "Footprint" "BR_Discretes:D_SOD-993-minimized"
 			(at 116.84 125.73 0)
 			(effects
 				(font
@@ -3726,7 +3880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb520s30t1-d.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG3010AESB.pdf"
 			(at 116.84 123.19 0)
 			(effects
 				(font
@@ -3736,17 +3890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky Diode 30V 200mA SOD-523"
-			(at 116.84 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
+		(property "Description" "Schottky Diode 30V 1A SOD-993"
 			(at 116.84 120.65 0)
 			(effects
 				(font
@@ -3756,7 +3900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Num" "RB520S30T5G"
+		(property "Manufacturer" "Nexperia"
 			(at 116.84 118.11 0)
 			(effects
 				(font
@@ -3766,8 +3910,18 @@
 				(hide yes)
 			)
 		)
-		(property "BRE Number" "BRE-000122"
+		(property "Manufacturer Part Num" "PMEG3010AESBYL"
 			(at 116.84 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-000120"
+			(at 116.84 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 1" "RB520S30T5GOSCT-ND"
+		(property "Supplier Part Num 1" "1727-2401-2-ND"
 			(at 116.84 107.95 0)
 			(effects
 				(font
@@ -3806,7 +3960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 2" "863-RB520S30T5G"
+		(property "Supplier Part Num 2" "771-PMEG3010AESBYL"
 			(at 116.84 102.87 0)
 			(effects
 				(font
@@ -3826,7 +3980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 3" "C511880"
+		(property "Supplier Part Num 3" "C28646369"
 			(at 116.84 97.79 0)
 			(effects
 				(font
@@ -3836,8 +3990,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Num" "C511880"
-			(at 116.84 90.17 0)
+		(property "JLCPCB Part Num" "C28646369"
+			(at 116.84 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5,6 +5,432 @@
 	(uuid "33a76061-9381-4766-af08-771d66ed15a3")
 	(paper "A4")
 	(lib_symbols
+		(symbol "BR_Capacitors_0402:C_0402_100nF_50V_X7R_10%_AEC-Q200"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.016 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100nF 50V"
+				(at 1.016 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "100nF 50V X7R 10% Ceramic Capacitor 0402 AEC-Q200"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "GCM155R71H104KE02D"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-000010"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" "490-10672-2-ND"
+				(at 0 58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "Mouser"
+				(at 0 55.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" "81-GCM155R71H104KE2D"
+				(at 0 53.34 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" "JLCPCB"
+				(at 0 50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" "C85858"
+				(at 0 48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C85858"
+				(at 0 45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0402_100nF_50V_X7R_10%_AEC-Q200_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0402_100nF_50V_X7R_10%_AEC-Q200_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BR_Capacitors_0402:C_0402_330nF_16V_X7R_10%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.016 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "330nF 16V"
+				(at 1.016 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411220213_FH--Guangdong-Fenghua-Advanced-Tech-0402B334K160NT_C301942.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "330nF 16V X7R 10% Ceramic Capacitor 0402"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "FH"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "0402B334K160NT"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-001238"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C301942"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0402_330nF_16V_X7R_10%_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0402_330nF_16V_X7R_10%_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BR_Capacitors_0402:C_0402_4u7F_10V_X7T_20%"
 			(pin_numbers
 				(hide yes)
@@ -1399,7 +1825,7 @@
 	)
 	(text "330nF for 33ms time constant"
 		(exclude_from_sim no)
-		(at 159.258 103.124 0)
+		(at 168.91 93.218 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1428,12 +1854,6 @@
 		(uuid "472bef0c-8e2f-4c7b-b13b-b9f80d6fb253")
 	)
 	(junction
-		(at 121.92 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04824bb2-d395-489f-82e7-7a7458032b99")
-	)
-	(junction
 		(at 135.89 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1444,6 +1864,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60aca60e-0653-4f98-a82c-3be7105d79bd")
+	)
+	(junction
+		(at 175.26 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "647742a2-e25e-467b-8d85-6a915260e247")
 	)
 	(junction
 		(at 135.89 139.7)
@@ -1464,10 +1890,40 @@
 		(uuid "8e21a810-51ea-483f-b202-c37e4a4f5619")
 	)
 	(junction
+		(at 121.92 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2573122-f13d-42ba-8e95-c1cbc8f08942")
+	)
+	(junction
 		(at 120.65 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6ff50ac-5281-4044-bf4e-7909441b0934")
+	)
+	(junction
+		(at 119.38 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf0222b7-f57a-4d66-ad3d-d5f76a7eeeb8")
+	)
+	(junction
+		(at 175.26 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2d14de8-8531-42da-8f2f-4f6af3d6497a")
+	)
+	(junction
+		(at 106.68 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2ebd5e8-c6b6-41eb-b1a9-ede221af75a2")
+	)
+	(junction
+		(at 243.84 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9a3f48c-8a01-4989-b4c3-4002fe9982fd")
 	)
 	(no_connect
 		(at 147.32 129.54)
@@ -1497,6 +1953,26 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 62.23) (xy 121.92 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01071c5c-b4b7-4bea-8e8f-3957e73c7b61")
+	)
+	(wire
+		(pts
+			(xy 175.26 109.22) (xy 175.26 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022a6a45-d6e1-4801-89ef-218df26e6d5f")
+	)
+	(wire
+		(pts
 			(xy 240.03 104.14) (xy 242.57 104.14)
 		)
 		(stroke
@@ -1517,13 +1993,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 78.74) (xy 121.92 72.39)
+			(xy 243.84 81.28) (xy 229.87 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14f1e266-a42f-4c23-a768-ef368305f849")
+		(uuid "10ebaf06-0d00-4ffb-af8f-d0897e459e44")
+	)
+	(wire
+		(pts
+			(xy 243.84 81.28) (xy 243.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1887adef-7527-4895-bfdf-ac8a1922a0d2")
 	)
 	(wire
 		(pts
@@ -1557,7 +2043,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 114.3) (xy 135.89 114.3)
+			(xy 111.76 106.68) (xy 119.38 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1597,7 +2083,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 88.9) (xy 229.87 88.9)
+			(xy 161.29 100.33) (xy 161.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57bde2a3-a1ee-44c4-a681-233b47c4be5b")
+	)
+	(wire
+		(pts
+			(xy 254 81.28) (xy 243.84 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1677,13 +2173,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 72.39) (xy 121.92 72.39)
+			(xy 99.06 62.23) (xy 106.68 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7285f8f9-e618-4a2f-8828-95217bcf13ff")
+	)
+	(wire
+		(pts
+			(xy 243.84 88.9) (xy 243.84 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78491bc5-d744-4671-97e1-c7d0b60d384a")
 	)
 	(wire
 		(pts
@@ -1694,6 +2200,16 @@
 			(type default)
 		)
 		(uuid "7fae2f94-0688-41a8-90f8-8a1bb02337bb")
+	)
+	(wire
+		(pts
+			(xy 106.68 62.23) (xy 106.68 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80efe17c-f4f6-4f76-ae90-68512ae7f4b7")
 	)
 	(bus
 		(pts
@@ -1747,6 +2263,26 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 69.85) (xy 106.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e996d48-f1c1-467e-a3ee-55f0d62d700d")
+	)
+	(wire
+		(pts
+			(xy 119.38 113.03) (xy 119.38 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936c6f22-8531-474f-ab85-9a2e527df8e7")
+	)
+	(wire
+		(pts
 			(xy 189.23 104.14) (xy 219.71 104.14)
 		)
 		(stroke
@@ -1757,7 +2293,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 82.55) (xy 175.26 101.6)
+			(xy 175.26 82.55) (xy 175.26 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1767,7 +2303,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 72.39) (xy 135.89 73.66)
+			(xy 135.89 62.23) (xy 135.89 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1787,13 +2323,43 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 114.3) (xy 135.89 115.57)
+			(xy 135.89 106.68) (xy 135.89 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9bce0b8e-3268-448b-be39-4293da281381")
+	)
+	(wire
+		(pts
+			(xy 175.26 104.14) (xy 175.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a049847a-877b-4627-be30-742d2a79105b")
+	)
+	(wire
+		(pts
+			(xy 161.29 105.41) (xy 161.29 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36c5697-c804-4d6f-8072-57d2bd399bcf")
+	)
+	(wire
+		(pts
+			(xy 175.26 95.25) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4840db9-6980-4678-8eb5-8632a47e1490")
 	)
 	(wire
 		(pts
@@ -1804,6 +2370,16 @@
 			(type default)
 		)
 		(uuid "a6cf3230-cdd2-4b22-b574-3f3c5bb79b13")
+	)
+	(wire
+		(pts
+			(xy 119.38 106.68) (xy 135.89 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8cc40e8-c168-4e20-9c51-1c02efb1db50")
 	)
 	(wire
 		(pts
@@ -1847,16 +2423,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 104.14) (xy 175.26 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d258c6e3-ae2b-4488-aa87-6df646a89f3a")
-	)
-	(wire
-		(pts
 			(xy 134.62 97.79) (xy 135.89 97.79)
 		)
 		(stroke
@@ -1887,13 +2453,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 90.17) (xy 229.87 88.9)
+			(xy 121.92 62.23) (xy 121.92 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2353dd0-108d-4d1e-9283-ce542787101a")
+		(uuid "d6917717-55d9-45be-af49-e15ffb79bd6b")
 	)
 	(wire
 		(pts
@@ -1907,7 +2473,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 72.39) (xy 135.89 72.39)
+			(xy 121.92 62.23) (xy 135.89 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1967,6 +2533,26 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 81.28) (xy 229.87 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f510a878-d79f-47b0-84d2-5361bd45546d")
+	)
+	(wire
+		(pts
+			(xy 161.29 109.22) (xy 175.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52f8b8f-645d-4539-8b3f-ac38b4808ff1")
+	)
+	(wire
+		(pts
 			(xy 120.65 125.73) (xy 124.46 125.73)
 		)
 		(stroke
@@ -1984,6 +2570,26 @@
 			(type default)
 		)
 		(uuid "fba7bbcd-6f02-45bf-98dc-9352cff1c30b")
+	)
+	(wire
+		(pts
+			(xy 161.29 95.25) (xy 175.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc3e1ce-9111-449b-9d02-778f41750298")
+	)
+	(wire
+		(pts
+			(xy 119.38 106.68) (xy 119.38 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdffeca1-2526-420f-8351-49e70197df8b")
 	)
 	(label "3V3"
 		(at 52.07 39.37 180)
@@ -2006,7 +2612,7 @@
 		(uuid "5c6de6c6-7c2c-4df4-9f69-70fecc509911")
 	)
 	(label "3V3"
-		(at 113.03 72.39 0)
+		(at 99.06 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2046,7 +2652,7 @@
 		(uuid "94c43af9-c0b5-4e79-ad2c-b6dbe1f85eed")
 	)
 	(label "3V3"
-		(at 132.08 114.3 0)
+		(at 111.76 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2066,12 +2672,12 @@
 		(uuid "dd70d409-351d-4d3f-9f09-bb5c62ef9fc1")
 	)
 	(label "3V3"
-		(at 223.52 88.9 0)
+		(at 254 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ddb12c51-0761-4b0b-82b0-76c4d5a42294")
 	)
@@ -2412,6 +3018,179 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
 					(reference "#PWR0601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Capacitors_0402:C_0402_100nF_50V_X7R_10%_AEC-Q200")
+		(at 119.38 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c802ffd-12d7-4e98-bae4-b66237aaa169")
+		(property "Reference" "C605"
+			(at 121.92 109.2262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 121.92 111.7662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 119.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 50V X7R 10% Ceramic Capacitor 0402 AEC-Q200"
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "GCM155R71H104KE02D"
+			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-000010"
+			(at 119.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 119.38 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "490-10672-2-ND"
+			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 119.38 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "81-GCM155R71H104KE2D"
+			(at 119.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 119.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C85858"
+			(at 119.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C85858"
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c20096d2-0caa-4b09-be66-d54e79fca434")
+		)
+		(pin "2"
+			(uuid "67e350dc-ca10-4c6b-87ff-a0d12d53861d")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "C605")
 					(unit 1)
 				)
 			)
@@ -2931,6 +3710,119 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Capacitors_0402:C_0402_330nF_16V_X7R_10%")
+		(at 161.29 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63dbc102-3933-4746-81b8-58dffa0267f5")
+		(property "Reference" "C603"
+			(at 163.83 101.6062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330nF 16V"
+			(at 163.83 104.1462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+			(at 161.29 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411220213_FH--Guangdong-Fenghua-Advanced-Tech-0402B334K160NT_C301942.pdf"
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "330nF 16V X7R 10% Ceramic Capacitor 0402"
+			(at 161.29 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH"
+			(at 161.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "0402B334K160NT"
+			(at 161.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001238"
+			(at 161.29 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C301942"
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc63b5e9-5d06-4514-8384-1dfe3d895eb9")
+		)
+		(pin "2"
+			(uuid "f6143f88-2f62-406e-ad91-7ba6f132a72e")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "C603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_4u7F_10V_X7T_20%")
 		(at 118.11 93.98 180)
 		(unit 1)
@@ -3104,6 +3996,246 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
+		(at 119.38 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7173745d-60e0-403d-8409-4603ee2778b0")
+		(property "Reference" "#PWR0607"
+			(at 119.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3148be9c-2932-46fa-9f27-256539eae17a")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "#PWR0607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Capacitors_0402:C_0402_100nF_50V_X7R_10%_AEC-Q200")
+		(at 106.68 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8968f745-f837-4cf6-b378-e671486d7301")
+		(property "Reference" "C604"
+			(at 109.22 66.0462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 109.22 68.5862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+			(at 106.68 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 106.68 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 50V X7R 10% Ceramic Capacitor 0402 AEC-Q200"
+			(at 106.68 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 106.68 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "GCM155R71H104KE02D"
+			(at 106.68 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-000010"
+			(at 106.68 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 106.68 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "490-10672-2-ND"
+			(at 106.68 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 106.68 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "81-GCM155R71H104KE2D"
+			(at 106.68 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 106.68 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C85858"
+			(at 106.68 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C85858"
+			(at 106.68 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d59454f4-bb20-4a3d-89d7-b6d40b259476")
+		)
+		(pin "2"
+			(uuid "57617d65-ded1-492a-b917-baf53534e840")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "C604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND")
 		(at 229.87 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3164,6 +4296,73 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
 					(reference "#PWR0605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND")
+		(at 106.68 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97a308f4-8133-4a3a-9355-6e309d7fdebf")
+		(property "Reference" "#PWR0606"
+			(at 106.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b451a6ce-5475-436f-bef7-05f579cd59a1")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "#PWR0606")
 					(unit 1)
 				)
 			)
@@ -3283,6 +4482,179 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Capacitors_0402:C_0402_100nF_50V_X7R_10%_AEC-Q200")
+		(at 243.84 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b903f866-3f70-4c10-8a63-34c6ee5b40bf")
+		(property "Reference" "C606"
+			(at 246.38 85.0962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 246.38 87.6362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+			(at 243.84 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 243.84 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 50V X7R 10% Ceramic Capacitor 0402 AEC-Q200"
+			(at 243.84 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 243.84 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "GCM155R71H104KE02D"
+			(at 243.84 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-000010"
+			(at 243.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 243.84 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "490-10672-2-ND"
+			(at 243.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 243.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "81-GCM155R71H104KE2D"
+			(at 243.84 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 243.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C85858"
+			(at 243.84 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C85858"
+			(at 243.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba83af29-d939-43dc-a928-edd330ab914c")
+		)
+		(pin "2"
+			(uuid "a71e4c2f-5438-4177-9731-d606604ae8c8")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "C606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
 		(at 135.89 140.97 0)
 		(unit 1)
@@ -3344,6 +4716,73 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
 					(reference "#PWR0602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND")
+		(at 243.84 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec72d9ba-6db0-4f30-b198-aae7139a040e")
+		(property "Reference" "#PWR0608"
+			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3d01adb-08ae-4842-90ee-9093abdf483c")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "#PWR0608")
 					(unit 1)
 				)
 			)
