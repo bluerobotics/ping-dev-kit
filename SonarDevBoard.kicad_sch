@@ -9,328 +9,6 @@
 		(date "2025-06-13")
 	)
 	(lib_symbols
-		(symbol "BM04B-GHS-TBT_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -1.524 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "LABEL"
-				(at -1.524 -5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "BR_Connectors_JST:BM04B-GHS-TBT"
-				(at 0 76.2 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
-				(at 0 73.66 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "JST-GH Connector 4-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Vertical"
-				(at 0 71.12 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 68.58 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Num" "BM04B-GHS-TBT"
-				(at 0 66.04 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "BRE Number" "BRE-000096"
-				(at 0 63.5 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" "DigiKey"
-				(at 0 60.96 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 1" "455-BM04B-GHS-TBTCT-ND"
-				(at 0 58.42 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier 3" "JLCPCB"
-				(at 0 55.88 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 3" "C161692"
-				(at 0 53.34 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier 2" ""
-				(at 0 50.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 2" ""
-				(at 0 48.26 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Part Num" "C161692"
-				(at 0 40.64 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BM04B-GHS-TBT_1_1_1"
-				(rectangle
-					(start 2.54 0)
-					(end 0 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 2.54 -1.143)
-					(end 1.27 -1.397)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -3.683)
-					(end 1.27 -3.937)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -6.223)
-					(end 1.27 -6.477)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -8.763)
-					(end 1.27 -9.017)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin free line
-					(at 1.27 -13.97 90)
-					(length 3.81)
-					(name "MP"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -1.27 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -3.81 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -6.35 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -8.89 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%"
 			(pin_numbers
 				(hide yes)
@@ -4291,582 +3969,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Connectors_JST_GH:BM02B-GHS-TBT"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -1.27 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "LABEL"
-				(at -1.27 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "BR_Connectors_JST:BM02B-GHS-TBT"
-				(at 0 76.2 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
-				(at 0 73.66 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "JST-GH Connector 2-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Vertical"
-				(at 0 71.12 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 68.58 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Num" "BM02B-GHS-TBT"
-				(at 0 66.04 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "BRE Number" "BRE-000094"
-				(at 0 63.5 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" "DigiKey"
-				(at 0 60.96 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 1" "455-BM02B-GHS-TBTCT-ND"
-				(at 0 58.42 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier 3" "JLCPCB"
-				(at 0 55.88 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 3" "C161690"
-				(at 0 53.34 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier 2" "DigiKey"
-				(at 0 50.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 2" "455-BM02B-GHS-TBTTR-ND"
-				(at 0 48.26 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Part Num" "C161690"
-				(at 0 40.64 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BM02B-GHS-TBT_1_1"
-				(rectangle
-					(start 2.54 0)
-					(end 0 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 2.54 -1.143)
-					(end 1.27 -1.397)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -3.683)
-					(end 1.27 -3.937)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin free line
-					(at 1.27 -8.89 90)
-					(length 3.81)
-					(name "MP"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -1.27 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -3.81 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BR_Connectors_JST_GH:BM04B-GHS-TBT"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -1.524 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "LABEL"
-				(at -1.524 -5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "BR_Connectors_JST:BM04B-GHS-TBT"
-				(at 0 76.2 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
-				(at 0 73.66 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "JST-GH Connector 4-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Vertical"
-				(at 0 71.12 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 68.58 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Num" "BM04B-GHS-TBT"
-				(at 0 66.04 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "BRE Number" "BRE-000096"
-				(at 0 63.5 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" "DigiKey"
-				(at 0 60.96 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 1" "455-BM04B-GHS-TBTCT-ND"
-				(at 0 58.42 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier 3" "JLCPCB"
-				(at 0 55.88 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 3" "C161692"
-				(at 0 53.34 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier 2" ""
-				(at 0 50.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 2" ""
-				(at 0 48.26 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BM04B-GHS-TBT_1_1"
-				(rectangle
-					(start 2.54 0)
-					(end 0 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 2.54 -1.143)
-					(end 1.27 -1.397)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -3.683)
-					(end 1.27 -3.937)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -6.223)
-					(end 1.27 -6.477)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -8.763)
-					(end 1.27 -9.017)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin free line
-					(at 1.27 -13.97 90)
-					(length 3.81)
-					(name "MP"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -1.27 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -3.81 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -6.35 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -8.89 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "BR_Connectors_JST_GH:SM02B-GHS-TB"
 			(pin_names
 				(offset 1.016)
@@ -5121,6 +4223,328 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BR_Connectors_JST_GH:SM04B-GHS-TB"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -1.27 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "LABEL"
+				(at -1.27 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "BR_Connectors_JST:SM04B-GHS-TB"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "JST-GH Connector 4-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Horizontal"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "SM04B-GHS-TB"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-000102"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" "455-1566-1-ND"
+				(at 0 58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" "JLCPCB"
+				(at 0 55.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" "C189895"
+				(at 0 53.34 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "DigiKey"
+				(at 0 50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" "455-1566-2-ND"
+				(at 0 48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C189895"
+				(at 0 40.64 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SM04B-GHS-TB_1_1"
+				(rectangle
+					(start 0 0)
+					(end 2.54 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.143)
+					(end 1.27 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -3.683)
+					(end 1.27 -3.937)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -6.223)
+					(end 1.27 -6.477)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -8.763)
+					(end 1.27 -9.017)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin free line
+					(at 1.27 -13.97 90)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -6.35 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -8.89 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14514,7 +13938,7 @@
 				)
 			)
 		)
-		(property "Value" "2328702-6"
+		(property "Value" "DEBUG"
 			(at 46.99 182.88 0)
 			(effects
 				(font
@@ -16218,7 +15642,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Connectors_JST_GH:BM04B-GHS-TBT")
+		(lib_id "BR_Connectors_JST_GH:SM04B-GHS-TB")
 		(at 58.42 283.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16243,7 +15667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BR_Connectors_JST:BM04B-GHS-TBT"
+		(property "Footprint" "BR_Connectors_JST:SM04B-GHS-TB"
 			(at 58.42 207.01 0)
 			(effects
 				(font
@@ -16263,7 +15687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "JST-GH Connector 4-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Vertical"
+		(property "Description" "JST-GH Connector 4-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Horizontal"
 			(at 58.42 212.09 0)
 			(effects
 				(font
@@ -16283,7 +15707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Num" "BM04B-GHS-TBT"
+		(property "Manufacturer Part Num" "SM04B-GHS-TB"
 			(at 58.42 217.17 0)
 			(effects
 				(font
@@ -16293,7 +15717,7 @@
 				(hide yes)
 			)
 		)
-		(property "BRE Number" "BRE-000096"
+		(property "BRE Number" "BRE-000102"
 			(at 58.42 219.71 0)
 			(effects
 				(font
@@ -16313,7 +15737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 1" "455-BM04B-GHS-TBTCT-ND"
+		(property "Supplier Part Num 1" "455-1566-1-ND"
 			(at 58.42 224.79 0)
 			(effects
 				(font
@@ -16333,7 +15757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 3" "C161692"
+		(property "Supplier Part Num 3" "C189895"
 			(at 58.42 229.87 0)
 			(effects
 				(font
@@ -16343,7 +15767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 2" ""
+		(property "Supplier 2" "DigiKey"
 			(at 58.42 232.41 0)
 			(effects
 				(font
@@ -16353,8 +15777,18 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 2" ""
+		(property "Supplier Part Num 2" "455-1566-2-ND"
 			(at 58.42 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C189895"
+			(at 58.42 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20171,19 +19605,21 @@
 		(fields_autoplaced yes)
 		(uuid "b0033f63-7406-4916-afd4-616a2fbf2379")
 		(property "Reference" "J111"
-			(at 247.65 353.06 0)
+			(at 250.19 359.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TRANSDUCER"
-			(at 247.65 355.6 0)
+			(at 250.19 361.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "BR_Connectors_JST:SM02B-GHS-TB"
@@ -21655,7 +21091,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Connectors_JST_GH:BM02B-GHS-TBT")
+		(lib_id "BR_Connectors_JST_GH:SM02B-GHS-TB")
 		(at 58.42 309.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21680,7 +21116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BR_Connectors_JST:BM02B-GHS-TBT"
+		(property "Footprint" "BR_Connectors_JST:SM02B-GHS-TB"
 			(at 58.42 233.68 0)
 			(effects
 				(font
@@ -21700,7 +21136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "JST-GH Connector 2-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Vertical"
+		(property "Description" "JST-GH Connector 2-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Horizontal"
 			(at 58.42 238.76 0)
 			(effects
 				(font
@@ -21720,7 +21156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Num" "BM02B-GHS-TBT"
+		(property "Manufacturer Part Num" "SM02B-GHS-TB"
 			(at 58.42 243.84 0)
 			(effects
 				(font
@@ -21730,7 +21166,7 @@
 				(hide yes)
 			)
 		)
-		(property "BRE Number" "BRE-000094"
+		(property "BRE Number" "BRE-000100"
 			(at 58.42 246.38 0)
 			(effects
 				(font
@@ -21750,7 +21186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 1" "455-BM02B-GHS-TBTCT-ND"
+		(property "Supplier Part Num 1" "455-1564-1-ND"
 			(at 58.42 251.46 0)
 			(effects
 				(font
@@ -21770,7 +21206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 3" "C161690"
+		(property "Supplier Part Num 3" "C189893"
 			(at 58.42 256.54 0)
 			(effects
 				(font
@@ -21790,7 +21226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 2" "455-BM02B-GHS-TBTTR-ND"
+		(property "Supplier Part Num 2" "455-1564-2-ND"
 			(at 58.42 261.62 0)
 			(effects
 				(font
@@ -21800,7 +21236,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Num" "C161690"
+		(property "JLCPCB Part Num" "C189893"
 			(at 58.42 269.24 0)
 			(effects
 				(font
@@ -23896,8 +23332,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BM04B-GHS-TBT_1")
-		(lib_id "BR_Connectors_JST_GH:BM04B-GHS-TBT")
+		(lib_id "BR_Connectors_JST_GH:SM04B-GHS-TB")
 		(at 466.09 208.28 0)
 		(mirror y)
 		(unit 1)
@@ -23925,7 +23360,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BR_Connectors_JST:BM04B-GHS-TBT"
+		(property "Footprint" "BR_Connectors_JST:SM04B-GHS-TB"
 			(at 466.09 132.08 0)
 			(effects
 				(font
@@ -23945,7 +23380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "JST-GH Connector 4-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Vertical"
+		(property "Description" "JST-GH Connector 4-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Horizontal"
 			(at 466.09 137.16 0)
 			(effects
 				(font
@@ -23965,7 +23400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Num" "BM04B-GHS-TBT"
+		(property "Manufacturer Part Num" "SM04B-GHS-TB"
 			(at 466.09 142.24 0)
 			(effects
 				(font
@@ -23975,7 +23410,7 @@
 				(hide yes)
 			)
 		)
-		(property "BRE Number" "BRE-000096"
+		(property "BRE Number" "BRE-000102"
 			(at 466.09 144.78 0)
 			(effects
 				(font
@@ -23995,7 +23430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 1" "455-BM04B-GHS-TBTCT-ND"
+		(property "Supplier Part Num 1" "455-1566-1-ND"
 			(at 466.09 149.86 0)
 			(effects
 				(font
@@ -24015,7 +23450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 3" "C161692"
+		(property "Supplier Part Num 3" "C189895"
 			(at 466.09 154.94 0)
 			(effects
 				(font
@@ -24025,7 +23460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 2" ""
+		(property "Supplier 2" "DigiKey"
 			(at 466.09 157.48 0)
 			(effects
 				(font
@@ -24035,7 +23470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 2" ""
+		(property "Supplier Part Num 2" "455-1566-2-ND"
 			(at 466.09 160.02 0)
 			(effects
 				(font
@@ -24045,7 +23480,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Num" "C161692"
+		(property "JLCPCB Part Num" "C189895"
 			(at 466.09 167.64 0)
 			(effects
 				(font
