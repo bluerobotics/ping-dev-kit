@@ -1654,7 +1654,7 @@
 							)
 						)
 					)
-					(number "EP"
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2775,6 +2775,12 @@
 		(uuid "8542f8e8-60f3-4d8b-9ae4-42b74a39954a")
 	)
 	(junction
+		(at 60.96 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c6be99b-ffcb-49d4-bc3c-f3bd44996a9e")
+	)
+	(junction
 		(at 76.2 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2870,7 +2876,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 69.85) (xy 76.2 69.85)
+			(xy 53.34 69.85) (xy 60.96 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2897,6 +2903,16 @@
 			(type default)
 		)
 		(uuid "452a7559-9931-42d8-bd92-7263bc004b9a")
+	)
+	(wire
+		(pts
+			(xy 60.96 76.2) (xy 60.96 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4550c924-d517-4c2d-a478-caa4af3957cf")
 	)
 	(wire
 		(pts
@@ -3077,6 +3093,16 @@
 			(type default)
 		)
 		(uuid "87419bca-6f03-4e13-85ed-2dc3216f60bc")
+	)
+	(wire
+		(pts
+			(xy 60.96 69.85) (xy 60.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89200b4f-c7c3-478e-8a7f-1e83f474f8ae")
 	)
 	(wire
 		(pts
@@ -3277,6 +3303,16 @@
 			(type default)
 		)
 		(uuid "dc8de308-2553-4824-9067-b047e03fd1f5")
+	)
+	(wire
+		(pts
+			(xy 60.96 69.85) (xy 76.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd437e1-c587-4ee5-8d32-84ebfcd9f096")
 	)
 	(wire
 		(pts
@@ -7886,7 +7922,7 @@
 		(uuid "4671e628-77b2-481f-a81a-0c5d2b76103e")
 	)
 	(label "5V"
-		(at 68.58 69.85 0)
+		(at 53.34 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8285,6 +8321,179 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/a659e729-f286-4529-89a9-b647d33044af"
 					(reference "#PWR01605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Capacitors_0402:C_0402_2u2F_10V_X7R_10%")
+		(at 60.96 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1350e98c-341c-4e86-b573-dbaf252cf0a8")
+		(property "Reference" "C1607"
+			(at 63.5 72.3962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2F 10V"
+			(at 63.5 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+			(at 60.96 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A225KE01-01.pdf"
+			(at 60.96 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2uF 10V X7R 10% Ceramic Capacitor 0402"
+			(at 60.96 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 60.96 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "GRM155Z71A225KE01D"
+			(at 60.96 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-000024"
+			(at 60.96 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 60.96 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "490-GRM155Z71A225KE01DCT-ND"
+			(at 60.96 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 60.96 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "81-GRM155Z71A225KE1D"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 60.96 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C2997286"
+			(at 60.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C2997286"
+			(at 60.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de8c1292-fb67-411e-adf8-a7b8fecb4d81")
+		)
+		(pin "1"
+			(uuid "620545dd-e164-4f98-a5c4-db11491a82e7")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/a659e729-f286-4529-89a9-b647d33044af"
+					(reference "C1607")
 					(unit 1)
 				)
 			)
@@ -8758,6 +8967,73 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:GND")
+		(at 60.96 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74b977c6-b246-490a-8212-8d73207b1619")
+		(property "Reference" "#PWR01608"
+			(at 60.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb1711bd-9529-41f4-ad66-ce93ebd536be")
+		)
+		(instances
+			(project "SonarDevBoard"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/a659e729-f286-4529-89a9-b647d33044af"
+					(reference "#PWR01608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Resistors_0603:R_0603_0R_AEC-Q200")
 		(at 102.87 86.36 90)
 		(unit 1)
@@ -9209,7 +9485,7 @@
 		(pin "6"
 			(uuid "3c51590b-f60c-4cae-9169-27d8630032a8")
 		)
-		(pin "EP"
+		(pin "25"
 			(uuid "573926b3-338c-449e-b126-7468bba64bce")
 		)
 		(pin "3"
