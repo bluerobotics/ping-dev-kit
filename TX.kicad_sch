@@ -1608,7 +1608,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 165.1) (xy 101.6 165.1)
+			(xy 92.71 168.91) (xy 101.6 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1748,13 +1748,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 158.75) (xy 101.6 158.75)
+			(xy 92.71 162.56) (xy 101.6 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "471041f8-9dfd-4e98-9808-1c56008c7765")
+	)
+	(wire
+		(pts
+			(xy 92.71 152.4) (xy 101.6 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5fa27b-150d-420e-83d7-554d2b49cb6d")
 	)
 	(wire
 		(pts
@@ -1818,7 +1828,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 168.91) (xy 101.6 168.91)
+			(xy 92.71 172.72) (xy 101.6 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1978,7 +1988,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 154.94) (xy 101.6 154.94)
+			(xy 92.71 158.75) (xy 101.6 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2165,6 +2175,16 @@
 			(type default)
 		)
 		(uuid "e3fdf299-9aef-4c8e-b68d-5bbec919447d")
+	)
+	(wire
+		(pts
+			(xy 92.71 148.59) (xy 101.6 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4299e9c-325d-4b6b-b1d0-9449f5c18057")
 	)
 	(wire
 		(pts
@@ -2501,7 +2521,7 @@
 	)
 	(hierarchical_label "SD0"
 		(shape input)
-		(at 92.71 165.1 180)
+		(at 92.71 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2600,7 +2620,7 @@
 	)
 	(hierarchical_label "SD1"
 		(shape input)
-		(at 92.71 168.91 180)
+		(at 92.71 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2644,7 +2664,7 @@
 	)
 	(hierarchical_label "PWM_B"
 		(shape input)
-		(at 92.71 158.75 180)
+		(at 92.71 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2732,7 +2752,7 @@
 	)
 	(hierarchical_label "PWM_A"
 		(shape input)
-		(at 92.71 154.94 180)
+		(at 92.71 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2751,6 +2771,28 @@
 			(justify right)
 		)
 		(uuid "d998fb16-cdfa-4914-b87b-3d8e4ecb9c33")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 92.71 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5ddbdae-bff2-4b37-a8d7-7d37e2b449bb")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 92.71 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd32031c-d675-42f9-adac-5bd369c60216")
 	)
 	(hierarchical_label "VCC"
 		(shape input)
@@ -3985,7 +4027,7 @@
 	)
 	(sheet
 		(at 101.6 139.7)
-		(size 25.4 33.02)
+		(size 25.4 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4009,7 +4051,7 @@
 			)
 		)
 		(property "Sheetfile" "digital_drive.kicad_sch"
-			(at 101.6 173.3046 0)
+			(at 101.6 178.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +4060,7 @@
 			)
 		)
 		(pin "PWM_A" input
-			(at 101.6 154.94 180)
+			(at 101.6 158.75 180)
 			(uuid "7077dc66-5fc8-46e9-b893-5e831f4a0ad2")
 			(effects
 				(font
@@ -4028,7 +4070,7 @@
 			)
 		)
 		(pin "PWM_B" input
-			(at 101.6 158.75 180)
+			(at 101.6 162.56 180)
 			(uuid "c5698b32-f867-4381-b371-3c45cda43216")
 			(effects
 				(font
@@ -4078,7 +4120,7 @@
 			)
 		)
 		(pin "SD0" input
-			(at 101.6 165.1 180)
+			(at 101.6 168.91 180)
 			(uuid "37840c48-91ae-46d5-84d4-b32c26d844d9")
 			(effects
 				(font
@@ -4088,8 +4130,18 @@
 			)
 		)
 		(pin "SD1" input
-			(at 101.6 168.91 180)
+			(at 101.6 172.72 180)
 			(uuid "921aa115-f5e2-42b7-9fa5-6a5046ba1041")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 101.6 152.4 180)
+			(uuid "6b4abed6-1ac4-4847-a1bb-5f09457c8498")
 			(effects
 				(font
 					(size 1.27 1.27)
