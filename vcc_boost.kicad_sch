@@ -7702,6 +7702,26 @@
 		)
 		(uuid "36536d60-b7b9-4077-bae6-2160c0c64338")
 	)
+	(text_box "Requires more output capacitance (but probably not rated for 100V)! (Maybe even a 5V supercap on the boost converter input)\n\nInstantaneous power for the pulse will be supplied by these capacitors.\n\nGiven a 100W pulse that lasts for 4% of the max distance (300m) 1.6J is required from these caps.\n\n"
+		(exclude_from_sim no)
+		(at 223.52 71.12 0)
+		(size 73.66 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "56cdcb8c-0a36-4140-bcdf-71ac0f45cafe")
+	)
 	(text_box "SWITCHING FREQUENCY:\nFsw = 9*10^9/75k = 120 kHz\nVfb = 1.2V"
 		(exclude_from_sim no)
 		(at 127.762 183.515 0)
