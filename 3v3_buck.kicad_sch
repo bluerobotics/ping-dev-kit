@@ -1458,35 +1458,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Virtual_Parts:NetTie-2_0.18mm_long"
+		(symbol "BR_Virtual_Parts:NetTie-2_3.88mm"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(hide yes)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "NT2"
-				(at 5.08 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "NetTie-2_0.18mm"
-				(at 2.54 0 90)
+			(property "Reference" "NT"
+				(at 2.54 0.762 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "BR_Virtual_Parts:NetTie-2_SMD_Pad_0.18mm_wide_long"
-				(at 1.016 -0.254 90)
+			(property "Value" "Net Tie"
+				(at 4.826 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BR_Virtual_Parts:NetTie-2_SMD_Pad_3.88mm_wide"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1495,7 +1494,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 8.89 5.08 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1513,86 +1512,15 @@
 				)
 			)
 			(property "Manufacturer" "~"
-				(at 2.54 19.05 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" "~"
-				(at 2.54 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 1" "~"
-				(at 2.54 24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier 2" "~"
-				(at 2.54 26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 2" "~"
-				(at 2.54 29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier 3" "~"
-				(at 2.54 31.75 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 3" "~"
-				(at 2.54 34.29 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 					(hide yes)
 				)
 			)
 			(property "Manufacturer Part Num" "~"
-				(at 2.54 36.83 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1601,7 +1529,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "Supplier 1" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1610,7 +1538,52 @@
 					(hide yes)
 				)
 			)
-			(symbol "NetTie-2_0.18mm_long_0_1"
+			(property "Supplier Part Num 1" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie-2_3.88mm_0_1"
 				(polyline
 					(pts
 						(xy 0 2.286) (xy 0 2.54)
@@ -1636,7 +1609,7 @@
 					)
 				)
 			)
-			(symbol "NetTie-2_0.18mm_long_1_1"
+			(symbol "NetTie-2_3.88mm_1_1"
 				(rectangle
 					(start -0.635 2.286)
 					(end 0.635 1.016)
@@ -3140,10 +3113,10 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:NetTie-2_0.18mm_long")
+		(lib_id "BR_Virtual_Parts:NetTie-2_3.88mm")
 		(at 130.81 106.68 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -3159,15 +3132,15 @@
 			)
 		)
 		(property "Value" "NetTie-2_0.18mm"
-			(at 130.81 103.505 90)
+			(at 130.81 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "BR_Virtual_Parts:NetTie-2_SMD_Pad_0.18mm_wide_long"
-			(at 131.064 105.664 90)
+		(property "Footprint" "BR_Virtual_Parts:NetTie-2_SMD_Pad_3.88mm_wide"
+			(at 130.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3149,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 97.79 0)
+			(at 130.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,82 +3167,74 @@
 			)
 		)
 		(property "Manufacturer" "~"
-			(at 111.76 104.14 0)
+			(at 130.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Supplier 1" "~"
-			(at 109.22 104.14 0)
+			(at 130.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Supplier Part Num 1" "~"
-			(at 106.68 104.14 0)
+			(at 130.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Supplier 2" "~"
-			(at 104.14 104.14 0)
+			(at 130.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Supplier Part Num 2" "~"
-			(at 101.6 104.14 0)
+			(at 130.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Supplier 3" "~"
-			(at 99.06 104.14 0)
+			(at 130.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Supplier Part Num 3" "~"
-			(at 96.52 104.14 0)
+			(at 130.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer Part Num" "~"
-			(at 93.98 104.14 0)
+			(at 130.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
