@@ -1,0 +1,6 @@
+(version 1)
+(rule BGA_default
+	(constraint clearance (min 0.1mm))
+	(constraint track_width (min 0.1mm))
+	(constraint hole_clearance (min 0.12mm))
+	(condition "A.intersectsArea('BGA')"))
