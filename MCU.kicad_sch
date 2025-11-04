@@ -1110,6 +1110,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LABEL"
+				(at 1.524 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XFCN"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "PZ254V-11-02P"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-001259"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C492401"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Header_Pin_01x02_2.54mm_Vert_PTH_1_1"
+				(rectangle
+					(start 0 0)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.143)
+					(end 1.27 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -3.683)
+					(end 1.27 -3.937)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BR_IC:STM32H563AII3Q"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7566,186 +7751,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Virtual_Parts:TP_ROUND_SMT_400um"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 2.54 0.9525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TP_ROUND_TH_400um"
-				(at 2.54 -1.5875 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_400um"
-				(at 1.27 7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0.254 7.493 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test pad surface mount"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "~"
-				(at -1.524 8.001 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Num" "~"
-				(at -0.254 7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" "~"
-				(at -1.905 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 1" "~"
-				(at -1.143 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 2" "~"
-				(at -1.27 7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Num 2" "~"
-				(at 0.127 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 3" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part Num 3" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test pad surface mount"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TP_ROUND_SMT_400um_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TP_ROUND_SMT_400um_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "BR_Virtual_Parts:VCC"
 			(power)
 			(pin_numbers
@@ -8106,7 +8111,7 @@
 	)
 	(text "ADC2_INP2"
 		(exclude_from_sim no)
-		(at 50.546 314.706 0)
+		(at 49.276 314.706 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8128,7 +8133,7 @@
 	)
 	(text "DAC1_OUT1"
 		(exclude_from_sim no)
-		(at 233.172 167.386 0)
+		(at 235.712 167.386 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8161,7 +8166,7 @@
 	)
 	(text "AF11: ETH_RMII_TXD0"
 		(exclude_from_sim no)
-		(at 233.172 230.886 0)
+		(at 234.442 230.886 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8249,7 +8254,7 @@
 	)
 	(text "AF11: ETH_RMII_TX_EN"
 		(exclude_from_sim no)
-		(at 234.188 228.346 0)
+		(at 235.458 228.346 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8282,7 +8287,7 @@
 	)
 	(text "GPIO"
 		(exclude_from_sim no)
-		(at 56.642 225.806 0)
+		(at 53.848 225.806 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8304,7 +8309,7 @@
 	)
 	(text "AF4: OCTOSPI1_CLK"
 		(exclude_from_sim no)
-		(at 52.832 307.086 0)
+		(at 51.562 307.086 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8315,7 +8320,7 @@
 	)
 	(text "AF9: OCTOSPI1_DQS\n"
 		(exclude_from_sim no)
-		(at 213.106 205.486 0)
+		(at 214.122 205.486 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8326,7 +8331,7 @@
 	)
 	(text "AF7: USART1_RX"
 		(exclude_from_sim no)
-		(at 228.6 182.626 0)
+		(at 229.616 182.626 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8348,7 +8353,7 @@
 	)
 	(text "AF5: OCTOSPI1_IO3"
 		(exclude_from_sim no)
-		(at 53.086 296.926 0)
+		(at 52.07 296.926 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8359,7 +8364,7 @@
 	)
 	(text "AF0: SWDIO"
 		(exclude_from_sim no)
-		(at 231.14 190.246 0)
+		(at 233.68 190.246 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8392,7 +8397,7 @@
 	)
 	(text "DAC1_OUT2"
 		(exclude_from_sim no)
-		(at 239.776 169.926 0)
+		(at 241.046 169.926 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8414,7 +8419,7 @@
 	)
 	(text "AF11: ETH_RMII_RXD0"
 		(exclude_from_sim no)
-		(at 233.426 253.746 0)
+		(at 234.442 253.746 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8423,9 +8428,9 @@
 		)
 		(uuid "6f6a7fed-aecb-4a1c-b521-45bac38d3786")
 	)
-	(text "AF4: I2C_SDA"
+	(text "AF4: I2C1_SDA"
 		(exclude_from_sim no)
-		(at 227.076 223.266 0)
+		(at 228.092 223.266 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8436,7 +8441,7 @@
 	)
 	(text "ADC12_INP15"
 		(exclude_from_sim no)
-		(at 241.554 164.846 0)
+		(at 242.824 164.846 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8447,7 +8452,7 @@
 	)
 	(text "AF11: ETH_MII_RX_DV"
 		(exclude_from_sim no)
-		(at 233.172 175.006 0)
+		(at 234.188 175.006 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8458,7 +8463,7 @@
 	)
 	(text "AF8: OCTOSPI1_IO2"
 		(exclude_from_sim no)
-		(at 213.106 335.026 0)
+		(at 214.63 335.026 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8469,7 +8474,7 @@
 	)
 	(text "AF4: I2C4_SCL"
 		(exclude_from_sim no)
-		(at 71.12 230.886 0)
+		(at 70.358 230.886 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8480,7 +8485,7 @@
 	)
 	(text "AF0: SWCLK"
 		(exclude_from_sim no)
-		(at 231.648 192.786 0)
+		(at 234.188 192.786 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8491,7 +8496,7 @@
 	)
 	(text "AF7: USART1_TX"
 		(exclude_from_sim no)
-		(at 228.346 180.086 0)
+		(at 229.362 180.086 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8502,7 +8507,7 @@
 	)
 	(text "AF11: ETH_MDC"
 		(exclude_from_sim no)
-		(at 227.584 246.126 0)
+		(at 228.6 246.126 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8513,7 +8518,7 @@
 	)
 	(text "AF6: OCTOSPI1_IO0"
 		(exclude_from_sim no)
-		(at 53.34 302.006 0)
+		(at 52.07 302.006 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8557,7 +8562,7 @@
 	)
 	(text "AF3: OCTOSPI1_NCLK"
 		(exclude_from_sim no)
-		(at 213.106 213.106 0)
+		(at 214.122 213.106 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8568,7 +8573,7 @@
 	)
 	(text "AF4: OCTOSPI1_NCS"
 		(exclude_from_sim no)
-		(at 213.106 357.886 0)
+		(at 214.63 357.886 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8579,7 +8584,7 @@
 	)
 	(text "AF4: I2C4_SDA"
 		(exclude_from_sim no)
-		(at 71.12 233.426 0)
+		(at 70.358 233.426 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8590,7 +8595,7 @@
 	)
 	(text "AF4: OCTOSPI1_IO5"
 		(exclude_from_sim no)
-		(at 213.106 350.266 0)
+		(at 214.63 350.266 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8601,7 +8606,7 @@
 	)
 	(text "AF11: ETH_RMII_TXD0"
 		(exclude_from_sim no)
-		(at 233.68 238.76 0)
+		(at 234.188 238.506 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8634,7 +8639,7 @@
 	)
 	(text "AF11: ETH_MII_RX_ER"
 		(exclude_from_sim no)
-		(at 233.426 225.806 0)
+		(at 234.696 225.806 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8645,7 +8650,7 @@
 	)
 	(text "AF6: OCTOSPI1_IO1"
 		(exclude_from_sim no)
-		(at 53.34 304.546 0)
+		(at 52.07 304.546 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8667,7 +8672,7 @@
 	)
 	(text "AF2: OCTOSPI1_IO4"
 		(exclude_from_sim no)
-		(at 53.086 208.026 0)
+		(at 52.07 208.026 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8678,7 +8683,7 @@
 	)
 	(text "AF11: ETH_RMII_RXD1"
 		(exclude_from_sim no)
-		(at 233.68 256.54 0)
+		(at 234.696 256.286 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8689,7 +8694,7 @@
 	)
 	(text "ADC1_INP6"
 		(exclude_from_sim no)
-		(at 50.546 312.166 0)
+		(at 49.276 312.166 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8700,7 +8705,7 @@
 	)
 	(text "AF4: OCTOSPI1_IO7"
 		(exclude_from_sim no)
-		(at 213.106 355.346 0)
+		(at 214.63 355.346 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8722,7 +8727,7 @@
 	)
 	(text "ADC1_INP2\n"
 		(exclude_from_sim no)
-		(at 50.546 309.626 0)
+		(at 49.276 309.626 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8733,7 +8738,7 @@
 	)
 	(text "AF4: OCTOSPI1_IO6\n"
 		(exclude_from_sim no)
-		(at 213.106 352.806 0)
+		(at 214.63 352.806 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8787,7 +8792,7 @@
 	)
 	(text "ADC12_INP10"
 		(exclude_from_sim no)
-		(at 239.014 243.586 0)
+		(at 240.284 243.586 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8806,6 +8811,12 @@
 			(justify right bottom)
 		)
 		(uuid "f8ac287a-a501-4318-acc1-affdecd9e7d9")
+	)
+	(junction
+		(at 80.01 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "041b9f7c-bcaa-4348-89cc-a21ecca9d974")
 	)
 	(junction
 		(at 140.97 377.19)
@@ -8868,6 +8879,12 @@
 		(uuid "2d38a6df-bf83-4c24-9449-c55d8d363151")
 	)
 	(junction
+		(at 204.47 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e9208e1-8a25-4bac-af94-003486b63bf7")
+	)
+	(junction
 		(at 80.01 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8908,6 +8925,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bb68185-60a5-4a58-a7d3-d0ea623ff38a")
+	)
+	(junction
+		(at 204.47 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bdf0f0e-1c75-43ab-a4c1-525048f2a646")
 	)
 	(junction
 		(at 204.47 189.23)
@@ -9012,12 +9035,6 @@
 		(uuid "7d54ca2e-a13a-4f8f-9136-af1878f925a3")
 	)
 	(junction
-		(at 205.74 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f2f8e25-24b4-4954-bf0e-39205545272c")
-	)
-	(junction
 		(at 99.06 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9082,6 +9099,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0f98f3b-6a5d-4bc9-a460-742ec3b0de81")
+	)
+	(junction
+		(at 204.47 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb3a0fce-d19f-4d44-86b2-81ca70c0f122")
 	)
 	(junction
 		(at 204.47 295.91)
@@ -9196,6 +9219,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb835485-50bb-463b-baf9-1797ccf7dd46")
+	)
+	(junction
+		(at 80.01 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebd1a0d9-06e6-470e-9a63-a2a0c5a44eaf")
 	)
 	(junction
 		(at 90.17 156.21)
@@ -9864,7 +9893,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 191.77) (xy 212.09 191.77)
+			(xy 204.47 191.77) (xy 214.63 191.77)
 		)
 		(stroke
 			(width 0)
@@ -10004,7 +10033,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 166.37) (xy 213.36 166.37)
+			(xy 204.47 166.37) (xy 215.9 166.37)
 		)
 		(stroke
 			(width 0)
@@ -10084,7 +10113,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 308.61) (xy 80.01 308.61)
+			(xy 69.85 308.61) (xy 80.01 308.61)
 		)
 		(stroke
 			(width 0)
@@ -10171,6 +10200,16 @@
 			(type default)
 		)
 		(uuid "251822cc-413a-4038-91c5-5a4bcd2e4ac9")
+	)
+	(wire
+		(pts
+			(xy 204.47 219.71) (xy 228.6 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2630da00-91c1-4381-ac86-492b31d7d42b")
 	)
 	(wire
 		(pts
@@ -10304,7 +10343,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 168.91) (xy 214.63 168.91)
+			(xy 204.47 168.91) (xy 215.9 168.91)
 		)
 		(stroke
 			(width 0)
@@ -10431,6 +10470,16 @@
 			(type default)
 		)
 		(uuid "454e3562-f1ed-41f5-a84a-22cd83406ce1")
+	)
+	(wire
+		(pts
+			(xy 204.47 158.75) (xy 214.63 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45baa625-c0b5-42db-add4-88e9b89dc77e")
 	)
 	(wire
 		(pts
@@ -10594,7 +10643,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 163.83) (xy 214.63 163.83)
+			(xy 204.47 163.83) (xy 215.9 163.83)
 		)
 		(stroke
 			(width 0)
@@ -10664,7 +10713,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 158.75) (xy 205.74 158.75)
+			(xy 179.07 158.75) (xy 204.47 158.75)
 		)
 		(stroke
 			(width 0)
@@ -10681,6 +10730,16 @@
 			(type default)
 		)
 		(uuid "62e5cb62-b597-4706-82cf-c87e932fa118")
+	)
+	(wire
+		(pts
+			(xy 204.47 222.25) (xy 228.6 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6354ebfa-34b9-414f-b462-b0944045e295")
 	)
 	(wire
 		(pts
@@ -10924,16 +10983,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 158.75) (xy 205.74 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ea95aad-44a5-4716-918e-bc3565067a41")
-	)
-	(wire
-		(pts
 			(xy 214.63 88.9) (xy 189.23 88.9)
 		)
 		(stroke
@@ -10984,7 +11033,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 313.69) (xy 80.01 313.69)
+			(xy 68.58 313.69) (xy 80.01 313.69)
 		)
 		(stroke
 			(width 0)
@@ -11124,7 +11173,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 224.79) (xy 80.01 224.79)
+			(xy 69.85 224.79) (xy 80.01 224.79)
 		)
 		(stroke
 			(width 0)
@@ -11364,7 +11413,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 242.57) (xy 213.36 242.57)
+			(xy 204.47 242.57) (xy 214.63 242.57)
 		)
 		(stroke
 			(width 0)
@@ -11544,7 +11593,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 189.23) (xy 212.09 189.23)
+			(xy 204.47 189.23) (xy 214.63 189.23)
 		)
 		(stroke
 			(width 0)
@@ -11644,7 +11693,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 311.15) (xy 80.01 311.15)
+			(xy 69.85 311.15) (xy 80.01 311.15)
 		)
 		(stroke
 			(width 0)
@@ -11801,6 +11850,16 @@
 			(type default)
 		)
 		(uuid "d88d1833-c65a-47ba-961a-812ce111cbb3")
+	)
+	(wire
+		(pts
+			(xy 54.61 232.41) (xy 80.01 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a22d03-71ba-4172-8cbd-2e3069169713")
 	)
 	(wire
 		(pts
@@ -12011,6 +12070,16 @@
 			(type default)
 		)
 		(uuid "f05d1861-12c5-41ce-8411-f331e85acb01")
+	)
+	(wire
+		(pts
+			(xy 54.61 229.87) (xy 80.01 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f61e79-6239-4fd5-ba21-d7c2b9b04062")
 	)
 	(wire
 		(pts
@@ -13174,7 +13243,7 @@
 	)
 	(hierarchical_label "SWDIO"
 		(shape output)
-		(at 212.09 189.23 0)
+		(at 214.63 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13185,7 +13254,7 @@
 	)
 	(hierarchical_label "RX_SIG"
 		(shape input)
-		(at 69.85 313.69 180)
+		(at 68.58 313.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13207,7 +13276,7 @@
 	)
 	(hierarchical_label "V_THERM"
 		(shape input)
-		(at 71.12 308.61 180)
+		(at 69.85 308.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13229,7 +13298,7 @@
 	)
 	(hierarchical_label "TX_I_SENSE"
 		(shape input)
-		(at 213.36 242.57 0)
+		(at 214.63 242.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13251,7 +13320,7 @@
 	)
 	(hierarchical_label "MOTOR_VREF"
 		(shape output)
-		(at 214.63 168.91 0)
+		(at 215.9 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13284,7 +13353,7 @@
 	)
 	(hierarchical_label "V_SENSE"
 		(shape input)
-		(at 71.12 311.15 180)
+		(at 69.85 311.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13306,7 +13375,7 @@
 	)
 	(hierarchical_label "SWCLK"
 		(shape output)
-		(at 212.09 191.77 0)
+		(at 214.63 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13317,7 +13386,7 @@
 	)
 	(hierarchical_label "PHY_nRST"
 		(shape output)
-		(at 72.39 224.79 180)
+		(at 69.85 224.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13405,7 +13474,7 @@
 	)
 	(hierarchical_label "TX_SIG"
 		(shape output)
-		(at 213.36 166.37 0)
+		(at 215.9 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13548,7 +13617,7 @@
 	)
 	(hierarchical_label "AUX_ANALOG"
 		(shape input)
-		(at 214.63 163.83 0)
+		(at 215.9 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14628,7 +14697,7 @@
 		(dnp no)
 		(uuid "160c7826-5dba-4950-87d0-53e00dbc840a")
 		(property "Reference" "TP316"
-			(at 76.2 232.41 90)
+			(at 76.962 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16971,7 +17040,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_400um")
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
 		(at 99.06 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16981,7 +17050,7 @@
 		(fields_autoplaced yes)
 		(uuid "376830c8-1676-4637-9a42-28c191853526")
 		(property "Reference" "TP328"
-			(at 100.33 153.0349 0)
+			(at 100.33 154.3049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16989,8 +17058,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TP_ROUND_TH_400um"
-			(at 101.6 157.7975 0)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 102.108 146.3675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16999,7 +17068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_400um"
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
 			(at 100.33 148.844 0)
 			(effects
 				(font
@@ -17018,7 +17087,7 @@
 			)
 		)
 		(property "Description" "test pad surface mount"
-			(at 99.06 156.21 0)
+			(at 99.568 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17081,21 +17150,21 @@
 			)
 		)
 		(property "Supplier 3" "~"
-			(at 100.33 154.94 0)
+			(at 102.616 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Supplier Part Num 3" "~"
-			(at 100.33 156.21 0)
+			(at 104.394 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "BR ID" ""
@@ -18439,6 +18508,116 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH")
+		(at 48.26 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43a79b39-4f83-47f3-8c2e-0559e3f67b33")
+		(property "Reference" "J302"
+			(at 44.45 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "I2C4"
+			(at 44.45 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
+			(at 48.26 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
+			(at 48.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 48.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "PZ254V-11-02P"
+			(at 48.26 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001259"
+			(at 48.26 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C492401"
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2e2e95f-9643-4a6d-a8d5-45af7137e4ea")
+		)
+		(pin "2"
+			(uuid "7a86dec9-396e-4afe-9146-ecf18de25831")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "J302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Virtual_Parts:VCC")
 		(at 138.43 148.59 0)
 		(unit 1)
@@ -19226,6 +19405,119 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
 					(reference "TP313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH")
+		(at 234.95 223.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5123d921-aeda-483f-b60a-ea977cd5171b")
+		(property "Reference" "J301"
+			(at 236.22 219.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "I2C1"
+			(at 236.22 222.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
+			(at 234.95 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
+			(at 234.95 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
+			(at 234.95 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 234.95 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "PZ254V-11-02P"
+			(at 234.95 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-001259"
+			(at 234.95 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C492401"
+			(at 234.95 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d801330-7d54-43bb-b60e-27ed1c4e06e1")
+		)
+		(pin "2"
+			(uuid "f7f158d6-211c-469c-8fbd-ee673b725d40")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "J301")
 					(unit 1)
 				)
 			)
@@ -20631,7 +20923,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
-		(at 205.74 158.75 270)
+		(at 204.47 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -20639,7 +20931,7 @@
 		(dnp no)
 		(uuid "63ac8069-b9ce-44e7-bb1d-a9098e6366e6")
 		(property "Reference" "TP365"
-			(at 208.915 158.75 90)
+			(at 207.645 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20648,7 +20940,7 @@
 			)
 		)
 		(property "Value" "TP_ROUND_TH_300um"
-			(at 215.5825 161.798 0)
+			(at 214.3125 161.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20658,7 +20950,7 @@
 			)
 		)
 		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
-			(at 213.106 160.02 0)
+			(at 211.836 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20667,7 +20959,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.233 159.004 0)
+			(at 211.963 159.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20676,7 +20968,7 @@
 			)
 		)
 		(property "Description" "test pad surface mount"
-			(at 217.17 159.258 0)
+			(at 215.9 159.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20685,7 +20977,7 @@
 			)
 		)
 		(property "Manufacturer" "~"
-			(at 213.741 157.226 0)
+			(at 212.471 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20694,7 +20986,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "~"
-			(at 212.852 158.496 0)
+			(at 211.582 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20703,7 +20995,7 @@
 			)
 		)
 		(property "Supplier 1" "~"
-			(at 213.36 156.845 0)
+			(at 212.09 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20712,7 +21004,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "~"
-			(at 213.36 157.607 0)
+			(at 212.09 157.607 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20721,7 +21013,7 @@
 			)
 		)
 		(property "Supplier 2" "~"
-			(at 212.852 157.48 0)
+			(at 211.582 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20730,7 +21022,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "~"
-			(at 213.36 158.877 0)
+			(at 212.09 158.877 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20739,7 +21031,7 @@
 			)
 		)
 		(property "Supplier 3" "~"
-			(at 213.868 162.306 0)
+			(at 212.598 162.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20748,7 +21040,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "~"
-			(at 216.408 164.084 0)
+			(at 215.138 164.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20757,7 +21049,7 @@
 			)
 		)
 		(property "BR ID" ""
-			(at 205.74 158.75 0)
+			(at 204.47 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23440,7 +23732,7 @@
 		(dnp no)
 		(uuid "9542958a-0de4-485f-921d-23835d16dd67")
 		(property "Reference" "TP315"
-			(at 76.2 229.87 90)
+			(at 76.962 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
