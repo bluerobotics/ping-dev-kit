@@ -8042,7 +8042,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Virtual_Parts:BR_Logo"
+		(symbol "BR_Virtual_Parts:BR_Logo_BIG"
 			(pin_numbers
 				(hide yes)
 			)
@@ -8069,7 +8069,7 @@
 					)
 				)
 			)
-			(property "Footprint" "BR_Virtual_Parts:BR_Logo"
+			(property "Footprint" "BR_Virtual_Parts:BR_Logo_BIG"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8096,7 +8096,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BR_Logo_0_0"
+			(symbol "BR_Logo_BIG_0_0"
 				(text_box "BR Logo"
 					(at -5.08 3.175 0)
 					(size 10.16 -3.81)
@@ -11167,6 +11167,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 292.1) (xy 218.44 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc4d7f1-cc5e-4505-bd80-8a7e7b9da0f1")
+	)
+	(wire
+		(pts
 			(xy 340.36 132.08) (xy 361.95 132.08)
 		)
 		(stroke
@@ -11324,6 +11334,16 @@
 			(type default)
 		)
 		(uuid "cda623d0-13b8-43ce-97fb-bbb00e4369c2")
+	)
+	(wire
+		(pts
+			(xy 218.44 325.12) (xy 218.44 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0aaeef-3292-4960-b64f-da9d07245000")
 	)
 	(wire
 		(pts
@@ -17924,6 +17944,186 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Connectors:TP_Ring_PTH")
+		(at 218.44 325.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69ac525d-4945-4f5a-9856-655bba85d501")
+		(property "Reference" "TP104"
+			(at 219.71 321.9449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SONAR-"
+			(at 219.71 324.4849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Connectors:TEST-TH_BD2.54-P1.4_RED"
+			(at 218.44 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307040929_ronghe-RH-5000_C5277086.pdf"
+			(at 218.44 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ring Test Point for Probe(s) PTH"
+			(at 218.44 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 218.44 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "RH-5000"
+			(at 218.44 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-000074"
+			(at 218.44 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 218.44 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 218.44 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 218.44 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 218.44 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 218.44 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C5277086"
+			(at 218.44 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Label" "LABEL"
+			(at 218.44 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C5277086"
+			(at 218.44 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e804c8cf-bebc-458c-812f-f5132015231a")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
+					(reference "TP104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
 		(at 54.61 91.44 0)
 		(unit 1)
@@ -20368,7 +20568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:BR_Logo")
+		(lib_id "BR_Virtual_Parts:BR_Logo_BIG")
 		(at 411.48 314.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20376,7 +20576,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac6841bc-b066-40ea-83e2-edb53b254e41")
+		(uuid "a75f714c-c24e-4bf0-9b0b-dca27adfeb7f")
 		(property "Reference" "GL101"
 			(at 417.83 312.4199 0)
 			(effects
@@ -20395,7 +20595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Virtual_Parts:BR_Logo"
+		(property "Footprint" "BR_Virtual_Parts:BR_Logo_BIG"
 			(at 411.48 314.96 0)
 			(effects
 				(font
@@ -22149,6 +22349,186 @@
 			(project ""
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
 					(reference "H102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Connectors:TP_Ring_PTH")
+		(at 218.44 292.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb0f6a42-788a-40a6-a5d2-b814db793d85")
+		(property "Reference" "TP103"
+			(at 219.71 288.9249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SONAR+"
+			(at 219.71 291.4649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Connectors:TEST-TH_BD2.54-P1.4_RED"
+			(at 218.44 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307040929_ronghe-RH-5000_C5277086.pdf"
+			(at 218.44 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ring Test Point for Probe(s) PTH"
+			(at 218.44 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 218.44 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "RH-5000"
+			(at 218.44 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-000074"
+			(at 218.44 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 218.44 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 218.44 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 218.44 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 218.44 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 218.44 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C5277086"
+			(at 218.44 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Label" "LABEL"
+			(at 218.44 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C5277086"
+			(at 218.44 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "919a0d94-da72-4f05-a50c-ceacc1a775ab")
+		)
+		(instances
+			(project ""
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
+					(reference "TP103")
 					(unit 1)
 				)
 			)
