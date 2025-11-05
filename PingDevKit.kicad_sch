@@ -4787,6 +4787,272 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BR_Connectors_JST_PA:SM02B-PASS-TBT"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -1.524 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "LABEL"
+				(at -1.524 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "BR_Connector_JST_misc:SM02B-PASS-TBT"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "JST-PA Connector 2-pos, P=2mm, 3A 250V 10mΩ, 22-28awg, Horizontal"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "SM02B-PASS-TBT"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "BRE Number" "BRE-000105"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" "455-SM02B-PASS-TBTCT-ND"
+				(at 0 58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "Mouser"
+				(at 0 55.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" "306-SM02BPASSTBTLFSN"
+				(at 0 53.34 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" "JLCPCB"
+				(at 0 50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" "C265417"
+				(at 0 48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part Num" "C265417"
+				(at 0 45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "SM02B-PASS-TBT_1_0"
+				(pin passive line
+					(at 1.27 2.54 270)
+					(length 2.54)
+					(name "MP1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -7.62 90)
+					(length 2.54)
+					(name "MP2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -3.81 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SM02B-PASS-TBT_1_1"
+				(rectangle
+					(start 2.54 0)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.143)
+					(end 1.27 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -3.683)
+					(end 1.27 -3.937)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BR_Diodes:D_Zener_MM3Z10VT1G"
 			(pin_numbers
 				(hide yes)
@@ -9067,6 +9333,12 @@
 		(color 0 0 0 0)
 		(uuid "e8c2ee64-1816-47f6-bb51-80ee789f640e")
 	)
+	(junction
+		(at 247.65 367.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9355601-7fa5-43d0-bf85-7d35c925c0df")
+	)
 	(no_connect
 		(at 77.47 237.49)
 		(uuid "254e283e-e600-46f0-bdbe-d2a06eccca69")
@@ -9247,7 +9519,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 359.41) (xy 242.57 359.41)
+			(xy 215.9 359.41) (xy 243.84 359.41)
 		)
 		(stroke
 			(width 0)
@@ -9557,6 +9829,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 367.03) (xy 247.65 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2377dc66-cad8-46ee-b0ce-8b82a37c95c2")
+	)
+	(wire
+		(pts
 			(xy 166.37 214.63) (xy 185.42 214.63)
 		)
 		(stroke
@@ -9604,6 +9886,16 @@
 			(type default)
 		)
 		(uuid "26c4cf6f-7723-4205-96fd-e08d6f4d7fff")
+	)
+	(wire
+		(pts
+			(xy 247.65 365.76) (xy 247.65 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274b06f4-047c-4006-93c2-3f08dcc59128")
 	)
 	(bus
 		(pts
@@ -10087,7 +10379,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 361.95) (xy 242.57 361.95)
+			(xy 227.33 361.95) (xy 243.84 361.95)
 		)
 		(stroke
 			(width 0)
@@ -10174,6 +10466,16 @@
 			(type default)
 		)
 		(uuid "5d3e2585-1ba9-4ce3-b2f7-cebbe055aef2")
+	)
+	(wire
+		(pts
+			(xy 247.65 367.03) (xy 247.65 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc3247d-5cc3-40dc-88cf-7c29151fca19")
 	)
 	(wire
 		(pts
@@ -10434,6 +10736,16 @@
 			(type default)
 		)
 		(uuid "78f87eaa-387e-4782-833d-502cb70a015f")
+	)
+	(wire
+		(pts
+			(xy 247.65 355.6) (xy 247.65 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fc8d6b-e627-41f6-8686-92a08a9d7fa9")
 	)
 	(wire
 		(pts
@@ -10784,6 +11096,16 @@
 			(type default)
 		)
 		(uuid "98e4af7f-ecd0-443d-ba8a-882fec04f77f")
+	)
+	(wire
+		(pts
+			(xy 247.65 354.33) (xy 250.19 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99598b81-6d20-421f-b89c-9e744d212f99")
 	)
 	(wire
 		(pts
@@ -11304,6 +11626,16 @@
 			(type default)
 		)
 		(uuid "cb2bebc1-917c-465e-8af8-74269a9fd1d5")
+	)
+	(wire
+		(pts
+			(xy 250.19 354.33) (xy 250.19 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb876b5d-d6ce-416c-910e-3b770780c0f2")
 	)
 	(wire
 		(pts
@@ -20925,7 +21257,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Connectors_JST_GH:SM02B-GHS-TB")
+		(lib_id "BR_Connectors_JST_PA:SM02B-PASS-TBT")
 		(at 248.92 358.14 0)
 		(mirror y)
 		(unit 1)
@@ -20933,10 +21265,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b0033f63-7406-4916-afd4-616a2fbf2379")
 		(property "Reference" "J111"
-			(at 250.19 359.4099 0)
+			(at 250.952 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20945,7 +21276,7 @@
 			)
 		)
 		(property "Value" "TRANSDUCER"
-			(at 250.19 361.9499 0)
+			(at 250.952 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20953,7 +21284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BR_Connectors_JST:SM02B-GHS-TB"
+		(property "Footprint" "BR_Connector_JST_misc:SM02B-PASS-TBT"
 			(at 248.92 281.94 0)
 			(effects
 				(font
@@ -20963,7 +21294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf"
 			(at 248.92 284.48 0)
 			(effects
 				(font
@@ -20973,7 +21304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "JST-GH Connector 2-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Horizontal"
+		(property "Description" "JST-PA Connector 2-pos, P=2mm, 3A 250V 10mΩ, 22-28awg, Horizontal"
 			(at 248.92 287.02 0)
 			(effects
 				(font
@@ -20993,7 +21324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Num" "SM02B-GHS-TB"
+		(property "Manufacturer Part Num" "SM02B-PASS-TBT"
 			(at 248.92 292.1 0)
 			(effects
 				(font
@@ -21003,7 +21334,7 @@
 				(hide yes)
 			)
 		)
-		(property "BRE Number" "BRE-000100"
+		(property "BRE Number" "BRE-000105"
 			(at 248.92 294.64 0)
 			(effects
 				(font
@@ -21023,7 +21354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 1" "455-1564-1-ND"
+		(property "Supplier Part Num 1" "455-SM02B-PASS-TBTCT-ND"
 			(at 248.92 299.72 0)
 			(effects
 				(font
@@ -21034,26 +21365,6 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 248.92 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Num 3" "C189893"
-			(at 248.92 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" "DigiKey"
 			(at 248.92 307.34 0)
 			(effects
 				(font
@@ -21063,7 +21374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Num 2" "455-1564-2-ND"
+		(property "Supplier Part Num 3" "C265417"
 			(at 248.92 309.88 0)
 			(effects
 				(font
@@ -21073,8 +21384,28 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Num" "C189893"
-			(at 248.92 317.5 0)
+		(property "Supplier 2" "Mouser"
+			(at 248.92 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "306-SM02BPASSTBTLFSN"
+			(at 248.92 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C265417"
+			(at 248.92 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21086,11 +21417,14 @@
 		(pin "1"
 			(uuid "72213c03-11eb-4aee-b17a-25a38fc66c1d")
 		)
-		(pin "MP"
+		(pin "MP2"
 			(uuid "78cc8f14-6b6b-4430-a589-4a24173af9ee")
 		)
 		(pin "2"
 			(uuid "9de7b940-971b-4463-9037-27096c9a15a3")
+		)
+		(pin "MP1"
+			(uuid "1b120838-149d-4fce-9e71-ff7473793d3f")
 		)
 		(instances
 			(project "SonarDevBoard"
@@ -24904,7 +25238,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 247.65 367.03 0)
+		(at 247.65 368.3 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24914,7 +25248,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa8ffd49-1f3d-4f15-9300-163a544855fc")
 		(property "Reference" "#PWR0141"
-			(at 247.65 373.38 0)
+			(at 247.65 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24923,7 +25257,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 372.11 0)
+			(at 247.65 373.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24932,7 +25266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 367.03 0)
+			(at 247.65 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24941,7 +25275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 367.03 0)
+			(at 247.65 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24950,7 +25284,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 367.03 0)
+			(at 247.65 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
