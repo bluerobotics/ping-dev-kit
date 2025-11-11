@@ -12258,6 +12258,16 @@
 		)
 		(uuid "0f2ec8ca-1520-4c51-9cbf-9905daad76c6")
 	)
+	(label "TX_PWM_B_AFE"
+		(at 38.1 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "112c9435-a6b8-46a4-9e48-5e0b769538f8")
+	)
 	(label "SWCLK"
 		(at 67.31 189.23 180)
 		(effects
@@ -12369,6 +12379,16 @@
 		)
 		(uuid "2bfa3938-3a20-47b0-9ad4-3e1d9d861294")
 	)
+	(label "TX_EN"
+		(at 78.74 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37f84d08-6abe-46ce-b4c6-70ed41b6c534")
+	)
 	(label "TX_PWM_B"
 		(at 361.95 135.89 180)
 		(effects
@@ -12389,15 +12409,15 @@
 		)
 		(uuid "3b9ccab1-773f-40ba-a257-4f376071bf5b")
 	)
-	(label "TX_EN_AFE"
-		(at 38.1 143.51 0)
+	(label "TX_PWM_A"
+		(at 78.74 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "41e02b6f-ad40-4b63-bb14-96e4c2fd8387")
+		(uuid "40ad6eff-66b2-47ff-8f16-443d2abf1acc")
 	)
 	(label "MOTOR_B+"
 		(at 434.34 217.17 0)
@@ -12430,6 +12450,16 @@
 		(uuid "456f4e32-0e2b-4515-8653-095f223d2472")
 	)
 	(label "TX_SIG"
+		(at 78.74 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46c71e07-9426-446d-b480-16f569c38c66")
+	)
+	(label "TX_SIG"
 		(at 269.24 129.54 0)
 		(effects
 			(font
@@ -12458,6 +12488,16 @@
 			(justify right bottom)
 		)
 		(uuid "4c8833a2-c788-4413-85bf-52dd3b6ac6e2")
+	)
+	(label "TGC_RST_AFE"
+		(at 38.1 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c9a98ae-9256-4ad1-946a-4216ecc0e8a6")
 	)
 	(label "SPI5{SPI}"
 		(at 361.95 93.98 180)
@@ -12499,16 +12539,6 @@
 			(justify right bottom)
 		)
 		(uuid "5038022d-a126-4993-924c-78e0b86f4067")
-	)
-	(label "TX_EN"
-		(at 78.74 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "51478116-5e0b-43aa-be53-f2ff101ef416")
 	)
 	(label "VTHERM"
 		(at 269.24 134.62 0)
@@ -12610,15 +12640,15 @@
 		)
 		(uuid "64598316-f131-40e9-b7f3-2c5d1dd017f0")
 	)
-	(label "TX_PWM_B"
-		(at 78.74 151.13 180)
+	(label "TX_PWM_A_AFE"
+		(at 38.1 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "668aca38-ff59-42bb-9212-40361c8a09c6")
+		(uuid "65044767-e9d2-4be9-aef3-d34c177a0ffc")
 	)
 	(label "VCC_MODE"
 		(at 163.83 64.77 0)
@@ -12659,26 +12689,6 @@
 			(justify right bottom)
 		)
 		(uuid "6ec5a722-32c5-4675-9350-ddf85a5d66eb")
-	)
-	(label "TX_PWM_A"
-		(at 78.74 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6ed915b3-f3bf-4422-b2a2-40e68b9dbd91")
-	)
-	(label "TX_SIG_AFE"
-		(at 38.1 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70732c4f-1d47-4093-a465-caa090fa0c81")
 	)
 	(label "ETH.RX+"
 		(at 92.71 250.19 180)
@@ -12721,16 +12731,6 @@
 		)
 		(uuid "7da41d8f-061b-4ce6-9937-a2ebb5f92856")
 	)
-	(label "RX_SIG"
-		(at 78.74 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f914655-8598-4972-9335-b73788a9291e")
-	)
 	(label "SPI5.SCK"
 		(at 78.74 156.21 180)
 		(effects
@@ -12760,16 +12760,6 @@
 			(justify right bottom)
 		)
 		(uuid "85a0c7ba-c22d-4e96-b88f-b588f9140180")
-	)
-	(label "RX_SIG_AFE"
-		(at 38.1 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "888e9d32-31fa-4386-9d04-da594a52ebaf")
 	)
 	(label "SONAR-"
 		(at 227.33 330.2 180)
@@ -12821,7 +12811,7 @@
 		)
 		(uuid "8f329e1c-c38f-4054-adfe-15bd5043b75c")
 	)
-	(label "TX_SIG"
+	(label "TX_PWM_B"
 		(at 78.74 138.43 180)
 		(effects
 			(font
@@ -12829,7 +12819,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "9200edec-11a1-4f46-b75f-a4aa97eb76d6")
+		(uuid "9176d9cc-ec06-4435-b31b-0d084a6e6aeb")
 	)
 	(label "ETH.TX+"
 		(at 74.93 284.48 180)
@@ -12840,6 +12830,16 @@
 			(justify right bottom)
 		)
 		(uuid "9375b4f3-6cdf-4ea3-9b51-bbd94d13897d")
+	)
+	(label "SPI5.MISO"
+		(at 78.74 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "948ac33c-2f54-434d-92d6-671b1181bcfa")
 	)
 	(label "USART1.RX"
 		(at 55.88 196.85 0)
@@ -12921,6 +12921,16 @@
 		)
 		(uuid "a040c39a-77dd-4d57-8156-0cc22ea17177")
 	)
+	(label "SPI5.MOSI"
+		(at 78.74 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0b18d1d-1d52-4a0a-991a-b5828e41e37a")
+	)
 	(label "RX-"
 		(at 176.53 372.11 0)
 		(effects
@@ -12930,16 +12940,6 @@
 			(justify left bottom)
 		)
 		(uuid "a0bc0dc6-7e8b-48c3-91a7-c62a089e8ee5")
-	)
-	(label "TX_PWM_B_AFE"
-		(at 38.1 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4a96323-b553-4d56-b3aa-3e95853ee267")
 	)
 	(label "VCC_MODE"
 		(at 361.95 165.1 180)
@@ -12991,16 +12991,6 @@
 		)
 		(uuid "b01ccdc2-2596-498c-b109-4f879aea10d5")
 	)
-	(label "SPI5.MISO"
-		(at 78.74 158.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b1964509-279d-4d0f-8bb7-bf113331546e")
-	)
 	(label "I2C1.SDA"
 		(at 396.24 109.22 180)
 		(effects
@@ -13051,6 +13041,16 @@
 		)
 		(uuid "be17c13a-6a13-474d-9cac-855a15962784")
 	)
+	(label "RX_SIG_AFE"
+		(at 38.1 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bebb49bf-b95d-4cd6-b984-9c1e03c4f25d")
+	)
 	(label "PHY_nRST"
 		(at 262.89 92.71 180)
 		(effects
@@ -13090,26 +13090,6 @@
 			(justify left bottom)
 		)
 		(uuid "c7195cf7-7be5-440c-bae0-42b31bda8df9")
-	)
-	(label "SPI5.MOSI"
-		(at 78.74 161.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c7b8cd30-85d2-4e3f-a058-d65ef1daf873")
-	)
-	(label "TGC_RST"
-		(at 78.74 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cb483172-2c10-4dd9-b58c-94c30ad654e9")
 	)
 	(label "SPI5.NSS"
 		(at 78.74 153.67 180)
@@ -13151,15 +13131,15 @@
 		)
 		(uuid "cf19d215-a60d-44ac-b7d5-b2ecc8e6eed2")
 	)
-	(label "TX_PWM_A_AFE"
-		(at 38.1 148.59 0)
+	(label "TX_SIG_AFE"
+		(at 38.1 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d0e3d587-ce83-44f4-b2be-80426d9add1d")
+		(uuid "d2f98aae-52ea-44c0-bc1f-fa8085356cbf")
 	)
 	(label "I2C4{I2C}"
 		(at 163.83 173.99 0)
@@ -13201,6 +13181,16 @@
 		)
 		(uuid "dd227530-9007-4eee-9e8c-9ab56fe990f1")
 	)
+	(label "RX_SIG"
+		(at 78.74 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dda2b420-72c9-41ca-a848-589b213ded4f")
+	)
 	(label "TX-"
 		(at 128.27 330.2 0)
 		(effects
@@ -13210,6 +13200,16 @@
 			(justify left bottom)
 		)
 		(uuid "e1f0ed6c-b513-4abe-a636-f1685748a0e2")
+	)
+	(label "TGC_RST"
+		(at 78.74 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1fdcff2-d777-4440-bc98-72d65a1588be")
 	)
 	(label "TX+"
 		(at 128.27 297.18 0)
@@ -13311,7 +13311,7 @@
 		)
 		(uuid "ee287b31-aad1-43b5-8fc7-c65e2a49214f")
 	)
-	(label "TGC_RST_AFE"
+	(label "TX_EN_AFE"
 		(at 38.1 146.05 0)
 		(effects
 			(font
@@ -13319,7 +13319,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "efd2f848-8201-4b16-bd09-e6d7efc08fd2")
+		(uuid "f0a27b72-339d-4f6f-b518-27f9864f92f0")
 	)
 	(label "SONAR-"
 		(at 233.68 361.95 0)
