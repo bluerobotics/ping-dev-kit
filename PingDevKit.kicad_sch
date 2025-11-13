@@ -10489,16 +10489,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 196.85) (xy 167.64 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ed5dfe2-b034-4dfa-a92d-0ceebbe59612")
-	)
-	(wire
-		(pts
 			(xy 55.88 105.41) (xy 55.88 106.68)
 		)
 		(stroke
@@ -10836,16 +10826,6 @@
 			(type default)
 		)
 		(uuid "7e783202-8bd4-44ed-bdc5-371a9538895c")
-	)
-	(wire
-		(pts
-			(xy 167.64 207.01) (xy 185.42 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7efd4801-9553-4310-9646-da08ea584271")
 	)
 	(wire
 		(pts
@@ -23111,71 +23091,6 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC")
-		(at 167.64 196.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c46e995f-46df-488e-a75c-09c1aaa54b74")
-		(property "Reference" "#PWR0154"
-			(at 167.64 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 167.64 193.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 167.64 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78ba4e47-bec5-4083-b9e7-868dbc84087b")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
-					(reference "#PWR0154")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Virtual_Parts:VCC")
 		(at 384.81 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26426,16 +26341,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "3V3" input
-			(at 185.42 207.01 180)
-			(uuid "4bb88f2a-340f-4fdd-a5a5-69e6f2cea4d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances

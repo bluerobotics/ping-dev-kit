@@ -2981,16 +2981,6 @@
 		)
 		(uuid "78f98320-065d-4aa8-852e-76e9574a7007")
 	)
-	(text "EDIT FOOTPRINT OR SYMBOL PIN EP = 25"
-		(exclude_from_sim no)
-		(at 182.372 131.064 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8da426fb-831e-4839-a046-714a67216868")
-	)
 	(text "DECAY MODE SETTINGS: Smart Tune Ripple Control"
 		(exclude_from_sim no)
 		(at 59.182 88.138 0)
@@ -3036,12 +3026,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a477603e-0db6-4c41-a6c4-b5bbf3db772b")
-	)
-	(junction
-		(at 160.02 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8e7eca2-2499-4773-921b-6acf856f78e7")
 	)
 	(junction
 		(at 138.43 69.85)
@@ -3417,23 +3401,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 128.27) (xy 160.02 132.08)
+			(xy 160.02 124.46) (xy 160.02 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9968c7a8-6aa4-480a-b23d-ae5097d193a1")
-	)
-	(wire
-		(pts
-			(xy 160.02 128.27) (xy 163.83 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b46bb49-a259-439b-a7fc-236458335fc3")
 	)
 	(wire
 		(pts
@@ -3547,6 +3521,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 124.46) (xy 163.83 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b491316c-4a81-4980-b606-ee5d25c30bf8")
+	)
+	(wire
+		(pts
 			(xy 123.19 76.2) (xy 142.24 76.2)
 		)
 		(stroke
@@ -3584,16 +3568,6 @@
 			(type default)
 		)
 		(uuid "da3f2882-e14e-41c5-b10d-a71814e00389")
-	)
-	(wire
-		(pts
-			(xy 160.02 124.46) (xy 160.02 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc8de308-2553-4824-9067-b047e03fd1f5")
 	)
 	(wire
 		(pts
@@ -3644,16 +3618,6 @@
 			(type default)
 		)
 		(uuid "e7398370-84f9-4b89-a396-4f7322f96d97")
-	)
-	(wire
-		(pts
-			(xy 163.83 128.27) (xy 163.83 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eada6b46-81ed-4bc8-b21f-f475f234681c")
 	)
 	(wire
 		(pts
@@ -8221,6 +8185,16 @@
 			(justify left bottom)
 		)
 		(uuid "6b79c2e7-5e83-4002-bcba-d71c585b7548")
+	)
+	(label "PGND"
+		(at 163.83 133.35 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b0828de-ab0f-435d-931e-10d53b35c149")
 	)
 	(label "3V3"
 		(at 179.07 63.5 0)

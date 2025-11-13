@@ -12311,6 +12311,16 @@
 		)
 		(uuid "1337edb3-bfe4-4c79-a949-bfb3bf761ec4")
 	)
+	(label "VSENSE"
+		(at 132.08 317.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "149a7c7e-6bd9-48aa-aa65-082333c20945")
+	)
 	(label "MOTOR_STEP"
 		(at 132.08 198.12 0)
 		(effects
@@ -12501,6 +12511,16 @@
 		)
 		(uuid "4893a2f6-0a0a-4dd7-9270-b908559c5f90")
 	)
+	(label "VTHERM"
+		(at 132.08 320.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fa6e048-697e-4e8f-8c72-63e58bcea872")
+	)
 	(label "3V3"
 		(at 165.1 101.6 0)
 		(effects
@@ -12560,16 +12580,6 @@
 			(justify left bottom)
 		)
 		(uuid "5b8e1688-84ec-45ec-9f3e-2903d0f2d915")
-	)
-	(label "VSENSE"
-		(at 132.08 320.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b8f26f1-b11b-42a6-9386-42898a1b9e87")
 	)
 	(label "OCTOSPI1.CLK"
 		(at 132.08 314.96 0)
@@ -12760,16 +12770,6 @@
 			(justify right bottom)
 		)
 		(uuid "7b1b1eda-ee59-4e49-a1db-adaef123a1a5")
-	)
-	(label "VTHERM"
-		(at 132.08 317.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f0ead57-eeae-443a-9769-4fcfa88bee2b")
 	)
 	(label "USART1.RX"
 		(at 256.54 190.5 180)
@@ -13274,17 +13274,6 @@
 		)
 		(uuid "1e8a6626-5b52-49f5-a608-3a71764dd27e")
 	)
-	(hierarchical_label "V_THERM"
-		(shape input)
-		(at 121.92 317.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2a4d641c-ff44-4750-a251-7546c1a83fc4")
-	)
 	(hierarchical_label "SD1"
 		(shape output)
 		(at 120.65 261.62 180)
@@ -13350,17 +13339,6 @@
 			(justify left)
 		)
 		(uuid "4867d49a-e04d-4006-a3b2-f5567d6f3a66")
-	)
-	(hierarchical_label "V_SENSE"
-		(shape input)
-		(at 121.92 320.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "58d8408b-605b-47c0-9113-76e10435914b")
 	)
 	(hierarchical_label "VCC_MODE"
 		(shape output)
@@ -13449,6 +13427,17 @@
 			(justify right)
 		)
 		(uuid "84f30b3b-da61-46f6-a01e-80f846c5194a")
+	)
+	(hierarchical_label "V_SENSE"
+		(shape input)
+		(at 121.92 317.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f34e0ee-b15d-4b80-9bf4-9b0448d5aec9")
 	)
 	(hierarchical_label "USART1{UART}"
 		(shape bidirectional)
@@ -13647,6 +13636,17 @@
 			(justify left)
 		)
 		(uuid "e27a6629-0ee6-4eff-b7e8-9d66e559bb86")
+	)
+	(hierarchical_label "V_THERM"
+		(shape input)
+		(at 121.92 320.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8b86cb6-058c-47e6-b16d-91a5d3adc9e0")
 	)
 	(hierarchical_label "PSRAM_nRST"
 		(shape output)
