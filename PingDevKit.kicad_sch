@@ -12630,7 +12630,7 @@
 		)
 		(uuid "65044767-e9d2-4be9-aef3-d34c177a0ffc")
 	)
-	(label "VCC_MODE"
+	(label "VTX_MODE"
 		(at 163.83 64.77 0)
 		(effects
 			(font
@@ -12921,7 +12921,7 @@
 		)
 		(uuid "a0bc0dc6-7e8b-48c3-91a7-c62a089e8ee5")
 	)
-	(label "VCC_MODE"
+	(label "VTX_MODE"
 		(at 361.95 165.1 180)
 		(effects
 			(font
@@ -13221,7 +13221,7 @@
 		)
 		(uuid "e690012b-9c3e-47be-804d-f16d10a271d7")
 	)
-	(label "VCC_EN"
+	(label "VTX_EN"
 		(at 361.95 161.29 180)
 		(effects
 			(font
@@ -13331,7 +13331,7 @@
 		)
 		(uuid "f54ea9c6-c103-4337-8ce7-008383ca42e4")
 	)
-	(label "VCC_EN"
+	(label "VTX_EN"
 		(at 163.83 60.96 0)
 		(effects
 			(font
@@ -14319,7 +14319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VTX"
 			(at 251.46 45.974 0)
 			(effects
 				(font
@@ -16486,7 +16486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VTX"
 			(at 140.97 282.194 0)
 			(effects
 				(font
@@ -19206,7 +19206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VTX"
 			(at 140.97 316.484 0)
 			(effects
 				(font
@@ -20167,7 +20167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VTX"
 			(at 177.8 193.294 0)
 			(effects
 				(font
@@ -23815,7 +23815,7 @@
 				)
 			)
 		)
-		(property "Value" "PORT1"
+		(property "Value" "ETHERNET"
 			(at 64.77 229.87 0)
 			(effects
 				(font
@@ -24134,7 +24134,7 @@
 				)
 			)
 		)
-		(property "Value" "B65655B0010X000"
+		(property "Value" "TRANSFORMER"
 			(at 204.47 355.6 0)
 			(effects
 				(font
@@ -25838,26 +25838,6 @@
 				(justify left)
 			)
 		)
-		(pin "VCC" output
-			(at 227.33 62.23 0)
-			(uuid "3bbed96e-872d-4e62-b8f1-67d314ca9dd3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VCC_EN" input
-			(at 185.42 60.96 180)
-			(uuid "26ae920f-7635-41ad-a517-82b9015e1dc2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RX_5V" output
 			(at 227.33 58.42 0)
 			(uuid "54eb33ba-e300-4b68-bac4-c5e6b2e10564")
@@ -25868,9 +25848,29 @@
 				(justify right)
 			)
 		)
-		(pin "VCC_MODE" input
+		(pin "VTX" output
+			(at 227.33 62.23 0)
+			(uuid "ab6bbb36-af71-4a2e-a683-cab9c9fcc5c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VTX_EN" input
+			(at 185.42 60.96 180)
+			(uuid "435cb75a-4137-468a-8239-89ca96e1ff7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VTX_MODE" input
 			(at 185.42 64.77 180)
-			(uuid "22f52060-af42-4ce8-aad6-b45ccff8b50a")
+			(uuid "71b4ba94-815d-4df3-9301-f08ed29d9b42")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26253,16 +26253,6 @@
 				(justify right)
 			)
 		)
-		(pin "VCC" input
-			(at 185.42 199.39 180)
-			(uuid "897d896b-623d-4f71-9a7d-956e0e076b35")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SONAR_TX_EN" input
 			(at 185.42 222.25 180)
 			(uuid "22946488-915b-49bf-88fc-9dd51322cec8")
@@ -26341,6 +26331,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VTX" input
+			(at 185.42 199.39 180)
+			(uuid "28f87972-189f-4a0c-924b-00a579bb0aa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -26625,26 +26625,6 @@
 				(justify right)
 			)
 		)
-		(pin "VCC_EN" output
-			(at 340.36 161.29 0)
-			(uuid "3a30309c-d50b-4ad5-8778-6b40d1469135")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VCC_MODE" output
-			(at 340.36 165.1 0)
-			(uuid "a6829150-639f-4578-a49e-7d7f285adbbd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "AUX_ANALOG" input
 			(at 290.83 231.14 180)
 			(uuid "aafb2439-0f40-4170-9351-ea9ec64a96e9")
@@ -26763,6 +26743,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "VTX_EN" output
+			(at 340.36 161.29 0)
+			(uuid "f928438a-27e1-4b93-a5d1-4494b01d74db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VTX_MODE" output
+			(at 340.36 165.1 0)
+			(uuid "12903138-94dc-4eb9-b1cc-58f020837272")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

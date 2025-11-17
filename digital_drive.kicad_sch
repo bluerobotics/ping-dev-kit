@@ -3605,6 +3605,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 55.88) (xy 92.71 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2cc821-c407-40fb-bbbe-86de94726ef7")
+	)
+	(wire
+		(pts
 			(xy 74.93 113.03) (xy 92.71 113.03)
 		)
 		(stroke
@@ -3683,7 +3693,7 @@
 		)
 		(uuid "f769e55b-97cc-4353-8e88-9b33fec5612b")
 	)
-	(label "VCC"
+	(label "VTX"
 		(at 149.86 76.2 180)
 		(effects
 			(font
@@ -3763,6 +3773,16 @@
 		)
 		(uuid "7b620270-7c62-4f33-a8eb-5e1318ce56bc")
 	)
+	(label "GND"
+		(at 92.71 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8435c9af-b96b-4379-a414-3a96e75e9150")
+	)
 	(label "5V"
 		(at 62.23 92.71 0)
 		(effects
@@ -3783,7 +3803,7 @@
 		)
 		(uuid "8c4d2fa4-8b5f-4807-8f86-f210ca51959d")
 	)
-	(label "VCC"
+	(label "VTX"
 		(at 92.71 38.1 180)
 		(effects
 			(font
@@ -3824,6 +3844,17 @@
 		)
 		(uuid "3a82e573-fe0c-438b-841f-760aefbc0bf8")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 77.47 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3aa63d33-10ef-4a76-a563-e2ca2df58668")
+	)
 	(hierarchical_label "5V"
 		(shape input)
 		(at 77.47 41.91 180)
@@ -3835,7 +3866,7 @@
 		)
 		(uuid "42c739e1-0e4a-4c95-a07b-a86e9bf2781a")
 	)
-	(hierarchical_label "VCC"
+	(hierarchical_label "VTX"
 		(shape input)
 		(at 77.47 38.1 180)
 		(effects
