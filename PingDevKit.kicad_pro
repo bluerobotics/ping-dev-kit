@@ -493,6 +493,15 @@
         "diff_pair_width": 0.3,
         "name": "MDI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.2,
+        "name": "MDI_PHY",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
@@ -513,6 +522,18 @@
       ],
       "/ETH.TX-": [
         "MDI"
+      ],
+      "/Ethernet/RD_N": [
+        "MDI_PHY"
+      ],
+      "/Ethernet/RD_P": [
+        "MDI_PHY"
+      ],
+      "/Ethernet/TD_N": [
+        "MDI_PHY"
+      ],
+      "/Ethernet/TD_P": [
+        "MDI_PHY"
       ]
     },
     "netclass_patterns": [
@@ -531,6 +552,22 @@
       {
         "netclass": "MDI",
         "pattern": "ETH.RX-"
+      },
+      {
+        "netclass": "MDI_PHY",
+        "pattern": "TD_P"
+      },
+      {
+        "netclass": "MDI_PHY",
+        "pattern": "TD_N"
+      },
+      {
+        "netclass": "MDI_PHY",
+        "pattern": "RD_P"
+      },
+      {
+        "netclass": "MDI_PHY",
+        "pattern": "RD_N"
       }
     ]
   },
