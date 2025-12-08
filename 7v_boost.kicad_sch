@@ -55,7 +55,7 @@
 				)
 			)
 			(property "Description" "10uF 10V X5R 20% Ceramic Capacitor 0402"
-				(at 0 71.12 0)
+				(at 0 63.5 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -65,7 +65,7 @@
 				)
 			)
 			(property "Manufacturer" "Samsung Electro-Mechanics"
-				(at 0 68.58 0)
+				(at 0 71.12 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -75,7 +75,7 @@
 				)
 			)
 			(property "Manufacturer Part Num" "CL05A106MP5NUNC"
-				(at 0 66.04 0)
+				(at 0 68.58 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -85,7 +85,7 @@
 				)
 			)
 			(property "BRE Number" "BRE-000015"
-				(at 0 63.5 0)
+				(at 0 66.04 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -298,7 +298,7 @@
 				)
 			)
 			(property "Description" "2.2uF 10V X7R 10% Ceramic Capacitor 0402"
-				(at 0 71.12 0)
+				(at 0 63.5 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -308,7 +308,7 @@
 				)
 			)
 			(property "Manufacturer" "Murata Electronics"
-				(at 0 68.58 0)
+				(at 0 71.12 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -318,7 +318,7 @@
 				)
 			)
 			(property "Manufacturer Part Num" "GRM155Z71A225KE01D"
-				(at 0 66.04 0)
+				(at 0 68.58 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -328,7 +328,7 @@
 				)
 			)
 			(property "BRE Number" "BRE-000024"
-				(at 0 63.5 0)
+				(at 0 66.04 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2829,6 +2829,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 54.61) (xy 129.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "561c697c-dabc-4f7e-9f67-bbfc59ab86e4")
+	)
+	(wire
+		(pts
 			(xy 99.06 49.53) (xy 107.95 49.53)
 		)
 		(stroke
@@ -3280,6 +3290,73 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:GND")
+		(at 129.54 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29eacc24-bf39-4e5a-9b72-27b94c5136dc")
+		(property "Reference" "#PWR01305"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d72f302c-d360-49e6-a25e-dc842d36796d")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/ba770378-fa99-4e9b-ba3e-dcadec87fa26"
+					(reference "#PWR01305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_330pF_50V_C0G_5%")
 		(at 116.84 78.74 90)
 		(unit 1)
@@ -3557,6 +3634,186 @@
 			(project "SonarDevBoard"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/ba770378-fa99-4e9b-ba3e-dcadec87fa26"
 					(reference "C1301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Connectors:TP_Ring_PTH")
+		(at 129.54 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ef40bec-a8e2-4e4d-a5c6-f087974b0b33")
+		(property "Reference" "TP1302"
+			(at 133.35 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Connectors:TEST-TH_BD2.54-P1.4_RED"
+			(at 205.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307040929_ronghe-RH-5000_C5277086.pdf"
+			(at 203.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ring Test Point for Probe(s) PTH"
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 198.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "RH-5000"
+			(at 195.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BRE Number" "BRE-000074"
+			(at 193.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 190.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "~"
+			(at 187.96 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "~"
+			(at 182.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 180.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C5277086"
+			(at 177.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Label" "LABEL"
+			(at 175.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Num" "C5277086"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86f98559-e0a3-4c82-b4ad-75e21959b6d8")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/ba770378-fa99-4e9b-ba3e-dcadec87fa26"
+					(reference "TP1302")
 					(unit 1)
 				)
 			)

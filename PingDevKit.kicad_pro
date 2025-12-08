@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -123,20 +123,20 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.1,
+        "min_connection": 0.1,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_microvia_diameter": 0.25,
+        "min_microvia_drill": 0.15,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.6,
-        "min_text_thickness": 0.08,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.0,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
@@ -493,7 +493,7 @@
         "diff_pair_width": 0.3,
         "name": "MDI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -501,6 +501,15 @@
         "diff_pair_gap": 0.1,
         "diff_pair_width": 0.2,
         "name": "MDI_PHY",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.2,
+        "name": "OCTOSPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
@@ -534,6 +543,12 @@
       ],
       "/Ethernet/TD_P": [
         "MDI_PHY"
+      ],
+      "/OCTOSPI1.CLK+": [
+        "OCTOSPI"
+      ],
+      "/OCTOSPI1.CLK-": [
+        "OCTOSPI"
       ]
     },
     "netclass_patterns": [
@@ -568,6 +583,14 @@
       {
         "netclass": "MDI_PHY",
         "pattern": "RD_N"
+      },
+      {
+        "netclass": "OCTOSPI",
+        "pattern": "OCTOSPI1.CLK+"
+      },
+      {
+        "netclass": "OCTOSPI",
+        "pattern": "OCTOSPI1.CLK-"
       }
     ]
   },

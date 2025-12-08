@@ -2591,7 +2591,7 @@
 		)
 		(uuid "fd12cd17-3a27-49fe-b122-f769cf324ce2")
 	)
-	(label "OCTOSPI1.CLK"
+	(label "OCTOSPI1.CLK+"
 		(at 224.79 121.92 180)
 		(effects
 			(font
@@ -2661,7 +2661,7 @@
 		)
 		(uuid "464cacb3-312b-4a8d-8713-e5c0b0b66143")
 	)
-	(label "OCTOSPI1.NCLK"
+	(label "OCTOSPI1.CLK-"
 		(at 224.79 124.46 180)
 		(effects
 			(font
@@ -2701,7 +2701,7 @@
 		)
 		(uuid "50a6b50e-c12a-4bfa-9b53-6b4eb86e5290")
 	)
-	(label "OCTOSPI1.CLK"
+	(label "OCTOSPI1.CLK+"
 		(at 92.71 48.26 180)
 		(effects
 			(font
@@ -2711,7 +2711,7 @@
 		)
 		(uuid "51d945a5-fdc0-417b-804d-ba785e6a30b5")
 	)
-	(label "OCTOSPI1.NCLK"
+	(label "OCTOSPI1.CLK-"
 		(at 92.71 50.8 180)
 		(effects
 			(font
@@ -2761,7 +2761,7 @@
 		)
 		(uuid "6f39f23c-82be-42f0-bc89-990b69cadb69")
 	)
-	(label "OCTOSPI1.CLK"
+	(label "OCTOSPI1.CLK+"
 		(at 142.24 91.44 0)
 		(effects
 			(font
@@ -2821,7 +2821,7 @@
 		)
 		(uuid "8accc889-1426-47ad-acc6-854c2ff31a71")
 	)
-	(label "OCTOSPI1.NCLK"
+	(label "OCTOSPI1.CLK-"
 		(at 142.24 88.9 0)
 		(effects
 			(font
@@ -3003,6 +3003,66 @@
 			(justify right)
 		)
 		(uuid "f25f6081-ae0b-4fbc-a11f-b50f47aef0d0")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 224.79 121.92 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3da4f96-d7c2-4c34-ae35-c26859def61c")
+		(property "Netclass" "OCTOSPI"
+			(at 228.092 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -67.31 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 224.79 124.46 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3ad456c-6b34-41b3-8b28-a4d3b6af415a")
+		(property "Netclass" "OCTOSPI"
+			(at 228.092 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -5.08 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
