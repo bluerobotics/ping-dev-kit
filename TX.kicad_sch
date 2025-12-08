@@ -54,7 +54,7 @@
 				)
 			)
 			(property "Description" "Ring Test Point for Probe(s) PTH"
-				(at 0 71.12 0)
+				(at 0 63.5 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -64,7 +64,7 @@
 				)
 			)
 			(property "Manufacturer" "ronghe"
-				(at 0 68.58 0)
+				(at 0 71.12 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -74,7 +74,7 @@
 				)
 			)
 			(property "Manufacturer Part Num" "RH-5000"
-				(at 0 66.04 0)
+				(at 0 68.58 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -84,7 +84,7 @@
 				)
 			)
 			(property "BRE Number" "BRE-000074"
-				(at 0 63.5 0)
+				(at 0 66.04 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -322,7 +322,7 @@
 				)
 			)
 			(property "JLCPCB Part Num" "C6332235"
-				(at 0 55.88 0)
+				(at 0 60.96 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -993,7 +993,7 @@
 				)
 			)
 			(property "Description" "20k 1% 200ppm 50mW Thick Film Resistor 0201"
-				(at 0 71.12 0)
+				(at 0 63.5 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1003,7 +1003,7 @@
 				)
 			)
 			(property "Manufacturer" "YAGEO"
-				(at 0 68.58 0)
+				(at 0 71.12 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1013,7 +1013,7 @@
 				)
 			)
 			(property "Manufacturer Part Num" "RC0201FR-0720KL"
-				(at 0 66.04 0)
+				(at 0 68.58 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1023,7 +1023,7 @@
 				)
 			)
 			(property "BRE Number" "BRE-001172"
-				(at 0 63.5 0)
+				(at 0 66.04 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1194,7 +1194,7 @@
 				)
 			)
 			(property "Description" "2k 1% 100ppm 62.5mW Thick Film Resistor 0402"
-				(at 0 71.12 0)
+				(at 0 63.5 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1204,7 +1204,7 @@
 				)
 			)
 			(property "Manufacturer" "YAGEO"
-				(at 0 68.58 0)
+				(at 0 71.12 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1214,7 +1214,7 @@
 				)
 			)
 			(property "Manufacturer Part Num" "RC0402FR-072KL"
-				(at 0 66.04 0)
+				(at 0 68.58 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1224,7 +1224,7 @@
 				)
 			)
 			(property "BRE Number" "BRE-000324"
-				(at 0 63.5 0)
+				(at 0 66.04 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1642,16 +1642,16 @@
 		(uuid "37c375d9-8c4a-4f05-9541-97b92fe2660a")
 	)
 	(junction
+		(at 142.24 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a9aa787-9555-426d-a144-b09169670e0f")
+	)
+	(junction
 		(at 184.15 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f8981fe-37a9-4b46-8bed-5c9514a7619b")
-	)
-	(junction
-		(at 141.8651 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d3b59a7-4788-48b6-9741-7152ce94f4f9")
 	)
 	(junction
 		(at 195.58 93.98)
@@ -2009,16 +2009,6 @@
 	)
 	(wire
 		(pts
-			(xy 141.8651 104.14) (xy 146.05 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "744de066-4051-4b60-a46d-e427e58388be")
-	)
-	(wire
-		(pts
 			(xy 74.93 104.14) (xy 78.74 104.14)
 		)
 		(stroke
@@ -2049,7 +2039,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 104.14) (xy 141.8651 104.14)
+			(xy 132.08 104.14) (xy 142.24 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2126,6 +2116,16 @@
 			(type default)
 		)
 		(uuid "a7468b23-9224-4832-8124-e73c4bcd7136")
+	)
+	(wire
+		(pts
+			(xy 142.24 104.14) (xy 146.05 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a93f02-e435-4a36-b6dc-80ca9d088b3d")
 	)
 	(wire
 		(pts
@@ -2348,7 +2348,7 @@
 		(uuid "820a4920-01bb-4110-b165-400db78a1a9f")
 	)
 	(label "TX_EN_AB"
-		(at 133.35 104.14 0)
+		(at 132.08 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2981,7 +2981,7 @@
 	)
 	(symbol
 		(lib_id "BR_Connectors:TP_Ring_PTH")
-		(at 141.8651 104.14 180)
+		(at 142.24 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2989,7 +2989,7 @@
 		(dnp no)
 		(uuid "634924fe-1bf2-4f2f-8c74-baab4dd6cd45")
 		(property "Reference" "TP501"
-			(at 144.526 108.458 0)
+			(at 144.9009 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +2998,7 @@
 			)
 		)
 		(property "Value" "TX_EN"
-			(at 144.526 110.744 0)
+			(at 144.9009 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +3007,7 @@
 			)
 		)
 		(property "Footprint" "BR_Connectors:TEST-TH_BD2.54-P1.4_RED"
-			(at 141.8651 180.34 0)
+			(at 142.24 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3017,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307040929_ronghe-RH-5000_C5277086.pdf"
-			(at 141.8651 177.8 0)
+			(at 142.24 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3027,7 @@
 			)
 		)
 		(property "Description" "Ring Test Point for Probe(s) PTH"
-			(at 141.8651 175.26 0)
+			(at 142.24 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,7 +3037,7 @@
 			)
 		)
 		(property "Manufacturer" "ronghe"
-			(at 141.8651 172.72 0)
+			(at 142.24 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,7 +3047,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "RH-5000"
-			(at 141.8651 170.18 0)
+			(at 142.24 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +3057,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 141.8651 165.1 0)
+			(at 142.24 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +3067,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "~"
-			(at 141.8651 162.56 0)
+			(at 142.24 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,7 +3077,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 141.8651 160.02 0)
+			(at 142.24 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3087,7 +3087,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "~"
-			(at 141.8651 157.48 0)
+			(at 142.24 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3097,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000074"
-			(at 141.8651 167.64 0)
+			(at 142.24 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3107,7 +3107,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 141.8651 154.94 0)
+			(at 142.24 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +3117,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C5277086"
-			(at 141.8651 152.4 0)
+			(at 142.24 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3127,7 @@
 			)
 		)
 		(property "Label" "LABEL"
-			(at 141.8651 149.86 0)
+			(at 142.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3137,7 +3137,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C5277086"
-			(at 141.8651 147.32 0)
+			(at 142.24 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
