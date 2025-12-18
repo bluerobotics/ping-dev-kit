@@ -2618,191 +2618,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Connectors_Header:Header_Socket_SIP_01x02_2.54mm_Vert_PTH"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LABEL"
-				(at 1.524 -6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
-				(at 0 76.2 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302203_XFCN-MF254V-11-02-0743_C2889984.pdf"
-				(at 0 73.66 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Header Socket 01x02 2.54mm Vertical PTH"
-				(at 0 63.5 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "XFCN"
-				(at 0 71.12 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Num" "MF254V-11-02-0743"
-				(at 0 68.58 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "BRE Number" "BRE-001260"
-				(at 0 66.04 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Part Num" "C2889984"
-				(at 0 60.96 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Header_Socket_SIP_01x02_2.54mm_Vert_PTH_1_1"
-				(rectangle
-					(start 0 0)
-					(end 2.54 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 2.54 -1.143)
-					(end 1.27 -1.397)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -3.683)
-					(end 1.27 -3.937)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 6.35 -1.27 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -3.81 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "BR_Diodes:D_BAS20H"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7600,12 +7415,6 @@
 		(uuid "045a88fe-e5f7-4421-95cb-3ca15e30785d")
 	)
 	(junction
-		(at 317.5 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05efc932-40b1-4b05-9662-c9705bda5cc5")
-	)
-	(junction
 		(at 113.03 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7616,12 +7425,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0eb2546b-fa99-476e-b9f8-295858cee96d")
-	)
-	(junction
-		(at 317.5 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "243af0ac-27ea-4227-8d28-94a7bacfdc72")
 	)
 	(junction
 		(at 284.48 127)
@@ -7660,6 +7463,12 @@
 		(uuid "71a22aa3-95ee-4043-9d3b-5d968189340a")
 	)
 	(junction
+		(at 340.36 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7903981c-49a6-4784-8bb3-fe553e38f6a7")
+	)
+	(junction
 		(at 68.58 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7676,12 +7485,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f873064-762b-4f3e-9c25-cb44c91f9bee")
-	)
-	(junction
-		(at 339.09 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90bea004-171d-46be-a0ff-e1546ee3e168")
 	)
 	(junction
 		(at 290.83 100.33)
@@ -7724,12 +7527,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cffb12cb-e135-4201-9725-e6ebd3655a5d")
-	)
-	(junction
-		(at 326.39 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3019676-616b-429d-935b-58e17d2ae7fb")
 	)
 	(junction
 		(at 148.59 163.83)
@@ -7817,16 +7614,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 149.86) (xy 311.15 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ed89e21-373a-400e-9b13-ffbda06ecb37")
-	)
-	(wire
-		(pts
 			(xy 356.87 177.8) (xy 356.87 180.34)
 		)
 		(stroke
@@ -7864,16 +7651,6 @@
 			(type default)
 		)
 		(uuid "13fba82b-b8c6-4a2f-97fe-a5d128541654")
-	)
-	(wire
-		(pts
-			(xy 334.01 170.18) (xy 339.09 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1594e8f4-b45f-443f-bb7c-47ea1308eea7")
 	)
 	(wire
 		(pts
@@ -7944,6 +7721,16 @@
 			(type default)
 		)
 		(uuid "25f2e7c3-c5d3-4047-9caa-728f928129e9")
+	)
+	(wire
+		(pts
+			(xy 340.36 100.33) (xy 354.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26dd12b9-00bd-4326-a4b9-214ceee6b114")
 	)
 	(wire
 		(pts
@@ -8107,7 +7894,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 163.83) (xy 346.71 163.83)
+			(xy 336.55 163.83) (xy 346.71 163.83)
 		)
 		(stroke
 			(width 0)
@@ -8167,16 +7954,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 153.67) (xy 317.5 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cb36a1b-dcc8-4090-bd11-3b93a7dc277d")
-	)
-	(wire
-		(pts
 			(xy 57.15 152.4) (xy 66.04 152.4)
 		)
 		(stroke
@@ -8187,7 +7964,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 100.33) (xy 336.55 100.33)
+			(xy 332.74 100.33) (xy 340.36 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8224,16 +8001,6 @@
 			(type default)
 		)
 		(uuid "63547d8b-0aef-4f88-9f21-008538143a8c")
-	)
-	(wire
-		(pts
-			(xy 336.55 163.83) (xy 339.09 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a29a466-7ac5-4b4e-9875-7a5422a068a8")
 	)
 	(wire
 		(pts
@@ -8387,16 +8154,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 163.83) (xy 326.39 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "847344d7-2edd-4077-8c89-dbe2c460e620")
-	)
-	(wire
-		(pts
 			(xy 128.27 151.13) (xy 147.32 151.13)
 		)
 		(stroke
@@ -8487,16 +8244,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 163.83) (xy 326.39 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9630903c-02d7-4b2c-b311-cf6c79cb74ce")
-	)
-	(wire
-		(pts
 			(xy 114.3 184.15) (xy 123.19 184.15)
 		)
 		(stroke
@@ -8504,16 +8251,6 @@
 			(type default)
 		)
 		(uuid "9a0ad341-dd09-4b29-9dde-73076af6f7b6")
-	)
-	(wire
-		(pts
-			(xy 311.15 143.51) (xy 317.5 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f362d84-3c5f-4f77-8bdf-45bb4cb64880")
 	)
 	(wire
 		(pts
@@ -8547,7 +8284,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 152.4) (xy 317.5 153.67)
+			(xy 317.5 152.4) (xy 317.5 163.83)
 		)
 		(stroke
 			(width 0)
@@ -8667,7 +8404,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 163.83) (xy 328.93 163.83)
+			(xy 317.5 163.83) (xy 328.93 163.83)
 		)
 		(stroke
 			(width 0)
@@ -8787,16 +8524,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 170.18) (xy 326.39 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1a175f-5205-4089-8ebe-64513ac806cd")
-	)
-	(wire
-		(pts
 			(xy 158.75 106.68) (xy 158.75 144.78)
 		)
 		(stroke
@@ -8817,16 +8544,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 96.52) (xy 317.5 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9a0164-63de-45e6-aa17-7b23bd6f5d84")
-	)
-	(wire
-		(pts
 			(xy 64.77 118.11) (xy 54.61 118.11)
 		)
 		(stroke
@@ -8837,7 +8554,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 100.33) (xy 317.5 143.51)
+			(xy 317.5 100.33) (xy 317.5 144.78)
 		)
 		(stroke
 			(width 0)
@@ -8897,16 +8614,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 143.51) (xy 317.5 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed5e8e29-6525-4d38-a576-7566cb7cf7c6")
-	)
-	(wire
-		(pts
 			(xy 373.38 172.72) (xy 373.38 173.99)
 		)
 		(stroke
@@ -8927,16 +8634,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 153.67) (xy 317.5 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eee7db33-205b-413f-8c37-a68aaee1915b")
-	)
-	(wire
-		(pts
 			(xy 369.57 172.72) (xy 373.38 172.72)
 		)
 		(stroke
@@ -8954,26 +8651,6 @@
 			(type default)
 		)
 		(uuid "f106ac5b-8ee2-4a6a-9bb3-5198891cd895")
-	)
-	(wire
-		(pts
-			(xy 339.09 163.83) (xy 339.09 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f70ba4b2-9336-426c-8ade-d3e202afe244")
-	)
-	(wire
-		(pts
-			(xy 311.15 147.32) (xy 311.15 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb5bcc82-9d4f-4708-9e1c-bc60be3c5404")
 	)
 	(wire
 		(pts
@@ -18806,7 +18483,7 @@
 	)
 	(hierarchical_label "VTX"
 		(shape output)
-		(at 336.55 100.33 0)
+		(at 354.33 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20651,116 +20328,6 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "C1210")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Connectors_Header:Header_Socket_SIP_01x02_2.54mm_Vert_PTH")
-		(at 330.2 176.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5bb26a70-5e6e-4951-89a1-fd1492cddd52")
-		(property "Reference" "J1202"
-			(at 332.486 181.102 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RDAC"
-			(at 332.486 178.562 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
-			(at 254 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302203_XFCN-MF254V-11-02-0743_C2889984.pdf"
-			(at 256.54 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Header Socket 01x02 2.54mm Vertical PTH"
-			(at 259.08 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XFCN"
-			(at 261.62 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Num" "MF254V-11-02-0743"
-			(at 264.16 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "BRE Number" "BRE-001260"
-			(at 266.7 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Num" "C2889984"
-			(at 269.24 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0e225340-1494-4805-834d-118cda9f47c6")
-		)
-		(pin "1"
-			(uuid "1932af00-78d3-4ac0-a6a0-7837f6cfce59")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "J1202")
 					(unit 1)
 				)
 			)
@@ -22626,117 +22193,6 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "TP1202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Connectors_Header:Header_Socket_SIP_01x02_2.54mm_Vert_PTH")
-		(at 304.8 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd2230a7-f5a5-457d-8c02-278ddb4bae64")
-		(property "Reference" "J1201"
-			(at 306.07 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RFBT"
-			(at 306.07 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
-			(at 304.8 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302203_XFCN-MF254V-11-02-0743_C2889984.pdf"
-			(at 304.8 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Header Socket 01x02 2.54mm Vertical PTH"
-			(at 304.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XFCN"
-			(at 304.8 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Num" "MF254V-11-02-0743"
-			(at 304.8 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "BRE Number" "BRE-001260"
-			(at 304.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Num" "C2889984"
-			(at 304.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d02cf873-258c-4a0a-b056-2200aef2f893")
-		)
-		(pin "1"
-			(uuid "448aadfe-3540-4598-9ad2-131b312a1bdf")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "J1201")
 					(unit 1)
 				)
 			)
@@ -24939,7 +24395,7 @@
 	)
 	(symbol
 		(lib_id "BR_Connectors:TP_Ring_PTH")
-		(at 317.5 96.52 0)
+		(at 340.36 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24948,7 +24404,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee69179c-0e15-4b6b-a343-625e0dd09a67")
 		(property "Reference" "TP1201"
-			(at 318.77 93.3449 0)
+			(at 341.63 97.1549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24957,7 +24413,7 @@
 			)
 		)
 		(property "Value" "VTX"
-			(at 318.77 95.8849 0)
+			(at 341.63 99.6949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24966,7 +24422,7 @@
 			)
 		)
 		(property "Footprint" "BR_Connectors:TEST-TH_BD2.54-P1.4_RED"
-			(at 317.5 20.32 0)
+			(at 340.36 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24976,7 +24432,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307040929_ronghe-RH-5000_C5277086.pdf"
-			(at 317.5 22.86 0)
+			(at 340.36 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24986,7 +24442,7 @@
 			)
 		)
 		(property "Description" "Ring Test Point for Probe(s) PTH"
-			(at 317.5 25.4 0)
+			(at 340.36 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24996,7 +24452,7 @@
 			)
 		)
 		(property "Manufacturer" "ronghe"
-			(at 317.5 27.94 0)
+			(at 340.36 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25006,7 +24462,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "RH-5000"
-			(at 317.5 30.48 0)
+			(at 340.36 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25016,7 +24472,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000074"
-			(at 317.5 33.02 0)
+			(at 340.36 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25026,7 +24482,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 317.5 35.56 0)
+			(at 340.36 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25036,7 +24492,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "~"
-			(at 317.5 38.1 0)
+			(at 340.36 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25046,7 +24502,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 317.5 40.64 0)
+			(at 340.36 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25056,7 +24512,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "~"
-			(at 317.5 43.18 0)
+			(at 340.36 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25066,7 +24522,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 317.5 45.72 0)
+			(at 340.36 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25076,7 +24532,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C5277086"
-			(at 317.5 48.26 0)
+			(at 340.36 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25086,7 +24542,7 @@
 			)
 		)
 		(property "Label" "LABEL"
-			(at 317.5 50.8 0)
+			(at 340.36 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25096,7 +24552,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C5277086"
-			(at 317.5 53.34 0)
+			(at 340.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

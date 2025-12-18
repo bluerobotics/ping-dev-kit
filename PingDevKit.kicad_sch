@@ -10561,6 +10561,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 207.01) (xy 185.42 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d916a3-b268-41ec-b5f8-64e5ccf2f67a")
+	)
+	(wire
+		(pts
 			(xy 52.07 237.49) (xy 50.8 237.49)
 		)
 		(stroke
@@ -11288,6 +11298,16 @@
 			(type default)
 		)
 		(uuid "b234b1eb-d084-4255-9213-809f5d8e770a")
+	)
+	(wire
+		(pts
+			(xy 170.18 207.01) (xy 170.18 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23e4107-b472-4899-9426-a4ac5c2420c2")
 	)
 	(wire
 		(pts
@@ -12171,7 +12191,7 @@
 		(uuid "1785bb98-77c8-4579-806f-91d821fa4268")
 	)
 	(label "RX+"
-		(at 184.15 308.61 0)
+		(at 184.15 341.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12634,7 +12654,7 @@
 		(uuid "85a0c7ba-c22d-4e96-b88f-b588f9140180")
 	)
 	(label "SONAR-"
-		(at 227.33 330.2 180)
+		(at 227.33 297.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12994,7 +13014,7 @@
 		(uuid "ce872c53-1933-4f5b-8f96-12aa58a0d4d3")
 	)
 	(label "SONAR+"
-		(at 227.33 297.18 180)
+		(at 227.33 330.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13214,7 +13234,7 @@
 		(uuid "f3f9e1e6-9a84-4550-9754-13733bcb3048")
 	)
 	(label "RX-"
-		(at 184.15 341.63 0)
+		(at 184.15 308.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14220,7 +14240,7 @@
 	)
 	(symbol
 		(lib_id "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH")
-		(at 207.01 335.28 270)
+		(at 207.01 302.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14229,7 +14249,7 @@
 		(fields_autoplaced yes)
 		(uuid "186e96e5-7beb-494b-99d6-ae08edeebe4f")
 		(property "Reference" "J110"
-			(at 208.28 335.2799 90)
+			(at 208.28 302.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14238,7 +14258,7 @@
 			)
 		)
 		(property "Value" "SONAR-"
-			(at 208.28 337.8199 90)
+			(at 208.28 304.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14247,7 +14267,7 @@
 			)
 		)
 		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
-			(at 283.21 335.28 0)
+			(at 283.21 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14257,7 +14277,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
-			(at 280.67 335.28 0)
+			(at 280.67 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14267,7 +14287,7 @@
 			)
 		)
 		(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
-			(at 278.13 335.28 0)
+			(at 278.13 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14277,7 +14297,7 @@
 			)
 		)
 		(property "Manufacturer" "XFCN"
-			(at 275.59 335.28 0)
+			(at 275.59 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14287,7 +14307,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "PZ254V-11-02P"
-			(at 273.05 335.28 0)
+			(at 273.05 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14297,7 +14317,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001259"
-			(at 270.51 335.28 0)
+			(at 270.51 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14307,7 +14327,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C492401"
-			(at 267.97 335.28 0)
+			(at 267.97 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17498,7 +17518,7 @@
 	)
 	(symbol
 		(lib_id "BR_Connectors:TP_Ring_PTH")
-		(at 218.44 325.12 0)
+		(at 218.44 292.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17507,7 +17527,7 @@
 		(fields_autoplaced yes)
 		(uuid "69ac525d-4945-4f5a-9856-655bba85d501")
 		(property "Reference" "TP104"
-			(at 219.71 321.9449 0)
+			(at 219.71 288.9249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17516,7 +17536,7 @@
 			)
 		)
 		(property "Value" "SONAR-"
-			(at 219.71 324.4849 0)
+			(at 219.71 291.4649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17525,7 +17545,7 @@
 			)
 		)
 		(property "Footprint" "BR_Connectors:TEST-TH_BD2.54-P1.4_RED"
-			(at 218.44 248.92 0)
+			(at 218.44 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17535,7 +17555,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307040929_ronghe-RH-5000_C5277086.pdf"
-			(at 218.44 251.46 0)
+			(at 218.44 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17545,7 +17565,7 @@
 			)
 		)
 		(property "Description" "Ring Test Point for Probe(s) PTH"
-			(at 218.44 254 0)
+			(at 218.44 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17555,7 +17575,7 @@
 			)
 		)
 		(property "Manufacturer" "ronghe"
-			(at 218.44 256.54 0)
+			(at 218.44 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17565,7 +17585,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "RH-5000"
-			(at 218.44 259.08 0)
+			(at 218.44 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17575,7 +17595,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000074"
-			(at 218.44 261.62 0)
+			(at 218.44 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17585,7 +17605,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 218.44 264.16 0)
+			(at 218.44 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17595,7 +17615,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "~"
-			(at 218.44 266.7 0)
+			(at 218.44 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17605,7 +17625,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 218.44 269.24 0)
+			(at 218.44 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17615,7 +17635,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "~"
-			(at 218.44 271.78 0)
+			(at 218.44 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17625,7 +17645,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 218.44 274.32 0)
+			(at 218.44 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17635,7 +17655,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C5277086"
-			(at 218.44 276.86 0)
+			(at 218.44 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17645,7 +17665,7 @@
 			)
 		)
 		(property "Label" "LABEL"
-			(at 218.44 279.4 0)
+			(at 218.44 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17655,7 +17675,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C5277086"
-			(at 218.44 281.94 0)
+			(at 218.44 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18198,6 +18218,71 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:VCC")
+		(at 170.18 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77d7be28-dbd2-45d1-844f-f6c554313de1")
+		(property "Reference" "#PWR02"
+			(at 170.18 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 170.18 197.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 170.18 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89843001-fda4-41fc-8e11-357958855bb4")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
 		(at 64.77 114.3 0)
 		(unit 1)
@@ -18431,7 +18516,7 @@
 	)
 	(symbol
 		(lib_id "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH")
-		(at 207.01 290.83 270)
+		(at 207.01 323.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18440,7 +18525,7 @@
 		(fields_autoplaced yes)
 		(uuid "816aa15f-2b17-4382-9554-de5958009ee0")
 		(property "Reference" "J107"
-			(at 208.28 290.8299 90)
+			(at 208.28 323.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18449,7 +18534,7 @@
 			)
 		)
 		(property "Value" "SONAR+"
-			(at 208.28 293.3699 90)
+			(at 208.28 326.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18458,7 +18543,7 @@
 			)
 		)
 		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
-			(at 283.21 290.83 0)
+			(at 283.21 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18468,7 +18553,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
-			(at 280.67 290.83 0)
+			(at 280.67 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18478,7 +18563,7 @@
 			)
 		)
 		(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
-			(at 278.13 290.83 0)
+			(at 278.13 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18488,7 +18573,7 @@
 			)
 		)
 		(property "Manufacturer" "XFCN"
-			(at 275.59 290.83 0)
+			(at 275.59 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18498,7 +18583,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "PZ254V-11-02P"
-			(at 273.05 290.83 0)
+			(at 273.05 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18508,7 +18593,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001259"
-			(at 270.51 290.83 0)
+			(at 270.51 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18518,7 +18603,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C492401"
-			(at 267.97 290.83 0)
+			(at 267.97 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19644,7 +19729,7 @@
 	)
 	(symbol
 		(lib_id "BR_Resistors_0402:R_0402_100k")
-		(at 168.91 336.55 0)
+		(at 167.64 303.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19653,7 +19738,7 @@
 		(fields_autoplaced yes)
 		(uuid "a71c4f7f-4c08-4c17-a16c-a3442c71864e")
 		(property "Reference" "R110"
-			(at 171.45 335.2799 0)
+			(at 170.18 302.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19662,7 +19747,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 171.45 337.8199 0)
+			(at 170.18 304.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19671,7 +19756,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
-			(at 168.91 260.35 0)
+			(at 167.64 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19681,7 +19766,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 168.91 262.89 0)
+			(at 167.64 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19691,7 +19776,7 @@
 			)
 		)
 		(property "Description" "100k 1% 100ppm 62.5mW Thick Film Resistor 0402"
-			(at 168.91 265.43 0)
+			(at 167.64 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19701,7 +19786,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 168.91 267.97 0)
+			(at 167.64 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19711,7 +19796,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "RC0402FR-07100KL"
-			(at 168.91 270.51 0)
+			(at 167.64 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19721,7 +19806,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000290"
-			(at 168.91 273.05 0)
+			(at 167.64 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19731,7 +19816,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 168.91 275.59 0)
+			(at 167.64 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19741,7 +19826,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "311-100KLRCT-ND"
-			(at 168.91 278.13 0)
+			(at 167.64 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19751,7 +19836,7 @@
 			)
 		)
 		(property "Supplier 2" "DigiKey"
-			(at 168.91 280.67 0)
+			(at 167.64 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19761,7 +19846,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "311-100KLRTR-ND"
-			(at 168.91 283.21 0)
+			(at 167.64 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19771,7 +19856,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 168.91 285.75 0)
+			(at 167.64 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19781,7 +19866,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C60491"
-			(at 168.91 288.29 0)
+			(at 167.64 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19791,7 +19876,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C60491"
-			(at 168.91 290.83 0)
+			(at 167.64 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19881,7 +19966,7 @@
 	)
 	(symbol
 		(lib_id "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH")
-		(at 207.01 302.26 270)
+		(at 207.01 335.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19890,7 +19975,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae931b26-4fdc-484b-9106-2f280e2c2afb")
 		(property "Reference" "J108"
-			(at 208.28 302.2599 90)
+			(at 208.28 335.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19899,7 +19984,7 @@
 			)
 		)
 		(property "Value" "SONAR+"
-			(at 208.28 304.7999 90)
+			(at 208.28 337.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19908,7 +19993,7 @@
 			)
 		)
 		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
-			(at 283.21 302.26 0)
+			(at 283.21 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19918,7 +20003,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
-			(at 280.67 302.26 0)
+			(at 280.67 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19928,7 +20013,7 @@
 			)
 		)
 		(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
-			(at 278.13 302.26 0)
+			(at 278.13 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19938,7 +20023,7 @@
 			)
 		)
 		(property "Manufacturer" "XFCN"
-			(at 275.59 302.26 0)
+			(at 275.59 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19948,7 +20033,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "PZ254V-11-02P"
-			(at 273.05 302.26 0)
+			(at 273.05 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19958,7 +20043,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001259"
-			(at 270.51 302.26 0)
+			(at 270.51 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19968,7 +20053,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C492401"
-			(at 267.97 302.26 0)
+			(at 267.97 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21606,7 +21691,7 @@
 	)
 	(symbol
 		(lib_id "BR_Connectors:TP_Ring_PTH")
-		(at 218.44 292.1 0)
+		(at 218.44 325.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21615,7 +21700,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb0f6a42-788a-40a6-a5d2-b814db793d85")
 		(property "Reference" "TP103"
-			(at 219.71 288.9249 0)
+			(at 219.71 321.9449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21624,7 +21709,7 @@
 			)
 		)
 		(property "Value" "SONAR+"
-			(at 219.71 291.4649 0)
+			(at 219.71 324.4849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21633,7 +21718,7 @@
 			)
 		)
 		(property "Footprint" "BR_Connectors:TEST-TH_BD2.54-P1.4_RED"
-			(at 218.44 215.9 0)
+			(at 218.44 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21643,7 +21728,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307040929_ronghe-RH-5000_C5277086.pdf"
-			(at 218.44 218.44 0)
+			(at 218.44 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21653,7 +21738,7 @@
 			)
 		)
 		(property "Description" "Ring Test Point for Probe(s) PTH"
-			(at 218.44 220.98 0)
+			(at 218.44 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21663,7 +21748,7 @@
 			)
 		)
 		(property "Manufacturer" "ronghe"
-			(at 218.44 223.52 0)
+			(at 218.44 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21673,7 +21758,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "RH-5000"
-			(at 218.44 226.06 0)
+			(at 218.44 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21683,7 +21768,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000074"
-			(at 218.44 228.6 0)
+			(at 218.44 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21693,7 +21778,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 218.44 231.14 0)
+			(at 218.44 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21703,7 +21788,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "~"
-			(at 218.44 233.68 0)
+			(at 218.44 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21713,7 +21798,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 218.44 236.22 0)
+			(at 218.44 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21723,7 +21808,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "~"
-			(at 218.44 238.76 0)
+			(at 218.44 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21733,7 +21818,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 218.44 241.3 0)
+			(at 218.44 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21743,7 +21828,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C5277086"
-			(at 218.44 243.84 0)
+			(at 218.44 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21753,7 +21838,7 @@
 			)
 		)
 		(property "Label" "LABEL"
-			(at 218.44 246.38 0)
+			(at 218.44 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21763,7 +21848,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C5277086"
-			(at 218.44 248.92 0)
+			(at 218.44 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22461,7 +22546,7 @@
 	)
 	(symbol
 		(lib_id "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH")
-		(at 207.01 323.85 270)
+		(at 207.01 290.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22470,7 +22555,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc516b19-1274-4841-bf80-b5128038c302")
 		(property "Reference" "J109"
-			(at 208.28 323.8499 90)
+			(at 208.28 290.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22479,7 +22564,7 @@
 			)
 		)
 		(property "Value" "SONAR-"
-			(at 208.28 326.3899 90)
+			(at 208.28 293.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22488,7 +22573,7 @@
 			)
 		)
 		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
-			(at 283.21 323.85 0)
+			(at 283.21 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22498,7 +22583,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
-			(at 280.67 323.85 0)
+			(at 280.67 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22508,7 +22593,7 @@
 			)
 		)
 		(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
-			(at 278.13 323.85 0)
+			(at 278.13 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22518,7 +22603,7 @@
 			)
 		)
 		(property "Manufacturer" "XFCN"
-			(at 275.59 323.85 0)
+			(at 275.59 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22528,7 +22613,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "PZ254V-11-02P"
-			(at 273.05 323.85 0)
+			(at 273.05 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22538,7 +22623,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001259"
-			(at 270.51 323.85 0)
+			(at 270.51 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22548,7 +22633,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C492401"
-			(at 267.97 323.85 0)
+			(at 267.97 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23916,7 +24001,7 @@
 	)
 	(symbol
 		(lib_id "BR_Resistors_0402:R_0402_100k")
-		(at 167.64 303.53 0)
+		(at 168.91 336.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23925,7 +24010,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8d82d1e-12fb-4cc8-b39c-6f62c3090b5e")
 		(property "Reference" "R109"
-			(at 170.18 302.2599 0)
+			(at 171.45 335.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23934,7 +24019,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 170.18 304.7999 0)
+			(at 171.45 337.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23943,7 +24028,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
-			(at 167.64 227.33 0)
+			(at 168.91 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23953,7 +24038,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 167.64 229.87 0)
+			(at 168.91 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23963,7 +24048,7 @@
 			)
 		)
 		(property "Description" "100k 1% 100ppm 62.5mW Thick Film Resistor 0402"
-			(at 167.64 232.41 0)
+			(at 168.91 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23973,7 +24058,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 167.64 234.95 0)
+			(at 168.91 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23983,7 +24068,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "RC0402FR-07100KL"
-			(at 167.64 237.49 0)
+			(at 168.91 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23993,7 +24078,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000290"
-			(at 167.64 240.03 0)
+			(at 168.91 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24003,7 +24088,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 167.64 242.57 0)
+			(at 168.91 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24013,7 +24098,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "311-100KLRCT-ND"
-			(at 167.64 245.11 0)
+			(at 168.91 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24023,7 +24108,7 @@
 			)
 		)
 		(property "Supplier 2" "DigiKey"
-			(at 167.64 247.65 0)
+			(at 168.91 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24033,7 +24118,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "311-100KLRTR-ND"
-			(at 167.64 250.19 0)
+			(at 168.91 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24043,7 +24128,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 167.64 252.73 0)
+			(at 168.91 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24053,7 +24138,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C60491"
-			(at 167.64 255.27 0)
+			(at 168.91 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24063,7 +24148,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C60491"
-			(at 167.64 257.81 0)
+			(at 168.91 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25272,6 +25357,16 @@
 		(pin "VTX" input
 			(at 185.42 199.39 180)
 			(uuid "28f87972-189f-4a0c-924b-00a579bb0aa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 185.42 207.01 180)
+			(uuid "705a148b-e2b1-47fc-826f-7a79af6d8983")
 			(effects
 				(font
 					(size 1.27 1.27)
