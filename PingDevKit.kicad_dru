@@ -4,3 +4,19 @@
 	(constraint track_width (min 0.1mm))
 	(constraint hole_clearance (min 0.15mm))
 	(condition "A.intersectsArea('BGA')"))
+(rule clearance_0201
+	(constraint clearance (min 0.17mm))
+	(condition "A.memberOfFootprint('BR_Passives:*_0201_0603Metric*')"))
+(rule clearance_EPC23104
+	(constraint clearance (min 0.17mm))
+	(condition "A.memberOfFootprint('BR_Gate_Drivers:EPC23104')"))
+(rule clearance_SOT_23_8
+	(constraint clearance (min 0.15mm))
+	(condition "A.memberOfFootprint('BR_SOT:SOT-23-8')"))
+(rule clearance_LGA_12
+	(constraint clearance (min 0.15mm))
+	(condition "A.memberOfFootprint('BR_IC:LGA-12_2x2mm*')"))
+(rule clearance_VQFN_24
+	(constraint clearance (min 0.15mm))
+	(condition "A.memberOfFootprint('BR_IC:VQFN-24*')"))
+

@@ -2285,7 +2285,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Virtual_Parts:NetTie-2_0.18mm"
+		(symbol "BR_Virtual_Parts:Net_Tie_0201"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2295,24 +2295,25 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "NT2"
-				(at 5.08 0 90)
+			(property "Reference" "NT"
+				(at 2.54 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
-			(property "Value" "NetTie-2_0.18mm"
-				(at 2.54 0 90)
+			(property "Value" "Net_Tie_0201"
+				(at 2.54 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "BR_Virtual_Parts:NetTie-2_SMD_Pad_0.18mm_wide"
+			(property "Footprint" "BR_Virtual_Parts:Net_Tie_0201_1608Metric"
 				(at 1.016 -0.254 90)
 				(effects
 					(font
@@ -2437,7 +2438,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NetTie-2_0.18mm_0_1"
+			(symbol "Net_Tie_0201_0_1"
 				(polyline
 					(pts
 						(xy 0 2.286) (xy 0 2.54)
@@ -2463,7 +2464,7 @@
 					)
 				)
 			)
-			(symbol "NetTie-2_0.18mm_1_1"
+			(symbol "Net_Tie_0201_1_1"
 				(rectangle
 					(start -0.635 2.286)
 					(end 0.635 1.016)
@@ -4676,7 +4677,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:NetTie-2_0.18mm")
+		(lib_id "BR_Virtual_Parts:Net_Tie_0201")
 		(at 130.81 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4694,7 +4695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "NetTie-2_0.18mm"
+		(property "Value" "Net_Tie_0201"
 			(at 130.81 104.14 90)
 			(effects
 				(font
@@ -4702,7 +4703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BR_Virtual_Parts:NetTie-2_SMD_Pad_0.18mm_wide"
+		(property "Footprint" "BR_Virtual_Parts:Net_Tie_0201_1608Metric"
 			(at 131.064 105.664 90)
 			(effects
 				(font
