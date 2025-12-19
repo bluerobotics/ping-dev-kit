@@ -7969,7 +7969,7 @@
 	)
 	(bus_alias "OCTOSPI"
 		(members "IO0" "IO1" "IO2" "IO3" "IO4" "IO5" "IO6" "IO7" "CLK+" "CLK-"
-			"NCS" "DQS"
+			"NCS" "DQS" "RST"
 		)
 	)
 	(bus_alias "SPI"
@@ -9642,6 +9642,15 @@
 		(uuid "babe0115-bf09-4362-8b47-7ca50144cb1e")
 	)
 	(bus_entry
+		(at 215.9 16.51)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab38839-742c-44b0-9c56-4c76e7c4b61a")
+	)
+	(bus_entry
 		(at 215.9 54.61)
 		(size 2.54 2.54)
 		(stroke
@@ -9875,6 +9884,16 @@
 			(type default)
 		)
 		(uuid "1336889f-f901-481d-9f4a-f160bc78dc9b")
+	)
+	(bus
+		(pts
+			(xy 218.44 19.05) (xy 218.44 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13436afa-6041-44bf-8dce-506d9a2354e1")
 	)
 	(wire
 		(pts
@@ -10995,6 +11014,16 @@
 			(type default)
 		)
 		(uuid "8ce6cf38-bc64-41c7-8a82-34557a879937")
+	)
+	(wire
+		(pts
+			(xy 190.5 16.51) (xy 215.9 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d458e94-cb70-48b9-ab6d-7d8c1409579f")
 	)
 	(bus
 		(pts
@@ -12516,6 +12545,16 @@
 		)
 		(uuid "6885677b-554a-4e3c-ba23-b3d4814ed24e")
 	)
+	(label "OCTOSPI1.RST"
+		(at 242.57 368.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68f345ce-2a45-4e84-b8d6-4ecc372f800a")
+	)
 	(label "OCTOSPI1.CLK-"
 		(at 190.5 41.91 0)
 		(effects
@@ -12615,16 +12654,6 @@
 			(justify left bottom)
 		)
 		(uuid "79060586-935d-4990-b797-38fa660d388b")
-	)
-	(label "PSRAM_nRST"
-		(at 256.54 368.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7b1b1eda-ee59-4e49-a1db-adaef123a1a5")
 	)
 	(label "TX_PWM_B"
 		(at 132.08 246.38 0)
@@ -12905,6 +12934,16 @@
 			(justify right bottom)
 		)
 		(uuid "c71ccb57-18ea-4f5a-8f43-206784ebda4c")
+	)
+	(label "OCTOSPI1.RST"
+		(at 190.5 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7859fe9-4f40-467c-9d69-29252f47bebb")
 	)
 	(label "SPI5.MOSI"
 		(at 132.08 231.14 0)
@@ -13501,17 +13540,6 @@
 			(justify right)
 		)
 		(uuid "e8b86cb6-058c-47e6-b16d-91a5d3adc9e0")
-	)
-	(hierarchical_label "PSRAM_nRST"
-		(shape output)
-		(at 266.7 368.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea0df22a-13c2-4e7e-8d34-d4edbafa62b7")
 	)
 	(hierarchical_label "TX_PWM_A"
 		(shape output)
