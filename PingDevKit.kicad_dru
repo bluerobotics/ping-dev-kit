@@ -3,7 +3,12 @@
 	(constraint clearance (min 0.1mm))
 	(constraint track_width (min 0.1mm))
 	(constraint hole_clearance (min 0.15mm))
-	(condition "A.intersectsArea('BGA')"))
+	(condition "A.intersectsArea('BGA') && A.Type != 'Zone' && B.type != 'Zone'"))
+(rule BGA_zone
+	(constraint clearance (min 0.15mm))
+	(constraint track_width (min 0.1mm))
+	(constraint hole_clearance (min 0.15mm))
+	(condition "A.intersectsArea('BGA') && A.Type == 'Zone'"))
 (rule clearance_0201
 	(constraint clearance (min 0.17mm))
 	(condition "A.memberOfFootprint('BR_Passives:*_0201_0603Metric*')"))
