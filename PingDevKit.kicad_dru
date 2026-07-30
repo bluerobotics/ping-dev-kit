@@ -1,9 +1,14 @@
 (version 1)
+(rule BGA_thin_traces
+	(constraint clearance (min 0.1mm))
+	(constraint track_width (min 0.1mm))
+	(constraint hole_clearance (min 0.15mm))
+	(condition "A.Width == 0.1mm && B.type != 'Zone'"))
 (rule BGA_default
 	(constraint clearance (min 0.1mm))
 	(constraint track_width (min 0.1mm))
 	(constraint hole_clearance (min 0.15mm))
-	(condition "A.intersectsArea('BGA') && A.Type != 'Zone' && B.type != 'Zone'"))
+	(condition "A.intersectsArea('BGA') && A.Type != 'Zone' && B.Type != 'Zone'"))
 (rule BGA_zone
 	(constraint clearance (min 0.15mm))
 	(constraint track_width (min 0.1mm))
