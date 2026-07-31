@@ -2738,6 +2738,238 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BR_Capacitors_Electrolytic:C_Alum_220uF_10V_20%_SMD"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 1.016 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "220uF 10V"
+				(at 1.016 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BR_Passives:CAP-Electrolytic_SMD_D6.3-L6.6-W6.6-LS7.4-FD"
+				(at 0 76.2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C72495.pdf"
+				(at 0 73.66 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "220uF 10V 20% Electrolytic Capacitor SMD D6.3xL7.7mm"
+				(at 0 71.12 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "ROQANG"
+				(at 0 68.58 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer Part Num" "RVT1A221M0607"
+				(at 0 66.04 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "BRE Number" "BRE-001440"
+				(at 0 63.5 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Supplier 1" "JLCPCB"
+				(at 0 60.96 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Supplier 1 Part Num" "C72495"
+				(at 0 58.42 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "JLCPCB Part Num" "C72495"
+				(at 0 55.88 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(symbol "C_Alum_220uF_10V_20%_SMD_0_1"
+				(polyline
+					(pts
+						(xy -1.782 1.778) (xy -0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.272 2.288) (xy -1.272 1.268)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -1.016)
+					(mid 0 -0.3847)
+					(end 1.524 -1.016)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Alum_220uF_10V_20%_SMD_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BR_Connectors:TP_Ring_PTH"
 			(pin_numbers
 				(hide yes)
@@ -8654,6 +8886,12 @@
 		(uuid "7903981c-49a6-4784-8bb3-fe553e38f6a7")
 	)
 	(junction
+		(at 48.26 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d5de12f-53e4-4246-91c1-258e7681f1d5")
+	)
+	(junction
 		(at 68.58 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8694,6 +8932,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b83153d9-2812-4e9b-9e59-71ce77b4e106")
+	)
+	(junction
+		(at 48.26 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c57811a7-754a-4cb0-891c-f22788e774f9")
 	)
 	(junction
 		(at 368.3 144.78)
@@ -8831,6 +9075,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 118.11) (xy 64.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138b9e6d-768c-4ad4-ac16-5cdfdf39b10d")
+	)
+	(wire
+		(pts
 			(xy 260.35 127) (xy 275.59 127)
 		)
 		(stroke
@@ -8838,16 +9092,6 @@
 			(type default)
 		)
 		(uuid "13fba82b-b8c6-4a2f-97fe-a5d128541654")
-	)
-	(wire
-		(pts
-			(xy 64.77 111.76) (xy 64.77 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "160f874c-85eb-4380-a573-8746fddbfdd9")
 	)
 	(wire
 		(pts
@@ -9311,6 +9555,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 118.11) (xy 64.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fef1ea-869b-48d2-bb3d-4a0cc2a81518")
+	)
+	(wire
+		(pts
 			(xy 275.59 118.11) (xy 275.59 127)
 		)
 		(stroke
@@ -9421,6 +9675,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 111.76) (xy 48.26 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932d35fd-1f78-49e2-8dcb-6b4ef18cc18a")
+	)
+	(wire
+		(pts
 			(xy 171.45 139.7) (xy 171.45 142.24)
 		)
 		(stroke
@@ -9441,7 +9705,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 100.33) (xy 64.77 100.33)
+			(xy 45.72 100.33) (xy 48.26 100.33)
 		)
 		(stroke
 			(width 0)
@@ -9751,7 +10015,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 118.11) (xy 54.61 118.11)
+			(xy 39.37 118.11) (xy 48.26 118.11)
 		)
 		(stroke
 			(width 0)
@@ -9778,6 +10042,16 @@
 			(type default)
 		)
 		(uuid "df9b0327-05a2-4959-badf-ff82529f20d2")
+	)
+	(wire
+		(pts
+			(xy 48.26 100.33) (xy 64.77 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09497a8-2291-4050-bdc7-8432343b714c")
 	)
 	(wire
 		(pts
@@ -9858,6 +10132,16 @@
 			(type default)
 		)
 		(uuid "f106ac5b-8ee2-4a6a-9bb3-5198891cd895")
+	)
+	(wire
+		(pts
+			(xy 48.26 100.33) (xy 48.26 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d55ef9-0a4a-4bb9-9ec6-58b811f4399b")
 	)
 	(wire
 		(pts
@@ -19658,7 +19942,7 @@
 		(uuid "981abf9b-1d03-4d9e-9178-eb32d5b6496b")
 	)
 	(label "PGND"
-		(at 54.61 118.11 0)
+		(at 39.37 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20529,6 +20813,163 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "C1202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Capacitors_Electrolytic:C_Alum_220uF_10V_20%_SMD")
+		(at 48.26 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2daa7c95-b5f8-4527-b705-29e942b174b2")
+		(property "Reference" "C1220"
+			(at 50.8 107.3901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF 10V"
+			(at 50.8 109.9301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Passives:CAP-Electrolytic_SMD_D6.3-L6.6-W6.6-LS7.4-FD"
+			(at 48.26 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C72495.pdf"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "220uF 10V 20% Electrolytic Capacitor SMD D6.3xL7.7mm"
+			(at 48.26 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "ROQANG"
+			(at 48.26 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Num" "RVT1A221M0607"
+			(at 48.26 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "BRE Number" "BRE-001440"
+			(at 48.26 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 1" "JLCPCB"
+			(at 48.26 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 1 Part Num" "C72495"
+			(at 48.26 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB Part Num" "C72495"
+			(at 48.26 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "8f606203-7a66-4cad-8096-c6e665d284ff")
+		)
+		(pin "2"
+			(uuid "f49690e3-7f1a-4d01-8877-e60176fe3c04")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
+					(reference "C1220")
 					(unit 1)
 				)
 			)
