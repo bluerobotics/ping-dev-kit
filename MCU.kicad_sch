@@ -9627,6 +9627,12 @@
 		(uuid "fa562d25-5e41-4c0e-8dad-bc3b173cef50")
 	)
 	(junction
+		(at 256.54 332.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbf0f921-c91c-4702-a7c6-8a198dea5869")
+	)
+	(junction
 		(at 140.97 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9767,10 +9773,6 @@
 	(no_connect
 		(at 231.14 276.86)
 		(uuid "5a17eb80-ef32-4502-a0fd-041fbf75c9d4")
-	)
-	(no_connect
-		(at 231.14 332.74)
-		(uuid "5ec554a4-713d-40de-bdd2-f88d265548bd")
 	)
 	(no_connect
 		(at 157.48 203.2)
@@ -10861,6 +10863,16 @@
 			(type default)
 		)
 		(uuid "45baa625-c0b5-42db-add4-88e9b89dc77e")
+	)
+	(wire
+		(pts
+			(xy 231.14 332.74) (xy 256.54 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45fe1a5f-bc65-4f60-8ad6-874410ade8b3")
 	)
 	(wire
 		(pts
@@ -12164,6 +12176,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 332.74) (xy 266.7 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12dccc9-cc49-4a25-83de-ef9b7eea4106")
+	)
+	(wire
+		(pts
 			(xy 125.73 353.06) (xy 133.35 353.06)
 		)
 		(stroke
@@ -12932,6 +12954,16 @@
 		)
 		(uuid "50b169c1-f65c-41e7-bca4-6ce9e30544dc")
 	)
+	(label "DEBUG1"
+		(at 234.95 332.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "522ec600-0b91-43d8-82d8-b0466d8f7502")
+	)
 	(label "MOTOR_VREF"
 		(at 256.54 177.8 180)
 		(effects
@@ -13123,7 +13155,7 @@
 		(uuid "76dd7205-79bb-4b65-a3d9-3c1065442333")
 	)
 	(label "TX_PWM_A"
-		(at 234.95 330.2 0)
+		(at 234.95 325.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13153,7 +13185,7 @@
 		(uuid "79060586-935d-4990-b797-38fa660d388b")
 	)
 	(label "TX_PWM_B"
-		(at 234.95 325.12 0)
+		(at 234.95 330.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13776,7 +13808,7 @@
 	)
 	(hierarchical_label "TX_PWM_B"
 		(shape output)
-		(at 266.7 325.12 0)
+		(at 266.7 330.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14038,9 +14070,20 @@
 		)
 		(uuid "e8b86cb6-058c-47e6-b16d-91a5d3adc9e0")
 	)
+	(hierarchical_label "DEBUG1"
+		(shape output)
+		(at 266.7 332.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8e85488-4cd7-4539-a20b-8f4e2ea6bb26")
+	)
 	(hierarchical_label "TX_PWM_A"
 		(shape output)
-		(at 266.7 330.2 0)
+		(at 266.7 325.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20105,6 +20148,184 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
 					(reference "#PWR0334")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 256.54 332.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "491f82a8-d566-4666-965f-82b9fc2f7f50")
+		(property "Reference" "TP304"
+			(at 259.715 332.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 266.3825 335.788 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 263.906 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.033 332.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 267.97 333.248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 264.541 331.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Num" ""
+			(at 263.652 332.486 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 264.16 330.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Num 1" ""
+			(at 264.16 331.597 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 263.652 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Num 2" ""
+			(at 264.16 332.867 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 3" ""
+			(at 264.668 336.296 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Num 3" ""
+			(at 267.208 338.074 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BR ID" ""
+			(at 256.54 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d9c4e07-0be1-4883-ac4a-7bddaee68a1c")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP304")
 					(unit 1)
 				)
 			)

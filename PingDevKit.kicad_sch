@@ -10154,6 +10154,26 @@
 		)
 		(uuid "2a600a1b-e6aa-447f-9624-ef8647b49f75")
 	)
+	(text_box "Rev D Updates\n** TODO ** change TXEN to a pin with a timer output so it can synchronize with transmission\n** TODO ** explore TX loopback coupling - make sure it's fit for purpose\n - might need a divider, either capacitive or resistive\n** TODO ** consider putting tx fets on same side of PCB\n** TODO ** add another debug pin or two\n"
+		(exclude_from_sim no)
+		(at 265.43 447.04 0)
+		(size 107.95 34.29)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8213e37e-30d5-4647-a387-1f6c1c08ac38")
+	)
 	(junction
 		(at 64.77 105.41)
 		(diameter 0)
@@ -10295,10 +10315,6 @@
 	(no_connect
 		(at 77.47 240.03)
 		(uuid "671a673c-a6cc-49e9-b806-49db12ce590f")
-	)
-	(no_connect
-		(at 52.07 153.67)
-		(uuid "7592ac82-42bc-4acf-8d8e-da4f42d16096")
 	)
 	(no_connect
 		(at 119.38 154.94)
@@ -11484,6 +11500,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 153.67) (xy 52.07 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e13d24-902b-43c9-8042-7134d24bacc9")
+	)
+	(wire
+		(pts
 			(xy 38.1 151.13) (xy 52.07 151.13)
 		)
 		(stroke
@@ -12221,6 +12247,16 @@
 			(type default)
 		)
 		(uuid "ae023d5c-067b-4e8d-a88d-01075b09df02")
+	)
+	(wire
+		(pts
+			(xy 254 247.65) (xy 290.83 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7ba138-11e2-4d48-8e08-f4bb25ad12a7")
 	)
 	(wire
 		(pts
@@ -13431,6 +13467,16 @@
 		)
 		(uuid "585039ec-c7b4-4ccb-a431-7a059437e6bd")
 	)
+	(label "DEBUG1"
+		(at 254 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c58a9ac-e6ed-4c63-8897-a583d10c3e74")
+	)
 	(label "I2C1.SDA"
 		(at 306.07 327.66 0)
 		(effects
@@ -13520,6 +13566,16 @@
 			(justify right bottom)
 		)
 		(uuid "6ec5a722-32c5-4675-9350-ddf85a5d66eb")
+	)
+	(label "DEBUG1"
+		(at 38.1 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "759dc328-d8d8-4568-9ad7-b5f4f9e780ae")
 	)
 	(label "ETH.RX+"
 		(at 92.71 250.19 180)
@@ -28791,6 +28847,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "DEBUG1" output
+			(at 290.83 247.65 180)
+			(uuid "3927e6a5-cc17-42ad-b3bc-bc420fb5ed9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
