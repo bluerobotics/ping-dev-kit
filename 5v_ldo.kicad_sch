@@ -5,7 +5,7 @@
 	(uuid "bd59e2f5-320a-45c5-875e-dfa925ffab8e")
 	(paper "A2")
 	(lib_symbols
-		(symbol "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%"
+		(symbol "BR_Capacitors_0201:C_0201_100nF_25V_X5R_10%"
 			(pin_numbers
 				(hide yes)
 			)
@@ -65,18 +65,6 @@
 				)
 			)
 			(property "Description" "100nF 25V X5R 10% Ceramic Capacitor 0201"
-				(at 0 63.5 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer" "Murata Electronics"
 				(at 0 71.12 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -88,7 +76,7 @@
 					(justify left)
 				)
 			)
-			(property "Manufacturer Part Num" "GRM033R61E104KE14J"
+			(property "Manufacturer" "Murata Electronics"
 				(at 0 68.58 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -100,8 +88,20 @@
 					(justify left)
 				)
 			)
-			(property "BRE Number" "BRE-000000"
+			(property "Manufacturer Part Num" "GRM033R61E104KE14J"
 				(at 0 66.04 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "BRE Number" "BRE-000000"
+				(at 0 63.5 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -218,7 +218,7 @@
 					)
 				)
 			)
-			(symbol "C_0201_100nF_25V_X7R_10%_0_1"
+			(symbol "C_0201_100nF_25V_X5R_10%_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -244,7 +244,7 @@
 					)
 				)
 			)
-			(symbol "C_0201_100nF_25V_X7R_10%_1_1"
+			(symbol "C_0201_100nF_25V_X5R_10%_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -344,18 +344,6 @@
 				)
 			)
 			(property "Description" "330nF 16V X7R 10% Ceramic Capacitor 0402"
-				(at 0 63.5 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer" "FH"
 				(at 0 71.12 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -367,7 +355,7 @@
 					(justify left)
 				)
 			)
-			(property "Manufacturer Part Num" "0402B334K160NT"
+			(property "Manufacturer" "FH"
 				(at 0 68.58 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -379,8 +367,20 @@
 					(justify left)
 				)
 			)
-			(property "BRE Number" "BRE-001238"
+			(property "Manufacturer Part Num" "0402B334K160NT"
 				(at 0 66.04 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "BRE Number" "BRE-001238"
+				(at 0 63.5 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -550,18 +550,6 @@
 				)
 			)
 			(property "Description" "Ring Test Point for Probe(s) PTH"
-				(at 0 63.5 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer" "ronghe"
 				(at 0 71.12 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -573,7 +561,7 @@
 					(justify left)
 				)
 			)
-			(property "Manufacturer Part Num" "RH-5000"
+			(property "Manufacturer" "ronghe"
 				(at 0 68.58 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -585,8 +573,20 @@
 					(justify left)
 				)
 			)
-			(property "BRE Number" "BRE-000074"
+			(property "Manufacturer Part Num" "RH-5000"
 				(at 0 66.04 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "BRE Number" "BRE-000074"
+				(at 0 63.5 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -955,8 +955,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Virtual_Parts:GND"
-			(power global)
+		(symbol "BR_Virtual_Parts:GND_LOCAL"
+			(power local)
 			(pin_numbers
 				(hide yes)
 			)
@@ -964,10 +964,10 @@
 				(offset 0)
 				(hide yes)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR013"
 				(at 0 -6.35 0)
@@ -1012,7 +1012,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1034,7 +1034,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GND_LOCAL_0_1"
 				(polyline
 					(pts
 						(xy -0.635 -1.905) (xy 0.635 -1.905)
@@ -1084,11 +1084,10 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GND_LOCAL_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
 					(name "GNDREF"
 						(effects
 							(font
@@ -1107,6 +1106,143 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BR_Virtual_Parts:VCC_LOCAL"
+			(power local)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC_LOCAL"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "local power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_LOCAL_0_1"
+				(polyline
+					(pts
+						(xy -1.016 2.54) (xy 1.016 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_LOCAL_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "7V Input"
+		(exclude_from_sim no)
+		(at 35.306 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ab72922-beaf-43cc-ae33-85622f258ba4")
 	)
 	(junction
 		(at 116.84 59.69)
@@ -1122,13 +1258,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 59.69) (xy 120.65 59.69)
+			(xy 24.13 60.96) (xy 30.48 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b011031-70ff-48ed-9497-92eb82efc9fc")
+		(uuid "034cdb7a-3962-440c-9226-6bd9d51f023b")
+	)
+	(wire
+		(pts
+			(xy 30.48 38.1) (xy 24.13 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3139673b-9b6e-48bb-81f6-12c6696fc0ea")
 	)
 	(wire
 		(pts
@@ -1162,13 +1308,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 59.69) (xy 91.44 59.69)
+			(xy 30.48 44.45) (xy 24.13 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9313f563-bd6f-4f28-bd15-aa11ac78b036")
+		(uuid "8141e6ef-9b64-43fa-9884-cefcd92248da")
 	)
 	(wire
 		(pts
@@ -1182,16 +1328,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 57.15) (xy 116.84 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a48ca84c-6282-4801-8cbf-f9bf236e1b84")
-	)
-	(wire
-		(pts
 			(xy 91.44 59.69) (xy 96.52 59.69)
 		)
 		(stroke
@@ -1199,6 +1335,16 @@
 			(type default)
 		)
 		(uuid "be87e044-8470-4128-b6c7-857b1c664d77")
+	)
+	(wire
+		(pts
+			(xy 116.84 59.69) (xy 127 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c490d67f-87df-4304-a497-5572965597ca")
 	)
 	(wire
 		(pts
@@ -1212,7 +1358,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 81.28) (xy 118.11 83.82)
+			(xy 127 81.28) (xy 127 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1232,103 +1378,36 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 86.36 59.69 180)
+		(at 24.13 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "15bfbb03-f674-4f6c-b084-1a3a0684c9c6")
+		(uuid "668a9bd3-debf-45f0-804a-57581ad8801f")
 	)
-	(hierarchical_label "VOUT"
+	(hierarchical_label "5V"
 		(shape output)
-		(at 120.65 59.69 0)
+		(at 24.13 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "b2496ad4-3715-428d-8fef-814f362d2086")
+		(uuid "938fbd3a-0eb8-4885-aee3-219527899af4")
 	)
-	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 104.14 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f050639-4e0d-4301-b60a-28463724663a")
-		(property "Reference" "#PWR01402"
-			(at 104.14 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 24.13 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "GND"
-			(at 104.14 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90725bbc-5404-45ae-b5ef-375a7527ed3a")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/d89bd557-813e-4016-ac7f-80185426a1bc"
-					(reference "#PWR01402")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "d8255400-6af7-462f-9d10-bd940e78b4bc")
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_330nF_16V_X7R_10%")
@@ -1457,6 +1536,84 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/d89bd557-813e-4016-ac7f-80185426a1bc"
 					(reference "C1401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 127 83.82 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "2725a259-f950-471d-8b76-25cadb23b665")
+		(property "Reference" "#PWR01403"
+			(at 127 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 127 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "208319db-98e4-465d-835c-d275c3b6dc65")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/d89bd557-813e-4016-ac7f-80185426a1bc"
+					(reference "#PWR01403")
 					(unit 1)
 				)
 			)
@@ -1597,175 +1754,18 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 118.11 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4991920a-3319-4dff-9f66-d4ae965d8b54")
-		(property "Reference" "#PWR01404"
-			(at 118.11 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed6e5b9b-f890-49ab-b108-c60419865bf6")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/d89bd557-813e-4016-ac7f-80185426a1bc"
-					(reference "#PWR01404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 91.44 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ef0a49c-c07b-4b6b-a421-4d5dfd038c0c")
-		(property "Reference" "#PWR01401"
-			(at 91.44 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ecdbbc2c-ab3d-44bf-a54f-9ec831ef6934")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/d89bd557-813e-4016-ac7f-80185426a1bc"
-					(reference "#PWR01401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
 		(at 116.84 68.58 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "638ef1f6-3e83-4133-87f3-6a40ffaf1830")
-		(property "Reference" "#PWR01403"
+		(uuid "3a0b5f60-11e1-4cc3-9954-bc959802b094")
+		(property "Reference" "#PWR01402"
 			(at 116.84 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -1777,7 +1777,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 73.66 0)
+			(at 116.84 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1808,7 +1808,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
 			(at 116.84 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1820,12 +1820,168 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5a0df5e-2794-459c-b070-2bda8538c547")
+			(uuid "6354146e-9916-4ba0-8d51-183315e1fd0c")
 		)
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/d89bd557-813e-4016-ac7f-80185426a1bc"
-					(reference "#PWR01403")
+					(reference "#PWR01402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 104.14 68.58 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "3fa6863e-863d-4b5c-8fb1-460af19fabaa")
+		(property "Reference" "#PWR01401"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 104.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb4b1eb4-88d0-49f4-b0a7-a37360a01669")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/d89bd557-813e-4016-ac7f-80185426a1bc"
+					(reference "#PWR01401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
+		(at 116.84 59.69 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5335819d-3e12-46a8-894f-fea22d3c8917")
+		(property "Reference" "#PWR01409"
+			(at 116.84 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 116.84 56.134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+			(at 116.84 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fdb6555-e596-459f-b611-142e6a88cbce")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/d89bd557-813e-4016-ac7f-80185426a1bc"
+					(reference "#PWR01409")
 					(unit 1)
 				)
 			)
@@ -1833,7 +1989,7 @@
 	)
 	(symbol
 		(lib_id "BR_Connectors:TP_Ring_PTH")
-		(at 116.84 57.15 0)
+		(at 127 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1844,7 +2000,7 @@
 		(fields_autoplaced yes)
 		(uuid "6645c695-51f8-4dfc-8728-4d5fe07291cb")
 		(property "Reference" "TP1401"
-			(at 118.11 53.9749 0)
+			(at 130.81 58.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1854,8 +2010,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V_RX"
-			(at 118.11 56.5149 0)
+		(property "Value" "TP_RING_TH"
+			(at 130.81 60.9599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1866,7 +2022,7 @@
 			)
 		)
 		(property "Footprint" "BR_Connectors:TEST-TH_BD2.54-P1.4_RED"
-			(at 116.84 -19.05 0)
+			(at 203.2 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1878,7 +2034,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307040929_ronghe-RH-5000_C5277086.pdf"
-			(at 116.84 -16.51 0)
+			(at 200.66 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1890,7 +2046,7 @@
 			)
 		)
 		(property "Description" "Ring Test Point for Probe(s) PTH"
-			(at 116.84 -13.97 0)
+			(at 198.12 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1902,7 +2058,7 @@
 			)
 		)
 		(property "Manufacturer" "ronghe"
-			(at 116.84 -11.43 0)
+			(at 195.58 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1914,7 +2070,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "RH-5000"
-			(at 116.84 -8.89 0)
+			(at 193.04 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1926,7 +2082,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000074"
-			(at 116.84 -6.35 0)
+			(at 190.5 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1938,7 +2094,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 116.84 -3.81 0)
+			(at 187.96 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1950,7 +2106,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" ""
-			(at 116.84 -1.27 0)
+			(at 185.42 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1962,7 +2118,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 116.84 1.27 0)
+			(at 182.88 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1974,7 +2130,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" ""
-			(at 116.84 3.81 0)
+			(at 180.34 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1986,7 +2142,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 116.84 6.35 0)
+			(at 177.8 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1998,7 +2154,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C5277086"
-			(at 116.84 8.89 0)
+			(at 175.26 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2010,7 +2166,7 @@
 			)
 		)
 		(property "Label" "LABEL"
-			(at 116.84 11.43 0)
+			(at 172.72 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2022,7 +2178,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C5277086"
-			(at 116.84 13.97 0)
+			(at 170.18 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2047,7 +2203,7 @@
 	)
 	(symbol
 		(lib_id "BR_Connectors:TP_Ring_PTH")
-		(at 118.11 81.28 270)
+		(at 127 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2058,7 +2214,7 @@
 		(fields_autoplaced yes)
 		(uuid "67e741ba-070a-4799-9388-09887b7d2f8d")
 		(property "Reference" "TP1402"
-			(at 121.92 80.0099 90)
+			(at 130.81 80.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2068,8 +2224,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 121.92 82.5499 90)
+		(property "Value" "TP_RING_TH"
+			(at 130.81 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2080,7 +2236,7 @@
 			)
 		)
 		(property "Footprint" "BR_Connectors:TEST-TH_BD2.54-P1.4_RED"
-			(at 194.31 81.28 0)
+			(at 203.2 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2092,7 +2248,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307040929_ronghe-RH-5000_C5277086.pdf"
-			(at 191.77 81.28 0)
+			(at 200.66 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2104,7 +2260,7 @@
 			)
 		)
 		(property "Description" "Ring Test Point for Probe(s) PTH"
-			(at 189.23 81.28 0)
+			(at 198.12 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2116,7 +2272,7 @@
 			)
 		)
 		(property "Manufacturer" "ronghe"
-			(at 186.69 81.28 0)
+			(at 195.58 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2128,7 +2284,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "RH-5000"
-			(at 184.15 81.28 0)
+			(at 193.04 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2140,7 +2296,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000074"
-			(at 181.61 81.28 0)
+			(at 190.5 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2152,7 +2308,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 179.07 81.28 0)
+			(at 187.96 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2164,7 +2320,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" ""
-			(at 176.53 81.28 0)
+			(at 185.42 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2176,7 +2332,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 173.99 81.28 0)
+			(at 182.88 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2188,7 +2344,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" ""
-			(at 171.45 81.28 0)
+			(at 180.34 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2200,7 +2356,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 168.91 81.28 0)
+			(at 177.8 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2212,7 +2368,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C5277086"
-			(at 166.37 81.28 0)
+			(at 175.26 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2224,7 +2380,7 @@
 			)
 		)
 		(property "Label" "LABEL"
-			(at 163.83 81.28 0)
+			(at 172.72 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2236,7 +2392,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C5277086"
-			(at 161.29 81.28 0)
+			(at 170.18 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2260,7 +2416,163 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X7R_10%")
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 91.44 68.58 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "776293bf-1d05-4a2e-a264-e792e79f505b")
+		(property "Reference" "#PWR01406"
+			(at 91.44 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 91.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c54f590-233d-4cde-9315-18a248d2a786")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/d89bd557-813e-4016-ac7f-80185426a1bc"
+					(reference "#PWR01406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
+		(at 91.44 59.69 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "778ab240-b004-4929-b9dd-58083db093ed")
+		(property "Reference" "#PWR01408"
+			(at 91.44 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VIN"
+			(at 91.44 56.134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+			(at 91.44 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4626e706-a1c7-4277-b2ca-253e5cdd707d")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/d89bd557-813e-4016-ac7f-80185426a1bc"
+					(reference "#PWR01408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X5R_10%")
 		(at 116.84 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -2318,18 +2630,6 @@
 			)
 		)
 		(property "Description" "100nF 25V X5R 10% Ceramic Capacitor 0201"
-			(at 116.84 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
 			(at 116.84 -6.35 0)
 			(hide yes)
 			(show_name no)
@@ -2341,7 +2641,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
+		(property "Manufacturer" "Murata Electronics"
 			(at 116.84 -3.81 0)
 			(hide yes)
 			(show_name no)
@@ -2353,8 +2653,20 @@
 				(justify left)
 			)
 		)
-		(property "BRE Number" "BRE-000000"
+		(property "Manufacturer Part Num" "GRM033R61E104KE14J"
 			(at 116.84 -1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "BRE Number" "BRE-000000"
+			(at 116.84 1.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2438,7 +2750,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C76939"
-			(at 116.84 24.13 0)
+			(at 116.84 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2459,6 +2771,240 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/d89bd557-813e-4016-ac7f-80185426a1bc"
 					(reference "C1402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
+		(at 30.48 60.96 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8cc873f0-fdf5-45e6-92b7-b7eddd1b04a5")
+		(property "Reference" "#PWR01407"
+			(at 30.48 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 30.48 57.404 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+			(at 30.48 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "719d2cfd-df06-4263-ae02-a3a4ffb30fcd")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/d89bd557-813e-4016-ac7f-80185426a1bc"
+					(reference "#PWR01407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 30.48 44.45 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "9150de63-daab-42c5-8dda-47e3b178c0f9")
+		(property "Reference" "#PWR01404"
+			(at 30.48 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 30.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6af91b3f-3ed7-443e-b456-834e57abcc49")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/d89bd557-813e-4016-ac7f-80185426a1bc"
+					(reference "#PWR01404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
+		(at 30.48 38.1 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ec7850b-5ae9-4aea-8ac4-7b557a2798bc")
+		(property "Reference" "#PWR01405"
+			(at 30.48 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VIN"
+			(at 30.48 34.544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+			(at 30.48 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1db2b8a-b815-4cc7-806e-3f5d16ac9ab2")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/d89bd557-813e-4016-ac7f-80185426a1bc"
+					(reference "#PWR01405")
 					(unit 1)
 				)
 			)
