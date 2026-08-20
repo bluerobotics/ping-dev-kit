@@ -9981,10 +9981,6 @@
 		(uuid "5e1f6015-0d08-4357-8a21-9ca800d06732")
 	)
 	(no_connect
-		(at 290.83 231.14)
-		(uuid "652ff3b6-55ed-4fa1-a6d1-d4c9f75d10d1")
-	)
-	(no_connect
 		(at 77.47 240.03)
 		(uuid "671a673c-a6cc-49e9-b806-49db12ce590f")
 	)
@@ -10005,10 +10001,6 @@
 		(uuid "abc386f0-e3bb-452a-805b-ea828fab35ea")
 	)
 	(no_connect
-		(at 251.46 165.1)
-		(uuid "b34f8e31-279a-4be6-be6b-efca965979ce")
-	)
-	(no_connect
 		(at 77.47 245.11)
 		(uuid "baa843e8-5b6d-407a-9570-fa7eda04db30")
 	)
@@ -10017,16 +10009,8 @@
 		(uuid "bf9dee8e-dc32-4952-b9d6-6ee31e044d6a")
 	)
 	(no_connect
-		(at 251.46 167.64)
-		(uuid "d33f8422-2e9d-481b-801b-88d4e5df632c")
-	)
-	(no_connect
 		(at 251.46 162.56)
 		(uuid "dea1004a-dd19-4e49-94df-f1f9ebd226ce")
-	)
-	(no_connect
-		(at 290.83 243.84)
-		(uuid "ef1537c1-11f8-42cb-bf9d-eb841bf13479")
 	)
 	(bus_entry
 		(at 67.31 196.85)
@@ -10438,6 +10422,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 182.88) (xy 241.3 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1eaa20-428b-438d-8460-270e17523aac")
+	)
+	(wire
+		(pts
 			(xy 43.18 252.73) (xy 30.48 252.73)
 		)
 		(stroke
@@ -10515,6 +10509,16 @@
 			(type default)
 		)
 		(uuid "36aced42-7b10-4f91-9192-bc3265bdc51e")
+	)
+	(wire
+		(pts
+			(xy 241.3 165.1) (xy 251.46 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c508e1-f826-4084-9769-fd174f7236fc")
 	)
 	(wire
 		(pts
@@ -11288,6 +11292,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 180.34) (xy 243.84 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91436140-c2f3-402f-95f5-38f96845850f")
+	)
+	(wire
+		(pts
 			(xy 250.19 175.26) (xy 251.46 175.26)
 		)
 		(stroke
@@ -11498,6 +11512,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 167.64) (xy 251.46 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2564288-a081-4114-a3fe-52b56f30c3cb")
+	)
+	(wire
+		(pts
 			(xy 379.73 167.64) (xy 392.43 167.64)
 		)
 		(stroke
@@ -11565,6 +11589,16 @@
 			(type default)
 		)
 		(uuid "b8c01635-5ebf-4035-b537-8c6f47cc6098")
+	)
+	(wire
+		(pts
+			(xy 290.83 180.34) (xy 243.84 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb53a655-e58f-441a-931e-1e6e23957a1b")
 	)
 	(wire
 		(pts
@@ -11995,6 +12029,16 @@
 			(type default)
 		)
 		(uuid "effa3af0-0f2e-4fd6-8572-4c0b14fa35f8")
+	)
+	(wire
+		(pts
+			(xy 241.3 182.88) (xy 241.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2193328-6fbf-4d8c-90bd-0bf229a0c907")
 	)
 	(wire
 		(pts
@@ -27110,7 +27154,7 @@
 			)
 		)
 		(pin "ADC12_INP15" input
-			(at 290.83 231.14 180)
+			(at 290.83 180.34 180)
 			(uuid "aafb2439-0f40-4170-9351-ea9ec64a96e9")
 			(effects
 				(font
@@ -27250,7 +27294,7 @@
 			)
 		)
 		(pin "GPIO_G3" output
-			(at 290.83 243.84 180)
+			(at 290.83 182.88 180)
 			(uuid "530bea0f-602c-4fb4-ac6e-47c78c271d77")
 			(effects
 				(font
