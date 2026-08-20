@@ -2469,8 +2469,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Virtual_Parts:GND"
-			(power global)
+		(symbol "BR_Virtual_Parts:GND_LOCAL"
+			(power local)
 			(pin_numbers
 				(hide yes)
 			)
@@ -2478,10 +2478,10 @@
 				(offset 0)
 				(hide yes)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board no)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR013"
 				(at 0 -6.35 0)
@@ -2526,7 +2526,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2548,7 +2548,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GND_LOCAL_0_1"
 				(polyline
 					(pts
 						(xy -0.635 -1.905) (xy 0.635 -1.905)
@@ -2598,11 +2598,138 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GND_LOCAL_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
 					(name "GNDREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BR_Virtual_Parts:VCC_LOCAL"
+			(power local)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC_LOCAL"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "local power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_LOCAL_0_1"
+				(polyline
+					(pts
+						(xy -1.016 2.54) (xy 1.016 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_LOCAL_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2643,7 +2770,7 @@
 	)
 	(text "Address: 0b011"
 		(exclude_from_sim no)
-		(at 111.252 120.904 0)
+		(at 111.252 123.444 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2658,7 +2785,7 @@
 		(uuid "1a3f8879-88e2-4bc1-83f2-c7e0bd73ee16")
 	)
 	(junction
-		(at 154.94 124.46)
+		(at 154.94 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c96e713-37df-4da9-a1cf-a7dedf313f6c")
@@ -2676,13 +2803,19 @@
 		(uuid "60aca60e-0653-4f98-a82c-3be7105d79bd")
 	)
 	(junction
-		(at 175.26 109.22)
+		(at 175.26 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "647742a2-e25e-467b-8d85-6a915260e247")
 	)
 	(junction
-		(at 135.89 139.7)
+		(at 240.03 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "695d11e6-b5e2-4989-8d66-b5b2016647b3")
+	)
+	(junction
+		(at 135.89 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fa37422-1dc3-45c9-ac19-012334ec4fd7")
@@ -2700,19 +2833,19 @@
 		(uuid "a2573122-f13d-42ba-8e95-c1cbc8f08942")
 	)
 	(junction
-		(at 120.65 125.73)
+		(at 120.65 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6ff50ac-5281-4044-bf4e-7909441b0934")
 	)
 	(junction
-		(at 175.26 124.46)
+		(at 175.26 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7ed30b2-09ac-4ca4-8e9e-ad35fbcab841")
 	)
 	(junction
-		(at 119.38 106.68)
+		(at 119.38 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf0222b7-f57a-4d66-ad3d-d5f76a7eeeb8")
@@ -2728,12 +2861,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2ebd5e8-c6b6-41eb-b1a9-ede221af75a2")
-	)
-	(junction
-		(at 240.03 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9a3f48c-8a01-4989-b4c3-4002fe9982fd")
 	)
 	(bus_entry
 		(at 50.8 49.53)
@@ -2765,7 +2892,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 109.22) (xy 175.26 124.46)
+			(xy 175.26 111.76) (xy 175.26 127)
 		)
 		(stroke
 			(width 0)
@@ -2775,7 +2902,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 124.46) (xy 154.94 129.54)
+			(xy 154.94 127) (xy 154.94 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2805,7 +2932,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 100.33) (xy 240.03 102.87)
+			(xy 240.03 100.33) (xy 240.03 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2815,7 +2942,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 133.35) (xy 233.68 134.62)
+			(xy 233.68 135.89) (xy 233.68 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2825,7 +2952,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 82.55) (xy 275.59 124.46)
+			(xy 275.59 82.55) (xy 275.59 127)
 		)
 		(stroke
 			(width 0)
@@ -2845,23 +2972,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 138.43) (xy 134.62 139.7)
+			(xy 134.62 140.97) (xy 134.62 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2844709a-2ffe-4062-a6e2-33297c788d10")
-	)
-	(wire
-		(pts
-			(xy 111.76 106.68) (xy 119.38 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bac690d-e7a4-4752-af3f-20ac3dffccff")
 	)
 	(wire
 		(pts
@@ -2885,7 +3002,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 119.38) (xy 223.52 119.38)
+			(xy 207.01 121.92) (xy 223.52 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2895,7 +3012,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 139.7) (xy 135.89 140.97)
+			(xy 135.89 142.24) (xy 135.89 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2915,17 +3032,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 100.33) (xy 240.03 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "589550b1-de64-4f38-8c9b-221cb5f466b0")
-	)
-	(wire
-		(pts
-			(xy 118.11 133.35) (xy 124.46 133.35)
+			(xy 118.11 135.89) (xy 124.46 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2935,7 +3042,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 124.46) (xy 147.32 124.46)
+			(xy 154.94 127) (xy 147.32 127)
 		)
 		(stroke
 			(width 0)
@@ -2955,7 +3062,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 125.73) (xy 120.65 125.73)
+			(xy 109.22 128.27) (xy 120.65 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2975,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 139.7) (xy 137.16 139.7)
+			(xy 135.89 142.24) (xy 137.16 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3005,17 +3112,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 62.23) (xy 106.68 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7285f8f9-e618-4a2f-8828-95217bcf13ff")
-	)
-	(wire
-		(pts
-			(xy 240.03 107.95) (xy 240.03 109.22)
+			(xy 240.03 110.49) (xy 240.03 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3025,7 +3122,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 138.43) (xy 137.16 139.7)
+			(xy 46.99 31.75) (xy 38.1 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e7149b-a326-4aff-a2ad-4bf77a3bc78d")
+	)
+	(wire
+		(pts
+			(xy 137.16 140.97) (xy 137.16 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3055,7 +3162,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 120.65) (xy 120.65 125.73)
+			(xy 120.65 123.19) (xy 120.65 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3085,7 +3192,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 124.46) (xy 154.94 124.46)
+			(xy 175.26 127) (xy 154.94 127)
 		)
 		(stroke
 			(width 0)
@@ -3105,7 +3212,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 113.03) (xy 119.38 114.3)
+			(xy 119.38 115.57) (xy 119.38 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3115,7 +3222,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 124.46) (xy 275.59 124.46)
+			(xy 243.84 127) (xy 275.59 127)
 		)
 		(stroke
 			(width 0)
@@ -3165,7 +3272,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 106.68) (xy 135.89 115.57)
+			(xy 135.89 109.22) (xy 135.89 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3175,7 +3282,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 104.14) (xy 175.26 109.22)
+			(xy 175.26 104.14) (xy 175.26 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3185,7 +3292,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 105.41) (xy 161.29 109.22)
+			(xy 161.29 105.41) (xy 161.29 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3205,7 +3312,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 135.89 106.68)
+			(xy 119.38 109.22) (xy 135.89 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3225,7 +3332,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 120.65) (xy 120.65 120.65)
+			(xy 124.46 123.19) (xy 120.65 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3235,7 +3342,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 124.46) (xy 223.52 124.46)
+			(xy 175.26 127) (xy 223.52 127)
 		)
 		(stroke
 			(width 0)
@@ -3275,16 +3382,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 39.37) (xy 52.07 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3454daf-16d8-41e6-9d05-90c7e5cd8963")
-	)
-	(wire
-		(pts
 			(xy 175.26 82.55) (xy 275.59 82.55)
 		)
 		(stroke
@@ -3305,7 +3402,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 138.43) (xy 118.11 140.97)
+			(xy 46.99 57.15) (xy 38.1 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd21ba54-c318-4690-a037-0dc3e0a2ccef")
+	)
+	(wire
+		(pts
+			(xy 118.11 140.97) (xy 118.11 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3325,7 +3432,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 139.7) (xy 135.89 139.7)
+			(xy 134.62 142.24) (xy 135.89 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3355,7 +3462,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 128.27) (xy 124.46 128.27)
+			(xy 109.22 130.81) (xy 124.46 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3365,7 +3472,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 100.33) (xy 233.68 110.49)
+			(xy 233.68 100.33) (xy 233.68 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3375,7 +3482,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 109.22) (xy 175.26 109.22)
+			(xy 161.29 111.76) (xy 175.26 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3385,7 +3492,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 125.73) (xy 124.46 125.73)
+			(xy 120.65 128.27) (xy 124.46 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3415,7 +3522,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 119.38 107.95)
+			(xy 119.38 109.22) (xy 119.38 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3423,27 +3530,7 @@
 		)
 		(uuid "fdffeca1-2526-420f-8351-49e70197df8b")
 	)
-	(label "3V3"
-		(at 52.07 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "00b49ed8-4f0b-4b84-b51b-b9202ab2b065")
-	)
-	(label "3V3"
-		(at 99.06 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "65ab9dac-8032-4d23-ac13-df47d2fef1fd")
-	)
-	(label "I2C4.SDA"
+	(label "I2C.SDA"
 		(at 109.22 86.36 0)
 		(effects
 			(font
@@ -3453,7 +3540,7 @@
 		)
 		(uuid "757503e1-47a5-4d49-abdf-9d59c094105c")
 	)
-	(label "I2C4.SCL"
+	(label "I2C.SCL"
 		(at 69.85 49.53 180)
 		(effects
 			(font
@@ -3463,7 +3550,7 @@
 		)
 		(uuid "8e686539-f1df-42d4-b33b-3163ae11ff29")
 	)
-	(label "I2C4.SDA"
+	(label "I2C.SDA"
 		(at 69.85 52.07 180)
 		(effects
 			(font
@@ -3473,18 +3560,8 @@
 		)
 		(uuid "94c43af9-c0b5-4e79-ad2c-b6dbe1f85eed")
 	)
-	(label "3V3"
-		(at 111.76 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4f189a7-f0fc-45e6-933a-445a6d0ec13e")
-	)
-	(label "I2C4.SCL"
-		(at 109.22 125.73 0)
+	(label "I2C.SCL"
+		(at 109.22 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3493,17 +3570,7 @@
 		)
 		(uuid "dd70d409-351d-4d3f-9f09-bb5c62ef9fc1")
 	)
-	(label "3V3"
-		(at 250.19 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ddb12c51-0761-4b0b-82b0-76c4d5a42294")
-	)
-	(label "I2C4.SCL"
+	(label "I2C.SCL"
 		(at 109.22 83.82 0)
 		(effects
 			(font
@@ -3513,8 +3580,8 @@
 		)
 		(uuid "e6b64109-f791-4d66-97bc-5ea40899f14c")
 	)
-	(label "I2C4.SDA"
-		(at 109.22 128.27 0)
+	(label "I2C.SDA"
+		(at 109.22 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3523,9 +3590,20 @@
 		)
 		(uuid "fc278c7a-68d8-47b5-be98-4fe347ca2118")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 38.1 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e7bd07a-d3a6-4f92-80ee-8f53dfec7ae5")
+	)
 	(hierarchical_label "TGC_RST"
 		(shape input)
-		(at 207.01 119.38 180)
+		(at 207.01 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3534,7 +3612,7 @@
 		)
 		(uuid "33079da3-cc5c-479e-84f1-f8f4864ab729")
 	)
-	(hierarchical_label "I2C4{I2C}"
+	(hierarchical_label "I2C{I2C}"
 		(shape bidirectional)
 		(at 38.1 46.99 180)
 		(effects
@@ -3547,14 +3625,14 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 38.1 39.37 180)
+		(at 38.1 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "91e5c217-c0fb-4633-801c-bb4fef90b2bc")
+		(uuid "7b49c218-08ac-42e7-a650-3e93165bf0fc")
 	)
 	(hierarchical_label "TGC"
 		(shape output)
@@ -3772,7 +3850,7 @@
 	)
 	(symbol
 		(lib_id "BR_Resistors_0402:R_0402_0R")
-		(at 151.13 129.54 270)
+		(at 151.13 132.08 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3783,16 +3861,6 @@
 		(dnp no)
 		(uuid "04c3ec3a-1516-46bc-a064-50ab55834ad8")
 		(property "Reference" "R3"
-			(at 150.876 132.08 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
 			(at 150.876 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3802,8 +3870,18 @@
 				)
 			)
 		)
+		(property "Value" "0R"
+			(at 150.876 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "BR_Passives:R_0402_1005Metric"
-			(at 227.33 129.54 0)
+			(at 227.33 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3815,7 +3893,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
-			(at 224.79 129.54 0)
+			(at 224.79 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3827,7 +3905,7 @@
 			)
 		)
 		(property "Description" "0R Jumper 62.5mW Thick Film Resistor 0402"
-			(at 214.63 129.54 0)
+			(at 214.63 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3839,7 +3917,7 @@
 			)
 		)
 		(property "Manufacturer" "BOURNS"
-			(at 222.25 129.54 0)
+			(at 222.25 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3851,7 +3929,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "CR0402-J/-000GLF"
-			(at 219.71 129.54 0)
+			(at 219.71 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3863,7 +3941,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000289"
-			(at 217.17 129.54 0)
+			(at 217.17 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3875,7 +3953,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 212.09 129.54 0)
+			(at 212.09 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3887,7 +3965,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "CR0402-J/-000GLFCT-ND"
-			(at 209.55 129.54 0)
+			(at 209.55 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3899,7 +3977,7 @@
 			)
 		)
 		(property "Supplier 2" "DigiKey"
-			(at 207.01 129.54 0)
+			(at 207.01 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3911,7 +3989,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "CR0402-J/-000GLFTR-ND"
-			(at 204.47 129.54 0)
+			(at 204.47 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3923,7 +4001,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 201.93 129.54 0)
+			(at 201.93 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3935,7 +4013,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C203078"
-			(at 199.39 129.54 0)
+			(at 199.39 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3947,7 +4025,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C203078"
-			(at 196.85 129.54 0)
+			(at 196.85 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3974,19 +4052,19 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 118.11 140.97 0)
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 118.11 99.06 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0facac06-d33a-4701-b406-48beebef3bc0")
-		(property "Reference" "#PWR0603"
-			(at 118.11 147.32 0)
+		(uuid "096d99a6-0126-4524-84ef-d78030426cb6")
+		(property "Reference" "#PWR0602"
+			(at 118.11 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3997,8 +4075,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 146.05 0)
-			(hide yes)
+			(at 118.11 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4008,7 +4085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 140.97 0)
+			(at 118.11 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4019,7 +4096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 140.97 0)
+			(at 118.11 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4029,8 +4106,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 118.11 140.97 0)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 118.11 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4041,12 +4118,168 @@
 			)
 		)
 		(pin "1"
-			(uuid "d69d5cfb-0e1e-46cf-8249-984f23a5b279")
+			(uuid "2ef1914d-0a0b-469f-ab0e-12cd843d8491")
 		)
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
-					(reference "#PWR0603")
+					(reference "#PWR0602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
+		(at 46.99 31.75 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a98382f-efde-4cbd-8ed9-d414a0416a66")
+		(property "Reference" "#PWR0610"
+			(at 46.99 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 46.99 28.194 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+			(at 46.99 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8e88ee1-4ff7-45f9-96ca-068d554afa68")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "#PWR0610")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 119.38 116.84 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "0ae556a5-7633-46a5-a9f6-ae5b69392ff6")
+		(property "Reference" "#PWR0604"
+			(at 119.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 119.38 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4efad1b3-cff3-43dd-bee3-ca575c4cda28")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
@@ -4219,19 +4452,19 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 135.89 99.06 0)
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 118.11 143.51 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e5fa122-8d9a-48d9-81b1-24bfa7ec2055")
-		(property "Reference" "#PWR0605"
-			(at 135.89 105.41 0)
+		(uuid "27e3590f-f084-42a6-94c9-0c26572c007d")
+		(property "Reference" "#PWR0603"
+			(at 118.11 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4242,8 +4475,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 104.14 0)
-			(hide yes)
+			(at 118.11 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4253,7 +4485,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 99.06 0)
+			(at 118.11 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4264,7 +4496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 99.06 0)
+			(at 118.11 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4274,8 +4506,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 135.89 99.06 0)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 118.11 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4286,12 +4518,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a1dd235-8c30-4d76-b338-b7072ff967b1")
+			(uuid "afe70986-9570-4d21-97d7-d37a55addb5d")
 		)
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
-					(reference "#PWR0605")
+					(reference "#PWR0603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 233.68 137.16 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "3456280c-4f8f-43f2-9b12-4468e5e076ca")
+		(property "Reference" "#PWR0607"
+			(at 233.68 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 233.68 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe417b63-1367-4eda-829e-5ecd10486db7")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "#PWR0607")
 					(unit 1)
 				)
 			)
@@ -4299,7 +4609,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_100nF_50V_X7R_10%_AEC-Q200")
-		(at 119.38 110.49 0)
+		(at 119.38 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4310,17 +4620,6 @@
 		(fields_autoplaced yes)
 		(uuid "3c802ffd-12d7-4e98-bae4-b66237aaa169")
 		(property "Reference" "C604"
-			(at 121.92 109.2262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF 50V"
 			(at 121.92 111.7662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4331,9 +4630,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
-			(at 119.38 34.29 0)
-			(hide yes)
+		(property "Value" "100nF 50V"
+			(at 121.92 114.3062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4343,7 +4641,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
 			(at 119.38 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4355,19 +4653,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "100nF 50V X7R 10% Ceramic Capacitor 0402 AEC-Q200"
-			(at 119.38 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
 			(at 119.38 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4379,31 +4665,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "GCM155R71H104KE02D"
-			(at 119.38 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "BRE Number" "BRE-000010"
-			(at 119.38 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
+		(property "Description" "100nF 50V X7R 10% Ceramic Capacitor 0402 AEC-Q200"
 			(at 119.38 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4415,7 +4677,43 @@
 				(justify left)
 			)
 		)
-		(property "Supplier Part Num 1" "490-10672-2-ND"
+		(property "Manufacturer" "Murata Electronics"
+			(at 119.38 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Num" "GCM155R71H104KE02D"
+			(at 119.38 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "BRE Number" "BRE-000010"
+			(at 119.38 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
 			(at 119.38 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4427,7 +4725,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier 2" "Mouser"
+		(property "Supplier Part Num 1" "490-10672-2-ND"
 			(at 119.38 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4439,7 +4737,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier Part Num 2" "81-GCM155R71H104KE2D"
+		(property "Supplier 2" "Mouser"
 			(at 119.38 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4451,7 +4749,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier 3" "JLCPCB"
+		(property "Supplier Part Num 2" "81-GCM155R71H104KE2D"
 			(at 119.38 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4463,7 +4761,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier Part Num 3" "C85858"
+		(property "Supplier 3" "JLCPCB"
 			(at 119.38 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4475,8 +4773,20 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB Part Num" "C85858"
+		(property "Supplier Part Num 3" "C85858"
 			(at 119.38 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB Part Num" "C85858"
+			(at 119.38 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4504,7 +4814,7 @@
 	)
 	(symbol
 		(lib_id "BR_IC:DAC53401DSGR")
-		(at 135.89 127 0)
+		(at 135.89 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4515,17 +4825,6 @@
 		(fields_autoplaced yes)
 		(uuid "3e0cb8d7-fca1-431e-b1ed-682ef0bc553a")
 		(property "Reference" "U602"
-			(at 138.0333 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DAC53401DSGR"
 			(at 138.0333 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4536,9 +4835,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
-			(at 135.89 50.8 0)
-			(hide yes)
+		(property "Value" "DAC53401DSGR"
+			(at 138.0333 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4548,7 +4846,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/dac53401.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1751654153747&ref_url=https%253A%252F%252Fmatomo.sctykj.boats%252F"
+		(property "Footprint" "BR_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 			(at 135.89 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4560,7 +4858,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "10 Bit Digital to Analog Converter, I2C Interface, 8-WSON (2x2)"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/dac53401.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1751654153747&ref_url=https%253A%252F%252Fmatomo.sctykj.boats%252F"
 			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4572,7 +4870,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
+		(property "Description" "10 Bit Digital to Analog Converter, I2C Interface, 8-WSON (2x2)"
 			(at 135.89 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4584,7 +4882,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "DAC53401DSGR"
+		(property "Manufacturer" "Texas Instruments"
 			(at 135.89 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4596,7 +4894,7 @@
 				(justify left)
 			)
 		)
-		(property "BRE Number" "BRE-001241"
+		(property "Manufacturer Part Num" "DAC53401DSGR"
 			(at 135.89 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4608,7 +4906,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC Part" "C1855756"
+		(property "BRE Number" "BRE-001241"
 			(at 135.89 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4620,8 +4918,20 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB Part Num" "C1855756"
+		(property "LCSC Part" "C1855756"
 			(at 135.89 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB Part Num" "C1855756"
+			(at 135.89 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4663,85 +4973,6 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
 					(reference "U602")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 118.11 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4310aee4-4281-4957-a031-a53f3a3593e6")
-		(property "Reference" "#PWR0602"
-			(at 118.11 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aecd6b76-a33b-46cf-87bf-3c3c178f949b")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
-					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -4963,7 +5194,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_4u7F_10V_X7T_20%")
-		(at 118.11 135.89 180)
+		(at 118.11 138.43 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4973,7 +5204,7 @@
 		(dnp no)
 		(uuid "4a87ddaa-c4a3-40db-8667-cfc6ed39c388")
 		(property "Reference" "C603"
-			(at 110.998 135.128 0)
+			(at 110.998 137.668 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4984,7 +5215,7 @@
 			)
 		)
 		(property "Value" "4u7F 10V"
-			(at 106.68 137.16 0)
+			(at 106.68 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4995,7 +5226,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
-			(at 118.11 212.09 0)
+			(at 118.11 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5007,7 +5238,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155D71A475ME15-01A.pdf"
-			(at 118.11 209.55 0)
+			(at 118.11 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5019,42 +5250,6 @@
 			)
 		)
 		(property "Description" "4.7uF 10V X7T 20% Ceramic Capacitor 0402"
-			(at 118.11 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 118.11 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer Part Num" "GRM155D71A475ME15J"
-			(at 118.11 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "BRE Number" "BRE-000033"
 			(at 118.11 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -5066,8 +5261,44 @@
 				(justify left)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 118.11 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Num" "GRM155D71A475ME15J"
+			(at 118.11 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "BRE Number" "BRE-000033"
+			(at 118.11 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Supplier 1" "DigiKey"
-			(at 118.11 196.85 0)
+			(at 118.11 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5079,7 +5310,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-GRM155D71A475ME15JTR-ND"
-			(at 118.11 194.31 0)
+			(at 118.11 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5091,7 +5322,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 118.11 191.77 0)
+			(at 118.11 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5103,7 +5334,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM155D71A475ME5J"
-			(at 118.11 189.23 0)
+			(at 118.11 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5115,7 +5346,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 118.11 186.69 0)
+			(at 118.11 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5127,7 +5358,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C20044523"
-			(at 118.11 184.15 0)
+			(at 118.11 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5139,7 +5370,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C20044522"
-			(at 118.11 181.61 0)
+			(at 118.11 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5167,7 +5398,7 @@
 	)
 	(symbol
 		(lib_id "BR_IC:74LVC1G66GW,125")
-		(at 233.68 124.46 0)
+		(at 233.68 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5178,16 +5409,6 @@
 		(fields_autoplaced yes)
 		(uuid "5355fbd6-4f76-4fb9-afde-19186cef741d")
 		(property "Reference" "U603"
-			(at 251.46 118.0398 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC1G66GW,125"
 			(at 251.46 120.5798 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5197,19 +5418,17 @@
 				)
 			)
 		)
-		(property "Footprint" "BR_SOT:SOT-353_SC-70-5"
-			(at 233.68 48.26 0)
-			(hide yes)
+		(property "Value" "74LVC1G66GW,125"
+			(at 251.46 123.1198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G66.pdf"
+		(property "Footprint" "BR_SOT:SOT-353_SC-70-5"
 			(at 233.68 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5221,7 +5440,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "Analog Switch IC, 1 Circuit IC Switch 1:1, 10Ohm, 5-TSSOP"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G66.pdf"
 			(at 233.68 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5233,7 +5452,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "Nexperia USA Inc."
+		(property "Description" "Analog Switch IC, 1 Circuit IC Switch 1:1, 10Ohm, 5-TSSOP"
 			(at 233.68 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5245,7 +5464,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "74LVC1G66GW,125"
+		(property "Manufacturer" "Nexperia USA Inc."
 			(at 233.68 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5257,7 +5476,7 @@
 				(justify left)
 			)
 		)
-		(property "BRE Number" "BRE-001264"
+		(property "Manufacturer Part Num" "74LVC1G66GW,125"
 			(at 233.68 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5269,7 +5488,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC Part" "C97489"
+		(property "BRE Number" "BRE-001264"
 			(at 233.68 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5281,8 +5500,20 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB Part Num" "C97489"
+		(property "LCSC Part" "C97489"
 			(at 233.68 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB Part Num" "C97489"
+			(at 233.68 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5312,6 +5543,84 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
 					(reference "U603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 240.03 111.76 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "55664c53-de0e-44de-b75f-2782668f3ff1")
+		(property "Reference" "#PWR0608"
+			(at 240.03 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 240.03 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d8d2b1a-de9a-4d27-ae71-8b7ea3e49797")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "#PWR0608")
 					(unit 1)
 				)
 			)
@@ -5655,19 +5964,19 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 119.38 114.3 0)
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 135.89 143.51 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7173745d-60e0-403d-8409-4603ee2778b0")
-		(property "Reference" "#PWR0604"
-			(at 119.38 120.65 0)
+		(uuid "6cf71235-182e-4980-abc7-011e65e4a5e4")
+		(property "Reference" "#PWR0606"
+			(at 135.89 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5678,8 +5987,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 119.38 0)
-			(hide yes)
+			(at 135.89 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5689,7 +5997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 114.3 0)
+			(at 135.89 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5700,7 +6008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 114.3 0)
+			(at 135.89 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5710,8 +6018,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 119.38 114.3 0)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 135.89 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5722,12 +6030,168 @@
 			)
 		)
 		(pin "1"
-			(uuid "3148be9c-2932-46fa-9f27-256539eae17a")
+			(uuid "fedf6f0f-0182-4e47-9691-e6bafa1baf88")
 		)
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
-					(reference "#PWR0604")
+					(reference "#PWR0606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
+		(at 240.03 100.33 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7525c01a-88ee-4af1-8699-659ed9931d0a")
+		(property "Reference" "#PWR0613"
+			(at 240.03 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 240.03 96.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+			(at 240.03 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2796e77c-22d0-475a-a3e7-e4c718875165")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "#PWR0613")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 46.99 57.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "7fe60721-2ec0-4f02-a054-c3cd01ef478f")
+		(property "Reference" "#PWR0609"
+			(at 46.99 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 46.99 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eeb182e8-2ca6-4482-9532-1fe368118e67")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "#PWR0609")
 					(unit 1)
 				)
 			)
@@ -5939,164 +6403,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 233.68 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a2a806e-d8e5-40bc-8e76-0bd3ea72c1a8")
-		(property "Reference" "#PWR0607"
-			(at 233.68 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.68 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4032ffa-74c5-495f-95e9-c2cbe67ddc76")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
-					(reference "#PWR0607")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 106.68 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97a308f4-8133-4a3a-9355-6e309d7fdebf")
-		(property "Reference" "#PWR0601"
-			(at 106.68 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.68 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b451a6ce-5475-436f-bef7-05f579cd59a1")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
-					(reference "#PWR0601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BR_Connectors_Header:Header_Socket_SIP_01x02_2.54mm_Vert_PTH")
 		(at 181.61 105.41 180)
 		(unit 1)
@@ -6106,7 +6412,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a82ffc7a-1e1f-4711-aecb-d218e51cc509")
 		(property "Reference" "J601"
 			(at 182.88 101.5999 0)
@@ -6120,7 +6425,7 @@
 			)
 		)
 		(property "Value" "LABEL"
-			(at 182.88 104.1399 0)
+			(at 182.88 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6231,7 +6536,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_100nF_50V_X7R_10%_AEC-Q200")
-		(at 240.03 105.41 0)
+		(at 240.03 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6242,17 +6547,6 @@
 		(fields_autoplaced yes)
 		(uuid "b903f866-3f70-4c10-8a63-34c6ee5b40bf")
 		(property "Reference" "C606"
-			(at 242.57 104.1462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF 50V"
 			(at 242.57 106.6862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6263,9 +6557,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
-			(at 240.03 29.21 0)
-			(hide yes)
+		(property "Value" "100nF 50V"
+			(at 242.57 109.2262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6275,7 +6568,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
 			(at 240.03 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6287,19 +6580,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "100nF 50V X7R 10% Ceramic Capacitor 0402 AEC-Q200"
-			(at 240.03 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
 			(at 240.03 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6311,31 +6592,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "GCM155R71H104KE02D"
-			(at 240.03 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "BRE Number" "BRE-000010"
-			(at 240.03 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
+		(property "Description" "100nF 50V X7R 10% Ceramic Capacitor 0402 AEC-Q200"
 			(at 240.03 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6347,7 +6604,43 @@
 				(justify left)
 			)
 		)
-		(property "Supplier Part Num 1" "490-10672-2-ND"
+		(property "Manufacturer" "Murata Electronics"
+			(at 240.03 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Num" "GCM155R71H104KE02D"
+			(at 240.03 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "BRE Number" "BRE-000010"
+			(at 240.03 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
 			(at 240.03 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6359,7 +6652,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier 2" "Mouser"
+		(property "Supplier Part Num 1" "490-10672-2-ND"
 			(at 240.03 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6371,7 +6664,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier Part Num 2" "81-GCM155R71H104KE2D"
+		(property "Supplier 2" "Mouser"
 			(at 240.03 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6383,7 +6676,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier 3" "JLCPCB"
+		(property "Supplier Part Num 2" "81-GCM155R71H104KE2D"
 			(at 240.03 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6395,7 +6688,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier Part Num 3" "C85858"
+		(property "Supplier 3" "JLCPCB"
 			(at 240.03 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6407,8 +6700,20 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB Part Num" "C85858"
+		(property "Supplier Part Num 3" "C85858"
 			(at 240.03 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB Part Num" "C85858"
+			(at 240.03 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6435,19 +6740,19 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 135.89 140.97 0)
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 106.68 71.12 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf3936ed-d576-4a66-8b58-47f54f8463f9")
-		(property "Reference" "#PWR0606"
-			(at 135.89 147.32 0)
+		(uuid "cea31b85-4e93-4528-bbcd-1f5044a082cb")
+		(property "Reference" "#PWR0601"
+			(at 106.68 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6458,8 +6763,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 146.05 0)
-			(hide yes)
+			(at 106.68 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6469,7 +6773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 140.97 0)
+			(at 106.68 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6480,7 +6784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 140.97 0)
+			(at 106.68 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6490,8 +6794,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 135.89 140.97 0)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 106.68 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6502,31 +6806,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "bdb0cb19-fcf5-4211-9f9a-954cf7f610b3")
+			(uuid "1f4a1b92-29c7-4f4d-86d0-2e264d850f8b")
 		)
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
-					(reference "#PWR0606")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 240.03 109.22 0)
+		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
+		(at 119.38 109.22 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec72d9ba-6db0-4f30-b198-aae7139a040e")
-		(property "Reference" "#PWR0608"
-			(at 240.03 115.57 0)
+		(uuid "d633dec5-0ea9-49e3-9576-7fdd4e52dcb6")
+		(property "Reference" "#PWR0612"
+			(at 119.38 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6536,9 +6840,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 240.03 114.3 0)
-			(hide yes)
+		(property "Value" "3V3"
+			(at 119.38 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6548,7 +6851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 109.22 0)
+			(at 119.38 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6559,7 +6862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 109.22 0)
+			(at 119.38 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6569,8 +6872,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 240.03 109.22 0)
+		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+			(at 119.38 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6581,12 +6884,168 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3d01adb-08ae-4842-90ee-9093abdf483c")
+			(uuid "9de7bff1-abc2-4ed0-aa0b-2e3b9e80ecf3")
 		)
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
-					(reference "#PWR0608")
+					(reference "#PWR0612")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 135.89 99.06 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "e8f4aade-fd85-412b-ac74-496018b57f67")
+		(property "Reference" "#PWR0605"
+			(at 135.89 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 135.89 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a02bf18-cd04-49a4-af3f-e2d341a2a51a")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "#PWR0605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
+		(at 106.68 62.23 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f19ac181-9def-4a62-adbc-c55048800f3f")
+		(property "Reference" "#PWR0611"
+			(at 106.68 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 106.68 58.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+			(at 106.68 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d537234-6af4-456c-9c3f-4c6995b64bd9")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/8c671651-babb-4c9c-bd77-08c26a3f95ea"
+					(reference "#PWR0611")
 					(unit 1)
 				)
 			)
