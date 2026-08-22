@@ -563,12 +563,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Capacitors_Electrolytic:C_Alum_220uF_100V_20%_SMD"
+		(symbol "BR_Capacitors_Electrolytic:C_Alum_1000uF_50V_20%_D16xL16.5mm"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -587,7 +586,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "220uF 100V"
+			(property "Value" "1000uF 50V"
 				(at 1.016 -1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -598,7 +597,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "BR_Passives:C_Elec_12.5x12.5"
+			(property "Footprint" "BR_Passives:CAP-Electrolytic_SMD_D16xL16.5"
 				(at 0 76.2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -610,7 +609,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6020/VMML1652A221MV.pdf"
+			(property "Datasheet" ""
 				(at 0 73.66 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -622,7 +621,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "220uF 100V 20% Electrolytic Capacitor SMD"
+			(property "Description" ""
 				(at 0 71.12 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -634,7 +633,7 @@
 					(justify left)
 				)
 			)
-			(property "Manufacturer" "Ymin"
+			(property "Manufacturer" ""
 				(at 0 68.58 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -646,7 +645,7 @@
 					(justify left)
 				)
 			)
-			(property "Manufacturer Part Num" "VMML1652A221MV"
+			(property "Manufacturer Part Num" ""
 				(at 0 66.04 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -658,7 +657,7 @@
 					(justify left)
 				)
 			)
-			(property "BRE Number" "BRE-001283"
+			(property "BRE Number" "BRE-001596 "
 				(at 0 63.5 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -670,7 +669,7 @@
 					(justify left)
 				)
 			)
-			(property "Supplier 1" "DigiKey"
+			(property "JLCPCB Part Num" ""
 				(at 0 60.96 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -682,118 +681,10 @@
 					(justify left)
 				)
 			)
-			(property "Supplier Part Num 1" "5011-VMML1652A221MVCT-ND"
-				(at 0 58.42 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Supplier 2" "Mouser"
-				(at 0 55.88 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Supplier Part Num 2" ""
-				(at 0 53.34 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Supplier 3" "JLCPCB"
-				(at 0 50.8 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Supplier Part Num 3" "C487184"
-				(at 0 48.26 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "JLCPCB Part Num" "C487184"
-				(at 0 45.72 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Alum_220uF_100V_20%_SMD_0_1"
+			(symbol "C_Alum_1000uF_50V_20%_D16xL16.5mm_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Alum_220uF_100V_20%_SMD_1_1"
-				(polyline
-					(pts
-						(xy -1.778 1.778) (xy -0.762 1.778)
+						(xy -1.782 1.778) (xy -0.762 1.778)
 					)
 					(stroke
 						(width 0)
@@ -808,8 +699,8 @@
 						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.508)
-						(type solid)
+						(width 0.3048)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -817,7 +708,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.286) (xy -1.27 1.27)
+						(xy -1.272 2.288) (xy -1.272 1.268)
 					)
 					(stroke
 						(width 0)
@@ -827,10 +718,24 @@
 						(type none)
 					)
 				)
+				(arc
+					(start -1.524 -1.016)
+					(mid 0 -0.3847)
+					(end 1.524 -1.016)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Alum_1000uF_50V_20%_D16xL16.5mm_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
-					(name ""
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -848,7 +753,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
-					(name ""
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4247,12 +4152,6 @@
 		(uuid "0ee511e3-ea84-4c9f-a856-704d043d0ed1")
 	)
 	(junction
-		(at 320.04 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e8257b1-6123-4d27-9bf4-be416cf9da33")
-	)
-	(junction
 		(at 293.37 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4281,18 +4180,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6be41228-8183-4a29-bf02-549ceceade04")
-	)
-	(junction
-		(at 334.01 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7df73894-fba6-4b7f-a682-78da5932ad07")
-	)
-	(junction
-		(at 347.98 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8eeb931e-dfca-48d1-9665-c6f6e327f870")
 	)
 	(junction
 		(at 236.22 96.52)
@@ -4335,12 +4222,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef5cd0e8-b4bc-4d0c-bb8f-25e61b38f48c")
-	)
-	(junction
-		(at 363.22 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef9138de-572f-47ae-b5d7-c0eeab26bfd1")
 	)
 	(junction
 		(at 120.65 93.98)
@@ -4403,16 +4284,6 @@
 			(type default)
 		)
 		(uuid "0bd4cf38-9bfe-40c5-961a-0ad251a8861e")
-	)
-	(wire
-		(pts
-			(xy 363.22 25.4) (xy 377.19 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d7fe59e-2f61-43ed-a591-c693497dc6bf")
 	)
 	(wire
 		(pts
@@ -4626,16 +4497,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 43.18) (xy 363.22 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3835c14b-23f7-4985-8fd3-16c155b31777")
-	)
-	(wire
-		(pts
 			(xy 203.2 99.06) (xy 218.44 99.06)
 		)
 		(stroke
@@ -4676,16 +4537,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 25.4) (xy 377.19 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d189d1f-624d-4d4a-8f10-91872c7180ba")
-	)
-	(wire
-		(pts
 			(xy 236.22 93.98) (xy 231.14 93.98)
 		)
 		(stroke
@@ -4723,16 +4574,6 @@
 			(type default)
 		)
 		(uuid "45a03b1d-73bb-4077-8bb0-dc110f251444")
-	)
-	(wire
-		(pts
-			(xy 347.98 25.4) (xy 347.98 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49e1c1c7-7a63-4099-9eb9-26112749fc07")
 	)
 	(wire
 		(pts
@@ -4796,16 +4637,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 25.4) (xy 320.04 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d641173-f868-4d56-a742-25d4364ea5d9")
-	)
-	(wire
-		(pts
 			(xy 203.2 91.44) (xy 218.44 91.44)
 		)
 		(stroke
@@ -4866,23 +4697,13 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 25.4) (xy 320.04 25.4)
+			(xy 304.8 25.4) (xy 334.01 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6ad2aec6-bc40-4ae3-88c4-2958b164e087")
-	)
-	(wire
-		(pts
-			(xy 377.19 43.18) (xy 377.19 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cc565f4-694d-47ae-8d84-ef851cc48c96")
 	)
 	(wire
 		(pts
@@ -5046,16 +4867,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 43.18) (xy 347.98 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abace3f6-e303-429b-b93d-9dcc647834f0")
-	)
-	(wire
-		(pts
 			(xy 148.59 104.14) (xy 152.4 104.14)
 		)
 		(stroke
@@ -5116,16 +4927,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 25.4) (xy 347.98 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b59fce68-5ce6-4458-b1b6-41e8e458e866")
-	)
-	(wire
-		(pts
 			(xy 231.14 83.82) (xy 234.95 83.82)
 		)
 		(stroke
@@ -5153,26 +4954,6 @@
 			(type default)
 		)
 		(uuid "c6e691d4-0dc7-44f3-854d-d9faa10aa06e")
-	)
-	(wire
-		(pts
-			(xy 363.22 25.4) (xy 363.22 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c786bd23-bb15-4587-9793-367bce3a232f")
-	)
-	(wire
-		(pts
-			(xy 320.04 25.4) (xy 334.01 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8a55891-6d18-4b9b-a9ae-cde69f1d8be6")
 	)
 	(wire
 		(pts
@@ -5296,16 +5077,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 25.4) (xy 363.22 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efb00518-5656-4bb2-aba5-95842c3699aa")
-	)
-	(wire
-		(pts
 			(xy 288.29 120.65) (xy 288.29 133.35)
 		)
 		(stroke
@@ -5323,16 +5094,6 @@
 			(type default)
 		)
 		(uuid "f3d10d3c-166b-405d-946d-2757dca73308")
-	)
-	(wire
-		(pts
-			(xy 320.04 43.18) (xy 320.04 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f58a2a96-eb87-4f8e-9b98-f6d99e356850")
 	)
 	(wire
 		(pts
@@ -7170,84 +6931,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND_LOCAL")
-		(at 377.19 52.07 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "513f476b-3a3b-42d3-8b53-9b2a64801fdd")
-		(property "Reference" "#PWR0511"
-			(at 377.19 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 377.19 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 377.19 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 377.19 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
-			(at 377.19 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d146218-1c98-4b64-8a52-ca80ef77cfe4")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
-					(reference "#PWR0511")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BR_Capacitors_0201:C_0201_100nF_25V_X5R_10%")
 		(at 280.67 119.38 0)
 		(unit 1)
@@ -8502,84 +8185,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND_LOCAL")
-		(at 363.22 52.07 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "7489ac53-41b5-4861-b871-5f0c17775fe7")
-		(property "Reference" "#PWR0510"
-			(at 363.22 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 363.22 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 363.22 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
-			(at 363.22 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c22daed6-728c-4716-99a0-5b00478a6824")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
-					(reference "#PWR0510")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
 		(at 326.39 68.58 0)
 		(mirror y)
@@ -8736,7 +8341,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Capacitors_Electrolytic:C_Alum_220uF_100V_20%_SMD")
+		(lib_id "BR_Capacitors_Electrolytic:C_Alum_1000uF_50V_20%_D16xL16.5mm")
 		(at 304.8 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -8757,8 +8362,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF 100V"
-			(at 305.308 42.418 0)
+		(property "Value" "1000uF 50V"
+			(at 305.816 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8768,7 +8373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:C_Elec_12.5x12.5"
+		(property "Footprint" "BR_Passives:CAP-Electrolytic_SMD_D16xL16.5"
 			(at 304.8 -35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8780,7 +8385,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6020/VMML1652A221MV.pdf"
+		(property "Datasheet" ""
 			(at 304.8 -33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8792,7 +8397,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "220uF 100V 20% Electrolytic Capacitor SMD"
+		(property "Description" ""
 			(at 304.8 -30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8804,7 +8409,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "Ymin"
+		(property "Manufacturer" ""
 			(at 304.8 -27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8816,7 +8421,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "VMML1652A221MV"
+		(property "Manufacturer Part Num" ""
 			(at 304.8 -25.4 0)
 			(hide yes)
 			(show_name no)
@@ -8828,7 +8433,7 @@
 				(justify left)
 			)
 		)
-		(property "BRE Number" "BRE-001283"
+		(property "BRE Number" "BRE-001596 "
 			(at 304.8 -22.86 0)
 			(hide yes)
 			(show_name no)
@@ -8840,80 +8445,8 @@
 				(justify left)
 			)
 		)
-		(property "Supplier 1" "DigiKey"
+		(property "JLCPCB Part Num" ""
 			(at 304.8 -20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 1" "5011-VMML1652A221MVCT-ND"
-			(at 304.8 -17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 2" "Mouser"
-			(at 304.8 -15.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 2" ""
-			(at 304.8 -12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 3" "JLCPCB"
-			(at 304.8 -10.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 3" "C487184"
-			(at 304.8 -7.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C487184"
-			(at 304.8 -5.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10837,7 +10370,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Capacitors_Electrolytic:C_Alum_220uF_100V_20%_SMD")
+		(lib_id "BR_Capacitors_Electrolytic:C_Alum_1000uF_50V_20%_D16xL16.5mm")
 		(at 334.01 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -10858,8 +10391,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF 100V"
-			(at 334.518 42.418 0)
+		(property "Value" "1000uF 50V"
+			(at 335.026 42.418 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10869,7 +10403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:C_Elec_12.5x12.5"
+		(property "Footprint" "BR_Passives:CAP-Electrolytic_SMD_D16xL16.5"
 			(at 334.01 -35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10881,7 +10415,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6020/VMML1652A221MV.pdf"
+		(property "Datasheet" ""
 			(at 334.01 -33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10893,7 +10427,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "220uF 100V 20% Electrolytic Capacitor SMD"
+		(property "Description" ""
 			(at 334.01 -30.48 0)
 			(hide yes)
 			(show_name no)
@@ -10905,7 +10439,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "Ymin"
+		(property "Manufacturer" ""
 			(at 334.01 -27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10917,7 +10451,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "VMML1652A221MV"
+		(property "Manufacturer Part Num" ""
 			(at 334.01 -25.4 0)
 			(hide yes)
 			(show_name no)
@@ -10929,7 +10463,7 @@
 				(justify left)
 			)
 		)
-		(property "BRE Number" "BRE-001283"
+		(property "BRE Number" "BRE-001596 "
 			(at 334.01 -22.86 0)
 			(hide yes)
 			(show_name no)
@@ -10941,80 +10475,8 @@
 				(justify left)
 			)
 		)
-		(property "Supplier 1" "DigiKey"
+		(property "JLCPCB Part Num" ""
 			(at 334.01 -20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 1" "5011-VMML1652A221MVCT-ND"
-			(at 334.01 -17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 2" "Mouser"
-			(at 334.01 -15.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 2" ""
-			(at 334.01 -12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 3" "JLCPCB"
-			(at 334.01 -10.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 3" "C487184"
-			(at 334.01 -7.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C487184"
-			(at 334.01 -5.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11035,210 +10497,6 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
 					(reference "C1216")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Capacitors_Electrolytic:C_Alum_220uF_100V_20%_SMD")
-		(at 363.22 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b55425ad-b1e0-4466-a761-6792c00c3f9e")
-		(property "Reference" "C1218"
-			(at 363.474 38.862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF 100V"
-			(at 363.728 42.418 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BR_Passives:C_Elec_12.5x12.5"
-			(at 363.22 -35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6020/VMML1652A221MV.pdf"
-			(at 363.22 -33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "220uF 100V 20% Electrolytic Capacitor SMD"
-			(at 363.22 -30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Ymin"
-			(at 363.22 -27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer Part Num" "VMML1652A221MV"
-			(at 363.22 -25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "BRE Number" "BRE-001283"
-			(at 363.22 -22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
-			(at 363.22 -20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 1" "5011-VMML1652A221MVCT-ND"
-			(at 363.22 -17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 2" "Mouser"
-			(at 363.22 -15.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 2" ""
-			(at 363.22 -12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 3" "JLCPCB"
-			(at 363.22 -10.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 3" "C487184"
-			(at 363.22 -7.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C487184"
-			(at 363.22 -5.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "8ea47fb4-7df1-49f4-9980-fc73fc044c90")
-		)
-		(pin "1"
-			(uuid "41b64e59-a4e9-4347-81b3-a414983121b8")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
-					(reference "C1218")
 					(unit 1)
 				)
 			)
@@ -11681,210 +10939,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Capacitors_Electrolytic:C_Alum_220uF_100V_20%_SMD")
-		(at 377.19 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c19effd6-d42b-4c71-977a-0da5fb3e6596")
-		(property "Reference" "C1219"
-			(at 377.444 38.862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF 100V"
-			(at 377.698 42.418 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BR_Passives:C_Elec_12.5x12.5"
-			(at 377.19 -35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6020/VMML1652A221MV.pdf"
-			(at 377.19 -33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "220uF 100V 20% Electrolytic Capacitor SMD"
-			(at 377.19 -30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Ymin"
-			(at 377.19 -27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer Part Num" "VMML1652A221MV"
-			(at 377.19 -25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "BRE Number" "BRE-001283"
-			(at 377.19 -22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
-			(at 377.19 -20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 1" "5011-VMML1652A221MVCT-ND"
-			(at 377.19 -17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 2" "Mouser"
-			(at 377.19 -15.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 2" ""
-			(at 377.19 -12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 3" "JLCPCB"
-			(at 377.19 -10.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 3" "C487184"
-			(at 377.19 -7.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C487184"
-			(at 377.19 -5.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "83a869db-78f2-4ef7-842a-d2a756a00858")
-		)
-		(pin "1"
-			(uuid "3652f9fa-720a-4956-a375-8a62009b5454")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
-					(reference "C1219")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BR_Connectors:TP_Ring_PTH")
 		(at 73.66 118.11 270)
 		(unit 1)
@@ -12255,84 +11309,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND_LOCAL")
-		(at 320.04 52.07 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "d0dc5584-e624-4daf-9b2a-431fa283d9ae")
-		(property "Reference" "#PWR0507"
-			(at 320.04 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 320.04 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
-			(at 320.04 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "697b6ec0-f44d-40af-b981-a6904b686dd5")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
-					(reference "#PWR0507")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
 		(at 378.46 116.84 0)
 		(unit 1)
@@ -12669,84 +11645,6 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
 					(reference "J502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Virtual_Parts:GND_LOCAL")
-		(at 347.98 52.07 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "eebe0592-0538-4521-a8eb-ccd6d254d500")
-		(property "Reference" "#PWR0509"
-			(at 347.98 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 347.98 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 347.98 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 347.98 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
-			(at 347.98 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a7d77a7-ac01-40a0-b0ad-549a0e1eaa91")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
-					(reference "#PWR0509")
 					(unit 1)
 				)
 			)
@@ -13257,414 +12155,6 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
 					(reference "#PWR0535")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Capacitors_Electrolytic:C_Alum_220uF_100V_20%_SMD")
-		(at 320.04 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fd5e7a96-5923-4e35-bbf7-8da27a9b886a")
-		(property "Reference" "C1215"
-			(at 320.294 38.862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF 100V"
-			(at 320.548 42.418 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BR_Passives:C_Elec_12.5x12.5"
-			(at 320.04 -35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6020/VMML1652A221MV.pdf"
-			(at 320.04 -33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "220uF 100V 20% Electrolytic Capacitor SMD"
-			(at 320.04 -30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Ymin"
-			(at 320.04 -27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer Part Num" "VMML1652A221MV"
-			(at 320.04 -25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "BRE Number" "BRE-001283"
-			(at 320.04 -22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
-			(at 320.04 -20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 1" "5011-VMML1652A221MVCT-ND"
-			(at 320.04 -17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 2" "Mouser"
-			(at 320.04 -15.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 2" ""
-			(at 320.04 -12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 3" "JLCPCB"
-			(at 320.04 -10.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 3" "C487184"
-			(at 320.04 -7.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C487184"
-			(at 320.04 -5.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "d4f8cec9-1e42-4679-ab91-fa30d4cea221")
-		)
-		(pin "1"
-			(uuid "d54cd8dc-2a0f-4bc5-b272-e127a76c0936")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
-					(reference "C1215")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Capacitors_Electrolytic:C_Alum_220uF_100V_20%_SMD")
-		(at 347.98 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ff818aa9-8984-4af4-8206-ccd40e863521")
-		(property "Reference" "C1217"
-			(at 348.234 38.862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF 100V"
-			(at 348.488 42.418 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BR_Passives:C_Elec_12.5x12.5"
-			(at 347.98 -35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6020/VMML1652A221MV.pdf"
-			(at 347.98 -33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "220uF 100V 20% Electrolytic Capacitor SMD"
-			(at 347.98 -30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Ymin"
-			(at 347.98 -27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer Part Num" "VMML1652A221MV"
-			(at 347.98 -25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "BRE Number" "BRE-001283"
-			(at 347.98 -22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
-			(at 347.98 -20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 1" "5011-VMML1652A221MVCT-ND"
-			(at 347.98 -17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 2" "Mouser"
-			(at 347.98 -15.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 2" ""
-			(at 347.98 -12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 3" "JLCPCB"
-			(at 347.98 -10.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 3" "C487184"
-			(at 347.98 -7.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C487184"
-			(at 347.98 -5.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "4c3872d2-7c8f-4bca-8319-5eb67d1cc16d")
-		)
-		(pin "1"
-			(uuid "87362798-b6f0-4def-89b7-83f042d3a931")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
-					(reference "C1217")
 					(unit 1)
 				)
 			)

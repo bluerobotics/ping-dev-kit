@@ -10240,6 +10240,16 @@
 		)
 		(uuid "1269dcb3-4d17-4599-bf43-52bc3e830b38")
 	)
+	(wire
+		(pts
+			(xy 455.93 143.51) (xy 455.93 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130787dc-21f5-4c7d-82ba-828eade1a7a4")
+	)
 	(bus
 		(pts
 			(xy 340.36 104.14) (xy 361.95 104.14)
@@ -10329,16 +10339,6 @@
 			(type default)
 		)
 		(uuid "20401d15-3c4a-4430-b8ac-fc7afe5307d7")
-	)
-	(wire
-		(pts
-			(xy 457.2 144.78) (xy 473.71 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "225cf9f9-7cec-47d9-bdb3-5248ce321bf8")
 	)
 	(wire
 		(pts
@@ -10472,16 +10472,6 @@
 	)
 	(wire
 		(pts
-			(xy 457.2 139.7) (xy 473.71 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "346261bf-c384-4dbe-b9f5-71d8cff48354")
-	)
-	(wire
-		(pts
 			(xy 434.34 132.08) (xy 473.71 132.08)
 		)
 		(stroke
@@ -10589,6 +10579,16 @@
 			(type default)
 		)
 		(uuid "41a03f0a-d919-4be6-b2f7-54b476ee8ef0")
+	)
+	(wire
+		(pts
+			(xy 455.93 140.97) (xy 455.93 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d6933b-1cd4-452f-826d-c43f48b017f7")
 	)
 	(wire
 		(pts
@@ -11922,6 +11922,16 @@
 	)
 	(wire
 		(pts
+			(xy 455.93 139.7) (xy 473.71 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d9e55a-18da-4003-ad76-9c60356e6327")
+	)
+	(wire
+		(pts
 			(xy 45.72 66.04) (xy 45.72 67.31)
 		)
 		(stroke
@@ -12009,6 +12019,16 @@
 			(type default)
 		)
 		(uuid "edb0ecf3-4465-4d07-8f29-c072ebe71d7c")
+	)
+	(wire
+		(pts
+			(xy 455.93 144.78) (xy 473.71 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0f0f91-d0ff-42b4-9b1a-48ffdcaef5b1")
 	)
 	(wire
 		(pts
@@ -23514,6 +23534,136 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
 					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH")
+		(at 449.58 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6ce5a14-1a83-485f-80d1-2f5c504e929b")
+		(property "Reference" "J401"
+			(at 450.596 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RX"
+			(at 450.85 148.082 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
+			(at 449.58 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
+			(at 449.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
+			(at 449.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 449.58 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Num" "PZ254V-11-02P"
+			(at 449.58 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "BRE Number" "BRE-001259"
+			(at 449.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB Part Num" "C492401"
+			(at 449.58 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "730c9375-0b32-476b-9e7e-10fd030a9153")
+		)
+		(pin "2"
+			(uuid "d5ecef5b-9464-405f-8647-23b72e055c4d")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
+					(reference "J401")
 					(unit 1)
 				)
 			)

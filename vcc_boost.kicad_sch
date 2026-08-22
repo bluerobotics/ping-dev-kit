@@ -9318,6 +9318,12 @@
 		(uuid "b83153d9-2812-4e9b-9e59-71ce77b4e106")
 	)
 	(junction
+		(at 147.32 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c26b55b6-ec18-4805-96d9-ab7d4bdab98e")
+	)
+	(junction
 		(at 121.92 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9336,10 +9342,16 @@
 		(uuid "cffb12cb-e135-4201-9725-e6ebd3655a5d")
 	)
 	(junction
-		(at 130.81 100.33)
+		(at 114.3 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da61aa8c-59aa-4544-9d9d-d996dbeb6e92")
+	)
+	(junction
+		(at 130.81 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2c33502-dfb6-4df3-b60b-e2517a470945")
 	)
 	(junction
 		(at 151.13 228.6)
@@ -9352,12 +9364,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f458d8d2-abdc-4ced-977b-2739f73f17ec")
-	)
-	(junction
-		(at 147.32 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6078861-5306-46f3-87d0-212891d2d8f6")
 	)
 	(no_connect
 		(at 184.15 168.91)
@@ -9523,6 +9529,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 100.33) (xy 114.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221e248f-c2e5-441b-b25f-1dab8ede72d6")
+	)
+	(wire
+		(pts
 			(xy 151.13 158.75) (xy 160.02 158.75)
 		)
 		(stroke
@@ -9670,6 +9686,16 @@
 			(type default)
 		)
 		(uuid "3d93abae-6ffc-49af-9fcf-c5ebf402ae2a")
+	)
+	(wire
+		(pts
+			(xy 130.81 100.33) (xy 130.81 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6a2b5b-3157-4716-a32b-ca9544a6913c")
 	)
 	(wire
 		(pts
@@ -9963,6 +9989,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 100.33) (xy 147.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8753f427-46d5-4e22-958a-258f91753114")
+	)
+	(wire
+		(pts
 			(xy 153.67 152.4) (xy 160.02 152.4)
 		)
 		(stroke
@@ -10040,6 +10076,16 @@
 			(type default)
 		)
 		(uuid "93538656-dda8-4dd3-a3d1-cffdaf17021a")
+	)
+	(wire
+		(pts
+			(xy 114.3 111.76) (xy 114.3 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aebbaae-e78f-4d4a-9c5b-fb91ba6096d1")
 	)
 	(wire
 		(pts
@@ -10343,7 +10389,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 100.33) (xy 147.32 100.33)
+			(xy 114.3 100.33) (xy 130.81 100.33)
 		)
 		(stroke
 			(width 0)
@@ -10460,16 +10506,6 @@
 			(type default)
 		)
 		(uuid "f4f8de31-2eb4-4f79-805b-a4ce5dab98a9")
-	)
-	(wire
-		(pts
-			(xy 130.81 100.33) (xy 130.81 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6d55ef9-0a4a-4bb9-9ec6-58b811f4399b")
 	)
 	(wire
 		(pts
@@ -21475,6 +21511,163 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_Electrolytic:C_Alum_220uF_10V_20%_SMD")
+		(at 114.3 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d389241-ee04-4edb-b2de-a7fde3651905")
+		(property "Reference" "C1215"
+			(at 116.84 107.3901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF 50V"
+			(at 116.84 109.9301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Passives:CAP-Electrolytic_SMD_D6.3-L6.6-W6.6-LS7.4-FD"
+			(at 114.3 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C72495.pdf"
+			(at 114.3 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "220uF 10V 20% Electrolytic Capacitor SMD D6.3xL7.7mm"
+			(at 114.3 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "ROQANG"
+			(at 114.3 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Num" "RVT1A221M0607"
+			(at 114.3 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "BRE Number" "BRE-001440"
+			(at 114.3 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 1" "JLCPCB"
+			(at 114.3 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 1 Part Num" "C72495"
+			(at 114.3 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB Part Num" "C72495"
+			(at 114.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6252e298-e529-4922-85f0-c2ce0731a04d")
+		)
+		(pin "2"
+			(uuid "cffee7f9-adb3-421e-b106-34cdc68212d7")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
+					(reference "C1215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Capacitors_Electrolytic:C_Alum_220uF_10V_20%_SMD")
 		(at 130.81 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -24713,6 +24906,83 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:GND_ALT_LOCAL")
+		(at 114.3 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "9825cc79-b33c-4a95-8408-fb50ea8e7437")
+		(property "Reference" "#PWR01233"
+			(at 114.3 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 114.3 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5886d61-9484-4e56-88a5-bbef59b7f1c2")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
+					(reference "#PWR01233")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_IC:DAC53401DSGR")
 		(at 132.08 231.14 0)
 		(unit 1)
@@ -26773,7 +27043,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 130.81 100.33 0)
+		(at 114.3 100.33 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -26784,7 +27054,7 @@
 		(dnp no)
 		(uuid "cd60c6c7-9f6a-45f6-82d9-5d6c7186181f")
 		(property "Reference" "#PWR01220"
-			(at 130.81 104.14 0)
+			(at 114.3 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26795,7 +27065,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 130.81 96.774 0)
+			(at 114.3 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26805,7 +27075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 100.33 0)
+			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26816,7 +27086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 100.33 0)
+			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26827,7 +27097,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 130.81 100.33 0)
+			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
