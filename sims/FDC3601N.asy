@@ -1,0 +1,20 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -48 -32 48 48
+WINDOW 0 55 -31 Bottom 2
+WINDOW 3 78 45 Top 2
+SYMATTR Prefix X
+SYMATTR Value FDC3601N
+SYMATTR ModelFile C:\Users\Kenneth\GitHub\ping-dev-kit\sims\FDC3601N.mod
+PIN 0 -32 TOP 8
+PINATTR PinName D
+PINATTR SpiceOrder 1
+PIN -48 0 LEFT 8
+PINATTR PinName G
+PINATTR SpiceOrder 2
+PIN 0 48 BOTTOM 8
+PINATTR PinName S
+PINATTR SpiceOrder 3
+PIN 48 0 RIGHT 8
+PINATTR PinName T
+PINATTR SpiceOrder 4
