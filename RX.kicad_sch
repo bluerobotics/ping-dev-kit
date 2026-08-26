@@ -770,213 +770,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Capacitors_0402:C_0402_15nF_50V_X7R_10%"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 1.016 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "15nF 50V"
-				(at 1.016 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
-				(at 0 76.2 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588898990716411904"
-				(at 0 73.66 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "15nF 50V X7R 10% Ceramic Capacitor 0402"
-				(at 0 71.12 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 68.58 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer Part Num" "CC0402KRX7R9BB153"
-				(at 0 66.04 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "BRE Number" "BRE-001221"
-				(at 0 63.5 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "JLCPCB Part Num" "C114405"
-				(at 0 60.96 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0402_15nF_50V_X7R_10%_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_0402_15nF_50V_X7R_10%_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "BR_Capacitors_0402:C_0402_1uF_10V_X7R_10%"
 			(pin_numbers
 				(hide yes)
@@ -2283,6 +2076,214 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BR_Capacitors_Electrolytic:C_Tant_10uF_10V_20%_0805_SMD"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 1.016 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10uF 10V"
+				(at 1.016 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BR_Passives:C_TANT_0805_2012Metric"
+				(at 0 76.2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 73.66 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" ""
+				(at 0 71.12 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 68.58 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer Part Num" ""
+				(at 0 66.04 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "BRE Number" "BRE-001599"
+				(at 0 63.5 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "JLCPCB Part Num" ""
+				(at 0 60.96 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(symbol "C_Tant_10uF_10V_20%_0805_SMD_0_1"
+				(polyline
+					(pts
+						(xy -1.782 1.778) (xy -0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.272 2.288) (xy -1.272 1.268)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -1.016)
+					(mid 0 -0.3847)
+					(end 1.524 -1.016)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Tant_10uF_10V_20%_0805_SMD_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11891,7 +11892,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Capacitors_0402:C_0402_15nF_50V_X7R_10%")
+		(lib_id "BR_Capacitors_Electrolytic:C_Tant_10uF_10V_20%_0805_SMD")
 		(at 262.89 143.51 90)
 		(unit 1)
 		(body_style 1)
@@ -11902,7 +11903,7 @@
 		(dnp no)
 		(uuid "2f8f1881-7ec8-4840-bc80-3bb3da0bd95c")
 		(property "Reference" "C406"
-			(at 259.588 142.494 90)
+			(at 259.588 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11911,17 +11912,18 @@
 				)
 			)
 		)
-		(property "Value" "15nF 50V"
-			(at 259.842 144.526 90)
+		(property "Value" "10uF 10V"
+			(at 261.874 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+		(property "Footprint" "BR_Passives:C_TANT_0805_2012Metric"
 			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11933,7 +11935,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588898990716411904"
+		(property "Datasheet" ""
 			(at 189.23 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11945,7 +11947,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "15nF 50V X7R 10% Ceramic Capacitor 0402"
+		(property "Description" ""
 			(at 191.77 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11957,7 +11959,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 194.31 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11969,7 +11971,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "CC0402KRX7R9BB153"
+		(property "Manufacturer Part Num" ""
 			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11981,7 +11983,7 @@
 				(justify left)
 			)
 		)
-		(property "BRE Number" "BRE-001221"
+		(property "BRE Number" "BRE-001599"
 			(at 199.39 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11993,32 +11995,8 @@
 				(justify left)
 			)
 		)
-		(property "Supplier 1" "DigiKey"
+		(property "JLCPCB Part Num" ""
 			(at 201.93 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 1" "490-GRM155Z71A105KE01DDKR-ND"
-			(at 204.47 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C114405"
-			(at 207.01 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18647,7 +18625,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0201:R_0201_100R")
+		(lib_id "BR_Resistors_0402:R_0402_1k")
 		(at 143.51 149.86 0)
 		(mirror y)
 		(unit 1)
@@ -18659,7 +18637,7 @@
 		(dnp no)
 		(uuid "d6bab533-bf82-4604-8c4f-a25bea33656c")
 		(property "Reference" "R402"
-			(at 146.05 148.5899 0)
+			(at 145.034 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18669,18 +18647,18 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100R"
-			(at 146.05 151.1299 0)
+		(property "Value" "1k"
+			(at 147.574 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
+		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
 			(at 143.51 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -18692,7 +18670,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0201WMF1000TEE_C270366.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"
 			(at 143.51 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -18704,43 +18682,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "100R 1% 200ppm 50mW Thick Film Resistor 0201"
-			(at 143.51 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 143.51 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer Part Num" "0201WMF1000TEE"
-			(at 143.51 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "BRE Number" "BRE-001045"
+		(property "Description" "1k 1% 100ppm 62.5mW Thick Film Resistor 0402"
 			(at 143.51 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18752,8 +18694,116 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB Part Num" "C270366"
+		(property "Manufacturer" "YAGEO"
+			(at 143.51 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Num" "RC0402FR-071KL"
+			(at 143.51 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "BRE Number" "BRE-000311"
+			(at 143.51 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB Part Num" "C106235"
+			(at 143.51 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
 			(at 143.51 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier Part Num 1" "311-1.00KLRCT-ND"
+			(at 143.51 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 2" "DigiKey"
+			(at 143.51 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier Part Num 2" "311-1.00KLRTR-ND"
+			(at 143.51 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 143.51 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier Part Num 3" "C106235"
+			(at 143.51 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18780,7 +18830,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0201:R_0201_100R")
+		(lib_id "BR_Resistors_0402:R_0402_1k")
 		(at 143.51 127 0)
 		(mirror y)
 		(unit 1)
@@ -18792,7 +18842,7 @@
 		(dnp no)
 		(uuid "daa20c39-912d-4ea6-a53e-1f1d8fef374b")
 		(property "Reference" "R401"
-			(at 146.05 125.7299 0)
+			(at 145.034 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18802,18 +18852,18 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100R"
-			(at 146.05 128.2699 0)
+		(property "Value" "1k"
+			(at 147.574 128.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:C_0201_0603Metric-minimized"
+		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
 			(at 143.51 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -18825,7 +18875,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0201WMF1000TEE_C270366.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"
 			(at 143.51 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18837,43 +18887,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "100R 1% 200ppm 50mW Thick Film Resistor 0201"
-			(at 143.51 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer Part Num" "0201WMF1000TEE"
-			(at 143.51 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "BRE Number" "BRE-001045"
+		(property "Description" "1k 1% 100ppm 62.5mW Thick Film Resistor 0402"
 			(at 143.51 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -18885,8 +18899,116 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB Part Num" "C270366"
+		(property "Manufacturer" "YAGEO"
+			(at 143.51 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Num" "RC0402FR-071KL"
+			(at 143.51 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "BRE Number" "BRE-000311"
+			(at 143.51 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB Part Num" "C106235"
+			(at 143.51 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
 			(at 143.51 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier Part Num 1" "311-1.00KLRCT-ND"
+			(at 143.51 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 2" "DigiKey"
+			(at 143.51 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier Part Num 2" "311-1.00KLRTR-ND"
+			(at 143.51 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 143.51 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier Part Num 3" "C106235"
+			(at 143.51 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19407,7 +19529,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Capacitors_0402:C_0402_15nF_50V_X7R_10%")
+		(lib_id "BR_Capacitors_Electrolytic:C_Tant_10uF_10V_20%_0805_SMD")
 		(at 262.89 134.62 90)
 		(unit 1)
 		(body_style 1)
@@ -19418,7 +19540,7 @@
 		(dnp no)
 		(uuid "e9251249-73fd-4d9a-ba0d-e8f96d2df7a1")
 		(property "Reference" "C405"
-			(at 259.334 133.604 90)
+			(at 259.588 131.572 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19427,17 +19549,18 @@
 				)
 			)
 		)
-		(property "Value" "15nF 50V"
-			(at 259.842 135.636 90)
+		(property "Value" "10uF 10V"
+			(at 262.128 133.604 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+		(property "Footprint" "BR_Passives:C_TANT_0805_2012Metric"
 			(at 186.69 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -19449,7 +19572,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588898990716411904"
+		(property "Datasheet" ""
 			(at 189.23 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -19461,7 +19584,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "15nF 50V X7R 10% Ceramic Capacitor 0402"
+		(property "Description" ""
 			(at 191.77 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -19473,7 +19596,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 194.31 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -19485,7 +19608,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "CC0402KRX7R9BB153"
+		(property "Manufacturer Part Num" ""
 			(at 196.85 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -19497,7 +19620,7 @@
 				(justify left)
 			)
 		)
-		(property "BRE Number" "BRE-001221"
+		(property "BRE Number" "BRE-001599"
 			(at 199.39 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -19509,32 +19632,8 @@
 				(justify left)
 			)
 		)
-		(property "Supplier 1" "DigiKey"
+		(property "JLCPCB Part Num" ""
 			(at 201.93 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 1" "490-GRM155Z71A105KE01DDKR-ND"
-			(at 204.47 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C114405"
-			(at 207.01 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
