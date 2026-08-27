@@ -1,0 +1,29 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -80 -64 80 80
+WINDOW 0 0 -72 Bottom 2
+WINDOW 3 68 69 Top 2
+SYMATTR Value THS4521
+SYMATTR Prefix X
+SYMATTR ModelFile C:\Users\Kenneth\GitHub\ping-dev-kit\sims\ths4521_a.lib
+PIN -80 -16 LEFT 8
+PINATTR PinName IN+
+PINATTR SpiceOrder 1
+PIN -80 48 LEFT 8
+PINATTR PinName IN-
+PINATTR SpiceOrder 2
+PIN 80 48 RIGHT 8
+PINATTR PinName OUT+
+PINATTR SpiceOrder 3
+PIN 80 -16 RIGHT 8
+PINATTR PinName OUT-
+PINATTR SpiceOrder 4
+PIN -80 16 LEFT 8
+PINATTR PinName VOCM
+PINATTR SpiceOrder 5
+PIN 0 -64 TOP 8
+PINATTR PinName VCC
+PINATTR SpiceOrder 6
+PIN 0 80 BOTTOM 8
+PINATTR PinName VEE
+PINATTR SpiceOrder 7
