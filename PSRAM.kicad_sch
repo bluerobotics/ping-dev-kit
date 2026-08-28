@@ -1146,8 +1146,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Virtual_Parts:GND"
-			(power global)
+		(symbol "BR_Virtual_Parts:GND_LOCAL"
+			(power local)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1155,10 +1155,10 @@
 				(offset 0)
 				(hide yes)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board no)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR013"
 				(at 0 -6.35 0)
@@ -1203,7 +1203,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1225,7 +1225,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GND_LOCAL_0_1"
 				(polyline
 					(pts
 						(xy -0.635 -1.905) (xy 0.635 -1.905)
@@ -1275,11 +1275,138 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GND_LOCAL_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
 					(name "GNDREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BR_Virtual_Parts:VCC_LOCAL"
+			(power local)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC_LOCAL"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "local power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_LOCAL_0_1"
+				(polyline
+					(pts
+						(xy -1.016 2.54) (xy 1.016 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_LOCAL_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1323,6 +1450,12 @@
 		(uuid "20136269-7609-4a35-8764-b03ba18f2860")
 	)
 	(junction
+		(at 135.89 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "378dddda-4683-4446-b849-0936ff52723c")
+	)
+	(junction
 		(at 198.12 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1333,12 +1466,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78bca645-d746-408a-ae29-51420cb216bd")
-	)
-	(junction
-		(at 135.89 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf569c01-a9fa-44ad-86e8-005745ca343b")
 	)
 	(junction
 		(at 198.12 100.33)
@@ -1725,6 +1852,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 63.5) (xy 25.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57dcf5ff-bfb5-47ae-9cac-880b856be5c5")
+	)
+	(wire
+		(pts
 			(xy 201.93 57.15) (xy 201.93 48.26)
 		)
 		(stroke
@@ -1742,16 +1879,6 @@
 			(type default)
 		)
 		(uuid "5e81c68f-0c30-40c6-8e7e-49545b95de7c")
-	)
-	(wire
-		(pts
-			(xy 129.54 48.26) (xy 135.89 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ece2a3e-b6a2-4f28-ad72-001ed7f03ee8")
 	)
 	(wire
 		(pts
@@ -2035,6 +2162,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 58.42) (xy 31.75 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2731778-f955-4680-b3b8-e1b2785c39b4")
+	)
+	(wire
+		(pts
 			(xy 67.31 30.48) (xy 92.71 30.48)
 		)
 		(stroke
@@ -2152,16 +2289,6 @@
 			(justify right bottom)
 		)
 		(uuid "5043475d-cc73-4a07-9fe7-d21969f3ec0a")
-	)
-	(label "3V3"
-		(at 130.81 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50a6b50e-c12a-4bfa-9b53-6b4eb86e5290")
 	)
 	(label "OCTOSPI1.CLK+"
 		(at 92.71 48.26 180)
@@ -2373,6 +2500,17 @@
 		)
 		(uuid "fa645dea-eee4-4632-83b0-cd56b0e976e1")
 	)
+	(hierarchical_label "3V3"
+		(shape output)
+		(at 25.4 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "113859b5-9af1-47da-bdec-945d301c7b38")
+	)
 	(hierarchical_label "OCTOSPI1{OCTOSPI}"
 		(shape bidirectional)
 		(at 39.37 25.4 180)
@@ -2384,31 +2522,31 @@
 		)
 		(uuid "724c5a19-7902-4226-b973-f0e990694d7c")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "GND"
 		(shape input)
-		(at 129.54 48.26 180)
+		(at 25.4 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f25f6081-ae0b-4fbc-a11f-b50f47aef0d0")
+		(uuid "eccd9b7e-2ed7-4213-8488-6b2cd09e04c4")
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 195.58 102.87 0)
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 148.59 57.15 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a7dbf6a-8615-4cca-a790-f7505c2154cb")
-		(property "Reference" "#PWR0903"
-			(at 195.58 109.22 0)
+		(uuid "070616e0-37b5-4358-9545-4dabad0ba8bc")
+		(property "Reference" "#PWR0902"
+			(at 148.59 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2419,8 +2557,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 107.95 0)
-			(hide yes)
+			(at 148.59 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2430,7 +2567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 102.87 0)
+			(at 148.59 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2441,7 +2578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 102.87 0)
+			(at 148.59 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2451,8 +2588,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 195.58 102.87 0)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 148.59 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2463,29 +2600,263 @@
 			)
 		)
 		(pin "1"
-			(uuid "487ca34e-ff00-4bc5-bb71-1dd51691d283")
+			(uuid "8c46507b-087b-41f8-8f9d-c1c89689024e")
 		)
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/6f7165a2-3645-4606-8b50-0ef734b7d97c"
-					(reference "#PWR0903")
+					(reference "#PWR0902")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 163.83 57.15 0)
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 179.07 57.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "24f40d35-6a94-4b9e-b954-6474ede015a7")
+		(property "Reference" "#PWR0905"
+			(at 179.07 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 179.07 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3bb4c781-0085-4bc3-90c2-35e74248d69e")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/6f7165a2-3645-4606-8b50-0ef734b7d97c"
+					(reference "#PWR0905")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 135.89 57.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "2ac13d26-1ed5-4c30-a08b-b6358b825cc6")
+		(property "Reference" "#PWR0901"
+			(at 135.89 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99f9be0b-1856-49c3-bbea-fb376db0e3eb")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/6f7165a2-3645-4606-8b50-0ef734b7d97c"
+					(reference "#PWR0901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
+		(at 135.89 48.26 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44f72ef5-4a20-4d69-b871-fbfbbfde22fa")
+		(uuid "42a3c931-8a0c-4589-897b-2af8af6bd877")
+		(property "Reference" "#PWR0908"
+			(at 135.89 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 135.89 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+			(at 135.89 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2cc616b-7bfd-4966-a68d-f29f183becd3")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/6f7165a2-3645-4606-8b50-0ef734b7d97c"
+					(reference "#PWR0908")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 163.83 57.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "52dfd00d-1d7d-4e15-8a72-9cbfc86c6738")
 		(property "Reference" "#PWR0904"
 			(at 163.83 63.5 0)
 			(hide yes)
@@ -2498,8 +2869,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 62.23 0)
-			(hide yes)
+			(at 163.83 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2530,7 +2900,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
 			(at 163.83 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -2542,12 +2912,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "c40512c2-1713-48b7-84ce-fcd41176a726")
+			(uuid "a8d5da3b-c8e4-4a05-bee8-da1079ea1b82")
 		)
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/6f7165a2-3645-4606-8b50-0ef734b7d97c"
 					(reference "#PWR0904")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 31.75 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "54e6430c-51f2-4d92-b350-f3c9ef38f359")
+		(property "Reference" "#PWR0907"
+			(at 31.75 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 31.75 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "803e2b2e-d6f2-49ff-b436-d66f53077530")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/6f7165a2-3645-4606-8b50-0ef734b7d97c"
+					(reference "#PWR0907")
 					(unit 1)
 				)
 			)
@@ -2970,6 +3418,162 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
+		(at 31.75 58.42 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69ea9cc4-128d-4610-9a7b-8c9f07c77195")
+		(property "Reference" "#PWR0906"
+			(at 31.75 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 31.75 54.864 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+			(at 31.75 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7221adcb-a8da-42ab-b0b6-b2c90d3d4a42")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/6f7165a2-3645-4606-8b50-0ef734b7d97c"
+					(reference "#PWR0906")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 195.58 102.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "8e8abf9f-af22-486f-9459-f1cbb6a69a1c")
+		(property "Reference" "#PWR0903"
+			(at 195.58 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 195.58 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c65aac5e-6138-4347-bca7-6ed79d75b4a1")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/6f7165a2-3645-4606-8b50-0ef734b7d97c"
+					(reference "#PWR0903")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_1uF_10V_X7R_10%")
 		(at 135.89 53.34 0)
 		(unit 1)
@@ -3175,85 +3779,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 135.89 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af9a983d-58e8-41c3-b20b-1d0c4866f48e")
-		(property "Reference" "#PWR0901"
-			(at 135.89 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "00e65f69-e0f1-44b7-8bb7-1838ed748a73")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/6f7165a2-3645-4606-8b50-0ef734b7d97c"
-					(reference "#PWR0901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_100nF_50V_X7R_10%_AEC-Q200")
 		(at 148.59 53.34 0)
 		(unit 1)
@@ -3453,164 +3978,6 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/6f7165a2-3645-4606-8b50-0ef734b7d97c"
 					(reference "C902")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 179.07 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b52571b7-6d14-4d6f-ba5a-ec229982b903")
-		(property "Reference" "#PWR0905"
-			(at 179.07 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e98d5aab-c5ad-4747-909e-a6cf04ec91f9")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/6f7165a2-3645-4606-8b50-0ef734b7d97c"
-					(reference "#PWR0905")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 148.59 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2ded17e-8310-442a-a9ba-1fe9df48629f")
-		(property "Reference" "#PWR0902"
-			(at 148.59 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "92a6e08b-57d9-4b36-b20d-54a7c1a45c67")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/6f7165a2-3645-4606-8b50-0ef734b7d97c"
-					(reference "#PWR0902")
 					(unit 1)
 				)
 			)

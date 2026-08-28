@@ -1657,6 +1657,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BR_Virtual_Parts:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -1.016 2.54) (xy 1.016 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BR_Virtual_Parts:VCC_LOCAL"
 			(power local)
 			(pin_numbers
@@ -1980,7 +2107,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 133.35) (xy 38.1 133.35)
+			(xy 25.4 139.7) (xy 38.1 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2050,7 +2177,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 110.49) (xy 38.1 110.49)
+			(xy 25.4 116.84) (xy 38.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 114.3) (xy 38.1 114.3)
+			(xy 25.4 120.65) (xy 38.1 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2100,7 +2227,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 127) (xy 38.1 127)
+			(xy 25.4 133.35) (xy 38.1 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2140,7 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 88.9) (xy 25.4 88.9)
+			(xy 31.75 95.25) (xy 25.4 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2220,7 +2347,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 101.6) (xy 25.4 101.6)
+			(xy 31.75 107.95) (xy 25.4 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2230,7 +2357,7 @@
 	)
 	(bus
 		(pts
-			(xy 25.4 119.38) (xy 38.1 119.38)
+			(xy 25.4 125.73) (xy 38.1 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2310,6 +2437,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 88.9) (xy 25.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2cb10a7-7225-43b6-ab6b-54c319243fa1")
+	)
+	(wire
+		(pts
 			(xy 41.91 44.45) (xy 41.91 48.26)
 		)
 		(stroke
@@ -2360,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 95.25) (xy 25.4 95.25)
+			(xy 31.75 101.6) (xy 25.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2369,7 +2506,7 @@
 		(uuid "f15160c0-edfe-430b-8fbf-6758d0e8bee7")
 	)
 	(label "VTX_EN"
-		(at 38.1 110.49 180)
+		(at 38.1 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2389,7 +2526,7 @@
 		(uuid "08577fb7-3620-4126-b7c4-5aee7ce66141")
 	)
 	(label "VTX_SENSE"
-		(at 38.1 133.35 180)
+		(at 38.1 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2399,7 +2536,7 @@
 		(uuid "08d7a977-3a6a-4340-864b-fde694109740")
 	)
 	(label "VIN_SENSE"
-		(at 38.1 127 180)
+		(at 38.1 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2439,7 +2576,7 @@
 		(uuid "563cd080-1b17-49b2-bcad-fc6b8a9cf26c")
 	)
 	(label "VTX_MODE"
-		(at 38.1 114.3 180)
+		(at 38.1 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2469,7 +2606,7 @@
 		(uuid "aaff86c6-2727-4dcd-89e5-5aeb70fbf6ab")
 	)
 	(label "I2C{I2C}"
-		(at 38.1 119.38 180)
+		(at 38.1 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2512,7 +2649,7 @@
 	)
 	(hierarchical_label "VIN_SENSE"
 		(shape output)
-		(at 25.4 127 180)
+		(at 25.4 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2523,7 +2660,7 @@
 	)
 	(hierarchical_label "VTX_MODE"
 		(shape input)
-		(at 25.4 114.3 180)
+		(at 25.4 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2534,7 +2671,7 @@
 	)
 	(hierarchical_label "VTX_SENSE"
 		(shape output)
-		(at 25.4 133.35 180)
+		(at 25.4 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2543,9 +2680,20 @@
 		)
 		(uuid "7524a509-9566-4153-b27f-4b80486945a9")
 	)
+	(hierarchical_label "RX_10V"
+		(shape output)
+		(at 25.4 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ccee70f-ca36-4625-8dc1-ee2c57ac780c")
+	)
 	(hierarchical_label "VTX_EN"
 		(shape input)
-		(at 25.4 110.49 180)
+		(at 25.4 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2567,7 +2715,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape output)
-		(at 25.4 101.6 180)
+		(at 25.4 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2578,7 +2726,7 @@
 	)
 	(hierarchical_label "RX_5V"
 		(shape output)
-		(at 25.4 88.9 180)
+		(at 25.4 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2589,7 +2737,7 @@
 	)
 	(hierarchical_label "I2C{I2C}"
 		(shape bidirectional)
-		(at 25.4 119.38 180)
+		(at 25.4 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2600,7 +2748,7 @@
 	)
 	(hierarchical_label "VTX"
 		(shape output)
-		(at 25.4 95.25 180)
+		(at 25.4 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2611,7 +2759,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 31.75 88.9 0)
+		(at 31.75 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2621,7 +2769,7 @@
 		(dnp no)
 		(uuid "04de708a-d7db-433c-ae38-88d670572816")
 		(property "Reference" "#PWR0214"
-			(at 31.75 92.71 0)
+			(at 31.75 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2632,7 +2780,7 @@
 			)
 		)
 		(property "Value" "RX_5V"
-			(at 31.75 85.344 0)
+			(at 31.75 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2642,7 +2790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 88.9 0)
+			(at 31.75 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2653,7 +2801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 88.9 0)
+			(at 31.75 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2664,7 +2812,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 31.75 88.9 0)
+			(at 31.75 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3275,7 +3423,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 31.75 101.6 0)
+		(at 31.75 107.95 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3286,7 +3434,7 @@
 		(dnp no)
 		(uuid "297ef3d1-9047-494b-b660-88788c3bf57c")
 		(property "Reference" "#PWR0218"
-			(at 31.75 105.41 0)
+			(at 31.75 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3297,7 +3445,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 31.75 98.044 0)
+			(at 31.75 104.394 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3307,7 +3455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 101.6 0)
+			(at 31.75 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3318,7 +3466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 101.6 0)
+			(at 31.75 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3329,7 +3477,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 31.75 101.6 0)
+			(at 31.75 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3946,6 +4094,83 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
+		(at 31.75 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "531d6a4b-ad31-41c1-9cca-f3a84978c1df")
+		(property "Reference" "#PWR0223"
+			(at 31.75 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RX_10V"
+			(at 31.75 85.344 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+			(at 31.75 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "287d74c8-157f-4bfb-aea9-9891b846e880")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20"
+					(reference "#PWR0223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Virtual_Parts:GND_LOCAL")
 		(at 82.55 50.8 0)
 		(mirror y)
@@ -4018,6 +4243,83 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20"
 					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:VCC")
+		(at 0.3811 1.0216 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "627e3c9f-bb82-49d4-9ea1-9b6d8b8406b5")
+		(property "Reference" "#PWR0145"
+			(at -3.4289 1.0216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RX_5V"
+			(at 6.2231 1.0216 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.3811 1.0216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0.3811 1.0216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 0.3811 1.0216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1678a97b-d51d-4855-a57e-b9546247d914")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20"
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -4460,7 +4762,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 31.75 95.25 0)
+		(at 31.75 101.6 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4471,7 +4773,7 @@
 		(dnp no)
 		(uuid "9371103f-e679-4c60-adec-7629a2f15cc0")
 		(property "Reference" "#PWR0216"
-			(at 31.75 99.06 0)
+			(at 31.75 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4482,7 +4784,7 @@
 			)
 		)
 		(property "Value" "VTX"
-			(at 31.75 91.694 0)
+			(at 31.75 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4492,7 +4794,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 95.25 0)
+			(at 31.75 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4503,7 +4805,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 95.25 0)
+			(at 31.75 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4514,7 +4816,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 31.75 95.25 0)
+			(at 31.75 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
