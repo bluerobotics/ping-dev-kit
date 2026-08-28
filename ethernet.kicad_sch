@@ -6290,6 +6290,15 @@
 		(uuid "d7db46b7-79ca-4591-9628-6debc04e74ea")
 	)
 	(bus_entry
+		(at 227.33 269.24)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86602a9-78c1-4cf2-83bd-2e35da819f66")
+	)
+	(bus_entry
 		(at 227.33 231.14)
 		(size -2.54 2.54)
 		(stroke
@@ -6437,7 +6446,7 @@
 	)
 	(bus
 		(pts
-			(xy 224.79 238.76) (xy 224.79 241.3)
+			(xy 224.79 238.76) (xy 224.79 271.78)
 		)
 		(stroke
 			(width 0)
@@ -6517,7 +6526,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 256.54) (xy 302.26 261.62)
+			(xy 302.26 256.54) (xy 302.26 269.24)
 		)
 		(stroke
 			(width 0)
@@ -7057,6 +7066,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 269.24) (xy 302.26 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4376a9-b9d3-4b3f-ac62-e60f5e6a0f26")
+	)
+	(wire
+		(pts
 			(xy 414.02 184.15) (xy 414.02 173.99)
 		)
 		(stroke
@@ -7447,7 +7466,7 @@
 	)
 	(bus
 		(pts
-			(xy 224.79 241.3) (xy 214.63 241.3)
+			(xy 224.79 271.78) (xy 214.63 271.78)
 		)
 		(stroke
 			(width 0)
@@ -7594,6 +7613,16 @@
 			(justify right bottom)
 		)
 		(uuid "265572b7-0398-4a68-b9a4-9a3e2dfdb127")
+	)
+	(label "MAC.REF_CLK"
+		(at 283.21 269.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cca1c1b-c8ab-44c6-9d61-1b2e121d42f4")
 	)
 	(label "MDI{100BASE-T}"
 		(at 356.87 196.85 0)
@@ -7755,17 +7784,6 @@
 		)
 		(uuid "f9928df0-8823-4177-9e82-3040c5a30021")
 	)
-	(hierarchical_label "PHY_REF_CLK"
-		(shape input)
-		(at 302.26 261.62 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "14332b97-9772-41ab-8dca-917f9a857e1d")
-	)
 	(hierarchical_label "PHY_nRST"
 		(shape input)
 		(at 285.75 187.96 0)
@@ -7834,7 +7852,7 @@
 	)
 	(hierarchical_label "MAC{RMII}"
 		(shape input)
-		(at 214.63 241.3 180)
+		(at 214.63 271.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)

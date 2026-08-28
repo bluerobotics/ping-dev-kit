@@ -7636,6 +7636,12 @@
 		(color 0 0 0 0)
 		(uuid "f7fed929-7d00-4028-9e72-11c7fb39d57c")
 	)
+	(junction
+		(at 347.98 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f888aafd-ad61-4b78-9a49-b0815232a14b")
+	)
 	(no_connect
 		(at 74.93 149.86)
 		(uuid "1d7038ff-2bd0-4842-8190-8cbc66067efd")
@@ -7663,6 +7669,10 @@
 	(no_connect
 		(at 80.01 149.86)
 		(uuid "a6b1af6a-01ca-49a3-bfe9-8aba5a1f8deb")
+	)
+	(no_connect
+		(at 370.84 104.14)
+		(uuid "c3c5bd60-cbfc-428e-8607-375393c99449")
 	)
 	(no_connect
 		(at 82.55 149.86)
@@ -8310,6 +8320,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 106.68) (xy 347.98 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5240d4-ed14-42d4-b3a7-4eb5fbcd7473")
+	)
+	(wire
+		(pts
 			(xy 139.7 177.8) (xy 143.51 177.8)
 		)
 		(stroke
@@ -8760,6 +8780,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 101.6) (xy 347.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c8f1f4-df60-4c0a-9d66-89a74f83ad35")
+	)
+	(wire
+		(pts
 			(xy 153.67 163.83) (xy 153.67 170.18)
 		)
 		(stroke
@@ -8777,6 +8807,16 @@
 			(type default)
 		)
 		(uuid "aabdda86-f916-49a7-b0ab-256b7840d171")
+	)
+	(wire
+		(pts
+			(xy 347.98 106.68) (xy 355.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aca487c4-ff1b-4ee4-8835-2bf1d248ab5e")
 	)
 	(wire
 		(pts
@@ -8807,6 +8847,16 @@
 			(type default)
 		)
 		(uuid "b05379fd-760e-4f57-b71d-8e82b85214ef")
+	)
+	(wire
+		(pts
+			(xy 347.98 101.6) (xy 347.98 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b244e23b-61af-4f94-a849-54f8a4424697")
 	)
 	(wire
 		(pts
@@ -10181,6 +10231,155 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_IC_Op_Amps:WS72552M-8/TR")
+		(at 358.14 104.14 0)
+		(mirror x)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "101a2e72-0fb1-4e17-9208-c0d9e569151e")
+		(property "Reference" "U404"
+			(at 362.966 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS72552M-8/TR"
+			(at 368.3 109.728 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BR_SOP:MSOP-8_3x3mm_P0.65mm"
+			(at 358.14 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588917789042626560"
+			(at 358.14 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Dual Operational Amplifier MSOP-8 Low Vos ROHS"
+			(at 358.14 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "WILLSEMI(Will Semicon)"
+			(at 358.14 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Num" "WS72552M-8/TR"
+			(at 358.14 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "BRE Number" "BRE-001218"
+			(at 358.14 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB Part Num" "C717866"
+			(at 358.14 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "7346b572-1606-4eed-bab1-a2c330aff662")
+		)
+		(pin "3"
+			(uuid "9e52e90d-6732-493d-aa08-35a92d7d4531")
+		)
+		(pin "2"
+			(uuid "4744456d-e157-42e8-b1bd-33472ef29d30")
+		)
+		(pin "5"
+			(uuid "60002699-5047-4383-a5c7-91add1f6acee")
+		)
+		(pin "6"
+			(uuid "918ed3b6-89b6-4baf-a917-45ffd4bf3176")
+		)
+		(pin "4"
+			(uuid "dbd0f226-3ff5-4b58-9f47-02f23ba0f8f4")
+		)
+		(pin "8"
+			(uuid "b68fe0e3-7d32-41cb-84b3-2782a3d87a31")
+		)
+		(pin "7"
+			(uuid "d79c274e-c406-4a1b-82da-3d69657d56c4")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
+					(reference "U404")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Virtual_Parts:GND_LOCAL")
 		(at 342.9 186.69 0)
 		(mirror y)
@@ -10347,7 +10546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e57cd7d-a770-4d42-b8cf-54e07d51f016")
-		(property "Reference" "R?"
+		(property "Reference" "R416"
 			(at 265.938 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10532,7 +10731,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "R?")
+					(reference "R416")
 					(unit 1)
 				)
 			)
@@ -10697,7 +10896,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22518646-dce7-4802-abc0-95726d62d9a5")
-		(property "Reference" "D?"
+		(property "Reference" "D402"
 			(at 104.394 172.466 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10815,7 +11014,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "D?")
+					(reference "D402")
 					(unit 1)
 				)
 			)
@@ -11138,7 +11337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31082d79-b989-42aa-bf09-6d3225a4b584")
-		(property "Reference" "U?"
+		(property "Reference" "U405"
 			(at 203.2 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11271,7 +11470,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "U?")
+					(reference "U405")
 					(unit 2)
 				)
 			)
@@ -13313,6 +13512,84 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 345.44 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "632e9dc4-5c98-4272-96b6-3248d928425d")
+		(property "Reference" "#PWR0409"
+			(at 345.44 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 345.44 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 345.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bb3efb1-f2cf-43c8-a873-95f45cc26d2e")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
+					(reference "#PWR0409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Connectors_Header:Header_Pin_02x03_2.54mm_Vert_SMD")
 		(at 323.85 142.24 90)
 		(unit 1)
@@ -13742,7 +14019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ed9d777-aff8-4512-85e1-b7df9e149a79")
-		(property "Reference" "D?"
+		(property "Reference" "D401"
 			(at 104.394 124.206 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13860,7 +14137,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "D?")
+					(reference "D401")
 					(unit 1)
 				)
 			)
@@ -14661,7 +14938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a8c3cd8-45ff-47fb-ae43-55bf64728204")
-		(property "Reference" "R?"
+		(property "Reference" "R409"
 			(at 199.136 130.556 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14848,7 +15125,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "R?")
+					(reference "R409")
 					(unit 1)
 				)
 			)
@@ -15357,7 +15634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9dd71f98-de0b-456e-a27c-85af490c9cb0")
-		(property "Reference" "R?"
+		(property "Reference" "R417"
 			(at 265.938 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15542,7 +15819,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "R?")
+					(reference "R417")
 					(unit 1)
 				)
 			)
@@ -15787,7 +16064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8d90a58-a33a-49c0-aa98-89559ee2ffea")
-		(property "Reference" "R?"
+		(property "Reference" "R410"
 			(at 199.136 152.146 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15974,7 +16251,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "R?")
+					(reference "R410")
 					(unit 1)
 				)
 			)
@@ -16322,7 +16599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b483de00-2ae7-4bbe-93f1-51b762bf7950")
-		(property "Reference" "C?"
+		(property "Reference" "C413"
 			(at 201.676 123.444 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16508,7 +16785,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "C?")
+					(reference "C413")
 					(unit 1)
 				)
 			)
@@ -16863,7 +17140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8f08da3-324e-4e6d-8d04-7dd8e2de256b")
-		(property "Reference" "U?"
+		(property "Reference" "U405"
 			(at 204.47 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16996,7 +17273,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "U?")
+					(reference "U405")
 					(unit 1)
 				)
 			)
@@ -17368,7 +17645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc9aedef-6d0a-422d-bc5d-11e44d62f7fe")
-		(property "Reference" "C?"
+		(property "Reference" "C410"
 			(at 178.308 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17483,7 +17760,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "C?")
+					(reference "C410")
 					(unit 1)
 				)
 			)
@@ -18225,7 +18502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9ef2135-aad0-4a37-b292-999bc32decf2")
-		(property "Reference" "C?"
+		(property "Reference" "C405"
 			(at 162.306 160.274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18411,7 +18688,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "C?")
+					(reference "C405")
 					(unit 1)
 				)
 			)
@@ -19277,7 +19554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dacb3373-d39c-45ee-bb5c-7914c0c43ce2")
-		(property "Reference" "C?"
+		(property "Reference" "C406"
 			(at 172.72 82.5562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19392,7 +19669,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "C?")
+					(reference "C406")
 					(unit 1)
 				)
 			)
@@ -19488,7 +19765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e13dc085-25b0-44a6-b955-e069a8439461")
-		(property "Reference" "R?"
+		(property "Reference" "R406"
 			(at 183.896 130.556 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19675,7 +19952,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "R?")
+					(reference "R406")
 					(unit 1)
 				)
 			)
@@ -19898,7 +20175,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1c4e43a-3085-420d-a269-2c5a2a0fb089")
-		(property "Reference" "R?"
+		(property "Reference" "R407"
 			(at 183.896 152.146 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20085,7 +20362,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "R?")
+					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -20102,7 +20379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5604f65-7b75-4939-a71f-f5caa08afdf9")
-		(property "Reference" "C?"
+		(property "Reference" "C402"
 			(at 162.306 149.098 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20288,7 +20565,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "C?")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -20744,7 +21021,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb146874-5ce9-4e80-b6a3-9ea8cb76e8f7")
-		(property "Reference" "C?"
+		(property "Reference" "C414"
 			(at 197.358 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20930,7 +21207,7 @@
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/75372584-e821-4a7e-ae66-bcf96239ddf7"
-					(reference "C?")
+					(reference "C414")
 					(unit 1)
 				)
 			)

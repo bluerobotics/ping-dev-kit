@@ -8175,17 +8175,6 @@
 		)
 		(uuid "235de377-753f-4eb5-aec1-b3fb02ed53e8")
 	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 144.272 307.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "25d7432a-b8ae-4c38-baf5-47d618e51da1")
-	)
 	(text "AF5: SPI5_SCK"
 		(exclude_from_sim no)
 		(at 122.428 227.076 0)
@@ -8240,17 +8229,6 @@
 			(justify left bottom)
 		)
 		(uuid "378a7a31-da8b-47ad-b870-1e81714d8e93")
-	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 105.918 234.696 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3797415c-4334-4a37-815d-0fc12f5121fd")
 	)
 	(text "GPIO"
 		(exclude_from_sim no)
@@ -8549,17 +8527,6 @@
 		)
 		(uuid "a62f61a9-ea26-4c45-ad15-31568be38bd0")
 	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 103.886 221.996 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa44eeb3-7a28-45be-9857-62b41d9589c5")
-	)
 	(text "AF11: ETH_MII_RX_ER"
 		(exclude_from_sim no)
 		(at 286.766 234.696 0)
@@ -8625,17 +8592,6 @@
 			(justify left bottom)
 		)
 		(uuid "d70e0eb3-11dd-4606-90d7-c29b86ce1b23")
-	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 106.68 219.456 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dcfd1af0-2a3f-471a-8f30-71cc1f9b6139")
 	)
 	(text "AF10: OCTOSPI1_IO6\n"
 		(exclude_from_sim no)
@@ -9674,6 +9630,15 @@
 			(type default)
 		)
 		(uuid "8ce736a4-4f8f-4122-916c-9085b7782119")
+	)
+	(bus_entry
+		(at 215.9 52.07)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a885ae4-ff68-4852-a535-5df7f0f0d532")
 	)
 	(bus_entry
 		(at 215.9 41.91)
@@ -10933,6 +10898,16 @@
 		)
 		(uuid "66aa3acf-6044-4e51-ae30-c3e2ce360eff")
 	)
+	(bus
+		(pts
+			(xy 218.44 54.61) (xy 218.44 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ab6856-b638-4a64-ae58-ec3453e4bd48")
+	)
 	(wire
 		(pts
 			(xy 302.26 63.5) (xy 302.26 67.31)
@@ -11482,6 +11457,16 @@
 			(type default)
 		)
 		(uuid "96d2996d-3932-4f5a-a9a9-9a01525e3cdd")
+	)
+	(wire
+		(pts
+			(xy 190.5 52.07) (xy 215.9 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9856c493-bd88-4f5e-b763-210fe9c022f8")
 	)
 	(wire
 		(pts
@@ -12634,7 +12619,7 @@
 		(uuid "10a547ee-764f-4a04-8a77-245902a7d787")
 	)
 	(label "ADC2_INP2"
-		(at 132.08 322.58 0)
+		(at 133.35 322.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12644,7 +12629,7 @@
 		(uuid "1194651d-29b4-49aa-9f8b-9f0c2e16c394")
 	)
 	(label "SPI5.NSS"
-		(at 132.08 223.52 0)
+		(at 133.35 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12684,7 +12669,7 @@
 		(uuid "131b36ce-602f-4d2d-9ada-9802b16bf312")
 	)
 	(label "VTX_EN"
-		(at 132.08 218.44 0)
+		(at 133.35 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12694,7 +12679,7 @@
 		(uuid "1337edb3-bfe4-4c79-a949-bfb3bf761ec4")
 	)
 	(label "MOTOR_STEP"
-		(at 132.08 198.12 0)
+		(at 133.35 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12704,7 +12689,7 @@
 		(uuid "1a7f823e-193c-4f74-ac24-8a744d19d696")
 	)
 	(label "MOTOR_MODE1"
-		(at 132.08 193.04 0)
+		(at 133.35 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12804,7 +12789,7 @@
 		(uuid "361b6471-589d-4510-a2eb-7a09c8458af6")
 	)
 	(label "I2C4.SCL"
-		(at 132.08 238.76 0)
+		(at 133.35 238.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12824,7 +12809,7 @@
 		(uuid "38e01d76-f23f-4fc9-b7fa-992cbc632f46")
 	)
 	(label "OCTOSPI1.IO0"
-		(at 132.08 309.88 0)
+		(at 133.35 309.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12844,7 +12829,7 @@
 		(uuid "4065da34-f577-4013-ae49-e7a90de6624f")
 	)
 	(label "OCTOSPI1.IO3"
-		(at 132.08 304.8 0)
+		(at 133.35 304.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12864,7 +12849,7 @@
 		(uuid "439faf7f-157c-456e-8f9e-c8f63fa980fc")
 	)
 	(label "V_THERM"
-		(at 132.08 320.04 0)
+		(at 133.35 320.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12874,7 +12859,7 @@
 		(uuid "4fa6e048-697e-4e8f-8c72-63e58bcea872")
 	)
 	(label "SPI5.MISO"
-		(at 132.08 228.6 0)
+		(at 133.35 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12924,7 +12909,7 @@
 		(uuid "580b3147-ab00-4960-9a7f-9d0c13a19b9c")
 	)
 	(label "OCTOSPI1.IO1"
-		(at 132.08 312.42 0)
+		(at 133.35 312.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12934,7 +12919,7 @@
 		(uuid "5b8e1688-84ec-45ec-9f3e-2903d0f2d915")
 	)
 	(label "OCTOSPI1.CLK+"
-		(at 132.08 314.96 0)
+		(at 133.35 314.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12964,7 +12949,7 @@
 		(uuid "605be668-0391-4ac5-8ff7-8a5aab3a3992")
 	)
 	(label "OSC_OUT"
-		(at 132.08 213.36 0)
+		(at 133.35 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12993,7 +12978,7 @@
 		)
 		(uuid "67b55cbe-4c8b-46a5-8988-67637f475c85")
 	)
-	(label "PHY_REF_CLK"
+	(label "MAC.REF_CLK"
 		(at 256.54 167.64 180)
 		(effects
 			(font
@@ -13044,7 +13029,7 @@
 		(uuid "6ea621f0-153e-4ebc-99e0-8d8db3e6a47f")
 	)
 	(label "TX_DSD"
-		(at 132.08 259.08 0)
+		(at 133.35 259.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13064,7 +13049,7 @@
 		(uuid "73d2c143-726f-4341-be10-5c7832ee0c47")
 	)
 	(label "MOTOR_DIR"
-		(at 132.08 185.42 0)
+		(at 133.35 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13074,7 +13059,7 @@
 		(uuid "765b430d-4d53-47e2-b502-80922c444295")
 	)
 	(label "SPI5.SCK"
-		(at 132.08 226.06 0)
+		(at 133.35 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13214,7 +13199,7 @@
 		(uuid "a1281ebc-2928-4e63-b3ef-a4ae5adbb06b")
 	)
 	(label "MOTOR_MODE0"
-		(at 132.08 195.58 0)
+		(at 133.35 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13244,7 +13229,7 @@
 		(uuid "a60ba001-4c5c-4d83-a90d-bb4ec0d117ad")
 	)
 	(label "DEBUG_LED"
-		(at 132.08 307.34 0)
+		(at 133.35 307.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13274,7 +13259,7 @@
 		(uuid "aec6089f-0476-41f4-9f68-75d20d5e0965")
 	)
 	(label "I2C4.SDA"
-		(at 132.08 241.3 0)
+		(at 133.35 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13324,7 +13309,7 @@
 		(uuid "ba245f1b-4390-4496-928e-a20f111ee39b")
 	)
 	(label "MOTOR_nFAULT"
-		(at 132.08 200.66 0)
+		(at 133.35 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13394,7 +13379,7 @@
 		(uuid "c7859fe9-4f40-467c-9d69-29252f47bebb")
 	)
 	(label "SPI5.MOSI"
-		(at 132.08 231.14 0)
+		(at 133.35 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13414,7 +13399,7 @@
 		(uuid "cb13c827-620d-4028-b69e-76b23cf9cde6")
 	)
 	(label "MOTOR_nSLEEP"
-		(at 132.08 205.74 0)
+		(at 133.35 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13424,7 +13409,7 @@
 		(uuid "d3e5905e-4dfd-441d-bf58-23f53e6ee768")
 	)
 	(label "OCTOSPI1.IO4"
-		(at 132.08 215.9 0)
+		(at 133.35 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13473,6 +13458,16 @@
 		)
 		(uuid "e1369ca2-d16e-4158-96f2-d4e7a7d6461a")
 	)
+	(label "MAC.REF_CLK"
+		(at 190.5 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e159de0d-0453-4371-b958-f8bc560c4141")
+	)
 	(label "GPIO_D3"
 		(at 256.54 302.26 180)
 		(effects
@@ -13484,7 +13479,7 @@
 		(uuid "e258d244-a056-4922-b4f9-effcde3ae9d4")
 	)
 	(label "PHY_nRST"
-		(at 132.08 233.68 0)
+		(at 133.35 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13503,18 +13498,8 @@
 		)
 		(uuid "e8b8e23f-4c97-4f6e-a211-d1d6e3a751bc")
 	)
-	(label "VTX_MODE"
-		(at 132.08 220.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb941b1a-1699-4d95-9c9f-e8d3d37d9ae4")
-	)
 	(label "MOTOR_EN"
-		(at 132.08 187.96 0)
+		(at 133.35 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13534,7 +13519,7 @@
 		(uuid "f10647ce-5edc-408e-8a5b-894099b4498f")
 	)
 	(label "OSC_IN"
-		(at 132.08 210.82 0)
+		(at 133.35 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13703,7 +13688,7 @@
 		)
 		(uuid "48662d05-3348-4dbe-aac4-98e45016b4ba")
 	)
-	(hierarchical_label "VTX_MODE"
+	(hierarchical_label "GPIO_H4"
 		(shape output)
 		(at 120.65 220.98 180)
 		(effects
@@ -13725,7 +13710,7 @@
 		)
 		(uuid "5c3f440e-0c70-4104-896c-4e63a22761a9")
 	)
-	(hierarchical_label "PHY_nRST"
+	(hierarchical_label "GPIO_H9"
 		(shape output)
 		(at 121.92 233.68 180)
 		(effects
@@ -13934,7 +13919,7 @@
 		)
 		(uuid "d0b1177f-c272-43f9-bc9d-dc12ba1e13d3")
 	)
-	(hierarchical_label "VTX_EN"
+	(hierarchical_label "GPIO_H3"
 		(shape output)
 		(at 120.65 218.44 180)
 		(effects
