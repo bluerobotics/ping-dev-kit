@@ -4666,15 +4666,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Virtual_Parts:TP_Probe_Tip_0.8mm_Hole_with_GND"
+		(symbol "BR_Virtual_Parts:TP_SQUARE_TH_1mm"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
@@ -4690,8 +4689,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "value"
-				(at -21.59 10.16 0)
+			(property "Value" "TP_SQUARE_TH_500um"
+				(at 2.54 -1.5875 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4702,7 +4701,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "BR_Virtual_Parts:TP_PROBE_TIP_WITH_GND"
+			(property "Footprint" "BR_Virtual_Parts:TP_SQUARE_TH_1mm"
 				(at 1.27 7.366 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4724,8 +4723,8 @@
 					)
 				)
 			)
-			(property "Description" "Probe tip test pad"
-				(at -13.97 5.08 0)
+			(property "Description" "test pad through hole"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4735,7 +4734,84 @@
 					)
 				)
 			)
-			(property "ki_keywords" "test point"
+			(property "Manufacturer" ""
+				(at -1.524 8.001 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Num" ""
+				(at -0.254 7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 1" ""
+				(at -1.905 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part Num 1" ""
+				(at -1.143 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 2" ""
+				(at -1.27 7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part Num 2" ""
+				(at 0.127 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test pad through hole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4757,11 +4833,10 @@
 					)
 				)
 			)
-			(symbol "TP_Probe_Tip_0.8mm_Hole_with_GND_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 0)
-					)
+			(symbol "TP_SQUARE_TH_1mm_0_1"
+				(rectangle
+					(start -0.635 2.54)
+					(end 0.635 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -4771,29 +4846,20 @@
 					)
 				)
 				(circle
-					(center 0 0)
+					(center 0 1.905)
 					(radius 0.254)
 					(stroke
 						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+			)
+			(symbol "TP_SQUARE_TH_1mm_1_1"
 				(pin passive line
-					(at -2.54 0 0)
+					(at 0 0 90)
 					(length 1.27)
 					(name ""
 						(effects
@@ -4803,24 +4869,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12392,18 +12440,18 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:TP_Probe_Tip_0.8mm_Hole_with_GND")
-		(at 149.86 88.9 0)
+		(lib_id "BR_Virtual_Parts:TP_SQUARE_TH_1mm")
+		(at 147.32 88.9 270)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c21a26b6-3b99-4c3b-96b3-cd49d8e03906")
 		(property "Reference" "TP1002"
-			(at 155.702 88.9 0)
+			(at 153.67 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12412,8 +12460,8 @@
 				)
 			)
 		)
-		(property "Value" "value"
-			(at 128.27 78.74 0)
+		(property "Value" "TP_SQUARE_TH_500um"
+			(at 145.7325 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12424,8 +12472,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Virtual_Parts:TP_PROBE_TIP_WITH_GND"
-			(at 151.13 81.534 0)
+		(property "Footprint" "BR_Virtual_Parts:TP_SQUARE_TH_1mm"
+			(at 154.686 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12436,7 +12484,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307040929_ronghe-RH-5000_C5277086.pdf"
-			(at 150.114 81.407 0)
+			(at 154.813 89.154 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12446,8 +12494,8 @@
 				)
 			)
 		)
-		(property "Description" "Probe tip test pad"
-			(at 135.89 83.82 0)
+		(property "Description" "test pad through hole"
+			(at 147.32 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12458,7 +12506,7 @@
 			)
 		)
 		(property "Manufacturer" "ronghe"
-			(at 149.86 20.32 0)
+			(at 155.321 87.376 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12466,11 +12514,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Manufacturer Part Num" "RH-5000"
-			(at 149.86 22.86 0)
+			(at 154.432 88.646 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12478,11 +12525,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "BRE Number" "BRE-000074"
-			(at 149.86 25.4 0)
+			(at 210.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12494,7 +12540,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 149.86 27.94 0)
+			(at 154.94 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12502,11 +12548,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Supplier Part Num 1" ""
-			(at 149.86 30.48 0)
+			(at 154.94 87.757 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12514,11 +12559,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 149.86 33.02 0)
+			(at 154.432 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12526,11 +12570,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Supplier Part Num 2" ""
-			(at 149.86 35.56 0)
+			(at 154.94 89.027 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12538,11 +12581,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 149.86 38.1 0)
+			(at 198.12 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12554,7 +12596,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C5277086"
-			(at 149.86 40.64 0)
+			(at 195.58 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12566,7 +12608,7 @@
 			)
 		)
 		(property "Label" "LABEL"
-			(at 149.86 43.18 0)
+			(at 193.04 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12578,7 +12620,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C5277086"
-			(at 149.86 45.72 0)
+			(at 190.5 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12589,11 +12631,19 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 147.32 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "04ef001e-7374-4e12-8db7-4075c0af7d45")
-		)
-		(pin "2"
-			(uuid "c7506b2c-a713-47cd-84e2-3ba937e3208c")
 		)
 		(instances
 			(project "PingDevKit"
@@ -12942,18 +12992,18 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:TP_Probe_Tip_0.8mm_Hole_with_GND")
-		(at 106.68 87.63 0)
+		(lib_id "BR_Virtual_Parts:TP_SQUARE_TH_1mm")
+		(at 104.14 87.63 270)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cef42a6e-13a6-4db8-bac0-b3cecdf20d69")
 		(property "Reference" "TP1001"
-			(at 112.522 87.884 0)
+			(at 110.49 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12962,8 +13012,8 @@
 				)
 			)
 		)
-		(property "Value" "value"
-			(at 85.09 77.47 0)
+		(property "Value" "TP_SQUARE_TH_500um"
+			(at 102.5525 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12974,8 +13024,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Virtual_Parts:TP_PROBE_TIP_WITH_GND"
-			(at 107.95 80.264 0)
+		(property "Footprint" "BR_Virtual_Parts:TP_SQUARE_TH_1mm"
+			(at 111.506 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12986,7 +13036,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307040929_ronghe-RH-5000_C5277086.pdf"
-			(at 106.934 80.137 0)
+			(at 111.633 87.884 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12996,8 +13046,8 @@
 				)
 			)
 		)
-		(property "Description" "Probe tip test pad"
-			(at 92.71 82.55 0)
+		(property "Description" "test pad through hole"
+			(at 104.14 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13008,7 +13058,7 @@
 			)
 		)
 		(property "Manufacturer" "ronghe"
-			(at 106.68 19.05 0)
+			(at 112.141 86.106 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13016,11 +13066,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Manufacturer Part Num" "RH-5000"
-			(at 106.68 21.59 0)
+			(at 111.252 87.376 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13028,11 +13077,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "BRE Number" "BRE-000074"
-			(at 106.68 24.13 0)
+			(at 167.64 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13044,7 +13092,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 106.68 26.67 0)
+			(at 111.76 85.725 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13052,11 +13100,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Supplier Part Num 1" ""
-			(at 106.68 29.21 0)
+			(at 111.76 86.487 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13064,11 +13111,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 106.68 31.75 0)
+			(at 111.252 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13076,11 +13122,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Supplier Part Num 2" ""
-			(at 106.68 34.29 0)
+			(at 111.76 87.757 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13088,11 +13133,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 106.68 36.83 0)
+			(at 154.94 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13104,7 +13148,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C5277086"
-			(at 106.68 39.37 0)
+			(at 152.4 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13116,7 +13160,7 @@
 			)
 		)
 		(property "Label" "LABEL"
-			(at 106.68 41.91 0)
+			(at 149.86 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13128,7 +13172,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C5277086"
-			(at 106.68 44.45 0)
+			(at 147.32 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13139,11 +13183,19 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 104.14 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cc3be1b5-9701-49ba-827b-fb35b447f206")
-		)
-		(pin "2"
-			(uuid "0f4f32f1-80c4-4b02-89e1-e57a5dc9e129")
 		)
 		(instances
 			(project "PingDevKit"
@@ -13585,83 +13637,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND_LOCAL")
-		(at 149.86 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "d5597e02-b8ce-4d0a-8e8c-819968536ab0")
-		(property "Reference" "#PWR01023"
-			(at 149.86 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
-			(at 149.86 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "761b5202-1d5c-4ecb-9ea9-1ce110f74daf")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65/11b15ccd-f56c-4845-bdb5-e6134c64386c"
-					(reference "#PWR01023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BR_Connectors_Header:Header_Socket_SIP_01x02_2.54mm_Vert_PTH")
 		(at 179.07 91.44 0)
 		(mirror x)
@@ -14021,83 +13996,6 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65/11b15ccd-f56c-4845-bdb5-e6134c64386c"
 					(reference "#PWR01017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Virtual_Parts:GND_LOCAL")
-		(at 106.68 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "ec27b148-eee2-49c0-b713-7d730a1a95db")
-		(property "Reference" "#PWR01022"
-			(at 106.68 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.68 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
-			(at 106.68 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bdeddd3d-3423-4e17-b88c-17c475ec2792")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65/11b15ccd-f56c-4845-bdb5-e6134c64386c"
-					(reference "#PWR01022")
 					(unit 1)
 				)
 			)
