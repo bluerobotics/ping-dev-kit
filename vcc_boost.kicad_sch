@@ -3025,7 +3025,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 10.16 12.7 270)
 					(length 2.54)
 					(name "SW2"
@@ -6093,12 +6093,6 @@
 		(uuid "da627fcb-e2a8-4cbb-9ebf-2485331cbd18")
 	)
 	(junction
-		(at 151.13 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edb19997-a8fb-49c2-92c8-64baae17e377")
-	)
-	(junction
 		(at 185.42 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6788,6 +6782,16 @@
 		)
 		(uuid "68ed880f-aac9-4712-9d36-a71f57e50a3a")
 	)
+	(label "VDAC"
+		(at 151.13 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77af58ab-a09f-4004-97cc-f2c341d1238c")
+	)
 	(label "I2C.SCL"
 		(at 104.14 229.87 0)
 		(effects
@@ -6807,6 +6811,16 @@
 			(justify left bottom)
 		)
 		(uuid "981abf9b-1d03-4d9e-9178-eb32d5b6496b")
+	)
+	(label "VDAC"
+		(at 177.8 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc8c7881-6234-4471-9598-9cc4d3a42c89")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -7599,83 +7613,6 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "C1205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 151.13 228.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "268bc948-5a18-40a0-8072-01f28c19c5c8")
-		(property "Reference" "#PWR01218"
-			(at 151.13 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDAC"
-			(at 151.13 225.044 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 151.13 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec12e7eb-de8a-4365-9db2-3dbc3b775b40")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01218")
 					(unit 1)
 				)
 			)
@@ -8707,83 +8644,6 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
 					(reference "#PWR01223")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 177.8 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3fe5c3ca-bc83-4483-a542-9d96178844cd")
-		(property "Reference" "#PWR01222"
-			(at 177.8 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDAC"
-			(at 177.8 123.444 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 177.8 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "16417a93-db86-4a5f-9536-fb5a12e57fba")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20/f57da81d-26f9-4e44-8192-6054ea342dd6"
-					(reference "#PWR01222")
 					(unit 1)
 				)
 			)

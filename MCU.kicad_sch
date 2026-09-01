@@ -8111,7 +8111,7 @@
 	)
 	(text "AF11: ETH_RMII_REF_CLK"
 		(exclude_from_sim no)
-		(at 305.308 168.656 0)
+		(at 289.306 168.656 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8738,12 +8738,6 @@
 		(uuid "2e24ed2a-69f4-417e-aaa7-bebb9e52b4a8")
 	)
 	(junction
-		(at 256.54 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e9208e1-8a25-4bac-af94-003486b63bf7")
-	)
-	(junction
 		(at 132.08 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9314,6 +9308,10 @@
 	(no_connect
 		(at 231.14 223.52)
 		(uuid "4cdf880e-35ec-4ed8-b477-c051b29ece93")
+	)
+	(no_connect
+		(at 231.14 345.44)
+		(uuid "518c75ce-2434-4b27-a9fe-acc29e961395")
 	)
 	(no_connect
 		(at 231.14 279.4)
@@ -10497,16 +10495,6 @@
 			(type default)
 		)
 		(uuid "454e3562-f1ed-41f5-a84a-22cd83406ce1")
-	)
-	(wire
-		(pts
-			(xy 256.54 167.64) (xy 266.7 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45baa625-c0b5-42db-add4-88e9b89dc77e")
 	)
 	(wire
 		(pts
@@ -12968,6 +12956,16 @@
 		)
 		(uuid "61be9f3b-36bc-48db-a01e-0c5f3ba01fe5")
 	)
+	(label "MAC.REF_CLK"
+		(at 256.54 274.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "641fe375-ec9e-4dee-b96e-e69bb101f720")
+	)
 	(label "MAC.CRSDV"
 		(at 256.54 182.88 180)
 		(effects
@@ -13207,16 +13205,6 @@
 			(justify left bottom)
 		)
 		(uuid "a26026e3-cbb7-4c9c-9141-ca87f57f2b4f")
-	)
-	(label "PHY_REF_CLK"
-		(at 256.54 274.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a53b9be6-0d3e-4ce5-970a-d8d9ded26f62")
 	)
 	(label "TX_EN"
 		(at 248.92 299.72 0)
@@ -13973,17 +13961,6 @@
 			(justify right)
 		)
 		(uuid "dcce4595-8c93-4350-9ba8-9ec2fbe11147")
-	)
-	(hierarchical_label "PHY_REF_CLK"
-		(shape output)
-		(at 266.7 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e27a6629-0ee6-4eff-b7e8-9d66e559bb86")
 	)
 	(hierarchical_label "ADC1_INP6"
 		(shape input)
