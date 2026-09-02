@@ -29,4 +29,7 @@
 (rule clearance_VQFN_24
 	(constraint clearance (min 0.15mm))
 	(condition "A.memberOfFootprint('BR_IC:VQFN-24*')"))
+(rule clearance_zone
+	(constraint clearance (min 0.3mm))
+	(condition "A.Type == 'Zone' && !B.intersectsArea('BGA')"))
 

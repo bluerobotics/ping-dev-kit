@@ -5174,31 +5174,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Virtual_Parts:NetTie-2_1.7mm_wide"
+		(symbol "BR_Virtual_Parts:NetTie-2_3.88mm"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(hide yes)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "NT"
-				(at 5.08 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie"
-				(at 2.54 0 90)
+				(at 2.54 0.762 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5207,8 +5196,18 @@
 					)
 				)
 			)
-			(property "Footprint" "BR_Virtual_Parts:NetTie-2_SMD_Pad_1.7mm_wide"
-				(at 1.016 -0.254 90)
+			(property "Value" "Net Tie"
+				(at 4.826 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BR_Virtual_Parts:NetTie-2_SMD_Pad_3.88mm_wide"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5219,7 +5218,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 8.89 5.08 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5241,7 +5240,7 @@
 				)
 			)
 			(property "Manufacturer" ""
-				(at 2.54 19.05 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5249,94 +5248,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
-				)
-			)
-			(property "Supplier 1" ""
-				(at 2.54 21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Supplier Part Num 1" ""
-				(at 2.54 24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Supplier 2" ""
-				(at 2.54 26.67 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Supplier Part Num 2" ""
-				(at 2.54 29.21 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Supplier 3" ""
-				(at 2.54 31.75 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Supplier Part Num 3" ""
-				(at 2.54 34.29 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 				)
 			)
 			(property "Manufacturer Part Num" ""
-				(at 2.54 36.83 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5347,7 +5261,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "Supplier 1" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5358,7 +5272,62 @@
 					)
 				)
 			)
-			(symbol "NetTie-2_1.7mm_wide_0_1"
+			(property "Supplier Part Num 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 2" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part Num 2" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 3" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part Num 3" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NetTie-2_3.88mm_0_1"
 				(polyline
 					(pts
 						(xy 0 2.286) (xy 0 2.54)
@@ -5384,7 +5353,7 @@
 					)
 				)
 			)
-			(symbol "NetTie-2_1.7mm_wide_1_1"
+			(symbol "NetTie-2_3.88mm_1_1"
 				(rectangle
 					(start -0.635 2.286)
 					(end 0.635 1.016)
@@ -8111,11 +8080,11 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:NetTie-2_1.7mm_wide")
+		(lib_id "BR_Virtual_Parts:NetTie-2_3.88mm")
 		(at 410.21 222.25 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -8131,8 +8100,8 @@
 				)
 			)
 		)
-		(property "Value" "NetTie-2_0.18mm"
-			(at 415.29 219.71 90)
+		(property "Value" "Net Tie"
+			(at 410.464 219.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8141,8 +8110,8 @@
 				)
 			)
 		)
-		(property "Footprint" "BR_Virtual_Parts:NetTie-2_SMD_Pad_1.7mm_wide"
-			(at 410.464 221.234 90)
+		(property "Footprint" "BR_Virtual_Parts:NetTie-2_SMD_Pad_3.88mm_wide"
+			(at 410.21 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8153,7 +8122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 405.13 213.36 0)
+			(at 410.21 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8175,7 +8144,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 391.16 219.71 0)
+			(at 410.21 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8183,11 +8152,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Supplier 1" ""
-			(at 388.62 219.71 0)
+			(at 410.21 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8195,11 +8163,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Supplier Part Num 1" ""
-			(at 386.08 219.71 0)
+			(at 410.21 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8207,11 +8174,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Supplier 2" ""
-			(at 383.54 219.71 0)
+			(at 410.21 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8219,11 +8185,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Supplier Part Num 2" ""
-			(at 381 219.71 0)
+			(at 410.21 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8231,11 +8196,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Supplier 3" ""
-			(at 378.46 219.71 0)
+			(at 410.21 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8243,11 +8207,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Supplier Part Num 3" ""
-			(at 375.92 219.71 0)
+			(at 410.21 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8255,11 +8218,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Manufacturer Part Num" ""
-			(at 373.38 219.71 0)
+			(at 410.21 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8267,7 +8229,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(pin "1"

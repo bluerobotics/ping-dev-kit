@@ -1328,215 +1328,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 1.27 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LABEL"
-				(at 1.524 -6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
-				(at 0 76.2 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
-				(at 0 73.66 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
-				(at 0 71.12 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer" "XFCN"
-				(at 0 68.58 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer Part Num" "PZ254V-11-02P"
-				(at 0 66.04 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "BRE Number" "BRE-001259"
-				(at 0 63.5 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "JLCPCB Part Num" "C492401"
-				(at 0 60.96 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Header_Pin_01x02_2.54mm_Vert_PTH_1_1"
-				(rectangle
-					(start 0 0)
-					(end 2.54 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 2.54 -1.143)
-					(end 1.27 -1.397)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -3.683)
-					(end 1.27 -3.937)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 6.35 -1.27 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -3.81 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "BR_IC:STM32H563AII3Q"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8654,12 +8445,6 @@
 		(uuid "01bdcf24-7a77-42dd-8a01-c261036f5b39")
 	)
 	(junction
-		(at 132.08 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "041b9f7c-bcaa-4348-89cc-a21ecca9d974")
-	)
-	(junction
 		(at 256.54 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8784,12 +8569,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bb68185-60a5-4a58-a7d3-d0ea623ff38a")
-	)
-	(junction
-		(at 256.54 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bdf0f0e-1c75-43ab-a4c1-525048f2a646")
 	)
 	(junction
 		(at 256.54 198.12)
@@ -9008,12 +8787,6 @@
 		(uuid "b3f4cc75-cefc-48d4-8b4b-3a716febf422")
 	)
 	(junction
-		(at 256.54 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb3a0fce-d19f-4d44-86b2-81ca70c0f122")
-	)
-	(junction
 		(at 256.54 304.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9126,12 +8899,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb835485-50bb-463b-baf9-1797ccf7dd46")
-	)
-	(junction
-		(at 132.08 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebd1a0d9-06e6-470e-9a63-a2a0c5a44eaf")
 	)
 	(junction
 		(at 142.24 165.1)
@@ -10148,16 +9915,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 228.6) (xy 280.67 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2630da00-91c1-4381-ac86-492b31d7d42b")
-	)
-	(wire
-		(pts
 			(xy 71.12 213.36) (xy 157.48 213.36)
 		)
 		(stroke
@@ -10795,16 +10552,6 @@
 			(type default)
 		)
 		(uuid "62e5cb62-b597-4706-82cf-c87e932fa118")
-	)
-	(wire
-		(pts
-			(xy 256.54 231.14) (xy 280.67 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6354ebfa-34b9-414f-b462-b0944045e295")
 	)
 	(wire
 		(pts
@@ -12198,16 +11945,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 241.3) (xy 132.08 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9a22d03-71ba-4172-8cbd-2e3069169713")
-	)
-	(wire
-		(pts
 			(xy 215.9 46.99) (xy 190.5 46.99)
 		)
 		(stroke
@@ -12425,16 +12162,6 @@
 			(type default)
 		)
 		(uuid "f05d1861-12c5-41ce-8411-f331e85acb01")
-	)
-	(wire
-		(pts
-			(xy 106.68 238.76) (xy 132.08 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0f61e79-6239-4fd5-ba21-d7c2b9b04062")
 	)
 	(wire
 		(pts
@@ -19617,136 +19344,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH")
-		(at 100.33 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "43a79b39-4f83-47f3-8c2e-0559e3f67b33")
-		(property "Reference" "J301"
-			(at 96.52 238.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LABEL"
-			(at 96.52 241.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
-			(at 100.33 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
-			(at 100.33 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
-			(at 100.33 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "XFCN"
-			(at 100.33 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer Part Num" "PZ254V-11-02P"
-			(at 100.33 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "BRE Number" "BRE-001259"
-			(at 100.33 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C492401"
-			(at 100.33 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "c2e2e95f-9643-4a6d-a8d5-45af7137e4ea")
-		)
-		(pin "2"
-			(uuid "7a86dec9-396e-4afe-9146-ecf18de25831")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
-					(reference "J301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BR_Virtual_Parts:GND_LOCAL")
 		(at 44.45 114.3 0)
 		(mirror y)
@@ -20889,139 +20486,6 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
 					(reference "TP314")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Connectors_Header:Header_Pin_01x02_2.54mm_Vert_PTH")
-		(at 287.02 232.41 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5123d921-aeda-483f-b60a-ea977cd5171b")
-		(property "Reference" "J302"
-			(at 288.29 228.5999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LABEL"
-			(at 288.29 231.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "BR_Connectors:PinHeader_1x02_P2.54mm_Vertical"
-			(at 287.02 308.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254V-11-02P_C492401.pdf"
-			(at 287.02 306.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Header Pin 2P 01x02P 2.54mm Pitch Vertical Through Hole 3A"
-			(at 287.02 303.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "XFCN"
-			(at 287.02 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer Part Num" "PZ254V-11-02P"
-			(at 287.02 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "BRE Number" "BRE-001259"
-			(at 287.02 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C492401"
-			(at 287.02 293.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "5d801330-7d54-43bb-b60e-27ed1c4e06e1")
-		)
-		(pin "2"
-			(uuid "f7f158d6-211c-469c-8fbd-ee673b725d40")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
-					(reference "J302")
 					(unit 1)
 				)
 			)
@@ -28714,7 +28178,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0201:R_0201_10k")
+		(lib_id "BR_Resistors_0402:R_0402_10k")
 		(at 292.1 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -28746,7 +28210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:R_0201_0603Metric-minimized"
+		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
 			(at 292.1 -5.08 0)
 			(hide yes)
 			(show_name no)
@@ -28758,7 +28222,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
 			(at 292.1 -2.54 0)
 			(hide yes)
 			(show_name no)
@@ -28770,7 +28234,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "10k 1% 200ppm 50mW Thick Film Resistor 0201"
+		(property "Description" "10k 1% 100ppm 62.5mW Thick Film Resistor 0402"
 			(at 292.1 7.62 0)
 			(hide yes)
 			(show_name no)
@@ -28794,7 +28258,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "RC0201FR-0710KL"
+		(property "Manufacturer Part Num" "AC0402FR-0710KL"
 			(at 292.1 2.54 0)
 			(hide yes)
 			(show_name no)
@@ -28818,7 +28282,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier Part Num 1" "311-10.0KMCT-ND"
+		(property "Supplier Part Num 1" "YAG3436CT-ND"
 			(at 292.1 12.7 0)
 			(hide yes)
 			(show_name no)
@@ -28830,7 +28294,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier 2" "Mouser"
+		(property "Supplier 2" "DigiKey"
 			(at 292.1 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -28842,7 +28306,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier Part Num 2" "603-RC0201FR-0710KL"
+		(property "Supplier Part Num 2" "YAG3436TR-ND"
 			(at 292.1 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -28866,7 +28330,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier Part Num 3" "C106225"
+		(property "Supplier Part Num 3" "C144807"
 			(at 292.1 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -28878,7 +28342,7 @@
 				(justify left)
 			)
 		)
-		(property "BRE Number" "BRE-000261"
+		(property "BRE Number" "BRE-000292"
 			(at 292.1 5.08 0)
 			(hide yes)
 			(show_name no)
@@ -28890,18 +28354,7 @@
 				(justify left)
 			)
 		)
-		(property "BR ID" ""
-			(at 292.1 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part Num" "C106225"
+		(property "JLCPCB Part Num" "C144807"
 			(at 292.1 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -35864,7 +35317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0201:R_0201_10k")
+		(lib_id "BR_Resistors_0402:R_0402_10k")
 		(at 302.26 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -35896,7 +35349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:R_0201_0603Metric-minimized"
+		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
 			(at 302.26 -5.08 0)
 			(hide yes)
 			(show_name no)
@@ -35908,7 +35361,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
 			(at 302.26 -2.54 0)
 			(hide yes)
 			(show_name no)
@@ -35920,7 +35373,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "10k 1% 200ppm 50mW Thick Film Resistor 0201"
+		(property "Description" "10k 1% 100ppm 62.5mW Thick Film Resistor 0402"
 			(at 302.26 7.62 0)
 			(hide yes)
 			(show_name no)
@@ -35944,7 +35397,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "RC0201FR-0710KL"
+		(property "Manufacturer Part Num" "AC0402FR-0710KL"
 			(at 302.26 2.54 0)
 			(hide yes)
 			(show_name no)
@@ -35968,7 +35421,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier Part Num 1" "311-10.0KMCT-ND"
+		(property "Supplier Part Num 1" "YAG3436CT-ND"
 			(at 302.26 12.7 0)
 			(hide yes)
 			(show_name no)
@@ -35980,7 +35433,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier 2" "Mouser"
+		(property "Supplier 2" "DigiKey"
 			(at 302.26 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -35992,7 +35445,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier Part Num 2" "603-RC0201FR-0710KL"
+		(property "Supplier Part Num 2" "YAG3436TR-ND"
 			(at 302.26 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -36016,7 +35469,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier Part Num 3" "C106225"
+		(property "Supplier Part Num 3" "C144807"
 			(at 302.26 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -36028,7 +35481,7 @@
 				(justify left)
 			)
 		)
-		(property "BRE Number" "BRE-000261"
+		(property "BRE Number" "BRE-000292"
 			(at 302.26 5.08 0)
 			(hide yes)
 			(show_name no)
@@ -36040,18 +35493,7 @@
 				(justify left)
 			)
 		)
-		(property "BR ID" ""
-			(at 302.26 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part Num" "C106225"
+		(property "JLCPCB Part Num" "C144807"
 			(at 302.26 25.4 0)
 			(hide yes)
 			(show_name no)
