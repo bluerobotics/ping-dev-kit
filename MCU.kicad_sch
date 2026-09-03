@@ -8021,17 +8021,6 @@
 		)
 		(uuid "378a7a31-da8b-47ad-b870-1e81714d8e93")
 	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 278.638 300.736 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c8613a0-4ee1-4818-8e84-53548a0f212c")
-	)
 	(text "AF9: OCTOSPI1_CLK"
 		(exclude_from_sim no)
 		(at 103.632 315.976 0)
@@ -8108,17 +8097,6 @@
 			(justify right bottom)
 		)
 		(uuid "5d3de6e3-ec95-463d-8db8-4fa3c4af7018")
-	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 274.574 305.816 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e3f68a0-6d94-4b1f-aeda-96b03dff58b4")
 	)
 	(text "AF0: MC02"
 		(exclude_from_sim no)
@@ -8252,17 +8230,6 @@
 		)
 		(uuid "92205edf-1666-4f1f-8a9a-bf9fc3ce5947")
 	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 277.114 295.656 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "949a2275-a50f-454c-9808-e44c367eb09a")
-	)
 	(text "AF3: OCTOSPI1_NCLK"
 		(exclude_from_sim no)
 		(at 266.192 221.996 0)
@@ -8340,17 +8307,6 @@
 		)
 		(uuid "bd298b98-da19-4682-934e-df00561736b5")
 	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 279.908 303.276 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0ddcfdd-644e-4f66-a4d8-c7a024d66479")
-	)
 	(text "AF9: OCTOSPI1_IO4"
 		(exclude_from_sim no)
 		(at 104.14 216.916 0)
@@ -8395,17 +8351,6 @@
 		)
 		(uuid "e2da62d8-ad37-43c9-931e-b8a37226e034")
 	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 274.828 298.196 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e96ce3f1-b27a-4a38-8271-53c1db2670a2")
-	)
 	(text "(Decoupled at VDDA)"
 		(exclude_from_sim no)
 		(at 142.24 176.53 0)
@@ -8437,6 +8382,12 @@
 			(justify right bottom)
 		)
 		(uuid "f8ac287a-a501-4318-acc1-affdecd9e7d9")
+	)
+	(junction
+		(at 256.54 271.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0027cc2b-d5c2-47dd-bc09-a01f51e47834")
 	)
 	(junction
 		(at 185.42 152.4)
@@ -9069,12 +9020,8 @@
 		(uuid "4458ad42-f12c-42ed-8826-49241648e84b")
 	)
 	(no_connect
-		(at 231.14 271.78)
+		(at 231.14 287.02)
 		(uuid "49390232-85ac-4206-bfd8-b82d4a975c17")
-	)
-	(no_connect
-		(at 231.14 223.52)
-		(uuid "4cdf880e-35ec-4ed8-b477-c051b29ece93")
 	)
 	(no_connect
 		(at 231.14 345.44)
@@ -9115,10 +9062,6 @@
 	(no_connect
 		(at 231.14 210.82)
 		(uuid "7776b451-71c4-4fcd-b1e8-649845f034d6")
-	)
-	(no_connect
-		(at 231.14 287.02)
-		(uuid "79c120be-015c-4760-b67d-3dd6b37b301b")
 	)
 	(no_connect
 		(at 157.48 327.66)
@@ -9175,10 +9118,6 @@
 	(no_connect
 		(at 231.14 337.82)
 		(uuid "db985154-a7a3-4fc4-9805-ca1e3364fc57")
-	)
-	(no_connect
-		(at 231.14 317.5)
-		(uuid "dffe720d-02f4-4c33-8a2c-9c98a6930a1f")
 	)
 	(no_connect
 		(at 157.48 289.56)
@@ -9487,6 +9426,15 @@
 		(uuid "d7cc985b-1a8e-4351-adcc-039ca1d14c1b")
 	)
 	(bus_entry
+		(at 327.66 118.11)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e966e595-c67f-43ec-b6cd-f05ad57a2bd4")
+	)
+	(bus_entry
 		(at 327.66 99.06)
 		(size 2.54 2.54)
 		(stroke
@@ -9494,6 +9442,15 @@
 			(type default)
 		)
 		(uuid "f29c6944-1c29-4b3f-a8b8-6247ae7cb69d")
+	)
+	(bus_entry
+		(at 327.66 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb18f437-6ccb-4479-9a92-1b5c9831f258")
 	)
 	(bus_entry
 		(at 215.9 62.23)
@@ -9652,6 +9609,16 @@
 			(type default)
 		)
 		(uuid "0c83d145-8875-46c7-8770-208875201d1f")
+	)
+	(wire
+		(pts
+			(xy 256.54 271.78) (xy 266.7 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c8cc1f7-575a-4c0a-ad99-0dcd4b92ef7e")
 	)
 	(wire
 		(pts
@@ -9965,6 +9932,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 223.52) (xy 256.54 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa4140f-5d06-4d16-8482-a5722fd2e436")
+	)
+	(wire
+		(pts
 			(xy 185.42 152.4) (xy 187.96 152.4)
 		)
 		(stroke
@@ -10252,6 +10229,16 @@
 			(type default)
 		)
 		(uuid "454e3562-f1ed-41f5-a84a-22cd83406ce1")
+	)
+	(bus
+		(pts
+			(xy 330.2 123.19) (xy 349.25 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f42bb4-09a3-4c1c-9df0-80ccb4bc3921")
 	)
 	(wire
 		(pts
@@ -10773,6 +10760,26 @@
 		)
 		(uuid "722836af-cb59-46bb-a332-64f6f197657e")
 	)
+	(bus
+		(pts
+			(xy 330.2 120.65) (xy 330.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72811f3f-3738-4086-90e8-7997f5de5a15")
+	)
+	(wire
+		(pts
+			(xy 302.26 118.11) (xy 327.66 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729d25f2-c1f9-4c6b-ac82-cb6d3cdc1dca")
+	)
 	(wire
 		(pts
 			(xy 190.5 54.61) (xy 215.9 54.61)
@@ -10792,6 +10799,16 @@
 			(type default)
 		)
 		(uuid "73104d1f-7465-40f8-9a43-faef0b32512e")
+	)
+	(wire
+		(pts
+			(xy 231.14 317.5) (xy 256.54 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73bc1cc4-0961-43a7-8a59-cbf3f25f78a0")
 	)
 	(wire
 		(pts
@@ -11352,6 +11369,16 @@
 			(type default)
 		)
 		(uuid "a9ce4603-6053-4b47-93a4-cf249fb5c703")
+	)
+	(wire
+		(pts
+			(xy 302.26 120.65) (xy 327.66 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aabdaf6b-b47f-48f2-8b07-4af310cc8331")
 	)
 	(wire
 		(pts
@@ -12045,6 +12072,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 271.78) (xy 256.54 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33c274e-b34e-48f4-b71e-432dbce20f50")
+	)
+	(wire
+		(pts
 			(xy 62.23 231.14) (xy 62.23 228.6)
 		)
 		(stroke
@@ -12392,6 +12429,16 @@
 			(justify left bottom)
 		)
 		(uuid "1337edb3-bfe4-4c79-a949-bfb3bf761ec4")
+	)
+	(label "FDCAN2.RX"
+		(at 256.54 317.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "134c35b4-ed22-4ece-945c-aac1d79ad16a")
 	)
 	(label "MOTOR_STEP"
 		(at 133.35 198.12 0)
@@ -12893,6 +12940,16 @@
 		)
 		(uuid "9d16cca0-5e5b-41f7-90ea-a91f55579a2f")
 	)
+	(label "GPIO_C8"
+		(at 256.54 271.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e1d0bfb-807e-43a1-a76a-2f2eedb597dc")
+	)
 	(label "MAC.TXD0"
 		(at 190.5 69.85 0)
 		(effects
@@ -12932,6 +12989,16 @@
 			(justify left bottom)
 		)
 		(uuid "a26026e3-cbb7-4c9c-9141-ca87f57f2b4f")
+	)
+	(label "FDCAN2.RX"
+		(at 302.26 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3b64ee8-bdbb-414f-9f0b-2de7946c3230")
 	)
 	(label "TX_EN"
 		(at 248.92 299.72 0)
@@ -13002,6 +13069,16 @@
 			(justify left bottom)
 		)
 		(uuid "b58e897b-41cd-4df4-980c-5a9bdd88c657")
+	)
+	(label "FDCAN2.TX"
+		(at 256.54 223.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5982286-a1ad-46b4-a0ba-f4d8c51f3e8c")
 	)
 	(label "MAC.RXD0"
 		(at 256.54 261.62 180)
@@ -13243,6 +13320,16 @@
 		)
 		(uuid "f196014d-2792-41fd-bd13-d7a3886fe643")
 	)
+	(label "FDCAN2.TX"
+		(at 302.26 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f497fb38-5afa-4034-bab6-2068a5f07bd3")
+	)
 	(label "I2C4.SCL"
 		(at 303.53 99.06 0)
 		(effects
@@ -13304,6 +13391,17 @@
 		)
 		(uuid "06120c67-c0f3-4346-86c6-a80a910ed65d")
 	)
+	(hierarchical_label "GPIO_C8"
+		(shape output)
+		(at 266.7 271.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f9b2f97-9e78-4dc5-bc67-b086a4b25150")
+	)
 	(hierarchical_label "GPIO_I8"
 		(shape output)
 		(at 121.92 205.74 180)
@@ -13314,6 +13412,17 @@
 			(justify right)
 		)
 		(uuid "103faae6-a2ca-4235-b332-2c4fee2e8fce")
+	)
+	(hierarchical_label "FDCAN2{FDCAN}"
+		(shape bidirectional)
+		(at 349.25 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "184009fa-fbf6-49dc-ae4e-98a0f7327c54")
 	)
 	(hierarchical_label "ADC2_INP2"
 		(shape input)
@@ -17394,6 +17503,184 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
 					(reference "TP355")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 256.54 271.78 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "331c6e4f-d2aa-4876-932f-237bca6b36e1")
+		(property "Reference" "TP370"
+			(at 259.715 271.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 266.3825 274.828 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 263.906 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.033 272.034 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 267.97 272.288 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 264.541 270.256 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Num" ""
+			(at 263.652 271.526 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 264.16 269.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Num 1" ""
+			(at 264.16 270.637 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 263.652 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Num 2" ""
+			(at 264.16 271.907 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 3" ""
+			(at 264.668 275.336 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Num 3" ""
+			(at 267.208 277.114 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BR ID" ""
+			(at 256.54 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adbb056d-8b3d-4003-a386-b5f4c323047e")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP370")
 					(unit 1)
 				)
 			)
@@ -26694,6 +26981,184 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 256.54 223.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9930e4e4-d1d0-49e3-93e7-5020510906ac")
+		(property "Reference" "TP368"
+			(at 259.715 223.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 266.3825 226.568 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 263.906 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.033 223.774 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 267.97 224.028 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 264.541 221.996 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Num" ""
+			(at 263.652 223.266 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 264.16 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Num 1" ""
+			(at 264.16 222.377 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 263.652 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Num 2" ""
+			(at 264.16 223.647 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 3" ""
+			(at 264.668 227.076 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Num 3" ""
+			(at 267.208 228.854 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BR ID" ""
+			(at 256.54 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2727473-fb24-4576-8fdc-7126a714b22b")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP368")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
 		(at 132.08 226.06 90)
 		(unit 1)
 		(body_style 1)
@@ -33698,6 +34163,184 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
 					(reference "C302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_ROUND_SMT_300um")
+		(at 256.54 317.5 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebba8639-af65-4b75-81d8-4a9e32de2da0")
+		(property "Reference" "TP369"
+			(at 259.715 317.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ROUND_TH_300um"
+			(at 266.3825 320.548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_ROUND_SMT_300um"
+			(at 263.906 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.033 317.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test pad surface mount"
+			(at 267.97 318.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 264.541 315.976 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Num" ""
+			(at 263.652 317.246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 264.16 315.595 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Num 1" ""
+			(at 264.16 316.357 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 263.652 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Num 2" ""
+			(at 264.16 317.627 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 3" ""
+			(at 264.668 321.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Num 3" ""
+			(at 267.208 322.834 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BR ID" ""
+			(at 256.54 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e54aca8d-7b61-4446-87ba-8e8aa17d2e11")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/ee0d6f49-3c42-47fb-a769-1c20ea80e0b3"
+					(reference "TP369")
 					(unit 1)
 				)
 			)
