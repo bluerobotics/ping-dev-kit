@@ -384,8 +384,8 @@
 					(justify left)
 				)
 			)
-			(property "ki_keywords" "CAN FD Transceiver SIC +/- 70V DFN3x3-8"
-				(at 0 0 0)
+			(property "JLCPCB Part Num" "C5382546"
+				(at 0 55.88 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -393,9 +393,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_keywords" "CAN FD Transceiver SIC +/- 70V DFN3x3-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1366,7 +1367,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Virtual_Parts:TP_SQUARE_TH_1mm"
+		(symbol "BR_Virtual_Parts:TP_SQUARE_TH_2mm"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1389,7 +1390,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TP_SQUARE_TH_500um"
+			(property "Value" "TP_SQUARE_TH_2mm"
 				(at 2.54 -1.5875 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1401,7 +1402,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "BR_Virtual_Parts:TP_SQUARE_TH_1mm"
+			(property "Footprint" "BR_Virtual_Parts:TP_SQUARE_TH_2mm"
 				(at 1.27 7.366 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1423,7 +1424,7 @@
 					)
 				)
 			)
-			(property "Description" "test pad through hole"
+			(property "Description" "test pad, through hole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1522,7 +1523,7 @@
 					)
 				)
 			)
-			(symbol "TP_SQUARE_TH_1mm_0_1"
+			(symbol "TP_SQUARE_TH_2mm_0_1"
 				(rectangle
 					(start -0.635 2.54)
 					(end 0.635 1.27)
@@ -1546,7 +1547,7 @@
 					)
 				)
 			)
-			(symbol "TP_SQUARE_TH_1mm_1_1"
+			(symbol "TP_SQUARE_TH_2mm_1_1"
 				(pin passive line
 					(at 0 0 90)
 					(length 1.27)
@@ -2886,6 +2887,18 @@
 				(justify left)
 			)
 		)
+		(property "JLCPCB Part Num" "C5382546"
+			(at 274.32 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
 			(uuid "e739451d-452b-44e0-b259-aa10d802b5e3")
 		)
@@ -2923,11 +2936,11 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:TP_SQUARE_TH_1mm")
+		(lib_id "BR_Virtual_Parts:TP_SQUARE_TH_2mm")
 		(at 238.76 182.88 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -2955,7 +2968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Virtual_Parts:TP_SQUARE_TH_1mm"
+		(property "Footprint" "BR_Virtual_Parts:TP_SQUARE_TH_2mm"
 			(at 231.394 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -2966,7 +2979,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307040929_ronghe-RH-5000_C5277086.pdf"
+		(property "Datasheet" ""
 			(at 231.267 182.626 0)
 			(hide yes)
 			(show_name no)
@@ -2977,7 +2990,7 @@
 				)
 			)
 		)
-		(property "Description" "test pad through hole"
+		(property "Description" "test pad, through hole"
 			(at 238.76 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -2988,7 +3001,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ronghe"
+		(property "Manufacturer" ""
 			(at 230.759 184.404 0)
 			(hide yes)
 			(show_name no)
@@ -2999,7 +3012,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Num" "RH-5000"
+		(property "Manufacturer Part Num" ""
 			(at 231.648 183.134 0)
 			(hide yes)
 			(show_name no)
@@ -3010,19 +3023,7 @@
 				)
 			)
 		)
-		(property "BRE Number" "BRE-000074"
-			(at 175.26 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
+		(property "Supplier 1" ""
 			(at 231.14 184.785 0)
 			(hide yes)
 			(show_name no)
@@ -3044,7 +3045,7 @@
 				)
 			)
 		)
-		(property "Supplier 2" "Mouser"
+		(property "Supplier 2" ""
 			(at 231.648 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -3064,54 +3065,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Supplier 3" "JLCPCB"
-			(at 187.96 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 3" "C5277086"
-			(at 190.5 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Label" "LABEL"
-			(at 193.04 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C5277086"
-			(at 195.58 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Sim.Enable" "0"
@@ -3652,11 +3605,11 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:TP_SQUARE_TH_1mm")
+		(lib_id "BR_Virtual_Parts:TP_SQUARE_TH_2mm")
 		(at 238.76 180.34 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -3684,7 +3637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Virtual_Parts:TP_SQUARE_TH_1mm"
+		(property "Footprint" "BR_Virtual_Parts:TP_SQUARE_TH_2mm"
 			(at 231.394 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -3695,7 +3648,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307040929_ronghe-RH-5000_C5277086.pdf"
+		(property "Datasheet" ""
 			(at 231.267 180.086 0)
 			(hide yes)
 			(show_name no)
@@ -3706,7 +3659,7 @@
 				)
 			)
 		)
-		(property "Description" "test pad through hole"
+		(property "Description" "test pad, through hole"
 			(at 238.76 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -3717,7 +3670,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ronghe"
+		(property "Manufacturer" ""
 			(at 230.759 181.864 0)
 			(hide yes)
 			(show_name no)
@@ -3728,7 +3681,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Num" "RH-5000"
+		(property "Manufacturer Part Num" ""
 			(at 231.648 180.594 0)
 			(hide yes)
 			(show_name no)
@@ -3739,19 +3692,7 @@
 				)
 			)
 		)
-		(property "BRE Number" "BRE-000074"
-			(at 175.26 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
+		(property "Supplier 1" ""
 			(at 231.14 182.245 0)
 			(hide yes)
 			(show_name no)
@@ -3773,7 +3714,7 @@
 				)
 			)
 		)
-		(property "Supplier 2" "Mouser"
+		(property "Supplier 2" ""
 			(at 231.648 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -3793,54 +3734,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Supplier 3" "JLCPCB"
-			(at 187.96 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 3" "C5277086"
-			(at 190.5 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Label" "LABEL"
-			(at 193.04 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C5277086"
-			(at 195.58 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Sim.Enable" "0"
@@ -3867,11 +3760,11 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:TP_SQUARE_TH_1mm")
+		(lib_id "BR_Virtual_Parts:TP_SQUARE_TH_2mm")
 		(at 238.76 185.42 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -3899,7 +3792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Virtual_Parts:TP_SQUARE_TH_1mm"
+		(property "Footprint" "BR_Virtual_Parts:TP_SQUARE_TH_2mm"
 			(at 231.394 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -3910,7 +3803,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307040929_ronghe-RH-5000_C5277086.pdf"
+		(property "Datasheet" ""
 			(at 231.267 185.166 0)
 			(hide yes)
 			(show_name no)
@@ -3921,7 +3814,7 @@
 				)
 			)
 		)
-		(property "Description" "test pad through hole"
+		(property "Description" "test pad, through hole"
 			(at 238.76 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -3932,7 +3825,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ronghe"
+		(property "Manufacturer" ""
 			(at 230.759 186.944 0)
 			(hide yes)
 			(show_name no)
@@ -3943,7 +3836,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Num" "RH-5000"
+		(property "Manufacturer Part Num" ""
 			(at 231.648 185.674 0)
 			(hide yes)
 			(show_name no)
@@ -3954,19 +3847,7 @@
 				)
 			)
 		)
-		(property "BRE Number" "BRE-000074"
-			(at 175.26 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
+		(property "Supplier 1" ""
 			(at 231.14 187.325 0)
 			(hide yes)
 			(show_name no)
@@ -3988,7 +3869,7 @@
 				)
 			)
 		)
-		(property "Supplier 2" "Mouser"
+		(property "Supplier 2" ""
 			(at 231.648 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -4008,54 +3889,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Supplier 3" "JLCPCB"
-			(at 187.96 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 3" "C5277086"
-			(at 190.5 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Label" "LABEL"
-			(at 193.04 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C5277086"
-			(at 195.58 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Sim.Enable" "0"
