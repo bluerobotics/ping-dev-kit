@@ -3441,7 +3441,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Resistors_0402:R_0402_100k"
+		(symbol "BR_Resistors_0402:R_0402_12k4"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3465,7 +3465,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "100k"
+			(property "Value" "12k4"
 				(at 1.524 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3488,7 +3488,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
 				(at 0 73.66 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3500,7 +3500,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "100k 1% 100ppm 62.5mW Thick Film Resistor 0402"
+			(property "Description" "12.4k 1% 100ppm 62.5mW Thick Film Resistor 0402"
 				(at 0 63.5 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3524,7 +3524,7 @@
 					(justify left)
 				)
 			)
-			(property "Manufacturer Part Num" "RC0402FR-07100KL"
+			(property "Manufacturer Part Num" "AC0402FR-0712K4L"
 				(at 0 68.58 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3536,7 +3536,7 @@
 					(justify left)
 				)
 			)
-			(property "BRE Number" "BRE-000290"
+			(property "BRE Number" "BRE-000300"
 				(at 0 66.04 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3560,7 +3560,7 @@
 					(justify left)
 				)
 			)
-			(property "Supplier Part Num 1" "311-100KLRCT-ND"
+			(property "Supplier Part Num 1" "YAG5256CT-ND"
 				(at 0 58.42 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3584,7 +3584,7 @@
 					(justify left)
 				)
 			)
-			(property "Supplier Part Num 2" "311-100KLRTR-ND"
+			(property "Supplier Part Num 2" "YAG5256TR-ND"
 				(at 0 53.34 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3608,7 +3608,7 @@
 					(justify left)
 				)
 			)
-			(property "Supplier Part Num 3" "C60491"
+			(property "Supplier Part Num 3" "C226767"
 				(at 0 48.26 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3620,7 +3620,7 @@
 					(justify left)
 				)
 			)
-			(property "JLCPCB Part Num" "C60491"
+			(property "JLCPCB Part Num" "C226767"
 				(at 0 45.72 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3654,7 +3654,7 @@
 					)
 				)
 			)
-			(symbol "R_0402_100k_0_1"
+			(symbol "R_0402_12k4_0_1"
 				(polyline
 					(pts
 						(xy 0 2.286) (xy 0 2.54)
@@ -3716,250 +3716,7 @@
 					)
 				)
 			)
-			(symbol "R_0402_100k_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BR_Resistors_0402:R_0402_13k3"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 1.524 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "13.3k"
-				(at 1.524 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
-				(at 0 76.2 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506161046_YAGEO-RC0402FR-0713K3L_C274352.pdf"
-				(at 0 73.66 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "13.3k 1% 100ppm 62.5mW Thick Film Resistor 0402"
-				(at 0 63.5 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 71.12 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer Part Num" "RC0402FR-0713K3L"
-				(at 0 68.58 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "BRE Number" "BRE-001235"
-				(at 0 66.04 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "JLCPCB Part Num" "C274352"
-				(at 0 60.96 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0402_13k3_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0402_13k3_1_1"
+			(symbol "R_0402_12k4_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -4581,7 +4338,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Resistors_0402:R_0402_9k65"
+		(symbol "BR_Resistors_0402:R_0402_93k1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4605,7 +4362,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "9k65"
+			(property "Value" "93k1"
 				(at 1.524 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4628,7 +4385,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 				(at 0 73.66 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4640,7 +4397,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "9.65k 1% 50ppm 62.5mW Thick Film Resistor 0402"
+			(property "Description" "93.1k 1% 100ppm 62.5mW Thick Film Resistor 0402"
 				(at 0 63.5 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4652,7 +4409,7 @@
 					(justify left)
 				)
 			)
-			(property "Manufacturer" "KOA Speer Electronics, Inc."
+			(property "Manufacturer" "YAGEO"
 				(at 0 71.12 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4664,7 +4421,7 @@
 					(justify left)
 				)
 			)
-			(property "Manufacturer Part Num" "RN73H1ETTP9651F50"
+			(property "Manufacturer Part Num" "AC0402FR-0793K1L"
 				(at 0 68.58 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4676,7 +4433,7 @@
 					(justify left)
 				)
 			)
-			(property "BRE Number" "BRE-000378"
+			(property "BRE Number" "BRE-000376"
 				(at 0 66.04 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4700,7 +4457,7 @@
 					(justify left)
 				)
 			)
-			(property "Supplier Part Num 1" "2019-RN73H1ETTP9651F50CT-ND"
+			(property "Supplier Part Num 1" "13-AC0402FR-0793K1LCT-ND"
 				(at 0 58.42 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4724,7 +4481,7 @@
 					(justify left)
 				)
 			)
-			(property "Supplier Part Num 2" "2019-RN73H1ETTP9651F50TR-ND"
+			(property "Supplier Part Num 2" "13-AC0402FR-0793K1LTR-ND"
 				(at 0 53.34 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4748,7 +4505,7 @@
 					(justify left)
 				)
 			)
-			(property "Supplier Part Num 3" "C4114188"
+			(property "Supplier Part Num 3" "C227276"
 				(at 0 48.26 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4760,7 +4517,7 @@
 					(justify left)
 				)
 			)
-			(property "JLCPCB Part Num" "C4114188"
+			(property "JLCPCB Part Num" "C227276"
 				(at 0 45.72 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4794,7 +4551,7 @@
 					)
 				)
 			)
-			(symbol "R_0402_9k65_0_1"
+			(symbol "R_0402_93k1_0_1"
 				(polyline
 					(pts
 						(xy 0 2.286) (xy 0 2.54)
@@ -4856,7 +4613,228 @@
 					)
 				)
 			)
-			(symbol "R_0402_9k65_1_1"
+			(symbol "R_0402_93k1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BR_Resistors_0402:R_0402_9k1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 1.524 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "9k1"
+				(at 1.524 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+				(at 0 76.2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2909390.pdf?spm=wm.sxq.inf.ggs___wm.ssy.bg.0.xh&lcsc_vid=QFMKAlVSTlVbVgVVFllaAgUEFgINXlwCFQcNUQADEwIxVlNRQ1hXVFZTRFhaUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+				(at 0 73.66 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "9.1k 1% 100ppm 62.5mW Thick Film Resistor 0402"
+				(at 0 63.5 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "FOJAN"
+				(at 0 71.12 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer Part Num" "FRC0402F9101TS"
+				(at 0 68.58 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "BRE Number" "BRE-001474"
+				(at 0 66.04 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "JLCPCB Part Num" "C2909390"
+				(at 0 60.96 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(symbol "R_0402_9k1_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0402_9k1_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -5730,7 +5708,7 @@
 		)
 		(uuid "937abb83-a9fb-40b2-b54c-a897164cf0aa")
 	)
-	(text_box "ADJUSTABLE BOOST\n* F = 750 kHz\n* VFB = 1.6V\n* Design Output range: 5V to 30V (DAC 3.3V to 0V)\n* Actual Output range: 5.4V to 30.2V\n* Ilim = 7.5A"
+	(text_box "ADJUSTABLE BOOST\n* F = 750 kHz\n* VFB = 1.6V\n* Design Output range: 5V to 30V (DAC 3.3V to 0V)\n* Actual Output range: 5.2V to 30.0V\n* Ilim = 7.5A"
 		(exclude_from_sim no)
 		(at 376.936 148.336 0)
 		(size 55.88 19.558)
@@ -7067,7 +7045,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0402:R_0402_13k3")
+		(lib_id "BR_Resistors_0402:R_0402_12k4")
 		(at 379.73 213.36 180)
 		(unit 1)
 		(body_style 1)
@@ -7089,7 +7067,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "13.3k"
+		(property "Value" "12k4"
 			(at 382.27 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7112,7 +7090,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506161046_YAGEO-RC0402FR-0713K3L_C274352.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
 			(at 379.73 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -7124,7 +7102,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "13.3k 1% 100ppm 62.5mW Thick Film Resistor 0402"
+		(property "Description" "12.4k 1% 100ppm 62.5mW Thick Film Resistor 0402"
 			(at 379.73 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -7148,7 +7126,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "RC0402FR-0713K3L"
+		(property "Manufacturer Part Num" "AC0402FR-0712K4L"
 			(at 379.73 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -7160,7 +7138,7 @@
 				(justify left)
 			)
 		)
-		(property "BRE Number" "BRE-001235"
+		(property "BRE Number" "BRE-000300"
 			(at 379.73 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -7172,8 +7150,80 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB Part Num" "C274352"
+		(property "JLCPCB Part Num" "C226767"
+			(at 379.73 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
 			(at 379.73 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier Part Num 1" "YAG5256CT-ND"
+			(at 379.73 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 2" "DigiKey"
+			(at 379.73 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier Part Num 2" "YAG5256TR-ND"
+			(at 379.73 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 379.73 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier Part Num 3" "C226767"
+			(at 379.73 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10241,7 +10291,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0402:R_0402_100k")
+		(lib_id "BR_Resistors_0402:R_0402_93k1")
 		(at 388.62 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -10263,7 +10313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "93k1"
 			(at 391.16 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10298,7 +10348,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "100k 1% 100ppm 62.5mW Thick Film Resistor 0402"
+		(property "Description" "93.1k 1% 100ppm 62.5mW Thick Film Resistor 0402"
 			(at 388.62 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10322,7 +10372,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "RC0402FR-07100KL"
+		(property "Manufacturer Part Num" "AC0402FR-0793K1L"
 			(at 388.62 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10334,7 +10384,7 @@
 				(justify left)
 			)
 		)
-		(property "BRE Number" "BRE-000290"
+		(property "BRE Number" "BRE-000376"
 			(at 388.62 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10358,7 +10408,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier Part Num 1" "311-100KLRCT-ND"
+		(property "Supplier Part Num 1" "13-AC0402FR-0793K1LCT-ND"
 			(at 388.62 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -10382,7 +10432,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier Part Num 2" "311-100KLRTR-ND"
+		(property "Supplier Part Num 2" "13-AC0402FR-0793K1LTR-ND"
 			(at 388.62 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10406,7 +10456,7 @@
 				(justify left)
 			)
 		)
-		(property "Supplier Part Num 3" "C60491"
+		(property "Supplier Part Num 3" "C227276"
 			(at 388.62 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10418,7 +10468,7 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB Part Num" "C60491"
+		(property "JLCPCB Part Num" "C227276"
 			(at 388.62 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10726,7 +10776,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Resistors_0402:R_0402_9k65")
+		(lib_id "BR_Resistors_0402:R_0402_9k1")
 		(at 388.62 196.85 0)
 		(unit 1)
 		(body_style 1)
@@ -10748,7 +10798,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9k65"
+		(property "Value" "9k1"
 			(at 391.16 198.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10771,7 +10821,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2909390.pdf?spm=wm.sxq.inf.ggs___wm.ssy.bg.0.xh&lcsc_vid=QFMKAlVSTlVbVgVVFllaAgUEFgINXlwCFQcNUQADEwIxVlNRQ1hXVFZTRFhaUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
 			(at 388.62 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10783,7 +10833,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "9.65k 1% 50ppm 62.5mW Thick Film Resistor 0402"
+		(property "Description" "9.1k 1% 100ppm 62.5mW Thick Film Resistor 0402"
 			(at 388.62 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10795,7 +10845,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "KOA Speer Electronics, Inc."
+		(property "Manufacturer" "FOJAN"
 			(at 388.62 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10807,7 +10857,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "RN73H1ETTP9651F50"
+		(property "Manufacturer Part Num" "FRC0402F9101TS"
 			(at 388.62 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10819,7 +10869,7 @@
 				(justify left)
 			)
 		)
-		(property "BRE Number" "BRE-000378"
+		(property "BRE Number" "BRE-001474"
 			(at 388.62 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -10831,80 +10881,8 @@
 				(justify left)
 			)
 		)
-		(property "Supplier 1" "DigiKey"
+		(property "JLCPCB Part Num" "C2909390"
 			(at 388.62 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 1" "2019-RN73H1ETTP9651F50CT-ND"
-			(at 388.62 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C4114188"
-			(at 388.62 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 2" "DigiKey"
-			(at 388.62 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 2" "2019-RN73H1ETTP9651F50TR-ND"
-			(at 388.62 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 3" "JLCPCB"
-			(at 388.62 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 3" "C4114188"
-			(at 388.62 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

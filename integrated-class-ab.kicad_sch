@@ -822,17 +822,6 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(symbol "Header_Socket_SIP_01x02_2.54mm_Vert_PTH_1_1"
 				(rectangle
 					(start 0 0)
@@ -2950,7 +2939,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+			(property "Footprint" "BR_Passives:R_0402_1005Metric-minimized"
 				(at 0 76.2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3580,7 +3569,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+			(property "Footprint" "BR_Passives:R_0402_1005Metric-minimized"
 				(at 0 76.2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4812,17 +4801,6 @@
 				)
 			)
 			(property "ki_keywords" "test pad through hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6514,7 +6492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+		(property "Footprint" "BR_Passives:R_0402_1005Metric-minimized"
 			(at 191.77 12.7 0)
 			(hide yes)
 			(show_name no)
@@ -6717,7 +6695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+		(property "Footprint" "BR_Passives:R_0402_1005Metric-minimized"
 			(at 124.46 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12631,6 +12609,17 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 147.32 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "04ef001e-7374-4e12-8db7-4075c0af7d45")
 		)
@@ -13172,6 +13161,17 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 104.14 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cc3be1b5-9701-49ba-827b-fb35b447f206")
 		)
@@ -13217,7 +13217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
+		(property "Footprint" "BR_Passives:R_0402_1005Metric-minimized"
 			(at 276.86 78.74 0)
 			(hide yes)
 			(show_name no)
