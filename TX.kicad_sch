@@ -5410,6 +5410,19 @@
 		)
 		(uuid "83c1c77a-d313-4d51-9cbf-8de73f0f58e6")
 	)
+	(text "FIX THIS"
+		(exclude_from_sim no)
+		(at 244.602 243.84 0)
+		(effects
+			(font
+				(size 20 20)
+				(thickness 4)
+				(bold yes)
+				(color 255 0 9 1)
+			)
+		)
+		(uuid "c579b6b6-4754-4fb5-ab70-d0b90032df21")
+	)
 	(junction
 		(at 127 228.6)
 		(diameter 0)
@@ -5549,7 +5562,7 @@
 		(uuid "c340e40f-3764-4c7a-9591-c7a0aba59889")
 	)
 	(junction
-		(at 252.73 86.36)
+		(at 260.35 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd7e207d-2d72-4070-8144-c63a26bb9c1a")
@@ -5561,7 +5574,7 @@
 		(uuid "d7b97a99-1635-4718-a3b6-7b0fd8aa0613")
 	)
 	(junction
-		(at 234.95 83.82)
+		(at 242.57 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef5cd0e8-b4bc-4d0c-bb8f-25e61b38f48c")
@@ -5595,7 +5608,7 @@
 		(uuid "b3358d45-1ef2-4589-870c-ed1b3c4335ef")
 	)
 	(no_connect
-		(at 231.14 88.9)
+		(at 218.44 83.82)
 		(uuid "eba5b680-1b86-405a-a0df-92c4c1fec46c")
 	)
 	(wire
@@ -5810,6 +5823,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 86.36) (xy 242.57 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bbc1750-945d-4ad5-a805-f6f756c0f3cb")
+	)
+	(wire
+		(pts
 			(xy 127 228.6) (xy 133.35 228.6)
 		)
 		(stroke
@@ -5940,13 +5963,13 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 83.82) (xy 231.14 83.82)
+			(xy 231.14 88.9) (xy 260.35 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c4fb07b-fb1d-4c0e-a64c-4c258d77cf22")
+		(uuid "47245fbe-46de-40df-8b10-855be3655589")
 	)
 	(wire
 		(pts
@@ -6460,6 +6483,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 83.82) (xy 231.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ddb123-d4bf-473a-b456-ff5ef119d43a")
+	)
+	(wire
+		(pts
 			(xy 133.35 228.6) (xy 139.7 228.6)
 		)
 		(stroke
@@ -6577,16 +6610,6 @@
 			(type default)
 		)
 		(uuid "eccd6b1d-0b46-4ef8-b9eb-69e1d12bcf2c")
-	)
-	(wire
-		(pts
-			(xy 231.14 86.36) (xy 252.73 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edc5f715-2428-4469-b690-e7832898319a")
 	)
 	(wire
 		(pts
@@ -9786,7 +9809,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 234.95 83.82 270)
+		(at 242.57 86.36 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9797,7 +9820,7 @@
 		(dnp no)
 		(uuid "5b856154-2ac0-421c-8d3a-6c1d229d240f")
 		(property "Reference" "#PWR0530"
-			(at 231.14 83.82 0)
+			(at 238.76 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9808,7 +9831,7 @@
 			)
 		)
 		(property "Value" "VRAIL_AB"
-			(at 243.332 83.82 90)
+			(at 250.952 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9818,7 +9841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 83.82 0)
+			(at 242.57 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9829,7 +9852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 83.82 0)
+			(at 242.57 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9840,7 +9863,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 234.95 83.82 0)
+			(at 242.57 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11366,7 +11389,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 234.95 83.82 0)
+		(at 242.57 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11376,7 +11399,7 @@
 		(dnp no)
 		(uuid "779409c5-7f03-4b09-8ec6-f6e06bac58e8")
 		(property "Reference" "#FLG0503"
-			(at 234.95 81.915 0)
+			(at 242.57 84.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11387,7 +11410,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 237.998 80.01 0)
+			(at 245.618 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11397,7 +11420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 83.82 0)
+			(at 242.57 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11408,7 +11431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 83.82 0)
+			(at 242.57 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11419,7 +11442,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 234.95 83.82 0)
+			(at 242.57 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11807,7 +11830,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 218.44 83.82 90)
+		(at 218.44 86.36 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -11818,7 +11841,7 @@
 		(dnp no)
 		(uuid "89a6213c-5056-4cc0-b774-3e84b35f4cff")
 		(property "Reference" "#PWR0524"
-			(at 222.25 83.82 0)
+			(at 222.25 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11829,7 +11852,7 @@
 			)
 		)
 		(property "Value" "VRAIL"
-			(at 213.614 83.82 90)
+			(at 212.344 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11839,7 +11862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 83.82 0)
+			(at 218.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11850,7 +11873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 83.82 0)
+			(at 218.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11861,7 +11884,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 218.44 83.82 0)
+			(at 218.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13204,7 +13227,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 252.73 86.36 0)
+		(at 260.35 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13214,7 +13237,7 @@
 		(dnp no)
 		(uuid "a9307be6-41c2-41dd-90c0-b4eb0379e3db")
 		(property "Reference" "#FLG0502"
-			(at 252.73 84.455 0)
+			(at 260.35 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13225,7 +13248,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 252.984 82.296 0)
+			(at 260.604 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13235,7 +13258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 86.36 0)
+			(at 260.35 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13246,7 +13269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 86.36 0)
+			(at 260.35 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13257,7 +13280,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 252.73 86.36 0)
+			(at 260.35 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14604,7 +14627,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 252.73 86.36 270)
+		(at 260.35 88.9 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -14615,7 +14638,7 @@
 		(dnp no)
 		(uuid "c038c43e-01e9-4c56-93e5-d6bb166aae45")
 		(property "Reference" "#PWR0529"
-			(at 248.92 86.36 0)
+			(at 256.54 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14626,7 +14649,7 @@
 			)
 		)
 		(property "Value" "5V_AB"
-			(at 259.842 86.614 90)
+			(at 267.462 89.154 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14636,7 +14659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 86.36 0)
+			(at 260.35 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14647,7 +14670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 86.36 0)
+			(at 260.35 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14658,7 +14681,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 252.73 86.36 0)
+			(at 260.35 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14682,7 +14705,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 218.44 86.36 90)
+		(at 218.44 88.9 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -14693,7 +14716,7 @@
 		(dnp no)
 		(uuid "c08a4726-fee8-4c4b-ab06-d35d5751c84f")
 		(property "Reference" "#PWR0525"
-			(at 222.25 86.36 0)
+			(at 222.25 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14704,7 +14727,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 213.614 86.36 90)
+			(at 213.614 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14714,7 +14737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 86.36 0)
+			(at 218.44 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14725,7 +14748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 86.36 0)
+			(at 218.44 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14736,7 +14759,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 218.44 86.36 0)
+			(at 218.44 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16253,7 +16276,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 218.44 88.9 90)
+		(at 229.87 83.82 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16264,7 +16287,7 @@
 		(dnp no)
 		(uuid "fcb28da5-7a07-47d5-8a2f-c55ff3d3ed35")
 		(property "Reference" "#PWR0526"
-			(at 222.25 88.9 0)
+			(at 226.06 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16275,7 +16298,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 213.614 88.9 90)
+			(at 235.712 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16285,7 +16308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 88.9 0)
+			(at 229.87 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16296,7 +16319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 88.9 0)
+			(at 229.87 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16307,7 +16330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 218.44 88.9 0)
+			(at 229.87 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
