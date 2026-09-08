@@ -3948,7 +3948,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Transistors:BJT_N_BC846BM3"
+		(symbol "BR_Transistors:BJT_ARRAY_LBC846BPDW1T1G"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3959,7 +3959,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 2.54 1.27 0)
+				(at 5.08 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3969,8 +3969,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC846BM3"
-				(at 2.54 -1.27 0)
+			(property "Value" "LBC846BPDW1T1G"
+				(at 5.08 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3980,7 +3980,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "BR_SOT:SOT-723"
+			(property "Footprint" "BR_SOT:SOT-363_SC-70-6"
 				(at 0 76.2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3992,7 +3992,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311290959_amsem-BC846BM3_C7528934.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291527_LRC-LBC846BPDW1T1G_C189598.pdf"
 				(at 0 73.66 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4004,7 +4004,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "NPN BJT 65V 100mA 265mW 100MHz SOT-723"
+			(property "Description" "1NPN + 1PNP BJT 65V 100mA 380mW 100MHz SOT-363-6 AEC-Q101"
 				(at 0 63.5 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4016,7 +4016,7 @@
 					(justify left)
 				)
 			)
-			(property "Manufacturer" "amsem"
+			(property "Manufacturer" "LRC"
 				(at 0 71.12 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4028,7 +4028,7 @@
 					(justify left)
 				)
 			)
-			(property "Manufacturer Part Num" "BC846BM3"
+			(property "Manufacturer Part Num" "LBC846BPDW1T1G"
 				(at 0 68.58 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4040,7 +4040,7 @@
 					(justify left)
 				)
 			)
-			(property "BRE Number" "BRE-001168"
+			(property "BRE Number" "BRE-001160"
 				(at 0 66.04 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4052,7 +4052,7 @@
 					(justify left)
 				)
 			)
-			(property "JLCPCB Part Num" "C7528934"
+			(property "JLCPCB Part Num" "C189598"
 				(at 0 60.96 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4062,6 +4062,16 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "NPN transistor"
@@ -4075,34 +4085,10 @@
 					)
 				)
 			)
-			(symbol "BJT_N_BC846BM3_0_1"
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -1.778 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "BJT_ARRAY_LBC846BPDW1T1G_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -0.635) (xy -0.889 -1.651) (xy -0.889 -1.651)
 					)
 					(stroke
 						(width 0)
@@ -4124,7 +4110,7 @@
 					)
 				)
 			)
-			(symbol "BJT_N_BC846BM3_1_1"
+			(symbol "BJT_ARRAY_LBC846BPDW1T1G_1_1"
 				(rectangle
 					(start -2.159 2.159)
 					(end -1.651 -2.159)
@@ -4134,6 +4120,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.508) (xy -1.016 -1.524) (xy -2.032 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -4148,10 +4146,10 @@
 						(type outline)
 					)
 				)
-				(pin input line
-					(at -6.35 0 0)
+				(pin passive line
+					(at 0 -5.08 90)
 					(length 2.54)
-					(name "B"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4166,10 +4164,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "E"
+				(pin input line
+					(at -7.62 0 0)
+					(length 5.715)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4194,7 +4192,98 @@
 							)
 						)
 					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BJT_ARRAY_LBC846BPDW1T1G_2_1"
+				(rectangle
+					(start -2.159 2.159)
+					(end -1.651 -2.159)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.778) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.524) (xy -1.016 -2.032) (xy -1.651 -0.889) (xy -0.508 -1.524) (xy -0.508 -1.524)
+					)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5410,19 +5499,6 @@
 		)
 		(uuid "83c1c77a-d313-4d51-9cbf-8de73f0f58e6")
 	)
-	(text "FIX THIS"
-		(exclude_from_sim no)
-		(at 244.602 243.84 0)
-		(effects
-			(font
-				(size 20 20)
-				(thickness 4)
-				(bold yes)
-				(color 255 0 9 1)
-			)
-		)
-		(uuid "c579b6b6-4754-4fb5-ab70-d0b90032df21")
-	)
 	(junction
 		(at 127 228.6)
 		(diameter 0)
@@ -5442,7 +5518,7 @@
 		(uuid "0ee511e3-ea84-4c9f-a856-704d043d0ed1")
 	)
 	(junction
-		(at 220.98 261.62)
+		(at 220.98 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33780e29-7b1f-4330-8e63-de442537d8f7")
@@ -5478,10 +5554,10 @@
 		(uuid "5ca0e764-0c0d-477a-9c45-c83af66a6dac")
 	)
 	(junction
-		(at 209.55 261.62)
+		(at 220.98 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "600eb421-1fed-45c0-b1eb-3729d5b36cbc")
+		(uuid "64b90881-98bf-4490-8a91-6bdacc9fe2ab")
 	)
 	(junction
 		(at 306.07 91.44)
@@ -5496,16 +5572,10 @@
 		(uuid "724ef2d7-93c5-4d67-a689-c94cbd7c8d56")
 	)
 	(junction
-		(at 199.39 266.7)
+		(at 167.64 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82f1c777-eb04-463a-9443-6c004cf91523")
-	)
-	(junction
-		(at 220.98 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85590495-4d55-4db7-92c9-bcd0b5123b04")
 	)
 	(junction
 		(at 69.85 53.34)
@@ -5538,7 +5608,7 @@
 		(uuid "b0969750-ee6b-42db-bfff-745452d5e292")
 	)
 	(junction
-		(at 220.98 251.46)
+		(at 220.98 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0ab168e-dff5-4bae-8c61-2b5b69a28fe6")
@@ -5586,10 +5656,22 @@
 		(uuid "efa8ebeb-1745-4c23-8f51-c2fc167ccc62")
 	)
 	(junction
+		(at 200.66 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2659f2f-365a-4703-8003-f0f10f48781c")
+	)
+	(junction
 		(at 120.65 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f34bfcc0-b64a-4cfc-8f16-7bd9aacb7c1b")
+	)
+	(junction
+		(at 179.07 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f70e0d5a-1106-4556-85d3-d0e638a7b1bc")
 	)
 	(no_connect
 		(at 231.14 101.6)
@@ -5613,17 +5695,17 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 261.62) (xy 220.98 261.62)
+			(xy 200.66 246.38) (xy 200.66 248.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "030a57e6-3bed-4bb2-ae71-e01f3fbbd4e3")
+		(uuid "00d0f77a-f862-4c23-9883-e6f7bc59c4ec")
 	)
 	(wire
 		(pts
-			(xy 196.85 266.7) (xy 199.39 266.7)
+			(xy 165.1 269.24) (xy 167.64 269.24)
 		)
 		(stroke
 			(width 0)
@@ -5653,7 +5735,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 266.7) (xy 250.19 266.7)
+			(xy 257.81 246.38) (xy 250.19 246.38)
 		)
 		(stroke
 			(width 0)
@@ -5720,6 +5802,16 @@
 			(type default)
 		)
 		(uuid "19183d3b-da5c-4d00-9f62-ef58f8bca6fd")
+	)
+	(wire
+		(pts
+			(xy 179.07 276.86) (xy 179.07 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199a7d6d-247e-4f33-b37c-79114ce2076f")
 	)
 	(wire
 		(pts
@@ -5893,6 +5985,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 222.25) (xy 220.98 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d000f15-e850-402b-9175-f92e482b658b")
+	)
+	(wire
+		(pts
 			(xy 127 203.2) (xy 133.35 203.2)
 		)
 		(stroke
@@ -5913,17 +6015,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 222.25) (xy 220.98 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e7c75c9-7a5c-4e4c-9caf-562657f3a4c3")
-	)
-	(wire
-		(pts
-			(xy 199.39 266.7) (xy 203.2 266.7)
+			(xy 167.64 269.24) (xy 171.45 269.24)
 		)
 		(stroke
 			(width 0)
@@ -5973,7 +6065,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 227.33) (xy 250.19 227.33)
+			(xy 257.81 207.01) (xy 250.19 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6013,7 +6105,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 222.25) (xy 220.98 212.09)
+			(xy 220.98 212.09) (xy 220.98 222.25)
 		)
 		(stroke
 			(width 0)
@@ -6213,6 +6305,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 254) (xy 179.07 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f04f1d-acbc-41fd-884a-8193d44929eb")
+	)
+	(wire
+		(pts
 			(xy 116.84 91.44) (xy 120.65 91.44)
 		)
 		(stroke
@@ -6273,13 +6375,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 254) (xy 209.55 261.62)
+			(xy 179.07 254) (xy 193.04 254)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97f172c9-b82a-4ddd-a381-eba75ec39ac8")
+		(uuid "9b991f9a-c5d3-452a-8bde-49129b10366c")
 	)
 	(wire
 		(pts
@@ -6443,6 +6545,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 271.78) (xy 227.33 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf75b28e-3b63-4818-be27-1dcb39f2df2d")
+	)
+	(wire
+		(pts
 			(xy 30.48 184.15) (xy 44.45 184.15)
 		)
 		(stroke
@@ -6460,6 +6572,16 @@
 			(type default)
 		)
 		(uuid "d124a2f0-d99c-423c-ad90-5a2a563908ed")
+	)
+	(wire
+		(pts
+			(xy 200.66 261.62) (xy 220.98 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c2b20a-d098-4f38-a372-cc658ec235c8")
 	)
 	(wire
 		(pts
@@ -6513,7 +6635,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 266.7) (xy 189.23 266.7)
+			(xy 147.32 269.24) (xy 157.48 269.24)
 		)
 		(stroke
 			(width 0)
@@ -6530,6 +6652,16 @@
 			(type default)
 		)
 		(uuid "d9d98a68-c1e0-441f-bebc-0e1ba0426ffe")
+	)
+	(wire
+		(pts
+			(xy 200.66 259.08) (xy 200.66 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db431bc5-bf9f-42ff-acdb-ec49100a75b4")
 	)
 	(wire
 		(pts
@@ -6752,7 +6884,7 @@
 		(uuid "24f102da-8819-4ef9-bf0f-6306bcb25fcb")
 	)
 	(label "D_OUT+"
-		(at 257.81 227.33 180)
+		(at 257.81 207.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6852,7 +6984,7 @@
 		(uuid "8f65c953-5d92-48a2-8664-465f48ef6071")
 	)
 	(label "D_OUT-"
-		(at 257.81 266.7 180)
+		(at 257.81 246.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6882,7 +7014,7 @@
 		(uuid "965700a2-086d-4e45-9d67-34b0735249bb")
 	)
 	(label "DAMP"
-		(at 179.07 266.7 0)
+		(at 147.32 269.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7344,7 +7476,7 @@
 	)
 	(symbol
 		(lib_id "BR_Resistors_0402:R_0402_10k")
-		(at 199.39 270.51 180)
+		(at 167.64 273.05 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7354,7 +7486,7 @@
 		(dnp no)
 		(uuid "0d72e5f9-e174-43c7-98a6-a0a9d33307d4")
 		(property "Reference" "R520"
-			(at 202.692 269.24 0)
+			(at 170.942 271.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7364,7 +7496,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 202.692 271.78 0)
+			(at 170.942 274.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7374,7 +7506,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:R_0402_1005Metric-minimized"
-			(at 199.39 346.71 0)
+			(at 167.64 349.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7386,7 +7518,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
-			(at 199.39 344.17 0)
+			(at 167.64 346.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7398,7 +7530,7 @@
 			)
 		)
 		(property "Description" "10k 1% 100ppm 62.5mW Thick Film Resistor 0402"
-			(at 199.39 341.63 0)
+			(at 167.64 344.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7410,7 +7542,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 199.39 339.09 0)
+			(at 167.64 341.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7422,7 +7554,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "AC0402FR-0710KL"
-			(at 199.39 336.55 0)
+			(at 167.64 339.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7434,7 +7566,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000292"
-			(at 199.39 334.01 0)
+			(at 167.64 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7446,7 +7578,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 199.39 331.47 0)
+			(at 167.64 334.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7458,7 +7590,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "YAG3436CT-ND"
-			(at 199.39 328.93 0)
+			(at 167.64 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7470,7 +7602,7 @@
 			)
 		)
 		(property "Supplier 2" "DigiKey"
-			(at 199.39 326.39 0)
+			(at 167.64 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7482,7 +7614,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "YAG3436TR-ND"
-			(at 199.39 323.85 0)
+			(at 167.64 326.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7494,7 +7626,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 199.39 321.31 0)
+			(at 167.64 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7506,7 +7638,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C144807"
-			(at 199.39 318.77 0)
+			(at 167.64 321.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7518,7 +7650,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C144807"
-			(at 199.39 316.23 0)
+			(at 167.64 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8033,8 +8165,7 @@
 	)
 	(symbol
 		(lib_id "BR_Transistors:MFET_N_ARRAY_FDC3601N-TP")
-		(at 227.33 261.62 0)
-		(mirror x)
+		(at 227.33 251.46 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8044,7 +8175,7 @@
 		(dnp no)
 		(uuid "24b87a77-ccd9-414d-b6f9-0495465f45fc")
 		(property "Reference" "Q503"
-			(at 230.886 259.842 0)
+			(at 230.886 253.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8055,7 +8186,7 @@
 			)
 		)
 		(property "Value" "FDC3601N-TP"
-			(at 230.886 262.382 0)
+			(at 230.886 250.698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8066,7 +8197,7 @@
 			)
 		)
 		(property "Footprint" "BR_SOT:SOT-23-6"
-			(at 227.33 337.82 0)
+			(at 227.33 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8078,7 +8209,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8603060796716818432-C7603340.pdf?response-content-disposition=attachment%3B%20filename%3DC7603340.pdf%3B%20filename%2A%3DUTF-8%27%27C7603340.pdf&x-oss-date=20260824T184723Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rfAPnZmasQwo%2BxQUv6rFoNXehnrYDM1Dz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdVC8Ukq557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWipqVu0K86HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIbAxhOKKWD5sagAGylboCI%2FeV9c1fBSJoz3pGLNUdaB5RZ0GwCTPI%2FpR6ckSd4CV2kyUYqOt7dw8EZa2Mz1kWvEZ7bU1QjYeOdcmAf3%2FKo3JRsR0ah7kPJ2ljdHqFA9Ss2dXGrpM1H55laUdApZ7Cu%2FD9fOfTBqzJ9tnEOIxY6Ftdd2FNgE8ZnGxhPCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYjKCmtt1uMZCmKHZXQgKBEg6%2F20260824%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=78c85f0da8642d69fb8a1876002248a24a64c6974346e415d932bb79fc7e2ea8"
-			(at 227.33 335.28 0)
+			(at 227.33 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8090,7 +8221,7 @@
 			)
 		)
 		(property "Description" "2N-Ch MOSFET 100V 3A 200mR 1.67W SOT23-6"
-			(at 227.33 332.74 0)
+			(at 227.33 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8102,7 +8233,7 @@
 			)
 		)
 		(property "Manufacturer" "Tech Public"
-			(at 227.33 330.2 0)
+			(at 227.33 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8114,7 +8245,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "FDC3601N-TP"
-			(at 227.33 327.66 0)
+			(at 227.33 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8126,7 +8257,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001597 "
-			(at 227.33 325.12 0)
+			(at 227.33 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8138,7 +8269,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C7603340"
-			(at 227.33 320.04 0)
+			(at 227.33 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9312,8 +9443,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Transistors:BJT_N_BC846BM3")
-		(at 209.55 266.7 0)
+		(lib_id "BR_Resistors_0402:R_0402_10k")
+		(at 179.07 260.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9321,32 +9452,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fcf9f21-32db-489d-bb6e-6977dd9d6fd6")
-		(property "Reference" "Q501"
-			(at 212.09 265.4299 0)
+		(uuid "47e68a41-a872-4acf-a1a4-553f629ab618")
+		(property "Reference" "R522"
+			(at 182.372 259.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "BC846BM3"
-			(at 212.09 267.9699 0)
+		(property "Value" "10k"
+			(at 182.372 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "BR_SOT:SOT-723"
-			(at 209.55 190.5 0)
+		(property "Footprint" "BR_Passives:R_0402_1005Metric-minimized"
+			(at 179.07 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9357,8 +9485,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311290959_amsem-BC846BM3_C7528934.pdf"
-			(at 209.55 193.04 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
+			(at 179.07 334.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9369,8 +9497,8 @@
 				(justify left)
 			)
 		)
-		(property "Description" "NPN BJT 65V 100mA 265mW 100MHz SOT-723"
-			(at 209.55 203.2 0)
+		(property "Description" "10k 1% 100ppm 62.5mW Thick Film Resistor 0402"
+			(at 179.07 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9381,8 +9509,8 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "amsem"
-			(at 209.55 195.58 0)
+		(property "Manufacturer" "YAGEO"
+			(at 179.07 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9393,8 +9521,8 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "BC846BM3"
-			(at 209.55 198.12 0)
+		(property "Manufacturer Part Num" "AC0402FR-0710KL"
+			(at 179.07 326.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9405,8 +9533,8 @@
 				(justify left)
 			)
 		)
-		(property "BRE Number" "BRE-001168"
-			(at 209.55 200.66 0)
+		(property "BRE Number" "BRE-000292"
+			(at 179.07 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9417,8 +9545,80 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB Part Num" "C7528934"
-			(at 209.55 205.74 0)
+		(property "Supplier 1" "DigiKey"
+			(at 179.07 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier Part Num 1" "YAG3436CT-ND"
+			(at 179.07 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 2" "DigiKey"
+			(at 179.07 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier Part Num 2" "YAG3436TR-ND"
+			(at 179.07 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 179.07 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier Part Num 3" "C144807"
+			(at 179.07 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB Part Num" "C144807"
+			(at 179.07 306.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9430,18 +9630,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "45bf9701-4db7-46ad-9d4d-9ecc5c13cbd6")
-		)
-		(pin "3"
-			(uuid "d127bc02-bb9d-46b7-b002-4770671d2479")
+			(uuid "2927931d-713e-4986-95ed-2fb22d6bc085")
 		)
 		(pin "1"
-			(uuid "07b5b6c8-4140-4349-a8b1-c6dd0b87d063")
+			(uuid "f1908080-bf86-4044-a9d2-b222b03ab7cf")
 		)
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
-					(reference "Q501")
+					(reference "R522")
 					(unit 1)
 				)
 			)
@@ -9724,84 +9921,6 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
 					(reference "C504")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BR_Virtual_Parts:GND_LOCAL")
-		(at 209.55 271.78 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "56e0f1b2-1f3f-47ca-a2f5-713d6ddc956a")
-		(property "Reference" "#PWR0513"
-			(at 209.55 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 209.55 275.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
-			(at 209.55 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "48908d02-6a77-4a07-9089-7d95d069c1b5")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
-					(reference "#PWR0513")
 					(unit 1)
 				)
 			)
@@ -10120,8 +10239,87 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
+		(at 200.66 271.78 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "62e2073b-e429-4ab6-9e84-07ae1449d3e4")
+		(property "Reference" "#PWR0513"
+			(at 200.66 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_HALF"
+			(at 200.66 275.336 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+			(at 200.66 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b476c98-c1a9-4528-9973-47c585745faa")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
+					(reference "#PWR0513")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Resistors_0603:R_0603_100R")
-		(at 238.76 266.7 90)
+		(at 238.76 246.38 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10131,7 +10329,7 @@
 		(dnp no)
 		(uuid "63497ab3-a85b-444f-a975-e931d346e0ff")
 		(property "Reference" "R515"
-			(at 238.76 270.51 90)
+			(at 238.76 242.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10141,7 +10339,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 238.76 273.05 90)
+			(at 238.76 240.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10151,7 +10349,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:R_0603_1608Metric"
-			(at 162.56 266.7 0)
+			(at 162.56 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10163,7 +10361,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0603F1000TS_C2906981.pdf"
-			(at 165.1 266.7 0)
+			(at 165.1 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10175,7 +10373,7 @@
 			)
 		)
 		(property "Description" "100R 1% 100ppm 100mW Thick Film Resistor 0603"
-			(at 167.64 266.7 0)
+			(at 167.64 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10187,7 +10385,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN"
-			(at 170.18 266.7 0)
+			(at 170.18 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10199,7 +10397,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "FRC0603F1000TS"
-			(at 172.72 266.7 0)
+			(at 172.72 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10211,7 +10409,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001257"
-			(at 175.26 266.7 0)
+			(at 175.26 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10223,7 +10421,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C2906981"
-			(at 177.8 266.7 0)
+			(at 177.8 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10971,7 +11169,8 @@
 	)
 	(symbol
 		(lib_id "BR_Resistors_0603:R_0603_100R")
-		(at 231.14 227.33 90)
+		(at 231.14 207.01 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10981,7 +11180,7 @@
 		(dnp no)
 		(uuid "6f05aacd-bfbc-4efb-9a72-f135d6b969b3")
 		(property "Reference" "R512"
-			(at 231.14 231.14 90)
+			(at 231.14 203.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10991,7 +11190,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 231.14 233.68 90)
+			(at 231.14 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11001,7 +11200,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:R_0603_1608Metric"
-			(at 154.94 227.33 0)
+			(at 154.94 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11013,7 +11212,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0603F1000TS_C2906981.pdf"
-			(at 157.48 227.33 0)
+			(at 157.48 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11025,7 +11224,7 @@
 			)
 		)
 		(property "Description" "100R 1% 100ppm 100mW Thick Film Resistor 0603"
-			(at 160.02 227.33 0)
+			(at 160.02 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11037,7 +11236,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN"
-			(at 162.56 227.33 0)
+			(at 162.56 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11049,7 +11248,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "FRC0603F1000TS"
-			(at 165.1 227.33 0)
+			(at 165.1 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11061,7 +11260,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001257"
-			(at 167.64 227.33 0)
+			(at 167.64 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11073,7 +11272,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C2906981"
-			(at 170.18 227.33 0)
+			(at 170.18 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11095,6 +11294,151 @@
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
 					(reference "R512")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Transistors:BJT_ARRAY_LBC846BPDW1T1G")
+		(at 200.66 254 0)
+		(mirror x)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70ef74a5-25c3-4410-a0cf-bb8ec38f6a1b")
+		(property "Reference" "Q504"
+			(at 203.2 255.2701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LBC846BPDW1T1G"
+			(at 203.2 252.7301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_SOT:SOT-363_SC-70-6"
+			(at 200.66 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291527_LRC-LBC846BPDW1T1G_C189598.pdf"
+			(at 200.66 327.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "1NPN + 1PNP BJT 65V 100mA 380mW 100MHz SOT-363-6 AEC-Q101"
+			(at 200.66 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "LRC"
+			(at 200.66 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Num" "LBC846BPDW1T1G"
+			(at 200.66 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "BRE Number" "BRE-001160"
+			(at 200.66 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB Part Num" "C189598"
+			(at 200.66 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "6"
+			(uuid "80387c2a-6c13-4eb3-bde3-37a3c45afcb3")
+		)
+		(pin "3"
+			(uuid "1a736ca3-61f0-4772-8905-c339b8367454")
+		)
+		(pin "1"
+			(uuid "7a5927ff-ed4b-4dde-9698-00d45cbc17e2")
+		)
+		(pin "2"
+			(uuid "16dafc55-bc0a-4ca4-b667-0187ddf65888")
+		)
+		(pin "5"
+			(uuid "2c02fb08-bf50-4859-926c-27d872045529")
+		)
+		(pin "4"
+			(uuid "7f170abe-4d30-49f5-822d-871384e76fd0")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
+					(reference "Q504")
+					(unit 2)
 				)
 			)
 		)
@@ -11179,7 +11523,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 209.55 246.38 0)
+		(at 200.66 246.38 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11190,7 +11534,7 @@
 		(dnp no)
 		(uuid "76e7c222-78ff-416b-b590-041aaf57fafd")
 		(property "Reference" "#PWR0542"
-			(at 209.55 250.19 0)
+			(at 200.66 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11200,8 +11544,8 @@
 				)
 			)
 		)
-		(property "Value" "V_HALF"
-			(at 209.55 242.824 0)
+		(property "Value" "VRAIL"
+			(at 200.66 242.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11211,7 +11555,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 246.38 0)
+			(at 200.66 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11222,7 +11566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 246.38 0)
+			(at 200.66 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11233,7 +11577,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 209.55 246.38 0)
+			(at 200.66 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11466,7 +11810,8 @@
 	)
 	(symbol
 		(lib_id "BR_Resistors_0603:R_0603_100R")
-		(at 238.76 227.33 90)
+		(at 238.76 207.01 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11476,7 +11821,7 @@
 		(dnp no)
 		(uuid "78b5ada0-5d4e-4797-ab64-e33a5ef2025e")
 		(property "Reference" "R514"
-			(at 238.76 231.14 90)
+			(at 238.76 203.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11486,7 +11831,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 238.76 233.68 90)
+			(at 238.76 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11496,7 +11841,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:R_0603_1608Metric"
-			(at 162.56 227.33 0)
+			(at 162.56 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11508,7 +11853,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0603F1000TS_C2906981.pdf"
-			(at 165.1 227.33 0)
+			(at 165.1 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11520,7 +11865,7 @@
 			)
 		)
 		(property "Description" "100R 1% 100ppm 100mW Thick Film Resistor 0603"
-			(at 167.64 227.33 0)
+			(at 167.64 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11532,7 +11877,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN"
-			(at 170.18 227.33 0)
+			(at 170.18 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11544,7 +11889,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "FRC0603F1000TS"
-			(at 172.72 227.33 0)
+			(at 172.72 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11556,7 +11901,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001257"
-			(at 175.26 227.33 0)
+			(at 175.26 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11568,7 +11913,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C2906981"
-			(at 177.8 227.33 0)
+			(at 177.8 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11596,7 +11941,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND_LOCAL")
-		(at 199.39 274.32 0)
+		(at 167.64 276.86 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11607,7 +11952,7 @@
 		(dnp no)
 		(uuid "7d3368ac-9e1f-4442-809b-e27baec6ba89")
 		(property "Reference" "#PWR0538"
-			(at 199.39 280.67 0)
+			(at 167.64 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11618,7 +11963,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 278.13 0)
+			(at 167.64 280.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11628,7 +11973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 274.32 0)
+			(at 167.64 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11639,7 +11984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 274.32 0)
+			(at 167.64 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11650,7 +11995,7 @@
 			)
 		)
 		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
-			(at 199.39 274.32 0)
+			(at 167.64 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11908,8 +12253,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 227.33 246.38 0)
-		(mirror y)
+		(at 227.33 271.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11919,7 +12263,7 @@
 		(dnp no)
 		(uuid "8ab40d69-201d-4deb-8f97-27c12327356c")
 		(property "Reference" "#PWR0515"
-			(at 227.33 250.19 0)
+			(at 227.33 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11930,7 +12274,7 @@
 			)
 		)
 		(property "Value" "V_HALF"
-			(at 227.33 242.824 0)
+			(at 227.33 275.336 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11940,7 +12284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 246.38 0)
+			(at 227.33 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11951,7 +12295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 246.38 0)
+			(at 227.33 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11962,7 +12306,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 227.33 246.38 0)
+			(at 227.33 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12735,7 +13079,8 @@
 	)
 	(symbol
 		(lib_id "BR_Transistors:MFET_N_ARRAY_FDC3601N-TP")
-		(at 227.33 212.09 0)
+		(at 227.33 222.25 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12745,7 +13090,7 @@
 		(dnp no)
 		(uuid "a38ffff9-3ed4-43e6-856b-d583952d8a1e")
 		(property "Reference" "Q502"
-			(at 230.632 209.804 0)
+			(at 230.632 224.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12756,7 +13101,7 @@
 			)
 		)
 		(property "Value" "FDC3601N-TP"
-			(at 230.632 212.344 0)
+			(at 230.632 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12767,7 +13112,7 @@
 			)
 		)
 		(property "Footprint" "BR_SOT:SOT-23-6"
-			(at 227.33 135.89 0)
+			(at 227.33 298.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12779,7 +13124,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8603060796716818432-C7603340.pdf?response-content-disposition=attachment%3B%20filename%3DC7603340.pdf%3B%20filename%2A%3DUTF-8%27%27C7603340.pdf&x-oss-date=20260824T184723Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rfAPnZmasQwo%2BxQUv6rFoNXehnrYDM1Dz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdVC8Ukq557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWipqVu0K86HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIbAxhOKKWD5sagAGylboCI%2FeV9c1fBSJoz3pGLNUdaB5RZ0GwCTPI%2FpR6ckSd4CV2kyUYqOt7dw8EZa2Mz1kWvEZ7bU1QjYeOdcmAf3%2FKo3JRsR0ah7kPJ2ljdHqFA9Ss2dXGrpM1H55laUdApZ7Cu%2FD9fOfTBqzJ9tnEOIxY6Ftdd2FNgE8ZnGxhPCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYjKCmtt1uMZCmKHZXQgKBEg6%2F20260824%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=78c85f0da8642d69fb8a1876002248a24a64c6974346e415d932bb79fc7e2ea8"
-			(at 227.33 138.43 0)
+			(at 227.33 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12791,7 +13136,7 @@
 			)
 		)
 		(property "Description" "2N-Ch MOSFET 100V 3A 200mR 1.67W SOT23-6"
-			(at 227.33 140.97 0)
+			(at 227.33 293.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12803,7 +13148,7 @@
 			)
 		)
 		(property "Manufacturer" "Tech Public"
-			(at 227.33 143.51 0)
+			(at 227.33 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12815,7 +13160,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "FDC3601N-TP"
-			(at 227.33 146.05 0)
+			(at 227.33 288.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12827,7 +13172,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001597 "
-			(at 227.33 148.59 0)
+			(at 227.33 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12839,7 +13184,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C7603340"
-			(at 227.33 153.67 0)
+			(at 227.33 280.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13514,7 +13859,7 @@
 	)
 	(symbol
 		(lib_id "BR_Resistors_0402:R_0402_10k")
-		(at 209.55 250.19 0)
+		(at 200.66 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13525,7 +13870,7 @@
 		(fields_autoplaced yes)
 		(uuid "b52cf29d-fc47-4d8f-b743-82f33692f015")
 		(property "Reference" "R511"
-			(at 212.09 248.9199 0)
+			(at 203.2 266.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13536,7 +13881,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 212.09 251.4599 0)
+			(at 203.2 269.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13547,7 +13892,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:R_0402_1005Metric-minimized"
-			(at 209.55 173.99 0)
+			(at 200.66 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13559,7 +13904,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
-			(at 209.55 176.53 0)
+			(at 200.66 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13571,7 +13916,7 @@
 			)
 		)
 		(property "Description" "10k 1% 100ppm 62.5mW Thick Film Resistor 0402"
-			(at 209.55 179.07 0)
+			(at 200.66 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13583,7 +13928,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 209.55 181.61 0)
+			(at 200.66 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13595,7 +13940,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "AC0402FR-0710KL"
-			(at 209.55 184.15 0)
+			(at 200.66 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13607,7 +13952,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000292"
-			(at 209.55 186.69 0)
+			(at 200.66 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13619,7 +13964,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 209.55 189.23 0)
+			(at 200.66 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13631,7 +13976,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "YAG3436CT-ND"
-			(at 209.55 191.77 0)
+			(at 200.66 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13643,7 +13988,7 @@
 			)
 		)
 		(property "Supplier 2" "DigiKey"
-			(at 209.55 194.31 0)
+			(at 200.66 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13655,7 +14000,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "YAG3436TR-ND"
-			(at 209.55 196.85 0)
+			(at 200.66 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13667,7 +14012,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 209.55 199.39 0)
+			(at 200.66 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13679,7 +14024,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C144807"
-			(at 209.55 201.93 0)
+			(at 200.66 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13691,7 +14036,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C144807"
-			(at 209.55 204.47 0)
+			(at 200.66 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14077,7 +14422,7 @@
 	)
 	(symbol
 		(lib_id "BR_Resistors_0402:R_0402_10k")
-		(at 193.04 266.7 90)
+		(at 161.29 269.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14087,7 +14432,7 @@
 		(dnp no)
 		(uuid "bdb17bdf-a5ca-4464-9d4b-c0ba4082b854")
 		(property "Reference" "R508"
-			(at 193.04 269.494 90)
+			(at 161.29 272.034 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14097,7 +14442,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 193.04 272.034 90)
+			(at 161.29 274.574 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14107,7 +14452,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:R_0402_1005Metric-minimized"
-			(at 116.84 266.7 0)
+			(at 85.09 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14119,7 +14464,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
-			(at 119.38 266.7 0)
+			(at 87.63 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14131,7 +14476,7 @@
 			)
 		)
 		(property "Description" "10k 1% 100ppm 62.5mW Thick Film Resistor 0402"
-			(at 121.92 266.7 0)
+			(at 90.17 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14143,7 +14488,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 124.46 266.7 0)
+			(at 92.71 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14155,7 +14500,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "AC0402FR-0710KL"
-			(at 127 266.7 0)
+			(at 95.25 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14167,7 +14512,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000292"
-			(at 129.54 266.7 0)
+			(at 97.79 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14179,7 +14524,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 132.08 266.7 0)
+			(at 100.33 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14191,7 +14536,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "YAG3436CT-ND"
-			(at 134.62 266.7 0)
+			(at 102.87 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14203,7 +14548,7 @@
 			)
 		)
 		(property "Supplier 2" "DigiKey"
-			(at 137.16 266.7 0)
+			(at 105.41 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14215,7 +14560,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "YAG3436TR-ND"
-			(at 139.7 266.7 0)
+			(at 107.95 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14227,7 +14572,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 142.24 266.7 0)
+			(at 110.49 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14239,7 +14584,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C144807"
-			(at 144.78 266.7 0)
+			(at 113.03 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14251,7 +14596,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C144807"
-			(at 147.32 266.7 0)
+			(at 115.57 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14483,7 +14828,8 @@
 	)
 	(symbol
 		(lib_id "BR_Transistors:MFET_N_ARRAY_FDC3601N-TP")
-		(at 227.33 251.46 0)
+		(at 227.33 261.62 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14493,7 +14839,7 @@
 		(dnp no)
 		(uuid "bf408f78-f6c2-48e7-9b93-3d6f34769e0e")
 		(property "Reference" "Q503"
-			(at 230.632 249.174 0)
+			(at 230.632 263.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14504,7 +14850,7 @@
 			)
 		)
 		(property "Value" "FDC3601N-TP"
-			(at 230.632 251.714 0)
+			(at 230.632 261.366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14515,7 +14861,7 @@
 			)
 		)
 		(property "Footprint" "BR_SOT:SOT-23-6"
-			(at 227.33 175.26 0)
+			(at 227.33 337.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14527,7 +14873,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8603060796716818432-C7603340.pdf?response-content-disposition=attachment%3B%20filename%3DC7603340.pdf%3B%20filename%2A%3DUTF-8%27%27C7603340.pdf&x-oss-date=20260824T184723Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rfAPnZmasQwo%2BxQUv6rFoNXehnrYDM1Dz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdVC8Ukq557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWipqVu0K86HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIbAxhOKKWD5sagAGylboCI%2FeV9c1fBSJoz3pGLNUdaB5RZ0GwCTPI%2FpR6ckSd4CV2kyUYqOt7dw8EZa2Mz1kWvEZ7bU1QjYeOdcmAf3%2FKo3JRsR0ah7kPJ2ljdHqFA9Ss2dXGrpM1H55laUdApZ7Cu%2FD9fOfTBqzJ9tnEOIxY6Ftdd2FNgE8ZnGxhPCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYjKCmtt1uMZCmKHZXQgKBEg6%2F20260824%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=78c85f0da8642d69fb8a1876002248a24a64c6974346e415d932bb79fc7e2ea8"
-			(at 227.33 177.8 0)
+			(at 227.33 335.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14539,7 +14885,7 @@
 			)
 		)
 		(property "Description" "2N-Ch MOSFET 100V 3A 200mR 1.67W SOT23-6"
-			(at 227.33 180.34 0)
+			(at 227.33 332.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14551,7 +14897,7 @@
 			)
 		)
 		(property "Manufacturer" "Tech Public"
-			(at 227.33 182.88 0)
+			(at 227.33 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14563,7 +14909,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "FDC3601N-TP"
-			(at 227.33 185.42 0)
+			(at 227.33 327.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14575,7 +14921,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001597 "
-			(at 227.33 187.96 0)
+			(at 227.33 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14587,7 +14933,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C7603340"
-			(at 227.33 193.04 0)
+			(at 227.33 320.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14620,6 +14966,84 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
 					(reference "Q503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:GND_LOCAL")
+		(at 179.07 276.86 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "c02d690c-38d4-49fe-8c11-6ad869f61059")
+		(property "Reference" "#PWR0516"
+			(at 179.07 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 280.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
+			(at 179.07 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8037494-5aa2-4590-a187-399e441f94ea")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
+					(reference "#PWR0516")
 					(unit 1)
 				)
 			)
@@ -14783,7 +15207,8 @@
 	)
 	(symbol
 		(lib_id "BR_Resistors_0603:R_0603_100R")
-		(at 246.38 227.33 90)
+		(at 246.38 207.01 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14793,7 +15218,7 @@
 		(dnp no)
 		(uuid "c9aa95ab-d4db-4361-ab85-935919800372")
 		(property "Reference" "R516"
-			(at 246.38 231.14 90)
+			(at 246.38 203.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14803,7 +15228,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 246.38 233.68 90)
+			(at 246.38 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14813,7 +15238,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:R_0603_1608Metric"
-			(at 170.18 227.33 0)
+			(at 170.18 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14825,7 +15250,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0603F1000TS_C2906981.pdf"
-			(at 172.72 227.33 0)
+			(at 172.72 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14837,7 +15262,7 @@
 			)
 		)
 		(property "Description" "100R 1% 100ppm 100mW Thick Film Resistor 0603"
-			(at 175.26 227.33 0)
+			(at 175.26 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14849,7 +15274,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN"
-			(at 177.8 227.33 0)
+			(at 177.8 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14861,7 +15286,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "FRC0603F1000TS"
-			(at 180.34 227.33 0)
+			(at 180.34 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14873,7 +15298,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001257"
-			(at 182.88 227.33 0)
+			(at 182.88 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14885,7 +15310,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C2906981"
-			(at 185.42 227.33 0)
+			(at 185.42 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14984,6 +15409,208 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
 					(reference "#PWR0521")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Resistors_0402:R_0402_10k")
+		(at 179.07 250.19 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d680ec6e-dd98-4ad4-a94c-7d9959045d48")
+		(property "Reference" "R523"
+			(at 182.372 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 182.372 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BR_Passives:R_0402_1005Metric-minimized"
+			(at 179.07 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
+			(at 179.07 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "10k 1% 100ppm 62.5mW Thick Film Resistor 0402"
+			(at 179.07 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 179.07 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Num" "AC0402FR-0710KL"
+			(at 179.07 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "BRE Number" "BRE-000292"
+			(at 179.07 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 179.07 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier Part Num 1" "YAG3436CT-ND"
+			(at 179.07 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 2" "DigiKey"
+			(at 179.07 306.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier Part Num 2" "YAG3436TR-ND"
+			(at 179.07 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 179.07 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier Part Num 3" "C144807"
+			(at 179.07 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB Part Num" "C144807"
+			(at 179.07 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "43e9836d-b903-4637-a143-a1271ccfef9a")
+		)
+		(pin "1"
+			(uuid "ff69dd91-a03e-47b3-bc42-b26648d31810")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
+					(reference "R523")
 					(unit 1)
 				)
 			)
@@ -15332,8 +15959,7 @@
 	)
 	(symbol
 		(lib_id "BR_Transistors:MFET_N_ARRAY_FDC3601N-TP")
-		(at 227.33 222.25 0)
-		(mirror x)
+		(at 227.33 212.09 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15343,7 +15969,7 @@
 		(dnp no)
 		(uuid "e8bffb05-007c-46b8-9d92-b9749af40ffb")
 		(property "Reference" "Q502"
-			(at 230.886 220.472 0)
+			(at 230.886 213.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15354,7 +15980,7 @@
 			)
 		)
 		(property "Value" "FDC3601N-TP"
-			(at 230.886 223.012 0)
+			(at 230.886 211.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15365,7 +15991,7 @@
 			)
 		)
 		(property "Footprint" "BR_SOT:SOT-23-6"
-			(at 227.33 298.45 0)
+			(at 227.33 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15377,7 +16003,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8603060796716818432-C7603340.pdf?response-content-disposition=attachment%3B%20filename%3DC7603340.pdf%3B%20filename%2A%3DUTF-8%27%27C7603340.pdf&x-oss-date=20260824T184723Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rfAPnZmasQwo%2BxQUv6rFoNXehnrYDM1Dz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdVC8Ukq557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWipqVu0K86HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIbAxhOKKWD5sagAGylboCI%2FeV9c1fBSJoz3pGLNUdaB5RZ0GwCTPI%2FpR6ckSd4CV2kyUYqOt7dw8EZa2Mz1kWvEZ7bU1QjYeOdcmAf3%2FKo3JRsR0ah7kPJ2ljdHqFA9Ss2dXGrpM1H55laUdApZ7Cu%2FD9fOfTBqzJ9tnEOIxY6Ftdd2FNgE8ZnGxhPCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYjKCmtt1uMZCmKHZXQgKBEg6%2F20260824%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=78c85f0da8642d69fb8a1876002248a24a64c6974346e415d932bb79fc7e2ea8"
-			(at 227.33 295.91 0)
+			(at 227.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15389,7 +16015,7 @@
 			)
 		)
 		(property "Description" "2N-Ch MOSFET 100V 3A 200mR 1.67W SOT23-6"
-			(at 227.33 293.37 0)
+			(at 227.33 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15401,7 +16027,7 @@
 			)
 		)
 		(property "Manufacturer" "Tech Public"
-			(at 227.33 290.83 0)
+			(at 227.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15413,7 +16039,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "FDC3601N-TP"
-			(at 227.33 288.29 0)
+			(at 227.33 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15425,7 +16051,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001597 "
-			(at 227.33 285.75 0)
+			(at 227.33 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15437,7 +16063,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C7603340"
-			(at 227.33 280.67 0)
+			(at 227.33 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15555,8 +16181,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 227.33 207.01 0)
-		(mirror y)
+		(at 227.33 227.33 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15566,7 +16191,7 @@
 		(dnp no)
 		(uuid "ec188bd6-a47e-42fe-8ac6-0fb8be497bac")
 		(property "Reference" "#PWR0514"
-			(at 227.33 210.82 0)
+			(at 227.33 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15577,7 +16202,7 @@
 			)
 		)
 		(property "Value" "V_HALF"
-			(at 227.33 203.454 0)
+			(at 227.33 230.886 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15587,7 +16212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 207.01 0)
+			(at 227.33 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15598,7 +16223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 207.01 0)
+			(at 227.33 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15609,7 +16234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 227.33 207.01 0)
+			(at 227.33 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15626,6 +16251,84 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
 					(reference "#PWR0514")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
+		(at 179.07 246.38 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eed7b90f-0c57-415b-b5d3-68062e4a9097")
+		(property "Reference" "#PWR0537"
+			(at 179.07 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VRAIL"
+			(at 179.07 242.824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
+			(at 179.07 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "119e86c3-292b-46f7-a9ca-4292d6693ff4")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
+					(reference "#PWR0537")
 					(unit 1)
 				)
 			)
@@ -15710,8 +16413,154 @@
 		)
 	)
 	(symbol
+		(lib_id "BR_Transistors:BJT_ARRAY_LBC846BPDW1T1G")
+		(at 179.07 269.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f07d9c54-0d6b-4bc9-a99c-df3fbc79009b")
+		(property "Reference" "Q504"
+			(at 181.61 267.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LBC846BPDW1T1G"
+			(at 181.61 270.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_SOT:SOT-363_SC-70-6"
+			(at 179.07 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291527_LRC-LBC846BPDW1T1G_C189598.pdf"
+			(at 179.07 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "1NPN + 1PNP BJT 65V 100mA 380mW 100MHz SOT-363-6 AEC-Q101"
+			(at 179.07 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "LRC"
+			(at 179.07 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Num" "LBC846BPDW1T1G"
+			(at 179.07 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "BRE Number" "BRE-001160"
+			(at 179.07 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB Part Num" "C189598"
+			(at 179.07 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "6"
+			(uuid "80387c2a-6c13-4eb3-bde3-37a3c45afcb3")
+		)
+		(pin "3"
+			(uuid "1a736ca3-61f0-4772-8905-c339b8367454")
+		)
+		(pin "1"
+			(uuid "7a5927ff-ed4b-4dde-9698-00d45cbc17e2")
+		)
+		(pin "2"
+			(uuid "16dafc55-bc0a-4ca4-b667-0187ddf65888")
+		)
+		(pin "5"
+			(uuid "2c02fb08-bf50-4859-926c-27d872045529")
+		)
+		(pin "4"
+			(uuid "7f170abe-4d30-49f5-822d-871384e76fd0")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/e1c72b00-0544-40b2-bdd8-a4cf7df3ac65"
+					(reference "Q504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BR_Resistors_0603:R_0603_100R")
-		(at 246.38 266.7 90)
+		(at 246.38 246.38 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15721,7 +16570,7 @@
 		(dnp no)
 		(uuid "f0f4c602-59a7-45de-9a39-5e694f57f9f7")
 		(property "Reference" "R517"
-			(at 246.38 270.51 90)
+			(at 246.38 242.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15731,7 +16580,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 246.38 273.05 90)
+			(at 246.38 240.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15741,7 +16590,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:R_0603_1608Metric"
-			(at 170.18 266.7 0)
+			(at 170.18 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15753,7 +16602,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0603F1000TS_C2906981.pdf"
-			(at 172.72 266.7 0)
+			(at 172.72 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15765,7 +16614,7 @@
 			)
 		)
 		(property "Description" "100R 1% 100ppm 100mW Thick Film Resistor 0603"
-			(at 175.26 266.7 0)
+			(at 175.26 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15777,7 +16626,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN"
-			(at 177.8 266.7 0)
+			(at 177.8 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15789,7 +16638,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "FRC0603F1000TS"
-			(at 180.34 266.7 0)
+			(at 180.34 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15801,7 +16650,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001257"
-			(at 182.88 266.7 0)
+			(at 182.88 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15813,7 +16662,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C2906981"
-			(at 185.42 266.7 0)
+			(at 185.42 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15997,7 +16846,8 @@
 	)
 	(symbol
 		(lib_id "BR_Resistors_0603:R_0603_100R")
-		(at 231.14 266.7 90)
+		(at 231.14 246.38 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16007,7 +16857,7 @@
 		(dnp no)
 		(uuid "f2a0cf0b-1a73-438f-8e0b-29c4c17612a6")
 		(property "Reference" "R513"
-			(at 231.14 270.51 90)
+			(at 231.14 242.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16017,7 +16867,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 231.14 273.05 90)
+			(at 231.14 240.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16027,7 +16877,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:R_0603_1608Metric"
-			(at 154.94 266.7 0)
+			(at 154.94 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16039,7 +16889,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0603F1000TS_C2906981.pdf"
-			(at 157.48 266.7 0)
+			(at 157.48 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16051,7 +16901,7 @@
 			)
 		)
 		(property "Description" "100R 1% 100ppm 100mW Thick Film Resistor 0603"
-			(at 160.02 266.7 0)
+			(at 160.02 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16063,7 +16913,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN"
-			(at 162.56 266.7 0)
+			(at 162.56 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16075,7 +16925,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "FRC0603F1000TS"
-			(at 165.1 266.7 0)
+			(at 165.1 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16087,7 +16937,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001257"
-			(at 167.64 266.7 0)
+			(at 167.64 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16099,7 +16949,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C2906981"
-			(at 170.18 266.7 0)
+			(at 170.18 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
