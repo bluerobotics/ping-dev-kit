@@ -3316,6 +3316,208 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BR_Virtual_Parts:TP_SQUARE_TH_2mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 2.54 0.9525 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TP_SQUARE_TH_2mm"
+				(at 2.54 -1.5875 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BR_Virtual_Parts:TP_SQUARE_TH_2mm"
+				(at 1.27 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.254 7.493 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test pad, through hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" ""
+				(at -1.524 8.001 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Num" ""
+				(at -0.254 7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 1" ""
+				(at -1.905 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part Num 1" ""
+				(at -1.143 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 2" ""
+				(at -1.27 7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part Num 2" ""
+				(at 0.127 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test pad through hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TP_SQUARE_TH_2mm_0_1"
+				(rectangle
+					(start -0.635 2.54)
+					(end 0.635 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.905)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TP_SQUARE_TH_2mm_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BR_Virtual_Parts:VCC_LOCAL"
 			(power local)
 			(pin_numbers
@@ -3634,7 +3836,7 @@
 		(uuid "4d36bd23-eac6-466b-a99b-29819e206f43")
 	)
 	(junction
-		(at 347.98 223.52)
+		(at 351.79 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6828f870-4531-4830-ad23-7b86c6cc0687")
@@ -3704,6 +3906,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4abcd78-774b-4f7d-be48-74459cd450e0")
+	)
+	(junction
+		(at 331.47 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0ef83a8-af96-478f-95eb-295f36461de8")
 	)
 	(junction
 		(at 154.94 148.59)
@@ -3903,7 +4111,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 223.52) (xy 367.03 223.52)
+			(xy 351.79 223.52) (xy 367.03 223.52)
 		)
 		(stroke
 			(width 0)
@@ -4013,7 +4221,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 223.52) (xy 334.01 223.52)
+			(xy 326.39 223.52) (xy 337.82 223.52)
 		)
 		(stroke
 			(width 0)
@@ -4023,7 +4231,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 231.14) (xy 347.98 233.68)
+			(xy 351.79 231.14) (xy 351.79 233.68)
 		)
 		(stroke
 			(width 0)
@@ -4153,7 +4361,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 223.52) (xy 347.98 226.06)
+			(xy 351.79 223.52) (xy 351.79 226.06)
 		)
 		(stroke
 			(width 0)
@@ -4253,7 +4461,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 223.52) (xy 347.98 223.52)
+			(xy 345.44 223.52) (xy 351.79 223.52)
 		)
 		(stroke
 			(width 0)
@@ -5656,7 +5864,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0805:C_0805_22uF_25V_X5R_20%")
-		(at 347.98 228.6 0)
+		(at 351.79 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5667,7 +5875,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d04fb85-f442-491c-aae2-e68c24ee6d4d")
 		(property "Reference" "C203"
-			(at 350.52 227.3362 0)
+			(at 354.33 227.3362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5678,7 +5886,7 @@
 			)
 		)
 		(property "Value" "22uF 25V"
-			(at 350.52 229.8762 0)
+			(at 354.33 229.8762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5689,7 +5897,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0805_2012Metric-minimized"
-			(at 347.98 152.4 0)
+			(at 351.79 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5701,7 +5909,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
-			(at 347.98 154.94 0)
+			(at 351.79 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5713,7 +5921,7 @@
 			)
 		)
 		(property "Description" "22uF 25V X5R 20% Ceramic Capacitor 0805"
-			(at 347.98 165.1 0)
+			(at 351.79 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5725,7 +5933,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 347.98 157.48 0)
+			(at 351.79 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5737,7 +5945,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "CC0805MKX5R8BB226"
-			(at 347.98 160.02 0)
+			(at 351.79 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5749,7 +5957,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000052"
-			(at 347.98 162.56 0)
+			(at 351.79 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5761,7 +5969,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 347.98 167.64 0)
+			(at 351.79 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5773,7 +5981,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "311-1903-1-ND"
-			(at 347.98 170.18 0)
+			(at 351.79 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5785,7 +5993,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 347.98 172.72 0)
+			(at 351.79 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5797,7 +6005,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "603-CC805MKX5R8BB226"
-			(at 347.98 175.26 0)
+			(at 351.79 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5809,7 +6017,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 347.98 177.8 0)
+			(at 351.79 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5821,7 +6029,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C784585"
-			(at 347.98 180.34 0)
+			(at 351.79 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5833,7 +6041,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C784585"
-			(at 347.98 182.88 0)
+			(at 351.79 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6095,7 +6303,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 347.98 223.52 0)
+		(at 351.79 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6105,7 +6313,7 @@
 		(dnp no)
 		(uuid "40424770-8c3a-4d6e-a674-69a8a6d34973")
 		(property "Reference" "#FLG0201"
-			(at 347.98 221.615 0)
+			(at 351.79 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6116,7 +6324,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 347.98 219.964 0)
+			(at 351.79 219.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6126,7 +6334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 347.98 223.52 0)
+			(at 351.79 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6137,7 +6345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 223.52 0)
+			(at 351.79 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6148,7 +6356,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 347.98 223.52 0)
+			(at 351.79 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7905,7 +8113,7 @@
 	)
 	(symbol
 		(lib_id "BR_Resistors_0402:R_0402_2R2")
-		(at 337.82 223.52 90)
+		(at 341.63 223.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7916,7 +8124,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b26103d-1e79-4fe4-9ffb-f684a5f55579")
 		(property "Reference" "R205"
-			(at 337.82 217.17 90)
+			(at 341.63 217.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7926,7 +8134,7 @@
 			)
 		)
 		(property "Value" "2R2"
-			(at 337.82 219.71 90)
+			(at 341.63 219.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7936,7 +8144,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:R_0402_1005Metric-minimized"
-			(at 261.62 223.52 0)
+			(at 265.43 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7948,7 +8156,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588947077061070848"
-			(at 264.16 223.52 0)
+			(at 267.97 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7960,7 +8168,7 @@
 			)
 		)
 		(property "Description" "2.2R 1% 200ppm 62.5mW Thick Film Resistor 0402"
-			(at 274.32 223.52 0)
+			(at 278.13 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7972,7 +8180,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 266.7 223.52 0)
+			(at 270.51 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7984,7 +8192,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "RC0402FR-072R2L"
-			(at 269.24 223.52 0)
+			(at 273.05 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7996,7 +8204,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001225"
-			(at 271.78 223.52 0)
+			(at 275.59 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8008,7 +8216,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 276.86 223.52 0)
+			(at 280.67 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8020,7 +8228,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "311-2.20LRCT-ND"
-			(at 279.4 223.52 0)
+			(at 283.21 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8032,7 +8240,7 @@
 			)
 		)
 		(property "Supplier 2" "DigiKey"
-			(at 281.94 223.52 0)
+			(at 285.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8044,7 +8252,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "311-2.20LRCT-ND"
-			(at 284.48 223.52 0)
+			(at 288.29 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8056,7 +8264,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 287.02 223.52 0)
+			(at 290.83 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8068,7 +8276,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C327251"
-			(at 289.56 223.52 0)
+			(at 293.37 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8080,7 +8288,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C327251"
-			(at 292.1 223.52 0)
+			(at 295.91 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9047,7 +9255,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND_LOCAL")
-		(at 347.98 233.68 0)
+		(at 351.79 233.68 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9058,7 +9266,7 @@
 		(dnp no)
 		(uuid "a4d49268-bfcd-4ef0-8043-a4047f47c3a6")
 		(property "Reference" "#PWR0221"
-			(at 347.98 240.03 0)
+			(at 351.79 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9069,7 +9277,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 347.98 237.49 0)
+			(at 351.79 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9079,7 +9287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 347.98 233.68 0)
+			(at 351.79 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9090,7 +9298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 233.68 0)
+			(at 351.79 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9101,7 +9309,7 @@
 			)
 		)
 		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
-			(at 347.98 233.68 0)
+			(at 351.79 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9195,6 +9403,150 @@
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20"
 					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Virtual_Parts:TP_SQUARE_TH_2mm")
+		(at 331.47 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5dc6c0f-6ccb-4b8f-b20b-54a211cf288d")
+		(property "Reference" "TP201"
+			(at 326.898 219.456 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "11V"
+			(at 333.756 219.456 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BR_Virtual_Parts:TP_SQUARE_TH_2mm"
+			(at 332.74 216.154 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.724 216.027 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test pad, through hole"
+			(at 331.47 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 329.946 215.519 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Num" ""
+			(at 331.216 216.408 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 329.565 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Num 1" ""
+			(at 330.327 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 330.2 216.408 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Num 2" ""
+			(at 331.597 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad00e374-4b6f-44b5-8005-ff05153f3df7")
+		)
+		(instances
+			(project "PingDevKit"
+				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7/774f2c6c-c15c-4713-acf0-4edb2ec6be20"
+					(reference "TP201")
 					(unit 1)
 				)
 			)
