@@ -10748,10 +10748,10 @@
 		)
 		(uuid "9fe6378f-21cf-4825-92b6-c6d5f5831639")
 	)
-	(text_box "Rev D Updates\n* All fast TX and RX GPIO are now on port D\n** TODO ** explore TX loopback coupling - make sure it's fit for purpose\n - might need a divider, either capacitive or resistive\n* Changed all RA connectors to vertical\n* Reduced PCB size to fit in smaller WTB\n* Added more capacitance to 5V rail\n* Bigger PWR IN terminal block\n* added sensing to VTX\n* TODO add R-2R DAC\n* TODO look for better input gain amp\n"
+	(text_box "Rev D Updates\n* All fast TX and RX GPIO are now on port D\n* Changed all RA connectors to vertical\n* Reduced PCB size to fit in smaller WTB\n* Added more capacitance to 5V rail\n* changed to smaller VTX boost and changed rail caps\n* Bigger PWR IN terminal block\n* added sensing to VTX\n* Changed RX input stage to increase common mode range and better common mode removal\n* moved RX stage selection header to allow bypassing of variable gain amp\n* added CAN transceiver for experimentation\n* Swapped a bunch of IO around to make routing easier. UPDATE FIRMWARE\n* Organized top level better\n* Changed to local power symbols on all subsheets\n* Added switchable attenuator to digital tx output\n\n\n"
 		(exclude_from_sim no)
 		(at 264.16 372.11 0)
-		(size 107.95 34.29)
+		(size 107.95 34.6177)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
