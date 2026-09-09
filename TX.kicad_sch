@@ -771,7 +771,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BR_Capacitors_Electrolytic:C_Alum_220uF_10V_20%_SMD"
+		(symbol "BR_Capacitors_Electrolytic:C_Alum_220uF_50V_20%_SMD"
 			(pin_numbers
 				(hide yes)
 			)
@@ -805,7 +805,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "BR_Passives:CAP-Electrolytic_SMD_D6.3-L6.6-W6.6-LS7.4-FD"
+			(property "Footprint" "BR_Passives:CAP-Electrolytic_SMD_D10-L10.2-W10.3-LS10.9-FD"
 				(at 0 76.2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -817,7 +817,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C72495.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C72499.pdf"
 				(at 0 73.66 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -829,43 +829,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "220uF 10V 20% Electrolytic Capacitor SMD D6.3xL7.7mm"
-				(at 0 71.12 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer" "ROQANG"
-				(at 0 68.58 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer Part Num" "RVT1A221M0607"
-				(at 0 66.04 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "BRE Number" "BRE-001440"
+			(property "Description" "220uF 50V 20% Electrolytic Capacitor SMD D10xL10.2"
 				(at 0 63.5 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -877,7 +841,43 @@
 					(justify left)
 				)
 			)
-			(property "Supplier 1" "JLCPCB"
+			(property "Manufacturer" "ROQANG"
+				(at 0 71.12 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer Part Num" "RVT1H221M1010"
+				(at 0 68.58 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "BRE Number" "BRE-001423"
+				(at 0 66.04 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "JLCPCB Part Num" "C72499"
 				(at 0 60.96 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -889,31 +889,7 @@
 					(justify left)
 				)
 			)
-			(property "Supplier 1 Part Num" "C72495"
-				(at 0 58.42 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "JLCPCB Part Num" "C72495"
-				(at 0 55.88 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(symbol "C_Alum_220uF_10V_20%_SMD_0_1"
+			(symbol "C_Alum_220uF_50V_20%_SMD_0_1"
 				(polyline
 					(pts
 						(xy -1.782 1.778) (xy -0.762 1.778)
@@ -963,7 +939,7 @@
 					)
 				)
 			)
-			(symbol "C_Alum_220uF_10V_20%_SMD_1_1"
+			(symbol "C_Alum_220uF_50V_20%_SMD_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -5715,6 +5691,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 218.44) (xy 165.1 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048c877c-e0b2-4fde-831c-53123e5667c4")
+	)
+	(wire
+		(pts
 			(xy 203.2 93.98) (xy 218.44 93.98)
 		)
 		(stroke
@@ -6795,7 +6781,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 228.6) (xy 165.1 220.98)
+			(xy 165.1 228.6) (xy 165.1 223.52)
 		)
 		(stroke
 			(width 0)
@@ -16531,22 +16517,22 @@
 			)
 		)
 		(pin "6"
-			(uuid "80387c2a-6c13-4eb3-bde3-37a3c45afcb3")
+			(uuid "80387c2a-6c13-4eb3-bde3-37a3c45afcb4")
 		)
 		(pin "3"
-			(uuid "1a736ca3-61f0-4772-8905-c339b8367454")
+			(uuid "1a736ca3-61f0-4772-8905-c339b8367455")
 		)
 		(pin "1"
-			(uuid "7a5927ff-ed4b-4dde-9698-00d45cbc17e2")
+			(uuid "7a5927ff-ed4b-4dde-9698-00d45cbc17e3")
 		)
 		(pin "2"
-			(uuid "16dafc55-bc0a-4ca4-b667-0187ddf65888")
+			(uuid "16dafc55-bc0a-4ca4-b667-0187ddf65889")
 		)
 		(pin "5"
-			(uuid "2c02fb08-bf50-4859-926c-27d872045529")
+			(uuid "2c02fb08-bf50-4859-926c-27d87204552a")
 		)
 		(pin "4"
-			(uuid "7f170abe-4d30-49f5-822d-871384e76fd0")
+			(uuid "7f170abe-4d30-49f5-822d-871384e76fd1")
 		)
 		(instances
 			(project "PingDevKit"
@@ -16689,8 +16675,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Capacitors_Electrolytic:C_Alum_220uF_10V_20%_SMD")
-		(at 165.1 218.44 0)
+		(lib_id "BR_Capacitors_Electrolytic:C_Alum_220uF_50V_20%_SMD")
+		(at 165.1 220.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16700,17 +16686,6 @@
 		(dnp no)
 		(uuid "f299b86a-1122-4a49-b7f6-bb7d7ca927a6")
 		(property "Reference" "C503"
-			(at 166.878 218.186 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF 50V"
 			(at 166.878 220.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16721,9 +16696,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BR_Passives:CAP-Electrolytic_SMD_D6.3-L6.6-W6.6-LS7.4-FD"
-			(at 165.1 142.24 0)
-			(hide yes)
+		(property "Value" "220uF 50V"
+			(at 166.116 222.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16733,7 +16707,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C72495.pdf"
+		(property "Footprint" "BR_Passives:CAP-Electrolytic_SMD_D10-L10.2-W10.3-LS10.9-FD"
 			(at 165.1 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -16745,8 +16719,20 @@
 				(justify left)
 			)
 		)
-		(property "Description" "220uF 10V 20% Electrolytic Capacitor SMD D6.3xL7.7mm"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C72499.pdf"
 			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "220uF 50V 20% Electrolytic Capacitor SMD D10xL10.2"
+			(at 165.1 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16769,7 +16755,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "RVT1A221M0607"
+		(property "Manufacturer Part Num" "RVT1H221M1010"
 			(at 165.1 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -16781,7 +16767,7 @@
 				(justify left)
 			)
 		)
-		(property "BRE Number" "BRE-001440"
+		(property "BRE Number" "BRE-001423"
 			(at 165.1 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -16793,32 +16779,8 @@
 				(justify left)
 			)
 		)
-		(property "Supplier 1" "JLCPCB"
-			(at 165.1 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 1 Part Num" "C72495"
+		(property "JLCPCB Part Num" "C72499"
 			(at 165.1 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C72495"
-			(at 165.1 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
