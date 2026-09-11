@@ -7875,7 +7875,7 @@
 	)
 	(text "Trip voltage is 2V max\nOn resistance is 15 ohms \n-> max current is 133mA"
 		(exclude_from_sim no)
-		(at 67.564 113.538 0)
+		(at 67.564 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7917,7 +7917,7 @@
 	)
 	(text "Fixed-Gain Pre-Amp"
 		(exclude_from_sim no)
-		(at 156.464 109.474 0)
+		(at 144.526 108.712 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -7925,6 +7925,7 @@
 				(bold yes)
 				(italic yes)
 			)
+			(justify left)
 		)
 		(uuid "34f9b496-ac59-438c-9bff-454e11a89068")
 	)
@@ -7940,7 +7941,7 @@
 	)
 	(text "Common-Mode Shift\n"
 		(exclude_from_sim no)
-		(at 211.328 119.38 0)
+		(at 198.12 109.22 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -7948,12 +7949,13 @@
 				(bold yes)
 				(italic yes)
 			)
+			(justify left)
 		)
 		(uuid "4f7e9eb9-d75f-453b-b3d4-b1588a5ccc7f")
 	)
 	(text "Should clip 5V +/-4V"
 		(exclude_from_sim no)
-		(at 105.918 183.388 0)
+		(at 102.362 182.626 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7961,9 +7963,9 @@
 		)
 		(uuid "6436b2d8-77fe-43e8-babe-1eb633024fdc")
 	)
-	(text "Differential to Single-ended"
+	(text "T/R Switch"
 		(exclude_from_sim no)
-		(at 383.54 124.46 0)
+		(at 66.04 109.22 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -7971,12 +7973,27 @@
 				(bold yes)
 				(italic yes)
 			)
+			(justify left)
+		)
+		(uuid "6e1d92ef-f3ce-4da1-97f0-61a4f81ebc47")
+	)
+	(text "Differential to Single-ended"
+		(exclude_from_sim no)
+		(at 370.84 109.22 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
 		)
 		(uuid "7af169c1-7c28-49db-94bf-212f40c21c4b")
 	)
 	(text "4.3 MHz 3dB Freq"
 		(exclude_from_sim no)
-		(at 320.802 187.706 0)
+		(at 305.816 189.992 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7996,7 +8013,7 @@
 	)
 	(text "3.4 MHz 3dB Freq"
 		(exclude_from_sim no)
-		(at 214.63 184.912 0)
+		(at 214.63 189.992 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8006,7 +8023,7 @@
 	)
 	(text "Variable-Gain Amplifier"
 		(exclude_from_sim no)
-		(at 306.07 121.158 0)
+		(at 287.274 109.22 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -8014,6 +8031,7 @@
 				(bold yes)
 				(italic yes)
 			)
+			(justify left)
 		)
 		(uuid "dfdecc95-d8ff-4f02-8858-c53ed33274f6")
 	)
@@ -8030,7 +8048,7 @@
 		(uuid "00b61c50-93cd-4a59-85be-eb49da8fc35d")
 	)
 	(junction
-		(at 109.22 180.34)
+		(at 99.06 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01cfcd71-744c-44ba-b093-93eb4481edda")
@@ -8078,7 +8096,7 @@
 		(uuid "2767e04a-e300-401f-8c02-a13a0f2ecc2d")
 	)
 	(junction
-		(at 109.22 132.08)
+		(at 99.06 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "390aaf6f-a06a-48e9-9b2f-6f2489b5318c")
@@ -8240,7 +8258,7 @@
 		(uuid "c701912b-c942-4395-8c39-cc1e896a4598")
 	)
 	(junction
-		(at 109.22 157.48)
+		(at 99.06 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db884bf8-11bf-4b7e-9d04-00c0e0ef6d34")
@@ -8262,7 +8280,7 @@
 		(uuid "1d7038ff-2bd0-4842-8190-8cbc66067efd")
 	)
 	(no_connect
-		(at 111.76 172.72)
+		(at 101.6 172.72)
 		(uuid "31cdeb50-beaf-43bb-acef-71e15644dc75")
 	)
 	(no_connect
@@ -8282,7 +8300,7 @@
 		(uuid "7adb726c-4603-48b3-a786-7e582993b04e")
 	)
 	(no_connect
-		(at 111.76 139.7)
+		(at 101.6 139.7)
 		(uuid "94e29629-b653-4878-af84-880a839addd2")
 	)
 	(no_connect
@@ -8389,7 +8407,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 180.34) (xy 143.51 180.34)
+			(xy 99.06 180.34) (xy 143.51 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8559,7 +8577,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 157.48) (xy 143.51 157.48)
+			(xy 137.16 157.48) (xy 143.51 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8569,7 +8587,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 147.32) (xy 109.22 157.48)
+			(xy 99.06 147.32) (xy 99.06 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8869,7 +8887,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 137.16) (xy 101.6 180.34)
+			(xy 91.44 137.16) (xy 91.44 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8909,7 +8927,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 132.08) (xy 109.22 132.08)
+			(xy 88.9 132.08) (xy 99.06 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8919,7 +8937,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 157.48) (xy 114.3 157.48)
+			(xy 99.06 157.48) (xy 106.68 157.48)
 		)
 		(stroke
 			(width 0)
@@ -9169,7 +9187,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 132.08) (xy 143.51 132.08)
+			(xy 99.06 132.08) (xy 143.51 132.08)
 		)
 		(stroke
 			(width 0)
@@ -9419,7 +9437,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 180.34) (xy 109.22 180.34)
+			(xy 91.44 180.34) (xy 99.06 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9549,7 +9567,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 137.16) (xy 88.9 137.16)
+			(xy 91.44 137.16) (xy 88.9 137.16)
 		)
 		(stroke
 			(width 0)
@@ -9569,7 +9587,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 157.48) (xy 109.22 165.1)
+			(xy 99.06 157.48) (xy 99.06 165.1)
 		)
 		(stroke
 			(width 0)
@@ -9873,7 +9891,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_1uF_50V_X5R_10%")
-		(at 119.38 121.92 0)
+		(at 99.06 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9884,7 +9902,7 @@
 		(fields_autoplaced yes)
 		(uuid "03f4f285-6be8-4377-9d28-ddd9d9e052aa")
 		(property "Reference" "C416"
-			(at 121.92 120.6562 0)
+			(at 101.6 120.6562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9895,7 +9913,7 @@
 			)
 		)
 		(property "Value" "1uF 50V"
-			(at 121.92 123.1962 0)
+			(at 101.6 123.1962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9906,7 +9924,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
-			(at 119.38 45.72 0)
+			(at 99.06 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9918,7 +9936,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H105KE05-01A.pdf"
-			(at 119.38 48.26 0)
+			(at 99.06 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9930,7 +9948,7 @@
 			)
 		)
 		(property "Description" "1uF 50V X5R 10% Ceramic Capacitor 0402"
-			(at 119.38 50.8 0)
+			(at 99.06 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9942,7 +9960,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 119.38 53.34 0)
+			(at 99.06 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9954,7 +9972,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM155R61H105KE05D"
-			(at 119.38 55.88 0)
+			(at 99.06 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9966,7 +9984,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000020"
-			(at 119.38 58.42 0)
+			(at 99.06 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9978,7 +9996,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C1518208"
-			(at 119.38 76.2 0)
+			(at 99.06 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9990,7 +10008,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 119.38 60.96 0)
+			(at 99.06 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10002,7 +10020,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-GRM155R61H105KE05DCT-ND"
-			(at 119.38 63.5 0)
+			(at 99.06 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10014,7 +10032,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 119.38 66.04 0)
+			(at 99.06 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10026,7 +10044,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM155R61H105KE5D"
-			(at 119.38 68.58 0)
+			(at 99.06 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10038,7 +10056,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 119.38 71.12 0)
+			(at 99.06 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10050,7 +10068,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C1518208"
-			(at 119.38 73.66 0)
+			(at 99.06 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13136,7 +13154,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 114.3 157.48 0)
+		(at 106.68 157.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13147,7 +13165,7 @@
 		(dnp no)
 		(uuid "4948eabe-89ac-4452-9495-013d18d8504b")
 		(property "Reference" "#PWR0407"
-			(at 114.3 161.29 0)
+			(at 106.68 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13158,7 +13176,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 114.3 153.924 0)
+			(at 106.68 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13168,7 +13186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 157.48 0)
+			(at 106.68 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13179,7 +13197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 157.48 0)
+			(at 106.68 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13190,7 +13208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 114.3 157.48 0)
+			(at 106.68 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13697,7 +13715,7 @@
 	)
 	(symbol
 		(lib_id "BR_Diodes:D_Zener_BZB84-C3V3")
-		(at 106.68 177.8 180)
+		(at 96.52 177.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13707,7 +13725,7 @@
 		(dnp no)
 		(uuid "5c5b4a6c-0d45-4a81-b4a1-4f2d66b4b62e")
 		(property "Reference" "D401"
-			(at 116.586 174.752 0)
+			(at 106.426 174.752 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13718,7 +13736,7 @@
 			)
 		)
 		(property "Value" "BZB84-C3V3"
-			(at 124.206 176.784 0)
+			(at 114.046 176.784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13729,7 +13747,7 @@
 			)
 		)
 		(property "Footprint" "BR_SOT:SOT-23"
-			(at 106.68 254 0)
+			(at 96.52 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13741,7 +13759,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZB84_SER.pdf"
-			(at 106.68 251.46 0)
+			(at 96.52 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13753,7 +13771,7 @@
 			)
 		)
 		(property "Description" "Dual zener diode common anode SOT-23 3.3V 300mW  5% ROHS"
-			(at 106.68 248.92 0)
+			(at 96.52 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13765,7 +13783,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 106.68 243.84 0)
+			(at 96.52 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13777,7 +13795,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "BZB84-C3V3,215"
-			(at 106.68 241.3 0)
+			(at 96.52 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13789,7 +13807,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001607 "
-			(at 106.68 246.38 0)
+			(at 96.52 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13801,7 +13819,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C550133"
-			(at 106.68 238.76 0)
+			(at 96.52 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14621,7 +14639,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 119.38 119.38 0)
+		(at 99.06 119.38 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14632,7 +14650,7 @@
 		(dnp no)
 		(uuid "7b8701c2-e0fc-4c40-a14d-2eef05fee221")
 		(property "Reference" "#PWR0406"
-			(at 119.38 123.19 0)
+			(at 99.06 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14643,7 +14661,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 119.38 115.824 0)
+			(at 99.06 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14653,7 +14671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 119.38 0)
+			(at 99.06 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14664,7 +14682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 119.38 0)
+			(at 99.06 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14675,7 +14693,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 119.38 119.38 0)
+			(at 99.06 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14933,7 +14951,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND_LOCAL")
-		(at 119.38 193.04 0)
+		(at 99.06 195.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14944,7 +14962,7 @@
 		(dnp no)
 		(uuid "95932a64-b6d5-47fc-a32a-b3dacefae2e1")
 		(property "Reference" "#PWR0437"
-			(at 119.38 199.39 0)
+			(at 99.06 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14955,7 +14973,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 196.85 0)
+			(at 99.06 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14965,7 +14983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 193.04 0)
+			(at 99.06 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14976,7 +14994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 193.04 0)
+			(at 99.06 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14987,7 +15005,7 @@
 			)
 		)
 		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
-			(at 119.38 193.04 0)
+			(at 99.06 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16122,7 +16140,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 119.38 187.96 0)
+		(at 99.06 190.5 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -16133,7 +16151,7 @@
 		(dnp no)
 		(uuid "a192a44d-d9e4-4542-b1ec-b9cf503066a9")
 		(property "Reference" "#PWR0436"
-			(at 119.38 191.77 0)
+			(at 99.06 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16144,7 +16162,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 119.38 184.404 0)
+			(at 99.06 186.944 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16154,7 +16172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 187.96 0)
+			(at 99.06 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16165,7 +16183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 187.96 0)
+			(at 99.06 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16176,7 +16194,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 119.38 187.96 0)
+			(at 99.06 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16200,7 +16218,7 @@
 	)
 	(symbol
 		(lib_id "BR_Diodes:D_Zener_BZB84-C3V3")
-		(at 106.68 144.78 180)
+		(at 96.52 144.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16210,7 +16228,7 @@
 		(dnp no)
 		(uuid "a1c1d154-d19d-4333-b579-6fb7ba934f6d")
 		(property "Reference" "D402"
-			(at 116.586 141.478 0)
+			(at 106.426 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16221,7 +16239,7 @@
 			)
 		)
 		(property "Value" "BZB84-C3V3"
-			(at 124.206 143.5101 0)
+			(at 114.046 143.5101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16232,7 +16250,7 @@
 			)
 		)
 		(property "Footprint" "BR_SOT:SOT-23"
-			(at 106.68 220.98 0)
+			(at 96.52 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16244,7 +16262,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZB84_SER.pdf"
-			(at 106.68 218.44 0)
+			(at 96.52 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16256,7 +16274,7 @@
 			)
 		)
 		(property "Description" "Dual zener diode common anode SOT-23 3.3V 300mW  5% ROHS"
-			(at 106.68 215.9 0)
+			(at 96.52 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16268,7 +16286,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 106.68 210.82 0)
+			(at 96.52 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16280,7 +16298,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "BZB84-C3V3,215"
-			(at 106.68 208.28 0)
+			(at 96.52 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16292,7 +16310,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-001607 "
-			(at 106.68 213.36 0)
+			(at 96.52 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16304,7 +16322,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C550133"
-			(at 106.68 205.74 0)
+			(at 96.52 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18903,7 +18921,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:VCC_LOCAL")
-		(at 133.35 157.48 0)
+		(at 137.16 157.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -18914,7 +18932,7 @@
 		(dnp no)
 		(uuid "cb9fb61d-febb-4cfa-9cbe-e47ab7e8c30c")
 		(property "Reference" "#PWR0408"
-			(at 133.35 161.29 0)
+			(at 137.16 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18925,7 +18943,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 133.35 153.924 0)
+			(at 137.16 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18935,7 +18953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 157.48 0)
+			(at 137.16 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18946,7 +18964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 157.48 0)
+			(at 137.16 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18957,7 +18975,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"VCC\" (Only visible for current sheet)"
-			(at 133.35 157.48 0)
+			(at 137.16 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18981,7 +18999,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND_LOCAL")
-		(at 119.38 124.46 0)
+		(at 99.06 124.46 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -18992,7 +19010,7 @@
 		(dnp no)
 		(uuid "d19a59a9-e90f-473d-945d-5a2fe523722c")
 		(property "Reference" "#PWR0427"
-			(at 119.38 130.81 0)
+			(at 99.06 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19003,7 +19021,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 128.27 0)
+			(at 99.06 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19013,7 +19031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 124.46 0)
+			(at 99.06 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19024,7 +19042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 124.46 0)
+			(at 99.06 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19035,7 +19053,7 @@
 			)
 		)
 		(property "Description" "A local ground symbol. This will only connect within a sheet, not globally."
-			(at 119.38 124.46 0)
+			(at 99.06 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21499,7 +21517,7 @@
 	)
 	(symbol
 		(lib_id "BR_Capacitors_0402:C_0402_1uF_50V_X5R_10%")
-		(at 119.38 190.5 0)
+		(at 99.06 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21510,7 +21528,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff07c80d-fabb-4db8-ace3-0957027f6c72")
 		(property "Reference" "C417"
-			(at 121.92 189.2362 0)
+			(at 101.6 191.7762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21521,7 +21539,7 @@
 			)
 		)
 		(property "Value" "1uF 50V"
-			(at 121.92 191.7762 0)
+			(at 101.6 194.3162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21532,7 +21550,7 @@
 			)
 		)
 		(property "Footprint" "BR_Passives:C_0402_1005Metric-minimized"
-			(at 119.38 114.3 0)
+			(at 99.06 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21544,7 +21562,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H105KE05-01A.pdf"
-			(at 119.38 116.84 0)
+			(at 99.06 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21556,7 +21574,7 @@
 			)
 		)
 		(property "Description" "1uF 50V X5R 10% Ceramic Capacitor 0402"
-			(at 119.38 119.38 0)
+			(at 99.06 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21568,7 +21586,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 119.38 121.92 0)
+			(at 99.06 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21580,7 +21598,7 @@
 			)
 		)
 		(property "Manufacturer Part Num" "GRM155R61H105KE05D"
-			(at 119.38 124.46 0)
+			(at 99.06 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21592,7 +21610,7 @@
 			)
 		)
 		(property "BRE Number" "BRE-000020"
-			(at 119.38 127 0)
+			(at 99.06 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21604,7 +21622,7 @@
 			)
 		)
 		(property "JLCPCB Part Num" "C1518208"
-			(at 119.38 144.78 0)
+			(at 99.06 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21616,7 +21634,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 119.38 129.54 0)
+			(at 99.06 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21628,7 +21646,7 @@
 			)
 		)
 		(property "Supplier Part Num 1" "490-GRM155R61H105KE05DCT-ND"
-			(at 119.38 132.08 0)
+			(at 99.06 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21640,7 +21658,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 119.38 134.62 0)
+			(at 99.06 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21652,7 +21670,7 @@
 			)
 		)
 		(property "Supplier Part Num 2" "81-GRM155R61H105KE5D"
-			(at 119.38 137.16 0)
+			(at 99.06 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21664,7 +21682,7 @@
 			)
 		)
 		(property "Supplier 3" "JLCPCB"
-			(at 119.38 139.7 0)
+			(at 99.06 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21676,7 +21694,7 @@
 			)
 		)
 		(property "Supplier Part Num 3" "C1518208"
-			(at 119.38 142.24 0)
+			(at 99.06 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
