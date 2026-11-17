@@ -10748,17 +10748,18 @@
 		)
 		(uuid "9fe6378f-21cf-4825-92b6-c6d5f5831639")
 	)
-	(text_box "Rev D Updates\n* All fast TX and RX GPIO are now on port D\n* Changed all RA connectors to vertical\n* Reduced PCB size to fit in smaller WTB\n* Added more capacitance to 5V rail\n* changed to smaller VTX boost and changed rail caps\n* Bigger PWR IN terminal block\n* added sensing to VTX\n* Changed RX input stage to increase common mode range and better common mode removal\n* moved RX stage selection header to allow bypassing of variable gain amp\n* added CAN transceiver for experimentation\n* Swapped a bunch of IO around to make routing easier. UPDATE FIRMWARE\n* Organized top level better\n* Changed to local power symbols on all subsheets\n* Added switchable attenuator to digital tx output\n* Made sure a vias have pads on top and bottom\n\n\n"
+	(text_box "Rev E Updates\n* Increased RX gain of both input stages\n* biased 1st RX stage to 3.3V instead of 5V - this is required to keep 2nd stage in common mode\n* Added 0R jumpers to select between Hyper-Light Load mode of 5V buck and Continuous Conduction mode\n* Pulled PS RAM reset pin out of group bus so bus now only includes actual OCTOSPI signals.\n* Fixed RC reset comment on PHY sheet\n* Changed TX AC coupling to 100nF TODO: consider better tolerance parts\n* Added R2R ladder instead of DAC input to linear TX amp\n\n\n"
 		(exclude_from_sim no)
-		(at 264.16 369.7376 0)
-		(size 107.95 36.6624)
+		(at 254 370.078 0)
+		(size 119.888 37.846)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 255 255 1)
 		)
 		(effects
 			(font
@@ -10767,6 +10768,27 @@
 			(justify left top)
 		)
 		(uuid "2a600a1b-e6aa-447f-9624-ef8647b49f75")
+	)
+	(text_box "Rev D Updates\n* All fast TX and RX GPIO are now on port D\n* Changed all RA connectors to vertical\n* Reduced PCB size to fit in smaller WTB\n* Added more capacitance to 5V rail\n* changed to smaller VTX boost and changed rail caps\n* Bigger PWR IN terminal block\n* added sensing to VTX\n* Changed RX input stage to increase common mode range and better common mode removal\n* moved RX stage selection header to allow bypassing of variable gain amp\n* added CAN transceiver for experimentation\n* Swapped a bunch of IO around to make routing easier. UPDATE FIRMWARE\n* Organized top level better\n* Changed to local power symbols on all subsheets\n* Added switchable attenuator to digital tx output\n* Made sure a vias have pads on top and bottom\n\n\n"
+		(exclude_from_sim no)
+		(at 254 333.248 0)
+		(size 119.888 36.83)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "91a14427-58a4-4b61-b9ba-354b2b2b49bb")
 	)
 	(junction
 		(at 361.95 214.63)
@@ -11351,6 +11373,16 @@
 			(type default)
 		)
 		(uuid "1a2a9f28-aa40-42b3-acdd-c0693bc7b744")
+	)
+	(wire
+		(pts
+			(xy 340.36 60.96) (xy 391.16 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bfc2d7f-e149-4774-acb5-0546ec47e1fe")
 	)
 	(wire
 		(pts
@@ -13983,6 +14015,16 @@
 			(justify left bottom)
 		)
 		(uuid "a0bc0dc6-7e8b-48c3-91a7-c62a089e8ee5")
+	)
+	(label "PS_RAM_N_RESET"
+		(at 358.14 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1b57915-55c8-4f84-acfa-4bfb45615ce9")
 	)
 	(label "SPI5{SPI}"
 		(at 280.67 177.8 0)
@@ -31142,6 +31184,16 @@
 				(justify left)
 			)
 		)
+		(pin "nRST" input
+			(at 391.16 60.96 180)
+			(uuid "f86f4a6b-f6ab-4d56-8f81-4baaace70e86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "PingDevKit"
 				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
@@ -32491,6 +32543,16 @@
 		(pin "GPIO_C8" output
 			(at 340.36 146.05 0)
 			(uuid "1c7658b8-a3b8-4d9c-978d-cc14e11c4567")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_E11" output
+			(at 340.36 60.96 0)
+			(uuid "b13e3c86-a610-41e5-9320-8d517b4918ef")
 			(effects
 				(font
 					(size 1.27 1.27)

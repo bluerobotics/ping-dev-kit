@@ -1555,15 +1555,6 @@
 		(uuid "aece5220-6692-4631-8b51-4eb8d105a2ed")
 	)
 	(bus_entry
-		(at 67.31 58.42)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baa0e3c7-3635-4075-a23c-a9bfe857786b")
-	)
-	(bus_entry
 		(at 67.31 27.94)
 		(size -2.54 -2.54)
 		(stroke
@@ -2060,16 +2051,6 @@
 		)
 		(uuid "ad6cd563-43be-4919-8616-f94aa4bee572")
 	)
-	(bus
-		(pts
-			(xy 64.77 53.34) (xy 64.77 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af662915-263a-49fd-ae71-e6de0a5b05e0")
-	)
 	(wire
 		(pts
 			(xy 212.09 74.93) (xy 261.62 74.93)
@@ -2089,16 +2070,6 @@
 			(type default)
 		)
 		(uuid "b647d362-cab2-4fed-acea-0f0506722ec6")
-	)
-	(wire
-		(pts
-			(xy 67.31 58.42) (xy 92.71 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6dad5c0-8d43-4294-ac4e-ed93c8157139")
 	)
 	(wire
 		(pts
@@ -2139,6 +2110,16 @@
 			(type default)
 		)
 		(uuid "c3ad943b-a0ec-4916-9434-64c71af9ec2d")
+	)
+	(wire
+		(pts
+			(xy 54.61 45.72) (xy 38.1 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66993d9-a4fe-46ef-af00-6d133e123872")
 	)
 	(wire
 		(pts
@@ -2460,16 +2441,6 @@
 		)
 		(uuid "cba6e369-b17a-4dec-85ba-b7d61e7f49e9")
 	)
-	(label "OCTOSPI1.RST"
-		(at 92.71 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d3f8cee1-5ea7-480f-9740-f8e8d9edb42f")
-	)
 	(label "OCTOSPI1.DQS"
 		(at 92.71 55.88 180)
 		(effects
@@ -2480,7 +2451,17 @@
 		)
 		(uuid "e81c434f-aa42-4201-b139-e6c8e891e6c2")
 	)
-	(label "OCTOSPI1.RST"
+	(label "nRESET"
+		(at 54.61 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb7c9744-b0b1-4c26-aca9-569585f341b3")
+	)
+	(label "nRESET"
 		(at 142.24 83.82 0)
 		(effects
 			(font
@@ -2521,6 +2502,17 @@
 			(justify right)
 		)
 		(uuid "724c5a19-7902-4226-b973-f0e990694d7c")
+	)
+	(hierarchical_label "nRST"
+		(shape input)
+		(at 38.1 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfbf2dc6-f559-4ad3-b6f6-3ef8238b694c")
 	)
 	(hierarchical_label "GND"
 		(shape input)

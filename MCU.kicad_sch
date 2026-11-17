@@ -8439,6 +8439,17 @@
 		)
 		(uuid "d20d5063-c7a3-4fd1-87f7-a3808a85d177")
 	)
+	(text "OCTOSPI1_RST"
+		(exclude_from_sim no)
+		(at 236.728 368.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2c18b56-fc95-44cf-b606-433f935cc3e4")
+	)
 	(text "AF10: OCTOSPI1_IO7"
 		(exclude_from_sim no)
 		(at 266.7 364.236 0)
@@ -9564,15 +9575,6 @@
 		(uuid "babe0115-bf09-4362-8b47-7ca50144cb1e")
 	)
 	(bus_entry
-		(at 215.9 16.51)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cab38839-742c-44b0-9c56-4c76e7c4b61a")
-	)
-	(bus_entry
 		(at 215.9 54.61)
 		(size 2.54 2.54)
 		(stroke
@@ -9824,16 +9826,6 @@
 			(type default)
 		)
 		(uuid "12c02d28-3ea6-4656-b6d0-23c919467a2b")
-	)
-	(bus
-		(pts
-			(xy 218.44 19.05) (xy 218.44 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13436afa-6041-44bf-8dce-506d9a2354e1")
 	)
 	(wire
 		(pts
@@ -11244,16 +11236,6 @@
 			(type default)
 		)
 		(uuid "8ce6cf38-bc64-41c7-8a82-34557a879937")
-	)
-	(wire
-		(pts
-			(xy 190.5 16.51) (xy 215.9 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d458e94-cb70-48b9-ab6d-7d8c1409579f")
 	)
 	(bus
 		(pts
@@ -12845,16 +12827,6 @@
 		)
 		(uuid "6885677b-554a-4e3c-ba23-b3d4814ed24e")
 	)
-	(label "OCTOSPI1.RST"
-		(at 242.57 368.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68f345ce-2a45-4e84-b8d6-4ecc372f800a")
-	)
 	(label "OCTOSPI1.CLK-"
 		(at 190.5 41.91 0)
 		(effects
@@ -13145,16 +13117,6 @@
 		)
 		(uuid "c71ccb57-18ea-4f5a-8f43-206784ebda4c")
 	)
-	(label "OCTOSPI1.RST"
-		(at 190.5 16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c7859fe9-4f40-467c-9d69-29252f47bebb")
-	)
 	(label "SPI5.MOSI"
 		(at 133.35 231.14 0)
 		(effects
@@ -13357,6 +13319,17 @@
 			(justify right)
 		)
 		(uuid "103faae6-a2ca-4235-b332-2c4fee2e8fce")
+	)
+	(hierarchical_label "GPIO_E11"
+		(shape output)
+		(at 266.7 368.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1418af9f-dd56-42fb-b81e-530bdbab48a2")
 	)
 	(hierarchical_label "FDCAN2{FDCAN}"
 		(shape bidirectional)
