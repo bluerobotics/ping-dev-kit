@@ -3242,6 +3242,307 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BR_Connectors:Terminal_Block_3pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "~"
+				(at -1.27 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "BR_Connectors:DB301V-3.5-3P-GN-S"
+				(at 0 76.2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C695630.pdf"
+				(at 0 73.66 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Terminal Block 3-pos Side-Entry 3.5mm Pitch Green PTH"
+				(at 0 71.12 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "DORABO"
+				(at 0 68.58 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer Part Num" "DB301V-3.5-3P-GN-S"
+				(at 0 66.04 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "BRE Number" "BRE-001752"
+				(at 0 63.5 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "JLCPCB Part Num" ""
+				(at 0 60.96 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Terminal_Block_3pin_1_1"
+				(rectangle
+					(start 3.81 1.27)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.5466 0.3302) (xy 5.4102 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.5466 -2.2098) (xy 5.4102 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.5466 -4.7498) (xy 5.4102 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.7244 0.508) (xy 5.588 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.7244 -2.032) (xy 5.588 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.7244 -4.572) (xy 5.588 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BR_Connectors_FFC:2328702-6"
 			(pin_names
 				(offset 1.016)
@@ -5209,304 +5510,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BR_Connectors_JST_PA:BM02B-PASS-TFT(LF)(SN)"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -1.524 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "BM02B-PASS-TFT(LF)(SN)"
-				(at -1.524 -3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "BR_Connector_JST_misc:BM02B-PASS-TFT(LF)(SN)"
-				(at 0 76.2 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C265372.pdf"
-				(at 0 73.66 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "JST-PA Connector 2-pos, P = 2mm, 3A 250V, Vertical, Surface Mount, White"
-				(at 0 71.12 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 68.58 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer Part Num" "BM02B-PASS-TFT(LF)(SN)"
-				(at 0 66.04 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "BRE Number" "BRE-001444"
-				(at 0 63.5 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Supplier 1" "DigiKey"
-				(at 0 60.96 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Supplier Part Num 1" "455-SM02B-PASS-TBTCT-ND"
-				(at 0 58.42 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Supplier 2" "Mouser"
-				(at 0 55.88 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Supplier Part Num 2" "306-SM02BPASSTBTLFSN"
-				(at 0 53.34 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Supplier 3" "JLCPCB"
-				(at 0 50.8 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Supplier Part Num 3" "C265417"
-				(at 0 48.26 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "JLCPCB Part Num" "C265372"
-				(at 0 45.72 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(symbol "BM02B-PASS-TFT(LF)(SN)_1_0"
-				(pin passive line
-					(at 5.08 -1.27 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -3.81 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 2.54 270)
-					(length 2.54)
-					(name "MP1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "MP1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -7.62 90)
-					(length 2.54)
-					(name "MP2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "MP2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-			)
-			(symbol "BM02B-PASS-TFT(LF)(SN)_1_1"
-				(rectangle
-					(start 2.54 0)
-					(end 0 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 2.54 -1.143)
-					(end 1.27 -1.397)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -3.683)
-					(end 1.27 -3.937)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -11976,16 +11979,6 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 199.39) (xy 529.59 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dc3247d-5cc3-40dc-88cf-7c29151fca19")
-	)
-	(wire
-		(pts
 			(xy 379.73 194.31) (xy 391.16 194.31)
 		)
 		(stroke
@@ -12193,16 +12186,6 @@
 			(type default)
 		)
 		(uuid "78f87eaa-387e-4782-833d-502cb70a015f")
-	)
-	(wire
-		(pts
-			(xy 529.59 189.23) (xy 529.59 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78fc8d6b-e627-41f6-8686-92a08a9d7fa9")
 	)
 	(wire
 		(pts
@@ -12493,16 +12476,6 @@
 			(type default)
 		)
 		(uuid "98d8dac7-1f73-47fd-baca-71fb36bac59f")
-	)
-	(wire
-		(pts
-			(xy 529.59 187.96) (xy 532.13 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99598b81-6d20-421f-b89c-9e744d212f99")
 	)
 	(wire
 		(pts
@@ -19688,86 +19661,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Virtual_Parts:GND")
-		(at 532.13 187.96 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "586f49bd-cf53-425c-a692-0f0b3fab4d39")
-		(property "Reference" "#PWR0163"
-			(at 532.13 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 532.13 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 532.13 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 532.13 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 532.13 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ae1fd78-ff36-41d0-ab26-3b64be1cd800")
-		)
-		(instances
-			(project "PingDevKit"
-				(path "/2a5ce3ef-537a-4122-a1be-ef76186bc0d7"
-					(reference "#PWR0163")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BR_Capacitors_0603:C_0603_220nF_100V_X7S_10%")
 		(at 92.71 109.22 0)
 		(unit 1)
@@ -24598,9 +24491,9 @@
 		)
 	)
 	(symbol
-		(lib_id "BR_Connectors_JST_PA:BM02B-PASS-TFT(LF)(SN)")
-		(at 530.86 191.77 0)
-		(mirror y)
+		(lib_id "BR_Connectors:Terminal_Block_3pin")
+		(at 525.78 195.58 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24610,7 +24503,7 @@
 		(dnp no)
 		(uuid "b0033f63-7406-4916-afd4-616a2fbf2379")
 		(property "Reference" "J115"
-			(at 532.892 193.04 0)
+			(at 537.972 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24621,7 +24514,7 @@
 			)
 		)
 		(property "Value" "XDCR"
-			(at 532.892 195.58 0)
+			(at 537.972 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24631,8 +24524,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BR_Connector_JST_misc:BM02B-PASS-TFT(LF)(SN)"
-			(at 530.86 115.57 0)
+		(property "Footprint" "BR_Connectors:DB301V-3.5-3P-GN-S"
+			(at 525.78 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24643,8 +24536,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C265372.pdf"
-			(at 530.86 118.11 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C695630.pdf"
+			(at 525.78 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24655,8 +24548,8 @@
 				(justify left)
 			)
 		)
-		(property "Description" "JST-PA Connector 2-pos, P = 2mm, 3A 250V, Vertical, Surface Mount, White"
-			(at 530.86 120.65 0)
+		(property "Description" "Terminal Block 3-pos Side-Entry 3.5mm Pitch Green PTH"
+			(at 525.78 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24667,8 +24560,8 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "JST"
-			(at 530.86 123.19 0)
+		(property "Manufacturer" "DORABO"
+			(at 525.78 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24679,8 +24572,8 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer Part Num" "BM02B-PASS-TFT(LF)(SN)"
-			(at 530.86 125.73 0)
+		(property "Manufacturer Part Num" "DB301V-3.5-3P-GN-S"
+			(at 525.78 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24691,8 +24584,8 @@
 				(justify left)
 			)
 		)
-		(property "BRE Number" "BRE-001444"
-			(at 530.86 128.27 0)
+		(property "BRE Number" "BRE-001752"
+			(at 525.78 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24703,80 +24596,8 @@
 				(justify left)
 			)
 		)
-		(property "Supplier 1" "DigiKey"
-			(at 530.86 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 1" "455-SM02B-PASS-TBTCT-ND"
-			(at 530.86 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 3" "JLCPCB"
-			(at 530.86 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 3" "C265417"
-			(at 530.86 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier 2" "Mouser"
-			(at 530.86 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier Part Num 2" "306-SM02BPASSTBTLFSN"
-			(at 530.86 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB Part Num" "C265372"
-			(at 530.86 146.05 0)
+		(property "JLCPCB Part Num" ""
+			(at 525.78 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24790,14 +24611,11 @@
 		(pin "1"
 			(uuid "72213c03-11eb-4aee-b17a-25a38fc66c1d")
 		)
-		(pin "MP2"
+		(pin "3"
 			(uuid "78cc8f14-6b6b-4430-a589-4a24173af9ee")
 		)
 		(pin "2"
 			(uuid "9de7b940-971b-4463-9037-27096c9a15a3")
-		)
-		(pin "MP1"
-			(uuid "1b120838-149d-4fce-9e71-ff7473793d3f")
 		)
 		(instances
 			(project "PingDevKit"
@@ -30548,8 +30366,7 @@
 	)
 	(symbol
 		(lib_id "BR_Virtual_Parts:GND")
-		(at 529.59 201.93 0)
-		(mirror y)
+		(at 525.78 190.5 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30560,7 +30377,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa8ffd49-1f3d-4f15-9300-163a544855fc")
 		(property "Reference" "#PWR0162"
-			(at 529.59 208.28 0)
+			(at 519.43 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30571,7 +30388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 529.59 207.01 0)
+			(at 520.7 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30582,7 +30399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 529.59 201.93 0)
+			(at 525.78 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30593,7 +30410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 529.59 201.93 0)
+			(at 525.78 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30604,7 +30421,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 529.59 201.93 0)
+			(at 525.78 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
